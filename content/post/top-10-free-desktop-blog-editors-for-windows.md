@@ -1,0 +1,34 @@
++++
+author = "Balduran Chang"
+categories = ["blog", "desktop", "offline", "writer"]
+date = 2007-11-06T17:49:18Z
+description = ""
+draft = false
+slug = "top-10-free-desktop-blog-editors-for-windows"
+tags = ["blog", "desktop", "offline", "writer"]
+title = "Top 10 Free Desktop Blog Editors for Windows"
+
++++
+
+
+[Top 10 Free Desktop Blog Editors for Window ](http://mashable.com/2007/10/22/10-desktop-blog-editors/) 介紹了十個免費的離線部落格編寫軟體，來看看其中有使用過的。
+
+1. [Windows Live Writer](http://get.live.com/betas/writer_betas)
+2. [ScribeFire](http://www.scribefire.com/)
+3. [Qumana](http://www.qumana.com/)
+4. [w.Bloggar](http://wbloggar.com/)
+
+後面出現的幾個我就沒聽過也沒用過了。
+
+Windows Live Writer 是少數極為推薦的微軟產品，何況又是免費的，唯一比較大的問題是要安裝 .net framework 2.0，對於某些人來說，浪費硬碟空間安裝這個函式庫簡直是要了他的命，不過沒別的辦法，想用就安裝吧。
+
+ScribeFire 是 firefox 的 addon，和 firefox 在一起的好處是一邊寫一邊查資料，也不用特別安裝其他軟體，缺點是 firefox 安裝的 addon 一多，速度和記憶體吃的異常大，寫到一半 hang 住是會欲哭無淚的。
+
+Qumana 我之前一安裝完開啟之後馬上就移除了，不得我好感的軟體。
+
+w.Bloggar 雖然風評不錯，但是最大的問題是不支援中文，而且無解，所以馬上又移除了。
+
+其他的 Zoundry, Thingamablog, Flock, Blog Desk, Post2Blog, Bleezer 就等有空在用看看吧。光是開一個 browser 寫感覺也不會太差，怕不小心關了視窗罷了。
+
+付費軟體的話，滿多人推 [ecto](http://infinite-sushi.com/software/ecto/) 這一套，win 和 mac 平台都有。
+

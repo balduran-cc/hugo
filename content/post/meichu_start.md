@@ -1,0 +1,22 @@
++++
+author = "Balduran Chang"
+categories = ["nctu.meichu", "wimax"]
+date = 2008-02-29T08:05:15Z
+description = ""
+draft = false
+slug = "meichu_start"
+tags = ["nctu.meichu", "wimax"]
+title = "梅竹開賽"
+
++++
+
+
+又到了梅竹三月天，不過今年比較早，這個周末就會比完了。各項活動都一一開跑，下午也正式開幕且開賽了。
+
+<object height="355" width="425"><param name="movie" value="http://www.youtube.com/v/LfepJZek5uI"></param><param name="wmode" value="transparent"></param><embed height="355" src="http://www.youtube.com/v/LfepJZek5uI" type="application/x-shockwave-flash" width="425" wmode="transparent"></embed></object>  
+ 前天的遊行嗆聲。  
+[交大計算機中心 技術發展組 梅竹開幕實況](http://211.76.240.184/nctucc/)  
+[交大數位內容製作中心梅竹籃球實況](http://211.76.240.184/dcpc/)  
+[meichu 手機行動SNG實驗平台](http://140.113.2.130/meichu/)  
+ 以上是校內的實驗性質轉播平台，採用 WiMax 做傳輸。依我所知，政府會在台灣選兩個地區做 WiMax 的實驗佈建，一個理所當然是新竹地區、工研院、科學園區、交大，另一個就是內湖、中彰、南科擇一，滿久以前看到的資料。工研院本身就已經在五二館 (五一?) 頂樓弄了個基地台，所內也提供 WiMax 網卡讓同仁實驗，我沒有拿來玩。
+

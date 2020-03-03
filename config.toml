@@ -1,0 +1,5 @@
+baseURL = "https://hugo.balduran.cc/"
+disablePathToLower = true
+languageCode = "en-us"
+title = "說故事給你聽"
+theme = "ghostwriter"

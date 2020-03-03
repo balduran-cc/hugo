@@ -1,0 +1,38 @@
++++
+author = "Balduran Chang"
+categories = ["koinonia", "nthu", "thanksgiving"]
+date = 2007-11-24T01:25:29Z
+description = ""
+draft = false
+slug = "thanksgiving_dinner"
+tags = ["koinonia", "nthu", "thanksgiving"]
+title = "感恩節大餐"
+
++++
+
+
+感恩節的日子是十一月的第四個禮拜四，連續四天的假期，地位好比我們的中秋節，是美國每個人都要回家的日子。我在這說的感恩節大餐其實是禮拜五時候團契所準備的餐點，因為台灣沒有放假，他們只好在禮拜五的晚上來慶祝這感恩節。
+
+稍微介紹了一下感恩節所吃的食物 。
+
+[![dsc00015.JPG](http://www.cs.nctu.edu.tw/%7Echangcc/wordpress/wp-content/uploads/2007/11/dsc00015.thumbnail.JPG)](http://www.cs.nctu.edu.tw/%7Echangcc/wordpress/wp-content/uploads/2007/11/dsc00015.JPG "dsc00015.JPG")火雞，當然是眾所皆知的必備食物，不過我沒拍到，就是很大一隻烤好的火雞，可以自己烤也可以請店家烤好。  
+ 因為火雞太大隻了，考完之後肉汁都流到底下，所以上面的肉明顯比較乾，下面的比較好吃，還有就是誰都不知道為甚麼要吃火雞，也許就和台灣為甚麼中秋要烤肉一樣莫名其妙吧。
+
+[![dsc00016.JPG](http://www.cs.nctu.edu.tw/~changcc/wordpress/wp-content/uploads/2007/11/dsc00016.thumbnail.JPG)](http://www.cs.nctu.edu.tw/%7Echangcc/wordpress/wp-content/uploads/2007/11/dsc00016.JPG "dsc00016.JPG")玉米，很好理解的東西：）
+
+[![dsc00017.JPG](http://www.cs.nctu.edu.tw/~changcc/wordpress/wp-content/uploads/2007/11/dsc00017.thumbnail.JPG)](http://www.cs.nctu.edu.tw/%7Echangcc/wordpress/wp-content/uploads/2007/11/dsc00017.JPG "dsc00017.JPG")馬鈴薯泥，還滿好吃的。市面上賣的烤馬鈴薯有吃過的話，應該不難想像味道及口感，也是很容易理解。上面畫的十字是搞笑，馬鈴薯泥攪在一起就好了，還需要分嗎？
+
+[![dsc00018.JPG](http://www.cs.nctu.edu.tw/~changcc/wordpress/wp-content/uploads/2007/11/dsc00018.thumbnail.JPG)](http://www.cs.nctu.edu.tw/%7Echangcc/wordpress/wp-content/uploads/2007/11/dsc00018.JPG "dsc00018.JPG")玉米麵包，也是沒吃過的食物。口感吃起來和過年時候吃的發糕差不多，非常乾，我吃沒幾口就要喝水。
+
+[![dsc00019.JPG](http://www.cs.nctu.edu.tw/%7Echangcc/wordpress/wp-content/uploads/2007/11/dsc00019.thumbnail.JPG)](http://www.cs.nctu.edu.tw/%7Echangcc/wordpress/wp-content/uploads/2007/11/dsc00019.JPG "dsc00019.JPG")stuffing，中文不知道是啥，就是火雞的內容物，在烤之前先把火雞挖空，裡面塞水果之類的去烤，stuffing 就是從裡面挖出來的東西，這東西讓我想到一個字「下水」，就是內臟類的東西啦，吃起來沒有特別感想。
+
+[![dsc00020.JPG](http://www.cs.nctu.edu.tw/~changcc/wordpress/wp-content/uploads/2007/11/dsc00020.thumbnail.JPG)](http://www.cs.nctu.edu.tw/%7Echangcc/wordpress/wp-content/uploads/2007/11/dsc00020.JPG "dsc00020.JPG")地瓜，很意想不到吧，看外表不像，嚐起來非常甜，不知道加了多少糖，外面也吃的到類似的地瓜。
+
+其他還有肉滷 (grave)，小紅莓醬，南瓜派，南瓜派也是非常非常甜，我完全受不了這樣的甜度，好像加了非常多的 brown suger。
+
+肉滷，之前沒聽過這樣的名詞，我也不知道它的成份。
+
+餐後聊天時候，聊到了 thanksgiving 在台灣有沒有這樣的講法，例如說要對誰感恩，以我的認知好像沒甚麼人會特意去問別人說對誰感恩或是感謝誰，也沒有類似的節日吧，頂多是父親節母親節時候表示一下心意。
+
+如果問我，我該感謝誰呢？
+
