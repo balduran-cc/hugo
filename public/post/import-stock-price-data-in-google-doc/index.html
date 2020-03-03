@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Import stock price data in google doc &middot; </title>
+        <meta name="description" content="在google doc的spreadsheet 裡面可用函數取得股價資訊。
+最直接的，就是使用google 提供的函數 =GoogleFinance()，直接用 =GOOGLEFINANCE(&quot;GOOG&quot;)就可以直接拉回股價，若要取得台股資訊，可以直接使用股票號碼，以中華電信 2412為例，
+=GoogleFinance(&quot;2412&quot;, &quot;price&quot;)
+但事情不是如此美好，有些台股股票代號和其他地區的代碼相衝，例如 1314，直接使用&lt;br&gt;&lt;/br&gt;=GoogleFinance(&quot;1314&quot;, &quot;price&quot;)會拉到香港Tsui Wah Holdings Ltd(HKG:1314)，此時需要用=GoogleFinance(“1314.tw”, “price”)
+你以為這樣就大功告成了嗎？事實上google對於台股的資料並不齊全，上櫃股票完全沒有資料，例如德昌(5511)，怎麼樣都找不到。這個時候，就來求助Yahoo finance吧。
+Yahoo finance的資料頗為齊全，雖然台灣網站界面陽春，但是在 US yahoo finance是可以查得到台股資料的，5511.two就是德昌的公司資訊，請注意代號後面灌的是 two。
+Yahoo finance 有很多 API，記下兩種。第一個直接用web service，第二個則是csv output。
+ web service API範例：
+http://finance.yahoo.com/webservice/v1/symbols/2412.tw/quote
+可直接輸入= ImportXML(API,&quot;//field[@name=&#39;price&#39;]&quot;)，用xpath自動去切出股價那一欄   csv output： Yahoo finance還有提供另一api可直接輸出成csv（excel可直接吃），範例URL: http://finance.yahoo.com/d/quotes.csv?s=2412.TW&amp;f=l1，取得價格的function爲= ImportData(URL)，因為此csv output已經調整為只輸出價格資訊，不需要再過濾。 值得注意的一點是上櫃公司的代號尾碼需要使用two，德昌 5511的url為 http://finance.yahoo.com/d/quotes.csv?s=5511.TWO&amp;f=l1
+以股票資訊來說，Yahoo還是有比較充足的後端資料。">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.65.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://hugo.balduran.cc/dist/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+    </head>
+    <body>
+        
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a title="說故事給你聽" href="https://hugo.balduran.cc/">說故事給你聽</a>
+                            </h1>
+                        
+                        <a class="button-square" href="https://hugo.balduran.cc/index.xml"><i class="fa fa-rss"></i></a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Import stock price data in google doc</h1>
+    
+    <p class="post-date post-line">
+        <span>Published <time datetime="2014-02-13" itemprop="datePublished">Thu, Feb 13, 2014</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Balduran Chang</a>
+            </span>
+        </span>
+    </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>在google doc的spreadsheet 裡面可用函數取得股價資訊。</p>
+<p>最直接的，就是使用google 提供的函數 <a href="https://support.google.com/drive/answer/3093281">=GoogleFinance()</a>，直接用 <code>=GOOGLEFINANCE(&quot;GOOG&quot;)</code>就可以直接拉回股價，若要取得台股資訊，可以直接使用股票號碼，以中華電信 2412為例，<br>
+<code>=GoogleFinance(&quot;2412&quot;, &quot;price&quot;)</code></p>
+<p>但事情不是如此美好，有些台股股票代號和其他地區的代碼相衝，例如 1314，直接使用<code>&lt;br&gt;&lt;/br&gt;=GoogleFinance(&quot;1314&quot;, &quot;price&quot;)</code>會拉到<a href="https://www.google.com/finance?cid=472042275792381">香港Tsui Wah Holdings Ltd(HKG:1314)</a>，此時需要用=GoogleFinance(“1314.tw”, “price”)</p>
+<p>你以為這樣就大功告成了嗎？事實上google對於台股的資料並不齊全，上櫃股票完全沒有資料，例如<a href="http://tw.stock.yahoo.com/q/bc?s=5511">德昌(5511)</a>，怎麼樣都找不到。這個時候，就來求助Yahoo finance吧。</p>
+<p>Yahoo finance的資料頗為齊全，雖然台灣網站界面陽春，但是在 <a href="http://finance.yahoo.com/">US yahoo finance</a>是可以查得到台股資料的，<a href="http://finance.yahoo.com/q?s=5511.TWO">5511.two</a>就是德昌的公司資訊，請注意代號後面灌的是 two。</p>
+<p>Yahoo finance 有很多 API，記下兩種。第一個直接用web service，第二個則是csv output。</p>
+<ol>
+<li>web service API範例：<br>
+<a href="http://finance.yahoo.com/webservice/v1/symbols/2412.tw/quote">http://finance.yahoo.com/webservice/v1/symbols/2412.tw/quote</a><br>
+可直接輸入<code>= ImportXML(API,&quot;//field[@name='price']&quot;)</code>，用xpath自動去切出股價那一欄</li>
+<li></li>
+</ol>
+<p>csv output： Yahoo finance還有提供另一api可直接輸出成csv（excel可直接吃），範例URL: <a href="http://finance.yahoo.com/d/quotes.csv?s=2524.TW&amp;f=l1">http://finance.yahoo.com/d/quotes.csv?s=2412.TW&amp;f=l1</a>，取得價格的function爲<code>= ImportData(URL)</code>，因為此csv output已經調整為只輸出價格資訊，不需要再過濾。 值得注意的一點是上櫃公司的代號尾碼需要使用two，德昌 5511的url為 <a href="http://finance.yahoo.com/d/quotes.csv?s=5511.TWO&amp;f=l1">http://finance.yahoo.com/d/quotes.csv?s=5511.TWO&amp;f=l1</a></p>
+<p>以股票資訊來說，Yahoo還是有比較充足的後端資料。</p>
+
+</div>
+
+        <footer class="post-footer clearfix">
+    
+        <p class="post-tags">
+            <span>Tagged:</span>
+            
+            
+                <a href="/tags/doc/">doc</a>, 
+            
+                <a href="/tags/google/">google</a>, 
+            
+                <a href="/tags/spreadsheet/">spreadsheet</a>, 
+            
+                <a href="/tags/stock/">stock</a>
+            
+        </p>
+    
+
+    <div class="share">
+        
+            <a class="icon-twitter" href="https://twitter.com/share?text=Import%20stock%20price%20data%20in%20google%20doc&url=https%3a%2f%2fhugo.balduran.cc%2fpost%2fimport-stock-price-data-in-google-doc%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fa fa-twitter"></i>
+                <span class="hidden">Twitter</span>
+            </a>
+        
+
+        
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhugo.balduran.cc%2fpost%2fimport-stock-price-data-in-google-doc%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <i class="fa fa-facebook"></i>
+                <span class="hidden">Facebook</span>
+            </a>
+        
+
+        
+            <a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2fhugo.balduran.cc%2fpost%2fimport-stock-price-data-in-google-doc%2f"
+              onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+              <i class="fa fa-google-plus"></i>
+                <span class="hidden">Google+</span>
+            </a>
+        
+        
+    </div>
+</footer>
+
+        
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a title="說故事給你聽" href="https://hugo.balduran.cc/">說故事給你聽</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://hugo.balduran.cc/js/jquery-1.11.3.min.js"></script>
+        <script src="https://hugo.balduran.cc/js/jquery.fitvids.js"></script>
+        
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        
+        
+        <script src="https://hugo.balduran.cc/js/scripts.js"></script>
+    </body>
+</html>
+

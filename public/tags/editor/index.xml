@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>editor on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/editor/</link>
+    <description>Recent content in editor on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Apr 2016 23:25:17 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/editor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Visual Studio Code 1.0 release</title>
+      <link>https://hugo.balduran.cc/post/visual-studio-code-1-0-release/</link>
+      <pubDate>Thu, 14 Apr 2016 23:25:17 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/visual-studio-code-1-0-release/</guid>
+      <description>Visual Studio Code 1.0 release
+Visual Studio Code 是微軟近年來改變策略之後放出的免費編輯器，不同於傳統的 Visual Studio，Visual Studio Code 是基於 Electron上所寫成的應用程式，使用了 Javscript and Nodejs 等等的 Web 技術，最一開始，是為了方便寫 javascript and typescript 而生。
+如果要簡單一點想，和 Atom 相差無幾，而且也有廣大的 extensions 可以安裝。</description>
+    </item>
+    
+    <item>
+      <title>Recommended sublime plugin - 2</title>
+      <link>https://hugo.balduran.cc/post/recommended-sublime-plugin-2/</link>
+      <pubDate>Tue, 24 Nov 2015 05:33:48 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/recommended-sublime-plugin-2/</guid>
+      <description>sublime plugin，繼上集之後的下集。
+ Web Inspector js console and debugger，搭配 Chrome, IE11 and Edge。  如果是 firefox愛用者，可選用 Fireplay Sublime
+ Emmet
+  GitGutter 直接可以看到小標註明文字的修改或新增
+  BracketHighlighter 在落落長的tag裡面可以直接找到尾巴！
+  All Autocomplete
+  floobits 共同編輯，跨編輯器
+  Color Picker
+  PlainTasks 直接在sublime裡面記錄 to-do list
+  Markdown Preview
+  Sidebar Enhancements
+  sublime plugin - 1 sublime plugin - 2</description>
+    </item>
+    
+    <item>
+      <title>recommended atom packages</title>
+      <link>https://hugo.balduran.cc/post/recommended-atom-packages/</link>
+      <pubDate>Tue, 04 Aug 2015 03:49:56 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/recommended-atom-packages/</guid>
+      <description>Some useful package of atom editor
+  atom-beautify
+  atom-bootstrap3
+  atom-csscomb
+  color-picker
+  pigments
+  project-manager
+  另外，建議可以打開preview tab Settings-&amp;gt;packages-&amp;gt;core packages-&amp;gt;Tab-&amp;gt;settings-&amp;gt;Use preview Tabs</description>
+    </item>
+    
+    <item>
+      <title>ATOM 1.0</title>
+      <link>https://hugo.balduran.cc/post/atom-1-0/</link>
+      <pubDate>Thu, 25 Jun 2015 19:48:23 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/atom-1-0/</guid>
+      <description>昨天 github 公布了 atom editor 進到 1.0
+濃濃帶有復古風的介紹影片，非常幽默。
+至於為什麼會突然從 0.2 進到 1.0，也許 facebook 的 Nuclide 推了一把吧。
+本來就有安裝的話，會自動更新。如果想自行下載新版，可參考 github上的 release 頁面。</description>
+    </item>
+    
+    <item>
+      <title>Recommended sublime plugin</title>
+      <link>https://hugo.balduran.cc/post/recommended-sublime-plugin/</link>
+      <pubDate>Thu, 13 Mar 2014 12:25:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/recommended-sublime-plugin/</guid>
+      <description>Sublime Text 2 還滿多人用的，而且plugin很多，以下列出好用的作為筆記。
+  Package Control 優先第一安裝，建議管理package都由此plugin https://sublime.wbond.net/
+  DocBlockr 用來產生註解 https://github.com/spadgos/sublime-jsdocs
+  SASS 寫css的好幫手 https://github.com/n00ge/sublime-text-haml-sass
+  PHPUnit
+https://github.com/stuartherbert/sublime-phpunit
+  Mustache
+https://github.com/defunkt/Mustache.tmbundle
+  Trailing Spaces
+https://github.com/SublimeText/TrailingSpaces
+  Sublime-jsLint Webdev的JS一定要過這個檢查 https://github.com/fbzhong/sublime-jslint
+  SublimePrettyJSON
+https://github.com/dzhibas/SublimePrettyJson
+  sublime plugin - 1 sublime plugin - 2</description>
+    </item>
+    
+    <item>
+      <title>Edit remote files on another UNIX-like server</title>
+      <link>https://hugo.balduran.cc/post/edit-remote-files-on-another-unix-like-server/</link>
+      <pubDate>Thu, 13 Mar 2014 11:56:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/edit-remote-files-on-another-unix-like-server/</guid>
+      <description>做開發工作，處理的系統一旦龐大，往往會蓋自己的開發機器，而不是用本機（不論是Mac, linux or Windows）建立伺服器，原因往往跟套件管理，機器權限管理有關。
+大公司都有自己 inhouse 的套件管理，登入機器的權限管理與使用者管理也自有一套系統。想要用原生的 Mac建成類似的系統並且接上各個後端，是吃力不討好。
+有些硬派開發者會標榜使用 Vim 無敵，當然這也是一個選項，但是我自己會儘量嘗試各種 IDE或 editor。
+想要在本機編輯完程式檔案之後，直接使用開發機器驗證，有幾種方式。
+  Aptana
+免費版本的就可以直接設定SFTP存取，即時把檔案拉下來編輯的做法。
+  sublime with sftp plugin
+sublime 也是很方便的編輯器，但是只能編輯本地端檔案，折衷的方式安裝sftp plugin，設定local folder 和 remote folder sync，同時開啟 upload_on_save選項，可以保證在每次存檔的時候就上傳到開發機。
+  Mount NFS
+直接開發機的目錄掛到本機，並使用自己熟悉的編輯器修改。其中mount的方式也有各種不同。
+a. finder mount
+finder-&amp;gt;go-&amp;gt;connect to server(cmd+K) 有點麻煩 常常需要重新掛，下shell command的話異常慢。更正：登入後自動掛載
+b. MacFusion
+MacFusion 是 MacFuse 的圖形化界面，特定版本搭配才ＯＫ，但我忘了是哪些版本。更新：根據fuse for OS X，MacFuse 已經停止維護。wiki頁面有詳細說明。Note for Mountain Lion
+  Rsync
+寫成bash command，用automator跑或是 Alfred workflow(需付費）執行。
+  </description>
+    </item>
+    
+  </channel>
+</rss>

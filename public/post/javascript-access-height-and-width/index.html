@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>javascript 存取瀏覽器的寬高 &middot; </title>
+        <meta name="description" content="瀏覽器的寬高 ###window window 即為瀏覽器本身，瀏覽器的高度，有分兩種，包含工具列與不包含，當然包含工具列的值會比較大，只要不 resize，這個值是不會變的。
+window.innerHeight 是不包含工具列的，比較常使用到，是瀏覽器的可視範圍。 window.outerHeight 則是包含的。
+網頁文件的寬高 ###[document] document 即為當前瀏覽的網頁，網頁可能很大，比瀏覽器視窗還大，因此 document 的寬高比 window 寬高還要大是正常現象，網頁內容的高度，取值用
+ document.body.clientHeight document.documentElement.clientHeight document.documentElement.scrollHeight  三者等價，用document.body就好，不要用 document.height。 [document]: https://developer.mozilla.org/en-US/docs/Web/API/document
+width 以此類推，不贅述。
+頁面捲動距離 網頁開出來之後，初始捲動的值都是 0，往下滑動之後，Y 軸的值會增加，往右滑動，X 軸的值會增加。這個數值配合 window/document height，可以算出現在出現在使用者面前的頁面是整個網頁的哪一段，例如常見的一些功能是捲到頁面底端之後出現某些模組、按鈕、圖案，就需要用這數值判斷。
+以 Y 軸 (垂直)為例
+ [window.scrollY] window.pageYOffset document.defaultView.scrollY document.defaultView.pageYOffset  這些數字永遠一樣，統一使用 [window.scrollY] 就好。 [window.scrollY]: https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY
+window.scrollTo 則是可以用程式控制頁面捲動到定點，在 iOS 早期的版本，手機版頁面為了讓上方網址列在讀取完之後自動收起，都會用 window.scrollTo(0, 1); 讓瀏覽器以為使用者已經捲動頁面而自動收起網址，不過 mobile safari 已經沒有這樣的設計。
+window.scrollBy 則是控制捲動的幅度，稍有不同。
+useful framework YUI YUI 有很多好用的 utility function，使用 Y.DOM 就可以拿到寬高。">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.65.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://hugo.balduran.cc/dist/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+    </head>
+    <body>
+        
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a title="說故事給你聽" href="https://hugo.balduran.cc/">說故事給你聽</a>
+                            </h1>
+                        
+                        <a class="button-square" href="https://hugo.balduran.cc/index.xml"><i class="fa fa-rss"></i></a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">javascript 存取瀏覽器的寬高</h1>
+    
+    <p class="post-date post-line">
+        <span>Published <time datetime="2015-09-24" itemprop="datePublished">Thu, Sep 24, 2015</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Balduran Chang</a>
+            </span>
+        </span>
+    </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <h1 id="瀏覽器的寬高">瀏覽器的寬高</h1>
+<p>###<a href="https://developer.mozilla.org/en-US/docs/Web/API/Window">window</a>
+window 即為瀏覽器本身，瀏覽器的高度，有分兩種，包含工具列與不包含，當然包含工具列的值會比較大，只要不 resize，這個值是不會變的。</p>
+<p>window.innerHeight 是不包含工具列的，比較常使用到，是瀏覽器的可視範圍。
+window.outerHeight 則是包含的。</p>
+<h2 id="網頁文件的寬高">網頁文件的寬高</h2>
+<p>###[document]
+document 即為當前瀏覽的網頁，網頁可能很大，比瀏覽器視窗還大，因此 document 的寬高比 window 寬高還要大是正常現象，網頁內容的高度，取值用</p>
+<ul>
+<li>document.body.clientHeight</li>
+<li>document.documentElement.clientHeight</li>
+<li>document.documentElement.scrollHeight</li>
+</ul>
+<p>三者等價，用document.body就好，不要用 document.height。
+[document]: <a href="https://developer.mozilla.org/en-US/docs/Web/API/document">https://developer.mozilla.org/en-US/docs/Web/API/document</a></p>
+<p>width 以此類推，不贅述。</p>
+<h2 id="頁面捲動距離">頁面捲動距離</h2>
+<p>網頁開出來之後，初始捲動的值都是 0，往下滑動之後，Y 軸的值會增加，往右滑動，X 軸的值會增加。這個數值配合 window/document height，可以算出現在出現在使用者面前的頁面是整個網頁的哪一段，例如常見的一些功能是捲到頁面底端之後出現某些模組、按鈕、圖案，就需要用這數值判斷。</p>
+<p>以 Y 軸 (垂直)為例</p>
+<ul>
+<li>[window.scrollY]</li>
+<li>window.pageYOffset</li>
+<li>document.defaultView.scrollY</li>
+<li>document.defaultView.pageYOffset</li>
+</ul>
+<p>這些數字永遠一樣，統一使用 [window.scrollY] 就好。
+[window.scrollY]: <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY">https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY</a></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo">window.scrollTo</a> 則是可以用程式控制頁面捲動到定點，在 iOS 早期的版本，手機版頁面為了讓上方網址列在讀取完之後自動收起，都會用 <code>window.scrollTo(0, 1);</code> 讓瀏覽器以為使用者已經捲動頁面而自動收起網址，不過 mobile safari 已經沒有這樣的設計。</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollBy">window.scrollBy</a> 則是控制捲動的幅度，稍有不同。</p>
+<h2 id="useful-framework">useful framework</h2>
+<h3 id="yui"><a href="http://yuilibrary.com/">YUI</a></h3>
+<p>YUI 有很多好用的 <a href="http://yuilibrary.com/yui/docs/api/classes/DOM.html">utility</a> function，使用 <code>Y.DOM</code> 就可以拿到寬高。</p>
+<ul>
+<li>
+<p>Y.DOM.winHeight()</p>
+</li>
+<li>
+<p>Y.DOM.winWidth()</p>
+</li>
+<li>
+<p>Y.DOM.docHeight()</p>
+</li>
+<li>
+<p>Y.DOM.docWidth()</p>
+</li>
+<li>
+<p>Y.DOM.docScrollY()
+則是可以拿到現在頁面 Y軸(垂直)的捲動值</p>
+</li>
+<li>
+<p>Y.DOM.docScrollX()
+可以拿到現在頁面 X軸(橫向)的捲動值</p>
+</li>
+</ul>
+<h3 id="jquery"><a href="https://jquery.com/">jQuery</a></h3>
+<p>jQuery 太有名了，應該沒有人不知道。用 <a href="http://api.jquery.com/height/">height()</a> 就可以拿到高度，<a href="https://api.jquery.com/scrollTop/">scrollTop</a> 則可以取的 Y軸(垂直)捲動值，Function Naming 滿直覺的。</p>
+<ul>
+<li>
+<p>$(window).height();</p>
+</li>
+<li>
+<p>$(document).height();</p>
+</li>
+<li>
+<p>$(window).width();</p>
+</li>
+<li>
+<p>$(document).width();</p>
+</li>
+<li>
+<p>$(window).<a href="https://api.jquery.com/scrollTop/">scrollTop()</a> 可以拿到現在頁面 Y軸(垂直)的捲動值</p>
+</li>
+<li>
+<p>$(window).<a href="https://api.jquery.com/scrollLeft/">scrollLeft()</a> 可以拿到現在頁面 X軸(橫向)的捲動值</p>
+</li>
+</ul>
+
+</div>
+
+        <footer class="post-footer clearfix">
+    
+        <p class="post-tags">
+            <span>Tagged:</span>
+            
+            
+                <a href="/tags/javascript/">javascript</a>, 
+            
+                <a href="/tags/yui/">yui</a>, 
+            
+                <a href="/tags/jquery/">jquery</a>
+            
+        </p>
+    
+
+    <div class="share">
+        
+            <a class="icon-twitter" href="https://twitter.com/share?text=javascript%20%e5%ad%98%e5%8f%96%e7%80%8f%e8%a6%bd%e5%99%a8%e7%9a%84%e5%af%ac%e9%ab%98&url=https%3a%2f%2fhugo.balduran.cc%2fpost%2fjavascript-access-height-and-width%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fa fa-twitter"></i>
+                <span class="hidden">Twitter</span>
+            </a>
+        
+
+        
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhugo.balduran.cc%2fpost%2fjavascript-access-height-and-width%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <i class="fa fa-facebook"></i>
+                <span class="hidden">Facebook</span>
+            </a>
+        
+
+        
+            <a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2fhugo.balduran.cc%2fpost%2fjavascript-access-height-and-width%2f"
+              onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+              <i class="fa fa-google-plus"></i>
+                <span class="hidden">Google+</span>
+            </a>
+        
+        
+    </div>
+</footer>
+
+        
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a title="說故事給你聽" href="https://hugo.balduran.cc/">說故事給你聽</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://hugo.balduran.cc/js/jquery-1.11.3.min.js"></script>
+        <script src="https://hugo.balduran.cc/js/jquery.fitvids.js"></script>
+        
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        
+        
+        <script src="https://hugo.balduran.cc/js/scripts.js"></script>
+    </body>
+</html>
+

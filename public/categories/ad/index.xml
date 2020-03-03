@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ad on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/ad/</link>
+    <description>Recent content in ad on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Jul 2009 03:41:59 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/ad/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>google gadget ad 互動廣告</title>
+      <link>https://hugo.balduran.cc/post/google-gadget-ad-e4ba92e58b95e5bba3e5918a/</link>
+      <pubDate>Wed, 26 Sep 2007 06:40:30 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-gadget-ad-e4ba92e58b95e5bba3e5918a/</guid>
+      <description>Google 互動廣告有中文的說明，互動廣告是結合了feeds、地圖、圖片、影片等等等的多媒體廣告(rich media ad)，更直覺一點就想成是adSense大小的迷你網站。
+這服務瞄準的當然不是升斗小民，它可說是adWord的更進化版本，結合gadget的豐富特性，甚至會出現gadgets directory裡。
+我有一點不懂的是，以客戶的觀點來看，是將 gadget ad放到 iGoogle中，然後出現的廣告是針對個人使用習慣嗎？那加入這個 gadget小玩意就是自願接收 google的廣告，也就是一種大量的廣告派發管道，而且是接收者主動接收的，比較難計算的是 google和廣告主要怎麼算錢？</description>
+    </item>
+    
+  </channel>
+</rss>

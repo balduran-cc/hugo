@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>beach on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/beach/</link>
+    <description>Recent content in beach on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 May 2009 16:59:38 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/beach/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>南寮與動物園</title>
+      <link>https://hugo.balduran.cc/post/e58d97e5afaee88887e58b95e789a9e59c92/</link>
+      <pubDate>Tue, 19 May 2009 16:59:38 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/e58d97e5afaee88887e58b95e789a9e59c92/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

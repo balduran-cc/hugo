@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Error: pg_config executable not found. &middot; </title>
+        <meta name="description" content="當使用pip安裝psycopg2遇到了以下錯誤
+  Error: pg_config executable not found.
+Please add the directory containing pg_config to the PATH
+or specify the full executable path with the option:
+python setup.py build_ext –pg-config /path/to/pg_config build …
+or with the pg_config option in ‘setup.cfg’.
+Complete output from command python setup.py egg_info:
+running egg_info
+ 如果是用brew管理套件，可以安裝postgresql解決。
+brew install postgresql 接著可能需要 ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents 可以讓系統啟動時啟動postgresql
+如果需要馬上啟動，launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+如果不想加入系統啟動清單，單次執行，postgres -D /usr/local/var/postgres
+另外有個應用程式可以安裝，不用打指令，http://postgresapp.com 。">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.65.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://hugo.balduran.cc/dist/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+    </head>
+    <body>
+        
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a title="說故事給你聽" href="https://hugo.balduran.cc/">說故事給你聽</a>
+                            </h1>
+                        
+                        <a class="button-square" href="https://hugo.balduran.cc/index.xml"><i class="fa fa-rss"></i></a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Error: pg_config executable not found.</h1>
+    
+    <p class="post-date post-line">
+        <span>Published <time datetime="2014-12-27" itemprop="datePublished">Sat, Dec 27, 2014</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Balduran Chang</a>
+            </span>
+        </span>
+    </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>當使用pip安裝psycopg2遇到了以下錯誤</p>
+<blockquote>
+<p>    Error: pg_config executable not found.<br>
+    Please add the directory containing pg_config to the PATH<br>
+    or specify the full executable path with the option:<br>
+        python setup.py build_ext –pg-config /path/to/pg_config build …<br>
+    or with the pg_config option in ‘setup.cfg’.<br>
+    Complete output from command python setup.py egg_info:<br>
+    running egg_info</p>
+</blockquote>
+<p>如果是用brew管理套件，可以安裝postgresql解決。</p>
+<pre><code>brew install postgresql
+</code></pre><p>接著可能需要
+<code>ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents</code> 可以讓系統啟動時啟動postgresql</p>
+<p>如果需要馬上啟動，<code>launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist</code></p>
+<p>如果不想加入系統啟動清單，單次執行，<code>postgres -D /usr/local/var/postgres</code></p>
+<p>另外有個應用程式可以安裝，不用打指令，http://postgresapp.com 。</p>
+
+</div>
+
+        <footer class="post-footer clearfix">
+    
+        <p class="post-tags">
+            <span>Tagged:</span>
+            
+            
+                <a href="/tags/mac/">mac</a>, 
+            
+                <a href="/tags/postgresql/">postgresql</a>, 
+            
+                <a href="/tags/error/">error</a>, 
+            
+                <a href="/tags/pip/">pip</a>
+            
+        </p>
+    
+
+    <div class="share">
+        
+            <a class="icon-twitter" href="https://twitter.com/share?text=Error%3a%20pg_config%20executable%20not%20found.&url=https%3a%2f%2fhugo.balduran.cc%2fpost%2ferror-pg_config-executable-not-found%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fa fa-twitter"></i>
+                <span class="hidden">Twitter</span>
+            </a>
+        
+
+        
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhugo.balduran.cc%2fpost%2ferror-pg_config-executable-not-found%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <i class="fa fa-facebook"></i>
+                <span class="hidden">Facebook</span>
+            </a>
+        
+
+        
+            <a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2fhugo.balduran.cc%2fpost%2ferror-pg_config-executable-not-found%2f"
+              onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+              <i class="fa fa-google-plus"></i>
+                <span class="hidden">Google+</span>
+            </a>
+        
+        
+    </div>
+</footer>
+
+        
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a title="說故事給你聽" href="https://hugo.balduran.cc/">說故事給你聽</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://hugo.balduran.cc/js/jquery-1.11.3.min.js"></script>
+        <script src="https://hugo.balduran.cc/js/jquery.fitvids.js"></script>
+        
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        
+        
+        <script src="https://hugo.balduran.cc/js/scripts.js"></script>
+    </body>
+</html>
+

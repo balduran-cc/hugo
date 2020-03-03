@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CI/CD on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/CI/CD/</link>
+    <description>Recent content in CI/CD on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/CI/CD/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>race condition in component build</title>
+      <link>https://hugo.balduran.cc/post/race-condition-in-component-build/</link>
+      <pubDate>Mon, 21 Dec 2015 09:27:54 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/race-condition-in-component-build/</guid>
+      <description>CI/CD 是軟體業界頗熱門的字詞，觀念是一路從 CI (Continuous integration) 延續到 CD (Continuous delivery)，公司也強制推動這一個 flow，所有的 project 都要自動化。
+剛好發現一個 CD pipeline設計時候要注意的點。
+原本的流程是
+ setup container init environment, pull git changes init script by user update version number build package(maven, or grunt or gulp) distribute artifact git push (update repo)  一切順利的話，component build 不會有 code conflict，但如果連續 merge 兩個 PR，第一個 PR 在第四步 update version number 之後，第二個 PR 才 merge，接著第一個 PR 在第七步要 git push 的時候，有可能會失敗。
+如果 git push command 寫成git push origin 的話，那就會 build failed了，因為這時候 build machine上的 git branch 已經落後 source repo了。</description>
+    </item>
+    
+  </channel>
+</rss>

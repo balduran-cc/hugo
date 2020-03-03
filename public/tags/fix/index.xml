@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fix on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/fix/</link>
+    <description>Recent content in fix on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Feb 2007 15:13:10 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/fix/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>無名維修</title>
+      <link>https://hugo.balduran.cc/post/wretch-fixing/</link>
+      <pubDate>Wed, 14 Feb 2007 15:13:10 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/wretch-fixing/</guid>
+      <description>從2/13維修到2/16，這麼長時間的維修，造成許多人的不便。無名的服務中我最依賴的就是bbs，相簿、網誌都是棄置不用了，尤其是網誌的部份不知道是站方還是使用者問題，往往頁面讀取時間過久，還有擾人的音樂和花俏的佈置，我的camino有時一開啟無名的網誌就沒回應幾十秒，很是氣人。bbs則是好朋友的個板所在，無法拋棄的包袱。
+維修的時間太長不說，也學flickr搞了個維修時候的小活動，取名「沒有無名的日子該怎麼辦？」，拍攝一段影片為作品，內容需切合題意，獎項就是萬年不變的無名金卡。先來看看作品要求拍攝短片而不是照片，焦點已經不再是靜態的圖片了，影片也是無名接下來要主攻的市場嗎？還有那長達五年的無名金卡，有沒有那個價值就見仁見智了。
+沒有無名的日子該怎麼辦？我說，那就不要用無名啊！
+附註：bbs要用bbs.wretch.cc連線，wretch.twbbs.org連不上。
+update: 2/15白天已經回復正常了。</description>
+    </item>
+    
+  </channel>
+</rss>

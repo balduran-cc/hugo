@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>toolbar on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/toolbar/</link>
+    <description>Recent content in toolbar on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Dec 2007 19:01:29 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/toolbar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>facebook toolbat for IE</title>
+      <link>https://hugo.balduran.cc/post/facebook-toolbat-for-ie/</link>
+      <pubDate>Tue, 18 Dec 2007 19:01:29 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/facebook-toolbat-for-ie/</guid>
+      <description>Facebook Applications – My FB Toolbar
+facebook 的 IE toolbar，增加存取 facebook 上照片、群組、事件和好友名單的功能，至於搜尋功能則是和 Yahoo! search engine 合作。
+完全為了非思不可打造，愛好者請用。
+不過這不是臉書官方製造的，facebook toolbar for Firefox 才是，看來火狐還是比較討喜啊 :p</description>
+    </item>
+    
+  </channel>
+</rss>

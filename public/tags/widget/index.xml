@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>widget on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/widget/</link>
+    <description>Recent content in widget on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Jul 2008 17:59:25 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/widget/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Apture 更進步的預覽效果</title>
+      <link>https://hugo.balduran.cc/post/apture/</link>
+      <pubDate>Wed, 09 Jul 2008 17:59:25 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/apture/</guid>
+      <description>從vgod’s blog(強者，MIT) 看到 Apture 這個有趣的東西。
+Snap.com 的預覽效果應該大家都看過，在網頁直接秀出一個小視窗預覽連結的內容，我對 Apture 的第一眼印象也如此，不過華麗多了，而且不會每個連結都秀出小視窗，比較沒那麼煩人。還有一點就是小視窗出現的效果很像 plurk上有的效果，這是我多看一眼的原因。
+掛載了 Apture 的網頁可以讓使用者編輯其中連結的輔助視窗，例如電影連結就出現 IMDB 頁面，維基百科條目就秀出 wikipedia 內容，youtube 影片連結就直接開小視窗播放 (這一個效果和撲浪一樣)，還可以在空白處內嵌其他多媒體連結。
+總計支援的連結項目有相關資料(text)、影片 (youtube)、影像、新聞、地圖、文件(用 Scribd) 還有音效檔案(imeem)，這些網站當然都有提供內嵌的網頁的服務，但那必須是頁面作者自行加上並使用。
+僅只於此那就一點意思都沒有了，和snap.com沒啥鑑別度。Apture 加入了 Wiki 共同編輯的概念，以上所述額外加入的連結資料都是儲存在 Apture 上，並沒有改變原始網頁的結構，就是這樣的方式可以多人編輯同一頁面要加入的連結或內嵌的多媒體資料，不過前提是開啟其他人編輯的權限。
+以這個概念來發想，wiki 其實並不一定要自己有主機對吧，提供服務並記錄修改與加入的內容，也可以是另一種多人編輯，而且不動到原始網頁。
+附記，有安裝 Apture 的頁面會有小小的主控台，有帳號且登入且有開啟多人編輯權限才可以對頁面做修改。</description>
+    </item>
+    
+    <item>
+      <title>ShareThis</title>
+      <link>https://hugo.balduran.cc/post/sharethis/</link>
+      <pubDate>Mon, 17 Mar 2008 14:51:33 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/sharethis/</guid>
+      <description>ShareThis 是新興的 social bookmark？
+Share This classic 一開始一個 wordpress 的plugin，就是多出一個小按鈕，可以貼文章到各個 social web 上，這個嘛，靠很多小按鈕排一排也是同樣功能，但是 Share This 效果很特別，又不佔空間。
+還有Share Icon project
+發展到後來，架構更完整了，有給上網衝浪的網友用的 Browser button，各家 blog 軟體可用的外掛，甚至ShareThis API 都出現了。
+註冊自己的帳號，還可以看到自己的 ShareBox，但是我不知道功能。但是起碼很容易就可以分享文章倒是真的，等於一個萬用 bookmarklet，缺點是沒有國內廠商。</description>
+    </item>
+    
+    <item>
+      <title>msn 可從網頁接收匿名訊息</title>
+      <link>https://hugo.balduran.cc/post/anonymous_msn/</link>
+      <pubDate>Thu, 15 Nov 2007 08:16:28 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/anonymous_msn/</guid>
+      <description>live messenger 現在推出一個 web widget，允許網友可以從 網頁上的 widget 傳送訊息到 live messenger 上，可以選擇用自己的帳號或是匿名，而 widget 上會顯得是你的暱稱，因此不用擔心帳號被有心人得知。
+想要取得這個 widget 不需填入任何訊息，登入 windows live ID 之後，複製他提供的程式碼就可以了。你也可以選擇只要顯示 msn 狀態，這樣比較有隱私一點。</description>
+    </item>
+    
+    <item>
+      <title>google open social</title>
+      <link>https://hugo.balduran.cc/post/google-open-social/</link>
+      <pubDate>Mon, 05 Nov 2007 18:07:01 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-open-social/</guid>
+      <description>google opensocial 正式推出，在 SNS (spcial networl service) 的領域中 google 想要占有一角的意味濃厚，不過為什麼不是推出自己新的服務 (我覺得 Orkut 已經被放棄了) 而是採取結盟呢？難道 facebook 的聲勢真的大到 google 必須聯合各家網站才能與之抗衡？
+opensocial 是以 API 的方式在運作，任何使用這組 API 的 widget 都可以在其上執行各種 application，只要就是針對 facebook 內各式各樣的 application 做出更開放的平台，例如 twitter 在 facebook 裡的整合，我可以在 facebook 裡面開始 twitter，也可以介紹給臉書裡面的朋友使用。臉書提供平台，twitter 則是application。
+因此主體可以分成兩方，一方是 social network 所提供的使用者資料，一方則是使用這些資料所構築出來的應用程式。這就是現在社交網路的發展趨勢，也是臉書如此熱門的原因，這個平台讓使用者更樂意在其上分享與互動。
+opensocial API 是針對 widget app developer 所設計的嗎？我想也不是，它是一個中間的介質，SNS 可以搭上它的順風車讓 user 有更多玩意可玩，對於凝聚 SNS 內的群聚向心力是有一定幫助，而這種相連的特性保持客戶不被大宗同業 (facebook?) 拉走。當用戶越來越多，群聚的效益就出現了，我們也看到支援此 API 的服務有很多。
+這是一個實驗性質的概念，剛推出還沒見到很有趣的東西，而臉書的內容我也還在慢慢體驗，就看看這些 social network建構出的 platform 可以有多大發展。
+還有一個 openID 可以討論，未來的網路說不定什麼都是開放的標準呢！
+API doc: http://code.google.com/apis/opensocial/docs/</description>
+    </item>
+    
+    <item>
+      <title>CallWave 免費傳簡訊</title>
+      <link>https://hugo.balduran.cc/post/callwave-e5858de8b2bbe582b3e7b0a1e8a88a/</link>
+      <pubDate>Sat, 24 Mar 2007 03:23:43 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/callwave-e5858de8b2bbe582b3e7b0a1e8a88a/</guid>
+      <description>CallWave – Free Text Messages
+CallWave是個可以免費傳簡訊的widget，之前只有mac的dashboard版本，現在連yahoo! widget、google gadget和vista gadget的版本都出了。
+google gadget的部份是用在線上個人化首頁，其他都是下載到單機使用。
+順道一提，yahoo! widget 4出了。</description>
+    </item>
+    
+    <item>
+      <title>可愛的flappie</title>
+      <link>https://hugo.balduran.cc/post/e58fafe6849be79a84flappie/</link>
+      <pubDate>Sun, 18 Mar 2007 17:13:43 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/e58fafe6849be79a84flappie/</guid>
+      <description>從applewoods看來的Flappie，真是個可愛的小東西～～
+好像回到以前玩電子雞的時候喔，windows上有個養魚我也覺得滿好玩的，大概是生活空虛寂寞吧。
+flappie旁邊的紅心若是降到零，代表他餓了喔，要趕快餵食。</description>
+    </item>
+    
+    <item>
+      <title>show yourself widget秀出你自己</title>
+      <link>https://hugo.balduran.cc/post/show-yourself-widgete7a780e587bae4bda0e887aae5b7b1/</link>
+      <pubDate>Tue, 13 Mar 2007 17:17:01 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/show-yourself-widgete7a780e587bae4bda0e887aae5b7b1/</guid>
+      <description>ShowYourself Widget
+昭告你所使用的各種服務，digg、flickr、twitter、del.icio.us、blog、skype、technorati…。
+這外觀和 Wink的 Wink Widget!差不多，但是wink要註冊，如果閒麻煩的話，用這個統整個人資訊也是很不錯的。</description>
+    </item>
+    
+  </channel>
+</rss>

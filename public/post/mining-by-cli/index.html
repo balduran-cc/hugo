@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>minergate by CLI &middot; </title>
+        <meta name="description" content="上次提到了用 minergate 的 GUI 體驗挖礦，算是非常好入門的挖礦方法，不過身為一個工程師，想要試試看指令模式也是很合理的。
+幣別選擇 先說說有哪些可以挖。
+最知名的就是 BTC，但是現階段可以說不用想了，線上雲端挖礦和各種礦機的存在已經不是休閒挖礦可以踏入的，開了也只是浪費電而已。ETH 還可以，不過沒有顯示卡的加速，也是一般般。想要用 cpu來挖礦，是有滿多限制的，而最近滿值得試試看的就是 XMR 門羅幣了。
+其他可以用 cpu的還有 BCN, QCN, XDN, FCN, MCN and DSH。
+##挖礦程式的選擇
+CPU 挖礦可以用 Claymore CryptoNote CPU Miner，指令就 NsCpuCNMiner64.exe -o stratum&#43;tcp://xmr.pool.minergate.com:45560 -u EMAIL -p x
+另外還有 OhGodAPet/cpuminer-multi 指令是minerd -a cryptonight -o stratum&#43;tcp://xmr.pool.minergate.com:45560 -u EMAIL -p x
+更新：OhGodAPet版本的 cpuminer-multi 已經停止維護，還有在維護的是 tpruvot/cpuminer-multi ，可以下載原始碼之後自行編譯，編譯的指令是
+git clone https://github.com/tpruvot/cpuminer-multi.git cd cpuminer-multi ./autogen.sh ./configure --with-crypto --with-curl make 編譯完成後可以下./cpuminer --cputest做一下測試。挖礦的指令也要更新為./cpuminer -a cryptonight -o stratum&#43;tcp://xmr.pool.minergate.com:45560 -u EMAIL -p x -t 1">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.65.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://hugo.balduran.cc/dist/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+    </head>
+    <body>
+        
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a title="說故事給你聽" href="https://hugo.balduran.cc/">說故事給你聽</a>
+                            </h1>
+                        
+                        <a class="button-square" href="https://hugo.balduran.cc/index.xml"><i class="fa fa-rss"></i></a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">minergate by CLI</h1>
+    
+    <p class="post-date post-line">
+        <span>Published <time datetime="2018-01-03" itemprop="datePublished">Wed, Jan 3, 2018</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Balduran Chang</a>
+            </span>
+        </span>
+    </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>上次提到了用 <a href="https://minergate.com/a/3856b288abb92c7096595953">minergate</a> 的 GUI <a href="/2017/07/17/minergate/">體驗挖礦</a>，算是非常好入門的挖礦方法，不過身為一個工程師，想要試試看指令模式也是很合理的。</p>
+<h2 id="幣別選擇">幣別選擇</h2>
+<p>先說說有哪些可以挖。</p>
+<p>最知名的就是 BTC，但是現階段可以說不用想了，線上雲端挖礦和各種礦機的存在已經不是休閒挖礦可以踏入的，開了也只是浪費電而已。<a href="http://ethdocs.org/en/latest/mining.html#mining">ETH 還可以</a>，不過沒有顯示卡的加速，也是一般般。想要用 cpu來挖礦，是有滿多限制的，而最近滿值得試試看的就是 XMR 門羅幣了。</p>
+<p>其他可以用 cpu的還有 BCN, QCN, XDN, FCN, MCN and DSH。</p>
+<p>##挖礦程式的選擇</p>
+<p>CPU 挖礦可以用 <a href="https://mega.nz/#F!Hg4g1bLT!4Upg8GNiEZYCaZ04XVh_yg">Claymore CryptoNote CPU Miner</a>，指令就
+<code>NsCpuCNMiner64.exe -o stratum+tcp://xmr.pool.minergate.com:45560 -u EMAIL -p x</code></p>
+<p>另外還有 <a href="https://github.com/OhGodAPet/cpuminer-multi">OhGodAPet/cpuminer-multi</a>
+指令是<code>minerd -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u EMAIL -p x</code></p>
+<p>更新：OhGodAPet版本的 cpuminer-multi 已經停止維護，還有在維護的是 <a href="https://github.com/tpruvot/cpuminer-multi">tpruvot/cpuminer-multi</a>
+，可以下載原始碼之後自行編譯，編譯的指令是</p>
+<pre><code>git clone https://github.com/tpruvot/cpuminer-multi.git
+cd cpuminer-multi
+./autogen.sh
+./configure --with-crypto --with-curl
+make
+</code></pre><p>編譯完成後可以下<code>./cpuminer --cputest</code>做一下測試。挖礦的指令也要更新為<code>./cpuminer -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u EMAIL -p x -t 1</code></p>
+<p>其實用 CPU真的挺不符合效益的，不過既然是玩玩，也就不要太認真囉，閒暇之餘看看別人怎麼寫挖礦程式比較有趣。</p>
+
+</div>
+
+        <footer class="post-footer clearfix">
+    
+        <p class="post-tags">
+            <span>Tagged:</span>
+            
+            
+                <a href="/tags/cli/">cli</a>, 
+            
+                <a href="/tags/Cryptocurrency/">Cryptocurrency</a>
+            
+        </p>
+    
+
+    <div class="share">
+        
+            <a class="icon-twitter" href="https://twitter.com/share?text=minergate%20by%20CLI&url=https%3a%2f%2fhugo.balduran.cc%2fpost%2fmining-by-cli%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fa fa-twitter"></i>
+                <span class="hidden">Twitter</span>
+            </a>
+        
+
+        
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhugo.balduran.cc%2fpost%2fmining-by-cli%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <i class="fa fa-facebook"></i>
+                <span class="hidden">Facebook</span>
+            </a>
+        
+
+        
+            <a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2fhugo.balduran.cc%2fpost%2fmining-by-cli%2f"
+              onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+              <i class="fa fa-google-plus"></i>
+                <span class="hidden">Google+</span>
+            </a>
+        
+        
+    </div>
+</footer>
+
+        
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a title="說故事給你聽" href="https://hugo.balduran.cc/">說故事給你聽</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://hugo.balduran.cc/js/jquery-1.11.3.min.js"></script>
+        <script src="https://hugo.balduran.cc/js/jquery.fitvids.js"></script>
+        
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        
+        
+        <script src="https://hugo.balduran.cc/js/scripts.js"></script>
+    </body>
+</html>
+

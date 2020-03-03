@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sun on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/sun/</link>
+    <description>Recent content in sun on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Apr 2009 10:49:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/sun/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Oracle and Sun</title>
+      <link>https://hugo.balduran.cc/post/oracle-and-sun/</link>
+      <pubDate>Thu, 23 Apr 2009 10:49:15 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/oracle-and-sun/</guid>
+      <description>滿出乎意料的，甲骨文買下了昇陽，並不是謠傳的 IBM。我知道 Oracle 是大公司，可是還真不知道可以吃下另一家，起碼我心中昇陽還不小。
+Oracle 最有名的是資料庫，SUN 最有名的是 JAVA，兩個的交集合是 JDBC(冷)。在MySQL 被 SUN 買下之後，Oracle 又吃了 SUN，這是不是說 MySQL 前途堪憂啊(搖手)？
+額外一提，Google App Engine 支援 JAVA 了。</description>
+    </item>
+    
+    <item>
+      <title>SUN Project Blackbox 黑盒子</title>
+      <link>https://hugo.balduran.cc/post/sun-project-blackbox/</link>
+      <pubDate>Sat, 03 Nov 2007 18:26:20 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/sun-project-blackbox/</guid>
+      <description>Project Blackbox 所指的黑盒子和我們一般認知的黑盒子有所不同，它不是用來記錄飛行的儀器，而是昇陽公司推出的模組化可移動的資料中心 (data center) ，究竟是怎麼回事呢？
+電腦機房通常都在一個獨立的房間，有空調有門禁有不斷電系統，裡面是一片片的 blade 和多如義大利麵般相纏的線路，很機密的地方。而黑盒子計畫就是將以上那些設備全部裝入貨櫃裡面，所有該有的裝置一應俱全，還防震！不防無聊。
+誰能猜到貨櫃裡面有一堆主機，而且疊起來可以串接，超像積木的！綠色的 Sun 商標非常特別。
+more photo: Prototypes – Project Blackbox Scenarios
+Blackbox blog: Where is Project Blackbox?</description>
+    </item>
+    
+  </channel>
+</rss>

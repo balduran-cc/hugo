@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>digest on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/digest/</link>
+    <description>Recent content in digest on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Apr 2008 08:49:14 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/digest/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>digest 4/7</title>
+      <link>https://hugo.balduran.cc/post/digest_4_7/</link>
+      <pubDate>Mon, 07 Apr 2008 08:49:14 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/digest_4_7/</guid>
+      <description>好久沒有用 digest 了，自從覺得追新消息很累之後就停了下來，但是有些東西看過真的想留下一兩句話，但不想長篇大論，於是，在日漸忙碌的學生生活中，沒法消化完畢的內容就以此形式吧。</description>
+    </item>
+    
+  </channel>
+</rss>

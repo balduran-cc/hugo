@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bs2 on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/bs2/</link>
+    <description>Recent content in bs2 on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 May 2008 02:54:51 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/bs2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>無名 BBS 的帳號管理</title>
+      <link>https://hugo.balduran.cc/post/wretch-bb/</link>
+      <pubDate>Sun, 11 May 2008 02:54:51 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/wretch-bb/</guid>
+      <description>5/7 無名小站BBS (telnet://bbs.wretch.cc) 出現了一個公告，發文者是 次世代BS2 (現交大資工官方BBS) 的站管，內容是關於無名 BBS將移交給 BS2 的手續。
+更早可以回溯到 4/28 的一篇，[公告] 無名小站 BBS 將捐贈予交通大學，從 5/2 到 5/30 都是帳號決定轉移到 BS2 或是刪除帳號的期間，除了帳號之外還有看板的移交，個人板、公開與私人、一般性質看板，都在轉移的資料中，其中 policy 複雜。
+ 一、在移入交大資工後，無名 BBS 將會與原交大資工系次世代ＢＳ２
+BBS 站 (以下簡稱 BS2) 合併。
+二、BS2 將提供匯入個人資料的功能，讓您將原本在無名 BBS 上的
+個人資料 (包含信件及信件精華區) 匯入到 BS2。
+三、BS2 將提供以下看板文章及精華區匯入功能：
+  個人板板主經過身份驗證後，可將原個人板資料匯入在 BS2
+上新開的個人板。
+  一般公開看板在沒有衝突的情況下，由板主提出申請將
+原看板內容恢復。
+  一般公開看板在看板用途雷同的情況下，建議由
+原無名 BBS 板主與 BS2 板主互相協調看板合併。
+若有特殊情形則由 BS2 站方斟酌處理。
+  所有看板匯入事宜，BS2 站方擁有最終決定權，
+但仍將尊重使用者的意見，營造雙贏局面。
+   順帶一提，我的無名帳號被取消了，所以我用 Yahoo!</description>
+    </item>
+    
+  </channel>
+</rss>

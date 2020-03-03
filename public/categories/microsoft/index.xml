@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>microsoft on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/microsoft/</link>
+    <description>Recent content in microsoft on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Apr 2016 23:25:17 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/microsoft/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Visual Studio Code 1.0 release</title>
+      <link>https://hugo.balduran.cc/post/visual-studio-code-1-0-release/</link>
+      <pubDate>Thu, 14 Apr 2016 23:25:17 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/visual-studio-code-1-0-release/</guid>
+      <description>Visual Studio Code 1.0 release
+Visual Studio Code 是微軟近年來改變策略之後放出的免費編輯器，不同於傳統的 Visual Studio，Visual Studio Code 是基於 Electron上所寫成的應用程式，使用了 Javscript and Nodejs 等等的 Web 技術，最一開始，是為了方便寫 javascript and typescript 而生。
+如果要簡單一點想，和 Atom 相差無幾，而且也有廣大的 extensions 可以安裝。</description>
+    </item>
+    
+    <item>
+      <title>gmail 收發 hotmail</title>
+      <link>https://hugo.balduran.cc/post/gmail-e694b6e799bc-hotmail/</link>
+      <pubDate>Wed, 01 Apr 2009 07:34:57 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/gmail-e694b6e799bc-hotmail/</guid>
+      <description>剛好在上禮拜 YEF 小隊開會時間有人問起，其實我自己也沒這樣用，不過順手 google 一下，發現最近微軟在 POP3 的政策上鬆綁，可以直接使用 POP3 服務收發 HOTMAIL 系列，這一點算是給人方便。
+原先 hotmail 就是只能 web access，要收信下來要抓些第三方軟體，就算是 outlook 本身，也要安裝 Office Outlook Connector，就可以知道 hotmail 在這方面多麼不方便，
+以目前火紅的 GMAIL 收發 HOTMAIL，需注意的是只設定 POP3 的部分是只能收信，要以 xxx@hotmail 的郵件位址發信，需要設定下半段的 email verification，另外建議 Leave a copy of retrieved messages on the server 要勾選，留個備檔。</description>
+    </item>
+    
+    <item>
+      <title>windows live sync &amp; mesh</title>
+      <link>https://hugo.balduran.cc/post/windows-live-sync/</link>
+      <pubDate>Tue, 23 Dec 2008 08:30:06 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/windows-live-sync/</guid>
+      <description>這是 MS foldershare 的後續版本，在 windows live 推出之後，hotmail 變成了 Windows live hotmail，drive 變成了 skyDrive，.net passport 整合成了 windows live ID，msn messenger 變成了 windows lives messenger，因此 foldershare 變成了 windows live sync。
+windows live sync 的功能是同步不同電腦的資料夾，即使是 WIN 和 MAC 也可以互通，它有提供 Mac OS client，使用方式很簡單，在 windows live sync 網站上新增加一個資料夾，對應到本機的資料夾之一，client 程式會自動同步這兩個資料夾，透過中介的網站空間，達成同步的功能。
+這樣子分享的資料夾和 skyDrive 是不互通的，而且要存取資料夾都需要先設定，設定完成後可以自定要自動同步還是手動。就算是 shared folder，也不是每個人都可以看到，需要寄信給與權限。對於趴趴走又不想帶隨身碟而且網路不慢的人是方便。
+Client 下載
+ 同場加映，微軟本身還有另一個產品 live Mesh 和自己對打，同樣也是 sync，但是多了 mobile device 和 live Desktop，功能比起 live sync 更全面，可以直接在虛擬的 live Desktop 存取，也就完全不需要安裝任何 client 軟體，就可以移動檔案，在各種作業系統下都優游自如。mesh 還有很多特異功能，沒法一一試出。目前看來 live mesh 的功能完全把 live sync 打死，大概是因為 foldershare 是微軟買來的吧。</description>
+    </item>
+    
+    <item>
+      <title>Windows Live Messenger 2009 搶鮮版</title>
+      <link>https://hugo.balduran.cc/post/windows-live-messenger-2009-e690b6e9aeaee78988/</link>
+      <pubDate>Sun, 21 Sep 2008 08:02:26 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/windows-live-messenger-2009-e690b6e9aeaee78988/</guid>
+      <description>現在的 msn messenger 版本是8.5，新版體驗版是 9，也是2009的意思吧。這一版的主打功能是網路電話。
+下載Messenger 搶鮮版 – Windows Live，安裝的時候會一併問你 mail, toolbar 和其他產品要不要一起安裝，還有是否設為預設搜尋引擎等。
+然後，我安裝不成功，算了。
+額外: APATCH</description>
+    </item>
+    
+    <item>
+      <title>Sphere - 球型電腦</title>
+      <link>https://hugo.balduran.cc/post/sphere-e79083e59e8be99bbbe885a6/</link>
+      <pubDate>Fri, 01 Aug 2008 16:53:07 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/sphere-e79083e59e8be99bbbe885a6/</guid>
+      <description>Sphere Project 是微軟的研究計畫之一，將 surface 的觸控平面做成球狀，原型就是這一顆可互動的球。
+我很好奇這個的操作方式夠不夠直覺呢？用球型顯示地球當然很適合，如果 zoom in 的話？顯示 360 度環景挺適合的，但是圓柱體也適合這種顯示方式。
+雖然是個原型，但是我很佩服能夠製作出來的人。</description>
+    </item>
+    
+    <item>
+      <title>微軟的未來生涯體驗計畫</title>
+      <link>https://hugo.balduran.cc/post/ms-intern/</link>
+      <pubDate>Wed, 26 Mar 2008 14:43:20 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/ms-intern/</guid>
+      <description>我在台灣微軟的日子：答客問（二） – Cyberpunk 描述的就是我在宅男很忙 » 校園徵才與實習裡提到的未來生涯體驗計畫，今天也剛好是這個計畫在交大辦講座的日子，和 openhouse 隔一間會議廳打對台。
+我去聽聽也不知道產生什麼想法，如果說是要體驗職場生涯的話，我應該體驗很多了吧，只是對於微軟內部的管理制度很好奇，為什麼呢？我想這部分可以稱為企業文化吧，每一間公司都有自己獨特的氛圍，而這是我最好奇的。
+實習可以見識到很多校園看不到摸不到的東西，也可以盡情犯錯 (但不是鼓勵犯錯)，非常鼓勵參加。微軟提供的位置更是非常彈性，反而不是要求有技術有能力，除了技術助理外，其餘職務都是要求軟性能力，難以量化，也是非常適合培養自己的能力。</description>
+    </item>
+    
+    <item>
+      <title>Office 2007 旗艦版只要 1990 元</title>
+      <link>https://hugo.balduran.cc/post/office07-1990/</link>
+      <pubDate>Mon, 17 Mar 2008 15:20:18 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/office07-1990/</guid>
+      <description>.:: Microsoft presents :: The Ultimate Student ::.首頁。
+Microsoft Education 有詳細解釋，要學生資格，校內 e-mail，截止日是 8/30。
+一般學校有沒有購買學生授權我不知道，中原沒有，交大有，但這並不是免費，註冊時候的學費就有一項軟體使用費，就是用這經費去購買全校學生授權。
+另外這種專案一陣子就會推一次，Visual Studio好像曾有過 369 專案，只能說，這都是行銷。
+Groove 2007 不知道做啥用的，InfoPath 2007 學生會用嗎？Publisher 2007 學生會用嗎？
+題外話，我滿喜歡用 Office 2007，但是夠癡肥，有些功能隱藏到有點難找。</description>
+    </item>
+    
+    <item>
+      <title>校園徵才與實習</title>
+      <link>https://hugo.balduran.cc/post/intern/</link>
+      <pubDate>Thu, 13 Mar 2008 12:40:48 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/intern/</guid>
+      <description>第五屆台灣微軟-未來生涯體驗計畫
+因為臨近五六月的畢業季節，徵才和實習的廣告打很大，台灣微軟就有在推這樣的實習機會，是在學生暑期時候增加經驗不錯選擇。3/26 在交大浩然國際會議廳。
+除了微軟當然還有 google，3/17 晚間有 openhouse主辦的座談會，事前就已經大力宣傳可以準備簡歷在當場投遞，軟體工程師與實習生校園徵才。今天的網路服務與應用課程也有請到 google 的工程師講解 mapreduce 技術，以 Maps Tiles 和 PageRank 的計算為例。
+3/17 同場上映的還有 IBM，都是很不錯的廠商。
+補個 Yahoo!奇摩2008年校園講座，動作都很大。</description>
+    </item>
+    
+    <item>
+      <title>Windows Live SkyDrive</title>
+      <link>https://hugo.balduran.cc/post/skydrive/</link>
+      <pubDate>Wed, 27 Feb 2008 09:30:29 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/skydrive/</guid>
+      <description>Windows Live SkyDrive 提供高達 5GB 的容量供客戶使用，而且不在掛上 beta 的字樣。這雖然是過時的消息，還是要紀錄一下。
+大空間對於容易把越做越小的隨身碟搞丟的朋友有莫大幫助。而且有 msn 帳號就可以使用，單檔大小限制 50MB。
+同是審視相簿清單、朋友清單與活動中心，live space 凝聚越來越多的 social 元素，愛用微軟分享空間的人的人也不在少數。相簿功能還不錯，一次展現十張預覽，對於跳著看的使用習慣頗親和。</description>
+    </item>
+    
+    <item>
+      <title>Office Live Workspace</title>
+      <link>https://hugo.balduran.cc/post/office_live_workspace/</link>
+      <pubDate>Fri, 18 Jan 2008 18:10:55 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/office_live_workspace/</guid>
+      <description>Office Live Workspace是需要申請排隊了，總算讓我得到這個試用的機會，簡單的想，就是線上版的 office，且提供了單機版的插件可以一鍵上傳，整合網路空間與單機軟體。
+live service 之前曾經稍微介紹過，是全面性的服務，且以服務為導向，將軟體化為服務 (software as a service)，以 office live workspace 為例，就非常容易說明，office 系列軟體不只是提供辦公室套裝軟體，更提升為提供office cooperative 服務，不僅僅是檔案的管理中心，更著重在協同作業方面的整合。
+Office Live Workspace 以 Workspace 作分類，將不同的工作區塊分開，工作區塊可以是 meeting、school、team paper，各種分類，一個 workspace 下可以有多份文件，基本的 word, excel ,powerpoint 是必備的，也是最精要的三種檔案類型，還有其他如 list, note, task, contact, event 等整合 outlook 功能的檔案類型，這些檔案和 Gdoc 不一樣之處在於支援單機軟體，可以輕鬆的下載到電腦上編輯。
+檔案共享與權限的管控當然是必備的，也提供 comment 的功能，這部分沒有什麼特別好描述的。
+在與單機版的整合部分就是靠 office live add-on，安裝之後執行軟體就可以直接開啟 workspace 中的檔案，在 workspace 要編輯時也會直接下載回單機並開啟編輯，網路芳鄰會出一個新的目錄，做為識別。但是這個軟體的作法就是連接網路空間和單機軟體，僅此而已。
+這種作法造成了線上版先天的弱點，很多單機上可以呈現的特效與 smartart 放到網路上就變的七零八落，這要怪罪於單機軟體做的太花俏嗎？線上版的觀看就無法呈現這些過於絢麗的特效，更遑論實做編輯的可能性，因此我說他必須下載到單機編輯的原因就是如此，因為 office 系列軟體太花俏了。除了 excel 相關的檔案類型，table 本來就是網頁可以處理的很好的模式。</description>
+    </item>
+    
+    <item>
+      <title>微軟潛能創意盃</title>
+      <link>https://hugo.balduran.cc/post/imaginecup/</link>
+      <pubDate>Tue, 11 Dec 2007 13:28:27 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/imaginecup/</guid>
+      <description>網站: http://www.microsoft.com/taiwan/imaginecup
+一個很邪惡的首頁，必須要安裝 Silverlight 才能繼續閱讀，我不懂一個比賽的首頁弄得如此花巧是有什麼幫助嗎？為了看內容我只好心不甘情不願的安裝了 silverlight，但我甚至連這東西的功能是啥我都不知道。
+如果想要直接看報名說明的話請連到 https://imaginecup.com/Registration/Default.aspx，這讓我更懷疑安裝 silverlight 的目的是為什麼了。
+裡面也有詳細的說明，只是都是英文的，但是這比賽強調全球，用英文也無可厚非，想參加的話還是把他看懂吧。
+九組，軟體設計組、嵌入式開發組、遊戲開發組、程式擂台賽組、IT 挑戰、演算法組、攝影組、創意短片組、介面設計組。</description>
+    </item>
+    
+    <item>
+      <title>IEBlog : Internet Explorer 8</title>
+      <link>https://hugo.balduran.cc/post/ieblog-internet-explorer-8/</link>
+      <pubDate>Sat, 08 Dec 2007 00:59:47 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/ieblog-internet-explorer-8/</guid>
+      <description>IEBlog : Internet Explorer 8
+微軟在自家 blog 提到 IE 8，還自己以為搞笑的弄了好多個特別的名字，我倒覺得只是因為 FF3 的 beta 消息釋出，所以也發布這個消息搏回一些新聞版面，又有誰會真的關心 IE 的開發呢？
+ IE 7+1
+IE VIII
+IE 1000 (think binary)
+IE Eight!
+iIE
+IE for Web 2.0 (Service Pack 2)
+IE Desktop Online Web Browser Live Professional Ultimate Edition for the Internet (the marketing team really pushed for this one Ie2.079 (we might still use this for the Math Major Edition)
+ </description>
+    </item>
+    
+    <item>
+      <title>Windows Live Messenger 9 beta</title>
+      <link>https://hugo.balduran.cc/post/windows-live-messenger-9-beta/</link>
+      <pubDate>Thu, 29 Nov 2007 18:11:58 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/windows-live-messenger-9-beta/</guid>
+      <description>想試試看 Windows Live Messenger 9 beta 的人就自己去下載吧！
+Download Windows Live Messenger 9.0.1407.1107
+win 版出的越快，mac 版出的越慢。</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio 2008 Express Editions</title>
+      <link>https://hugo.balduran.cc/post/visual-studio-2008-express-editions/</link>
+      <pubDate>Tue, 27 Nov 2007 17:12:09 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/visual-studio-2008-express-editions/</guid>
+      <description>Visual Studio 2008 Express Editions 已經發表，可以下載，同時.NET Framework 3.5 也發表了。
+雖然三年前一度覺得 .NET 的推出非常詭異，命名讓人混淆，C# 明顯抄襲 JAVA，加上刻板印象實在難以對它產生好感，至今也是。但現實是 .NET 不僅活得好好的，還走到不錯的地步，某帝大的醫院資訊系統就是用整套 .NET framework，就算嘴硬，但是學的人還是很多。
+例如 VS 2005 Expree 在 Free IDE 的評價就不錯， 在 C/C++ 板滿多人推薦使用，要說嘴也找不到點。
+我沒有支持微軟，但是 VS 08 Express 出了還是可以下載使用看看啦。</description>
+    </item>
+    
+    <item>
+      <title>msn 可從網頁接收匿名訊息</title>
+      <link>https://hugo.balduran.cc/post/anonymous_msn/</link>
+      <pubDate>Thu, 15 Nov 2007 08:16:28 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/anonymous_msn/</guid>
+      <description>live messenger 現在推出一個 web widget，允許網友可以從 網頁上的 widget 傳送訊息到 live messenger 上，可以選擇用自己的帳號或是匿名，而 widget 上會顯得是你的暱稱，因此不用擔心帳號被有心人得知。
+想要取得這個 widget 不需填入任何訊息，登入 windows live ID 之後，複製他提供的程式碼就可以了。你也可以選擇只要顯示 msn 狀態，這樣比較有隱私一點。</description>
+    </item>
+    
+    <item>
+      <title>social zune</title>
+      <link>https://hugo.balduran.cc/post/social-zune/</link>
+      <pubDate>Wed, 14 Nov 2007 15:25:07 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/social-zune/</guid>
+      <description>看 newsgator 裡一堆 Feed 都在講 zune 的推出，從外型雕花起頭，大量 zune 的圖片灌進我的 reader，也就稍為關切一下這個前代失敗、後代未知的 media player。
+zune 自己有一個註冊網站，叫做 social zune，是不是可以類比成 itune store 我不敢直接說，但是定位是讓消費者分享 playlist 是無庸置疑，從 Profile 就可以看到 most played artists, recently played songs，功能上，似曾相似。
+如果你對 web 2.0 的網站夠熟悉的話，應該可以馬上想到 last.fm，提供多媒體播放程式外掛的方式上傳所播放過的歌曲資料，而 zune 自己就支援這樣上傳分享資料的方式。
+從畫面上和產品的外觀給我的感覺，微軟這次似乎著重在個人化身上，強調擁有這項產品的消費者品味，打造個人獨特的 media player。
+附記: zune marketplace 似乎就是線上音樂電子商務的部分，還有買點數。</description>
+    </item>
+    
+    <item>
+      <title>Windows Live Calendar 正式上線</title>
+      <link>https://hugo.balduran.cc/post/windows-live-calendar/</link>
+      <pubDate>Sun, 11 Nov 2007 16:23:48 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/windows-live-calendar/</guid>
+      <description>原本還在 betas 的日曆已經正式轉為公開上線了。可以從 http://calendar.live.com/calendar/ 用MSN帳號登入使用。
+幾個特點:
+ 沒有繁體中文。 特別的Social Event。 直接在日期上新增事件。 支援多個日曆。 分享設定有 Html, iCal, Xml。  其中在操作上的拖拉點選實在和 google calendar 很相像，也是使用了大量的 ajax。
+via: windowslivewire</description>
+    </item>
+    
+    <item>
+      <title>live.com 帳號申請</title>
+      <link>https://hugo.balduran.cc/post/livecom_accout/</link>
+      <pubDate>Thu, 08 Nov 2007 13:34:37 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/livecom_accout/</guid>
+      <description>參考 MSN開放Live.com帳號申請 @ Pigy’s Blog ，趁時限之內弄個自己常用的名字吧，越短的網址對自己越有利啊！
+在申請完畢之後，關於 MS 社的 Hotmail 經營政策有點疑問，在最早的免費 e-mail 時候，註冊 hotmail 得到的是 ooxx@hotmail.com ，後來為了搞入口網站出現了 msn.com 這東西，註冊後得到的是 ooxx@msn.com，同時因為有各地的入口網站，台灣也有自己的的，申請後會是 ooxx@msn.com.tw，然後 IM 出現，為了通吃，出現了 passport 這東西，管你哪一個帳號都可以登入，hotmail 也不單純只有 ooxx@hotmail.com 能用了。
+我就是那時分不清楚這些產品的定位，申請好多帳號，最後都一一停用，留了一個自己生日秀在上面的，但這完全是不得已的做法，帳號數目一多，balduran 後面都必須加上一堆其他字，一來名字變長了，二來別人記不住，這樣的帳號一點幫助也沒有。
+所以 GMAIL 出現之後，處心積慮的要弄到邀請函，就是為了好記又短的郵件位址，這個 live.com 雖然是微軟的產品，但是這麼好的網域名稱，一定要攢一個下來。
+同時可以試用看看 live.com 所推出的其他服務，當然原本的舊帳號升級之後也是可以使用，但是我就是忍不住開了一個新的咩，順便過濾一下久沒聯絡的帳號。
+Windows Live Service 一開始就是全面化的產品，它的標語是
+ Connect and share anywhere
+ 從單機軟體到網路上的分享空間一應俱全，其中代表性的單機：郵件 (軟體名字 Mail )、即時通訊 (Messenger)、相簿 (Photo Gallery)、blog 撰寫軟體 (Writer) 以及網路空間各自對應的 Hotmail、Spaces，就是一方面提供你單機的軟體，又提供網路上的分享空間，而中間資料的連結全部幫你做得好好的，上傳只要一個按鈕，easy use!
+不僅如此，msn.com 的入口網站計畫沒有被忘記，http://home.live.com/ 就是希望整合以上的資源，成為你瀏覽器打開的第一頁，同時 Space 還會告訴你你的朋友更新了什麼資料，blog 寫了幾篇，照片上傳了多少張，社交的元素早早就嵌在裡面。
+OneCare 就不多說了，那目標是替家庭使用者提供「簡單」的安全防護。還有其他還在 Beta 的服務在 http://get.</description>
+    </item>
+    
+    <item>
+      <title>2007 Windows Live Space Gadgets 設計大賽</title>
+      <link>https://hugo.balduran.cc/post/2007-windows-live-space-gadgets/</link>
+      <pubDate>Sun, 04 Nov 2007 14:54:02 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/2007-windows-live-space-gadgets/</guid>
+      <description>部落格小工具設計大賽，如果要打全部名稱的話好長，其實就是設計線上的 Gadget 小玩意， google 也為他們的產品辦過一樣的比賽。
+推動這樣的比賽，往往可以見到很多的創意，就是有人會想出意想不到的 Gadget，也因此五花八門。不過這比賽已經先提供一些類別讓你選擇，娛樂、小遊戲、3C 小工具、地圖小工具、理財和生活小資訊，分類都好正經，而且不是同時評比喔，是比完一個類別比下一項，這整場比賽比玩都快要明年夏天了。而且分數評分非常公開。
+不僅如此，還有教學教你怎麼寫！想學的可以趁機看看。</description>
+    </item>
+    
+    <item>
+      <title>MS office 2008 for mac</title>
+      <link>https://hugo.balduran.cc/post/ms-office-2008-for-mac/</link>
+      <pubDate>Wed, 19 Sep 2007 06:23:37 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/ms-office-2008-for-mac/</guid>
+      <description>Microsoft Office for Mac 2008是微軟介紹 office 2008 mac版本的官方網站，揭示了一些新功能、新介面。
+一直以來，mac上的 office版本停留在2004，Win上面07版本預設的存檔格式是docx，這個副檔名我無法讀取編輯，常常要另存成相容舊版本。這個08版本看起來可以解決這個問題。
+明年一月上市，看學校有沒有買在決定要不要用：p</description>
+    </item>
+    
+    <item>
+      <title>正版軟體的品質</title>
+      <link>https://hugo.balduran.cc/post/ms-joke/</link>
+      <pubDate>Thu, 15 Feb 2007 03:36:30 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/ms-joke/</guid>
+      <description>正版Microsoft軟體上黑白分明的大字(默)。
+ 品質 – 正版軟體常常會發生缺少重要元件與文件的問題，而且沒有保固，也無法升級。
+ 。
+updated: 晚上六點發現錯誤已修正。</description>
+    </item>
+    
+  </channel>
+</rss>

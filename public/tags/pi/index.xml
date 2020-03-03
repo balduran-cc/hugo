@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pi on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/pi/</link>
+    <description>Recent content in pi on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Dec 2014 19:14:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/pi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>3/14 Pi Day</title>
+      <link>https://hugo.balduran.cc/post/314-pi-day/</link>
+      <pubDate>Wed, 14 Mar 2007 16:28:48 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/314-pi-day/</guid>
+      <description>Pi Day – Wikipedia, the free encyclopedia
+過了十二點，我晚了，灰姑娘的魔法也解除了。</description>
+    </item>
+    
+  </channel>
+</rss>

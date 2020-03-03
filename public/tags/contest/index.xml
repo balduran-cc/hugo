@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>contest on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/contest/</link>
+    <description>Recent content in contest on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Jan 2008 17:38:06 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/contest/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IBM SOA 開發者新秀大賞</title>
+      <link>https://hugo.balduran.cc/post/ibmsoa/</link>
+      <pubDate>Fri, 18 Jan 2008 17:38:06 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/ibmsoa/</guid>
+      <description>IBM developerWorks 台灣: 活動訊息: IBM SOA 開發者新秀大賞
+Service-oriented architecture，就是 middleware 的新名字 (by my adviser)，在 IT 上是很重要的腳色吧，這學期的電子商務與中介軟體我並沒有修，但同學中很多人修，不知道有沒有人想參加這個比賽呢？
+以我所知，老師對這堂課的期末 project 的評語是，沒有一個是可以用。我想學生對於這些內容的構思還無法深入到商業應用層面上吧。
+3/10 報名截止，時間非常充裕。</description>
+    </item>
+    
+  </channel>
+</rss>

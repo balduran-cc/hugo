@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>calendar on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/calendar/</link>
+    <description>Recent content in calendar on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Nov 2007 16:23:48 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/calendar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windows Live Calendar 正式上線</title>
+      <link>https://hugo.balduran.cc/post/windows-live-calendar/</link>
+      <pubDate>Sun, 11 Nov 2007 16:23:48 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/windows-live-calendar/</guid>
+      <description>原本還在 betas 的日曆已經正式轉為公開上線了。可以從 http://calendar.live.com/calendar/ 用MSN帳號登入使用。
+幾個特點:
+ 沒有繁體中文。 特別的Social Event。 直接在日期上新增事件。 支援多個日曆。 分享設定有 Html, iCal, Xml。  其中在操作上的拖拉點選實在和 google calendar 很相像，也是使用了大量的 ajax。
+via: windowslivewire</description>
+    </item>
+    
+    <item>
+      <title>Google 日曆支援氣象預報</title>
+      <link>https://hugo.balduran.cc/post/google-calendar-weather/</link>
+      <pubDate>Fri, 31 Aug 2007 19:51:31 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-calendar-weather/</guid>
+      <description>Google Help Center有說明如何在英語環境下增加氣象預報，現在不只有美國有這項功能，台灣地區靠些小技巧也可以達到同樣效果。
+首先在「設定」的地方，將「國家/地區」改成美國之後儲存，氣象的選項就會出現了，這時填入地區如「新竹」，還有選擇溫度顯示方式，在將「國家/地區」改回台灣，成功的話就會在小日曆上看到可愛的氣象圖案囉！
+顯示預報最多三天。</description>
+    </item>
+    
+    <item>
+      <title>Spanning Sync 同步 iCal和 Google Calendar</title>
+      <link>https://hugo.balduran.cc/post/spanning-sync-e5908ce6ada5-icale5928c-google-calendar/</link>
+      <pubDate>Wed, 14 Mar 2007 03:29:18 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/spanning-sync-e5908ce6ada5-icale5928c-google-calendar/</guid>
+      <description>同時使用 Google Calendar和 iCal的使用者有福了，現在Spanning Sync結合這兩者，讓兩者同步資料。
+多台mac要同步資料，利用google canlendar就可以完成。支援iSync的裝置也同樣適用，iPod或是iPhone。
+不是免費軟體，要錢。
+兩大公司的產品結合，google是線上 Canlendar，apple是單機的 iCal，這樣的合作顯得更powerful，這項產品也可以讓我們多思考，未來的應用程式應該不是只有線上版，web OS的藍圖很大很遠，但是都要靠網路來結合，沒有網路的地方，還是要有單機作業才行。而適當地結合這兩者，會是很好的經驗。
+第三方軟體可以作這條路，企業間也可以放下身段互相支援，就看以後官方會不會主動推出這樣的功能。
+update: gsync，免費，但我覺得不好用。</description>
+    </item>
+    
+  </channel>
+</rss>

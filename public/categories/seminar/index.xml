@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>seminar on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/seminar/</link>
+    <description>Recent content in seminar on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Mar 2007 15:38:09 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/seminar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TWNIC 網際網路趨勢研討會</title>
+      <link>https://hugo.balduran.cc/post/twnic-seminar-2007/</link>
+      <pubDate>Thu, 15 Mar 2007 15:38:09 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/twnic-seminar-2007/</guid>
+      <description>TWNIC seminar2007
+3/20,3/21兩天，台北台大醫院國際會議中心。
+主講者的單位有PChome Online、亞太網匯公司、中華電信研究所、台灣思科、台灣固網、網絡數碼、台灣微軟、Yahoo!奇摩、數位時代、智邦生活館、Mr.6、ASIA FM、HEMiDEMi、愛情公寓、kijiji、奈奈音、當先生…
+Yahoo! 和Pchome王不見王。</description>
+    </item>
+    
+  </channel>
+</rss>

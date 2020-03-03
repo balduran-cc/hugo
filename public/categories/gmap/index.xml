@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gmap on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/gmap/</link>
+    <description>Recent content in gmap on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Apr 2008 17:42:25 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/gmap/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gmap on handheld</title>
+      <link>https://hugo.balduran.cc/post/gmap-on-handheld/</link>
+      <pubDate>Wed, 09 Apr 2008 17:42:25 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/gmap-on-handheld/</guid>
+      <description>mobile Gmaps 使用上不如想像中順利，ASUS P750 只能選擇一般版本程式，有其他專門給 NOKIA, blackberry, Motorola 手機使用的版本，執行上，一存取 GPS 功能就會出現 MIDlet 錯誤，所以我想試試看地圖服務的路徑規畫功能也不行，只能透過無線網路看看地圖，實在沒什麼新意。
+同時間發現 GMap 有 http://www.google.com.tw/gmm/GoogleMaps.CAB 可下載安裝，這是個 windows mobile 6 的程式，想必透過微軟的 GPS API 存取定位，就很順利的玩了起來，像是線上的 PAPAGO 勒。
+問題來了，我努力的轉正地圖，想要對正我目前的方向，半夜在浩然與工三之間大廣場的我就這樣在原地站著。被地圖疑惑的我看著位在工四上的全家便利商店標誌和行政大樓上的 7-11 標誌發傻，什麼時候這裡有小七和全家了呢？
+補充資料: 如何以 Java 取得衛星定位資訊 ? 寫程式可參考用。</description>
+    </item>
+    
+  </channel>
+</rss>

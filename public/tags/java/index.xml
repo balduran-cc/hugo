@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>java on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/java/</link>
+    <description>Recent content in java on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Oct 2015 05:21:06 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>doReturn and thenReturn in Mockito</title>
+      <link>https://hugo.balduran.cc/post/doreturn-and-thenreturn-in-mockito/</link>
+      <pubDate>Tue, 20 Oct 2015 04:38:36 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/doreturn-and-thenreturn-in-mockito/</guid>
+      <description>用 Mockito 寫 unit test 的時候，一開始分不清楚 doReturn 和 thenReturn 的差別，基本上是一樣的，都是在做 stub。
+但有一些例外。
+ thenReturn 不能用來 stub void method spy 不能搭配 thenReturn stub same method 多次不能用 thenReturn doReturn 在編譯期間不做 return value 的型別檢查，thenReturn 會做 type check thenReturn 會先去執行 stub 的 method，然後改寫掉 return value，如果 method 裡有些變數沒有 mock ，極可能會 null pointer exception  總結，只要使用 doReturn, doThrow , doAnswer  就會，會單純一點。
+Btw, @Mock 可以簡化一些 code</description>
+    </item>
+    
+    <item>
+      <title>Oracle and Sun</title>
+      <link>https://hugo.balduran.cc/post/oracle-and-sun/</link>
+      <pubDate>Thu, 23 Apr 2009 10:49:15 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/oracle-and-sun/</guid>
+      <description>滿出乎意料的，甲骨文買下了昇陽，並不是謠傳的 IBM。我知道 Oracle 是大公司，可是還真不知道可以吃下另一家，起碼我心中昇陽還不小。
+Oracle 最有名的是資料庫，SUN 最有名的是 JAVA，兩個的交集合是 JDBC(冷)。在MySQL 被 SUN 買下之後，Oracle 又吃了 SUN，這是不是說 MySQL 前途堪憂啊(搖手)？
+額外一提，Google App Engine 支援 JAVA 了。</description>
+    </item>
+    
+    <item>
+      <title>JavaTWO09 開放原始碼社群大會</title>
+      <link>https://hugo.balduran.cc/post/javatwo09-e9968be694bee58e9fe5a78be7a2bce7a4bee7bea4e5a4a7e69c83/</link>
+      <pubDate>Mon, 09 Feb 2009 10:18:50 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/javatwo09-e9968be694bee58e9fe5a78be7a2bce7a4bee7bea4e5a4a7e69c83/</guid>
+      <description>JavaTWO09 在 3/13 於台北國際會議中心舉行，首先，要付錢報名，早鳥價1200，越慢報越貴。
+早上的議程沒啥吸引力，下午的分區研討會比較吸引人，OSGi, hadoop 滿吸引我的。JavaFX 我總覺得推廣上就慢人家一步了。
+大神快拜！</description>
+    </item>
+    
+    <item>
+      <title>行動裝置上的 MSN 與 Twitter</title>
+      <link>https://hugo.balduran.cc/post/mobile-msn-twitter/</link>
+      <pubDate>Mon, 26 Nov 2007 02:06:41 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/mobile-msn-twitter/</guid>
+      <description>發覺之前提過的手機MSN並不如想像中好用，最主要的原因是手機按鍵不便，JAVA程式全螢幕執行。
+當我連上線時並開始使用時，每丟一個訊息都需切換到中文的輸入畫面，輸入完畢再切換回對話視窗， 然後才傳送訊息，這中間打字速度不快的人應該佔大多數，十二個按鍵要如何和鍵盤的速度相比，因此我打沒幾個訊息就決定停手，為了我的手指健康著想。
+特別需要下載的 JAVA 程式在執行時候占了全螢幕大小，此時若最小化執行，也不會知道程式背景的動作，正常手機待機和 MSN 執行就二選一吧，魚和熊掌不可兼得的。
+剛好之前小小玩了一下 twittai 這個也是 JAVA 的 twitter client，想比較一些其中的差異性。
+MSN：一對一、通知、訊息消失時間短、單人且私密、對話一多就手忙腳亂、需要即時回應
+Twitter：廣播、聊天記錄、 公開、可特化對象、訊息存活時間超長、IRC
+以我目前的使用經驗來看，輸入是最大的問題。</description>
+    </item>
+    
+    <item>
+      <title>jUploadr 好用的 flickr 上傳工具</title>
+      <link>https://hugo.balduran.cc/post/juploadr-e5a5bde794a8e79a84flickre4b88ae582b3e5b7a5e585b7/</link>
+      <pubDate>Mon, 12 Mar 2007 17:05:04 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/juploadr-e5a5bde794a8e79a84flickre4b88ae582b3e5b7a5e585b7/</guid>
+      <description>現在mac可用的flickr工具有
+ juploadr FlickrExport Flickr Uploadr Kula – 1001  附記: Flickr:Important Security Notice，關於釣魚網站的提醒，請多注意 flickr 網址以及登入後不會再要求登入喔，另外也不要下載奇怪的 package。
+via: Goston’s Blog � [Flickr] Flickr Uploadr 太難用!? 試試 jUploadr</description>
+    </item>
+    
+  </channel>
+</rss>

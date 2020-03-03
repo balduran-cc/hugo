@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>endpoint on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/endpoint/</link>
+    <description>Recent content in endpoint on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Jul 2014 07:28:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/endpoint/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>simple benchmark http API.</title>
+      <link>https://hugo.balduran.cc/post/simple-benchmark-http-api/</link>
+      <pubDate>Mon, 21 Jul 2014 07:28:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/simple-benchmark-http-api/</guid>
+      <description>use Apache Benchmark  ab -n 100000 “$URL”
+ab -n 3 “http://google.com/”
+Server Software: gws
+Server Hostname: google.com
+Server Port: 80
+Document Path: /
+Document Length: 219 bytes
+Concurrency Level: 1
+Time taken for tests: 0.471 seconds
+Complete requests: 3
+Failed requests: 0
+Broken pipe errors: 0
+Non-2xx responses: 3
+Total transferred: 1707 bytes
+HTML transferred: 657 bytes
+Requests per second: 6.37 [#/sec] (mean)
+Time per request: 157.00 [ms] (mean)</description>
+    </item>
+    
+  </channel>
+</rss>

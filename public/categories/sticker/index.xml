@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sticker on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/sticker/</link>
+    <description>Recent content in sticker on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Feb 2009 17:55:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/sticker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>stickeraction clone</title>
+      <link>https://hugo.balduran.cc/post/stickeraction-clone/</link>
+      <pubDate>Mon, 16 Feb 2009 17:55:19 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/stickeraction-clone/</guid>
+      <description>小海的stickeraction被clone了，這種事在網路上也沒什麼，很常見的。所以我也不是打算說這樣複製一個有什麼好譴責的，倒是想到一個東西。
+stickeraction，本來就是串連貼紙，是串連貼有這個貼紙的部落格，某個層面來看，他交換了這些參與串連的部落格的資訊，經由這個站點。在各個串連之中，是否可已在串連起一個類似 channel 的角色，也許就是像個 ring 一樣，這樣說會很玄嗎？
+最先我想到可以交換的就是 tag 資訊，例如上禮拜的 twestival，明顯會有 twitter 這個標籤，是否可以建立起 SOAP 交換同樣 tag 下的 blog，形成一個 ring。
+OK，隨便說說。起碼可以知道參與串連的 blog 概估總個數。</description>
+    </item>
+    
+  </channel>
+</rss>

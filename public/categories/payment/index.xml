@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>payment on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/payment/</link>
+    <description>Recent content in payment on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Nov 2016 22:13:26 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/payment/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Disable DCC in paypal</title>
+      <link>https://hugo.balduran.cc/post/disable-dcc-in-paypal/</link>
+      <pubDate>Sun, 13 Nov 2016 22:13:26 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/disable-dcc-in-paypal/</guid>
+      <description>DCC，Dynamic currency conversion 的縮寫，中文稱為動態匯率轉換，聽起來很學術很高深，其實就是用比較差的匯率付費。最早是由信用卡公司 (Visa and Mastercard）發明的，可以讓消費者大略知道幣別換算後約消費多少本國貨幣，但這中間的匯率是黑箱，極不合理，能免則免。
+在 Paypal上面註冊的信用卡，在刷卡的時候預設是開啟 Paypal的匯率轉換的，也是一個坑爹，用 Paypal付款國外的網購時候，一定要把它關掉，無奈這個選項被隱藏的很好，特地為了這個紀錄一下。
+  點齒輪符號   選 payment   選 pre-approved payment   set available funding source   找到你已經連結的信用卡   選擇使用原始幣別付費 我討厭 DCC。
+  </description>
+    </item>
+    
+    <item>
+      <title>Paypal</title>
+      <link>https://hugo.balduran.cc/post/paypal/</link>
+      <pubDate>Wed, 07 Oct 2015 21:14:23 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/paypal/</guid>
+      <description>#Paypal 的使用 Paypal 的出現已經有15年以上，第三方支付也在支付寶大名鼎鼎之下變成一個 buzzword，一般而言，使用第三方支付確實有些保護消費者的作用。
+對消費者來說，在網路上買賣的行為可以區分為買家與賣家，買家付款而賣家收款，對買家來說，最怕付了款項但沒收到貨品，用 Paypal付款，可以先扣住款項，等確定收到貨品之後，付款就解除凍結且完成交易。對賣家來說，則是使用 Paypal 提供的金流服務，免除自行處理多國貨幣與跨國交易的麻煩。
+#Paypal 的收費結構 作為一個買家，使用 Paypal 付款是不須多付費用的，眾多的美國線上商店都有支援，除了直接使用信用卡付款，使用 Paypal 可以不讓店家得到卡號，是一層防火牆的概念，但這時候 Paypal 本身的安全性要求就要提高。
+如果身為賣家，使用 Paypal 做收款工具，那就要收取手續費，交易雙方在同一個國家，手續費較低，款項 3.4% 加上固定收費，如果是跨國交易則是款項 3.9% 加上固定收費，固定收費根據收取的幣別有所不同，美金的話是 0.3 美金。
+3.4% and 3.9% 夠貴了吧，以一個金流服務來說，如果是在台灣，那就更貴了，分別是 3.9% and 4.4%，以個人在網路上買賣物品來說，超貴的。如果是登記的網路賣家，那費用有稍微少一點。
+詳細規定可看服務用戶說明書中的費用，非常複雜，還有飯店業和一般零售業收款的不同。
+以 ebay 為例，如果在 ebay 上面賣了一個物品給美國買家，款項是 24 usd，那手續費則是 0.3 usd + 24usd * 3.9% (應為 4.4%，但在ebay上所以是 3.9%)，總和就是 1.24 usd 的手續費。Paypal 會跟買家收取 24 usd 然後撥款給賣家 22.76 usd。
+配合九月的消息，在台灣使用 Paypal 就只會有國際交易，國內交易將不會成功。
+#Paypal 的優勢 以目前來說，還是國際收款，雖然手續費高達 4%，但目前中信的 Pockii，永豐的豐掌櫃和國泰世華的 KOKO對於國際收款的資料還不明確，日後可以再做比較。</description>
+    </item>
+    
+  </channel>
+</rss>

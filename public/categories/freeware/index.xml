@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>freeware on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/freeware/</link>
+    <description>Recent content in freeware on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 May 2008 18:09:24 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/freeware/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Richard Stallman 將在新竹清大演講</title>
+      <link>https://hugo.balduran.cc/post/richard-stallman-in-nth/</link>
+      <pubDate>Wed, 07 May 2008 18:09:24 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/richard-stallman-in-nth/</guid>
+      <description>Richard Stallman/zh tw – Openmoko
+請看公關稿頁面，5/14 在淡江，5/15 在清大，啊～這個千萬不能錯過。
+能夠邀請到如此重要的人物，為什麼沒有交大場次 T_T
+Registrano 上有報名頁面，但是我不知道是不是一定要報名才能去，可以當天去排隊嗎？人數會不會爆滿啊？QQ</description>
+    </item>
+    
+    <item>
+      <title>VirtueDesktops 虛擬桌面</title>
+      <link>https://hugo.balduran.cc/post/vir-desktop/</link>
+      <pubDate>Mon, 24 Dec 2007 08:58:20 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/vir-desktop/</guid>
+      <description>羨慕 leopard 的 spaces 功能嗎？試試VirtueDesktops 。
+我記得這軟體的開發者放話說他不幹了，可是 macupdate 出現有更新，還是推廣一下好了，安裝之後 alt + tab 可以切換桌面，另外他不太穩定，有時就當了。
+window 平台的虛擬桌面軟體當推 virtual dimension，雖然設定不直覺，但是對於執行很多程式的使用者來說，多個虛擬桌面會好一點工作。</description>
+    </item>
+    
+    <item>
+      <title>Web App, Prism 一種應用服務的新想法</title>
+      <link>https://hugo.balduran.cc/post/prism/</link>
+      <pubDate>Sun, 04 Nov 2007 20:08:37 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/prism/</guid>
+      <description>比起其他人我是慢了好幾步介紹這東東 Prism，它的概念是三稜鏡，可以將光線散射，這個軟體也將網路分散成好幾個 Web App，可是啟動程式還是 Prism一個。
+柏強已經介紹 WebRunner 夠詳細了，也點出了重點概念，只存取一個站台 (服務) 且輕巧快速，將網路服務單一整合到一個 icon ，只要啟動了程式就如同一個單機的程式一樣，而不是以網站的方式去看待它。
+眾多的 Bundle 也可略窺一二，獨立出來的 google 服務如 Gmail, GCalendar, GDocs, GReader, Facebook, twitter 都是功能完整的網站，甚至如 IM 軟體原本的單機軟體定位也因 Meebo 的出現而顯得尷尬，Prsim + Meebo 你能否認它是 IM 軟體嗎？
+這個時候單機與網路的分界已經不再重要，只要將 browser 當個窗口，任何功能都可以達成。
+話說，我自己有開一個 Prism 連自己 blog 的編輯畫面當作是寫作軟體，比 Windows Live Writer 差一點點而已 :p
+google gear + google Reader就是離線的 RSS reader了。</description>
+    </item>
+    
+    <item>
+      <title>adium1.0出現</title>
+      <link>https://hugo.balduran.cc/post/adium10/</link>
+      <pubDate>Sun, 04 Feb 2007 05:06:43 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/adium10/</guid>
+      <description>Adium – Download
+鴨子(adium)是我在mac上最愛用的im軟體，支援各種即時通訊，最近從0.93進化到1.0啦，趕緊更新嚐鮮。
+可以直接更改自己的顯示圖片，可以顯示itune正在播放曲目，growl也更新了，還支援大陸流行的QQ喔，聽說支援msn的自訂表情符號，不知道傳檔速度有沒有改善。外觀好像有一點點不同耶，說不上來那裡改變了。</description>
+    </item>
+    
+    <item>
+      <title>OpenVanilla輸入法尋求測試</title>
+      <link>https://hugo.balduran.cc/post/openvanilla-beta/</link>
+      <pubDate>Sat, 13 Jan 2007 07:19:31 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/openvanilla-beta/</guid>
+      <description>cahier lukhnos：OpenVanilla的酷音輸入法發佈新版：徵求測試
+我是膽小鬼～～我不敢下載當白老鼠。
+酷音選字的問題真的很麻煩，預設字都不是常用字。</description>
+    </item>
+    
+  </channel>
+</rss>

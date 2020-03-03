@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>picasa on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/picasa/</link>
+    <description>Recent content in picasa on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Dec 2008 15:03:01 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/picasa/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Picasa 3 正式下載</title>
+      <link>https://hugo.balduran.cc/post/picasa-3-e6ada3e5bc8fe4b88be8bc89/</link>
+      <pubDate>Wed, 17 Dec 2008 15:03:01 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/picasa-3-e6ada3e5bc8fe4b88be8bc89/</guid>
+      <description>之前一直都是 beta 板的 picasa 已經發布正式版了，快去下載吧！
+picasa 3 有什麼新功能呢？可以同步 picasa 3 和 picasa web albums，還有新的 picasa 相片檢視器，效果不錯唷！另外還有剪輯影片、抓圖screenshot，更方便的整合了 picasa 網路相簿，還有一些些操作上的小改變。
+不管它吃多少記憶體，先裝起來用看看再說。</description>
+    </item>
+    
+    <item>
+      <title>Google Photos Screensaver</title>
+      <link>https://hugo.balduran.cc/post/google-photos-screensaver/</link>
+      <pubDate>Sun, 11 May 2008 03:49:13 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-photos-screensaver/</guid>
+      <description>Google Photos Screensaver
+早在 07年三月就出現的東西，不過在 googla pack 軟體集裡卻沒出現，原因就是在於語言選項，不知怎地自動會跳到中文頁面，花了點功夫才找到方法，似乎更新器也必須是英文的才能下載，將中文的更新器移除之後可以試試看。
+Google Photos Screensaver</description>
+    </item>
+    
+    <item>
+      <title>Picasa Web Albums隱藏功能</title>
+      <link>https://hugo.balduran.cc/post/picasa-web-albumse99ab1e8978fe58a9fe883bd/</link>
+      <pubDate>Sun, 11 Mar 2007 03:52:41 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/picasa-web-albumse99ab1e8978fe58a9fe883bd/</guid>
+      <description>使用中文介面的網友對照What’s New列出的功能，會發現中文介面少了幾項功能。
+   Search and tag your photos. Search over your friend’s public photos
+    Hey, we’re Google. Search across album descriptions, captions, our new tags and more.
+ 是的，搜尋圖片和標籤功能要英文介面才會出現 2. blogger圖片上傳管理，使用blogger出傳圖片後，Picasa Web Album會出現對應的一本相簿，預設是隱藏，可以統一管理blogger所使用到的圖片，當然！這代表你的blogger有 1G的圖片空間可以用 3. &amp;gt; What is Picasa Web Albums community search?
+ Checking this setting enables the Picasa Web Albums community to find your public albums. Unlisted albums never appear in Picasa Web Albums public search results.</description>
+    </item>
+    
+    <item>
+      <title>Picasa Web Albums 容量加大</title>
+      <link>https://hugo.balduran.cc/post/picasa-web-albums-e5aeb9e9878fe58aa0e5a4a7/</link>
+      <pubDate>Thu, 08 Mar 2007 07:44:04 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/picasa-web-albums-e5aeb9e9878fe58aa0e5a4a7/</guid>
+      <description>Picasa Web Albums免費帳號容量加大到 1G！這絕對是值得慶賀的一件事。投靠google的blogger似乎也是很不錯，心動 :p
+ We’ve upped the free storage quota to 1GB (and counting!). That’s enough room to post and share around 4,000 standard resolution photos.
+ Picasa Web Albums mac user專用
+Embedding Picasa Web Album galleries on your webpages 參考看看
+via: Official Google Blog</description>
+    </item>
+    
+  </channel>
+</rss>

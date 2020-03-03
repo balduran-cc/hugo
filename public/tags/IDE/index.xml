@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IDE on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/IDE/</link>
+    <description>Recent content in IDE on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Mar 2014 11:56:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/IDE/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Edit remote files on another UNIX-like server</title>
+      <link>https://hugo.balduran.cc/post/edit-remote-files-on-another-unix-like-server/</link>
+      <pubDate>Thu, 13 Mar 2014 11:56:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/edit-remote-files-on-another-unix-like-server/</guid>
+      <description>做開發工作，處理的系統一旦龐大，往往會蓋自己的開發機器，而不是用本機（不論是Mac, linux or Windows）建立伺服器，原因往往跟套件管理，機器權限管理有關。
+大公司都有自己 inhouse 的套件管理，登入機器的權限管理與使用者管理也自有一套系統。想要用原生的 Mac建成類似的系統並且接上各個後端，是吃力不討好。
+有些硬派開發者會標榜使用 Vim 無敵，當然這也是一個選項，但是我自己會儘量嘗試各種 IDE或 editor。
+想要在本機編輯完程式檔案之後，直接使用開發機器驗證，有幾種方式。
+  Aptana
+免費版本的就可以直接設定SFTP存取，即時把檔案拉下來編輯的做法。
+  sublime with sftp plugin
+sublime 也是很方便的編輯器，但是只能編輯本地端檔案，折衷的方式安裝sftp plugin，設定local folder 和 remote folder sync，同時開啟 upload_on_save選項，可以保證在每次存檔的時候就上傳到開發機。
+  Mount NFS
+直接開發機的目錄掛到本機，並使用自己熟悉的編輯器修改。其中mount的方式也有各種不同。
+a. finder mount
+finder-&amp;gt;go-&amp;gt;connect to server(cmd+K) 有點麻煩 常常需要重新掛，下shell command的話異常慢。更正：登入後自動掛載
+b. MacFusion
+MacFusion 是 MacFuse 的圖形化界面，特定版本搭配才ＯＫ，但我忘了是哪些版本。更新：根據fuse for OS X，MacFuse 已經停止維護。wiki頁面有詳細說明。Note for Mountain Lion
+  Rsync
+寫成bash command，用automator跑或是 Alfred workflow(需付費）執行。
+  </description>
+    </item>
+    
+    <item>
+      <title>Visual Studio 2008 Express Editions</title>
+      <link>https://hugo.balduran.cc/post/visual-studio-2008-express-editions/</link>
+      <pubDate>Tue, 27 Nov 2007 17:12:09 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/visual-studio-2008-express-editions/</guid>
+      <description>Visual Studio 2008 Express Editions 已經發表，可以下載，同時.NET Framework 3.5 也發表了。
+雖然三年前一度覺得 .NET 的推出非常詭異，命名讓人混淆，C# 明顯抄襲 JAVA，加上刻板印象實在難以對它產生好感，至今也是。但現實是 .NET 不僅活得好好的，還走到不錯的地步，某帝大的醫院資訊系統就是用整套 .NET framework，就算嘴硬，但是學的人還是很多。
+例如 VS 2005 Expree 在 Free IDE 的評價就不錯， 在 C/C++ 板滿多人推薦使用，要說嘴也找不到點。
+我沒有支持微軟，但是 VS 08 Express 出了還是可以下載使用看看啦。</description>
+    </item>
+    
+  </channel>
+</rss>

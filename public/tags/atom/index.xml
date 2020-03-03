@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>atom on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/atom/</link>
+    <description>Recent content in atom on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Aug 2015 03:49:56 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/atom/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>recommended atom packages</title>
+      <link>https://hugo.balduran.cc/post/recommended-atom-packages/</link>
+      <pubDate>Tue, 04 Aug 2015 03:49:56 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/recommended-atom-packages/</guid>
+      <description>Some useful package of atom editor
+  atom-beautify
+  atom-bootstrap3
+  atom-csscomb
+  color-picker
+  pigments
+  project-manager
+  另外，建議可以打開preview tab Settings-&amp;gt;packages-&amp;gt;core packages-&amp;gt;Tab-&amp;gt;settings-&amp;gt;Use preview Tabs</description>
+    </item>
+    
+    <item>
+      <title>ATOM 1.0</title>
+      <link>https://hugo.balduran.cc/post/atom-1-0/</link>
+      <pubDate>Thu, 25 Jun 2015 19:48:23 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/atom-1-0/</guid>
+      <description>昨天 github 公布了 atom editor 進到 1.0
+濃濃帶有復古風的介紹影片，非常幽默。
+至於為什麼會突然從 0.2 進到 1.0，也許 facebook 的 Nuclide 推了一把吧。
+本來就有安裝的話，會自動更新。如果想自行下載新版，可參考 github上的 release 頁面。</description>
+    </item>
+    
+  </channel>
+</rss>

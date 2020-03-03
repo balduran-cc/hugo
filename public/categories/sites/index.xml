@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sites on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/sites/</link>
+    <description>Recent content in sites on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 May 2008 19:11:33 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/sites/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google Sites now open to everyone</title>
+      <link>https://hugo.balduran.cc/post/google-sites-now-open-to-everyone/</link>
+      <pubDate>Fri, 23 May 2008 19:11:33 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-sites-now-open-to-everyone/</guid>
+      <description>如 Official Google Blog 所說，現在 google sites 是開放註冊使用的了，以目前的免費 wiki 空間來說，這可以算是最好的 wiki 了吧。
+如之前所述，多人工同編輯，而且現在不用掛在 Google App 下，容量限制是 100Mb。
+那與 Google Page Creator 有什麼區別呢？Google Page Creator 明顯只能單人使用，做為代表個人的頁面很適合。Google Sites 一開始規劃是以組織使用者為主，所以搭配 Google App，現在每個人都可以申請，當然做為個人的頁面也很適合，也可以邀請多人共同編輯一個主題 wiki。
+我個人是建議使用 Sites，最大的支持理由是連結的管理方面，考量一般使用者對於超連結的概念可能抓不清楚，以 wiki 的方式自動生成頁面連結更是方邊直覺也不會出錯，何況提供了 WYSISWYG 編輯器，不用特地另記語法就更好上手了。
+值得一提的是 Sites 提供的嵌入檔案的方式，可以夾帶附檔，也可以嵌入 google doc 提供的文件、試算表及投影片，以及 google video 和 youtube 的線上影片，還有 google calendar 和 picasaweb 的 slice show，哇，真多，更沒提到 Toc 和其他 Gadget，把現有旗下的服務皆整合，超強，但這也要歸功於 JotSpot。
+網址形式: http://sites.google.com/site/balduran/</description>
+    </item>
+    
+    <item>
+      <title>Google Sites</title>
+      <link>https://hugo.balduran.cc/post/googlesites/</link>
+      <pubDate>Thu, 28 Feb 2008 19:38:44 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/googlesites/</guid>
+      <description>Google Sites 是 Google 收購 JotSpot 之後所推出相對應的服務，也就是協同作業編輯，白話一點就是 wiki。
+這個服務提供使用者與多人共同編輯頁面，搭配 Google App 使用，作為小型企業的內部討論或是專案文件管理都很適合，也因此我踹了一下 http://sites.google.com/a/g2.nctu.edu.tw，還不能使用，按照 Google App 的網址命名應該是沒有錯誤的，而且教育版的功能應該是完整的。如果本身是 Google App 的使用者，將介面轉換成英語之後應該可以看到啟用服務的選項。
+如果有用過 JotSpot 應該會對於它的效果印象深刻，幾乎像是即時線上編輯了，這也是它 05 年獲獎的原因之一。而這次推出的版本，更是整合了 google doc, picasaweb 和 youtube，可以嵌入的媒體形式更多，也更豐富。</description>
+    </item>
+    
+  </channel>
+</rss>

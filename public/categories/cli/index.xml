@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cli on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/cli/</link>
+    <description>Recent content in cli on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Jan 2018 09:48:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/cli/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>minergate by CLI</title>
+      <link>https://hugo.balduran.cc/post/mining-by-cli/</link>
+      <pubDate>Wed, 03 Jan 2018 09:48:52 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/mining-by-cli/</guid>
+      <description>上次提到了用 minergate 的 GUI 體驗挖礦，算是非常好入門的挖礦方法，不過身為一個工程師，想要試試看指令模式也是很合理的。
+幣別選擇 先說說有哪些可以挖。
+最知名的就是 BTC，但是現階段可以說不用想了，線上雲端挖礦和各種礦機的存在已經不是休閒挖礦可以踏入的，開了也只是浪費電而已。ETH 還可以，不過沒有顯示卡的加速，也是一般般。想要用 cpu來挖礦，是有滿多限制的，而最近滿值得試試看的就是 XMR 門羅幣了。
+其他可以用 cpu的還有 BCN, QCN, XDN, FCN, MCN and DSH。
+##挖礦程式的選擇
+CPU 挖礦可以用 Claymore CryptoNote CPU Miner，指令就 NsCpuCNMiner64.exe -o stratum+tcp://xmr.pool.minergate.com:45560 -u EMAIL -p x
+另外還有 OhGodAPet/cpuminer-multi 指令是minerd -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u EMAIL -p x
+更新：OhGodAPet版本的 cpuminer-multi 已經停止維護，還有在維護的是 tpruvot/cpuminer-multi ，可以下載原始碼之後自行編譯，編譯的指令是
+git clone https://github.com/tpruvot/cpuminer-multi.git cd cpuminer-multi ./autogen.sh ./configure --with-crypto --with-curl make 編譯完成後可以下./cpuminer --cputest做一下測試。挖礦的指令也要更新為./cpuminer -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u EMAIL -p x -t 1</description>
+    </item>
+    
+    <item>
+      <title>使用 homebrew 快速建立環境</title>
+      <link>https://hugo.balduran.cc/post/use-brewfile/</link>
+      <pubDate>Mon, 11 Dec 2017 23:13:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/use-brewfile/</guid>
+      <description>使用 homebrew 至少也有四五年，真的是 mac 上套件管理的好工具，現在連應用程式都可以幫你裝，大幅減少因為換機而需要建立環境的時間。
+現在學到一個新招是使用 Brewfile 一次大量安裝自己需要的套件，概念就跟 npm install 一樣。
+這是我自己的 Brewfile，只要安裝好 homebrew，再輸入brew bundle install就會依序安裝。
+其中我也使用了 mas-cli，用來安裝 Mac App store上的程式。</description>
+    </item>
+    
+    <item>
+      <title>java SDK on mac</title>
+      <link>https://hugo.balduran.cc/post/java-sdk-on-mac/</link>
+      <pubDate>Mon, 13 Jul 2015 22:50:02 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/java-sdk-on-mac/</guid>
+      <description>##java_home /usr/libexec/java_home 是個 symbolic link，link到目前正在用的 JVM version
+$ ll /usr/libexec/java_home lrwxr-xr-x 1 root wheel 79 Oct 28 2014 /usr/libexec/java_home -&amp;gt; /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/java_home*  可以用一個環境變數 $JAVA_HOME 來記住這個 symbolic link 指到的JDK
+export JAVA_HOME=$(/usr/libexec/java_home) 同時他可以列出目前安裝在機器上的所有 JDK
+$ /usr/libexec/java_home -V Matching Java Virtual Machines (5): 1.8.0_40, x86_64:	&amp;quot;Java SE 8&amp;quot;	/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home 1.7.0_80, x86_64:	&amp;quot;Java SE 7&amp;quot;	/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home 1.7.0_79, x86_64:	&amp;quot;Java SE 7&amp;quot;	/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home 1.6.0_65-b14-466.1, x86_64:	&amp;quot;Java SE 6&amp;quot;	/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home 1.6.0_65-b14-466.1, i386:	&amp;quot;Java SE 6&amp;quot;	/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home /Library/Java/JavaVirtualMachines/jdk1.</description>
+    </item>
+    
+    <item>
+      <title>256 colors in terminal</title>
+      <link>https://hugo.balduran.cc/post/256-colors-in-terminal/</link>
+      <pubDate>Sun, 21 Jun 2015 23:24:36 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/256-colors-in-terminal/</guid>
+      <description>好的 programmer(?)總是有自己喜歡的 terminal 設定，越花越好！！
+$TERM 設定   Terminal setting
+iTerm 2 or terminal 裡面 Terminfo 要設定成 xterm-256color
+  screen 要支援 256 colors
+brew tap homebrew/dupes brew install screen 系統內建的沒有支援，太老舊了，直接用 homebrew 裝新的吧
+記得 /usr/local/bin 要在 $PATH 前面位置
+  screenrc 設定
+attrcolor b &amp;quot;.I&amp;quot; termcapinfo xterm &#39;Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm&#39; defbce &amp;quot;on&amp;quot; term screen-256color-bce   測試 shell for i in $(seq 0 $(tput colors) ) ; do tput setaf $i ; echo -n &amp;quot;█&amp;quot; ; done ; tput setaf 15 ; echo</description>
+    </item>
+    
+    <item>
+      <title>read/write NTFS on MAC OS X</title>
+      <link>https://hugo.balduran.cc/post/readwrite-ntfs-on-mac-os-x/</link>
+      <pubDate>Fri, 19 Jun 2015 20:09:39 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/readwrite-ntfs-on-mac-os-x/</guid>
+      <description>讀取NTFS 檔案系統 NTFS 是微軟研發的檔案系統，如果外接硬碟是用 Windows 格式化，那九成是採用 NTFS，而這個檔案系統，MAC 是能讀不能寫，如果要用外接硬碟分享檔案，就需要安裝額外的驅動程式讓 MAC 可以寫入。
+付費方案   http://www.paragon-software.com/tw/home/ntfs-mac/ NT 550元，花錢是最快最直接的方式，
+  Tuxera NTFS for mac 31 USD，看起來是 NTFS-3G project 的商業版本。
+  免費方案   Download Fuse for OS X MacFUSE 停止開發後的繼任者。
+  Download NTFS-3G 停止開發了，最後一次更新是2010，
+  Download fuse-wait Patch for NTFS-3G，總是有好心人會發 patch
+  CLI-lover brew install osxfuse brew install ntfs-3g sudo mv /sbin/mount_ntfs /sbin/mount_ntfs.original sudo ln -s /usr/local/Cellar/ntfs-3g/2014.2.15/sbin/mount_ntfs /sbin/mount_ntfs 參考資料  https://github.</description>
+    </item>
+    
+    <item>
+      <title>GNU tools on MAC</title>
+      <link>https://hugo.balduran.cc/post/gnu-tools-on-mac/</link>
+      <pubDate>Fri, 19 Jun 2015 16:04:28 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/gnu-tools-on-mac/</guid>
+      <description>在 MAC 與 linux 之間穿梭，就會發現頗多 commandline tool 有些微不一樣，原因就是 MAC OS X 是延續 BSD 發展的，想要加強這些tool，我們可以自己安裝。
+##安裝 GCC
+身為軟體工程師，安裝 GCC on mac 好像不需要理由。
+$ gcc --version Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1 Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn) Target: x86_64-apple-darwin14.3.0 Thread model: posix 內建的gcc是由llvm編譯的。
+  安裝 official Command Line Tools for Xcode package 可直接下指令xcode-select --install或是從 https://developer.apple.com/downloads/ 下載 Command Line Tools
+  經由 homebrew安裝
+  brew tap homebrew/versions brew install gcc48 要更改支援的語言，可從brew options gcc48看可以下的參數。</description>
+    </item>
+    
+    <item>
+      <title>several useful git tips</title>
+      <link>https://hugo.balduran.cc/post/several-useful-git-tips/</link>
+      <pubDate>Sun, 15 Mar 2015 20:38:01 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/several-useful-git-tips/</guid>
+      <description>需要從別人的branch延伸功能
+git checkout -b featureA –track remote/featureA  或是設定upstream為remote branch
+ git v1.7 可用  git br –set-upstream feature origin/featureA  git v1.8 有更直覺的語法  git br –set-upstream-to origin/featureA git br -u origin/featureA   push branch 之前精簡曾有的commit log
+gire rebase -i HEAD~5
+精簡五個commit
+  將本地端 branch featureA推到遠端
+git push origin featureA
+  刪除github上的已存在的branch
+git push remote :featureA
+git branch -d -r remote/featureA
+  revert 前一個commit</description>
+    </item>
+    
+    <item>
+      <title>change default shell</title>
+      <link>https://hugo.balduran.cc/post/change-default-shell/</link>
+      <pubDate>Tue, 19 Aug 2014 11:25:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/change-default-shell/</guid>
+      <description>Mac OS X預先安裝的bash版本是 3.2.x，已經是非常老舊的版本了，很多 linux的預載版本都已經是 4.1以上，建議是使用 brew 安裝新版的 bash。
+brew install bash 會安裝到 /usr/local/bin/ 下
+可檢查 $BASH_VERSION 變數，確認版本
+如果要更改系統預設的 login shell，需把shell location 加到 /etc/shells 裏，可以直接 sudo vim或是 echo ‘/usr/local/bin/bash’ &amp;raquo; /etc/shells
+之後再執行 chsh 就可以更改自己登入後的預設shell了，範例語法chsh /usr/local/bin/bash balduran，之後再輸入密碼就會更改預設shell。</description>
+    </item>
+    
+    <item>
+      <title>homebrew error after upgrading to Mac OS X Yosemite</title>
+      <link>https://hugo.balduran.cc/post/homebrew-error-after-upgrading-to-mac-os-x-yosemite/</link>
+      <pubDate>Tue, 29 Jul 2014 10:16:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/homebrew-error-after-upgrading-to-mac-os-x-yosemite/</guid>
+      <description>Yosemite is still in preview, everyone could join beta program and play with it.
+我剛好就把 OS 升上 10.10，但遇到homebrew出現錯誤訊息。
+ /usr/local/bin/brew: /usr/local/Library/brew.rb: /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby: bad interpreter: No such file or directory
+/usr/local/bin/brew: line 26: /usr/local/Library/brew.rb: Undefined error: 0  解法是
+ 安裝 xcode 6, (beta version) 安裝 command line tool    xcode-select –install
+ 重新安裝 homebrew   ruby -e “$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)”
+ 安裝完成記得 brew doctor檢查一下  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fashion on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/fashion/</link>
+    <description>Recent content in fashion on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Sep 2007 17:09:48 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/fashion/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Radar Watch 雷達風格手錶</title>
+      <link>https://hugo.balduran.cc/post/radar-watch-e99bb7e98194e9a2a8e6a0bce6898be98cb6/</link>
+      <pubDate>Sun, 30 Sep 2007 17:09:48 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/radar-watch-e99bb7e98194e9a2a8e6a0bce6898be98cb6/</guid>
+      <description>Watches: Radar Watch Helps Detect Time – Gizmodo介紹的這款手錶，將時針分針化成雷達，乍看之下，頗有巧思。
+長短針各自代表的意義和一般手錶一樣，內圈代表時針，外圈是分針，那一大塊面積要怎麼表現出細微的時間呢？就是數格子。</description>
+    </item>
+    
+  </channel>
+</rss>

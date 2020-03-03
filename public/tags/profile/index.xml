@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>profile on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/profile/</link>
+    <description>Recent content in profile on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Dec 2007 17:54:41 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/profile/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>google profile</title>
+      <link>https://hugo.balduran.cc/post/google-profile/</link>
+      <pubDate>Tue, 18 Dec 2007 17:54:41 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-profile/</guid>
+      <description>在 google reader shared items 功能之外，注意到了一張名片式的 profile，在settings 的 Friends 就可以預覽看到，同樣的 profile 也會出現在 share stuff (s2) 的頁面，但還沒看到可以 embeded 在網頁之中，也許這 profile 以後會在 google 產品中通用。
+Link: http://www.google.com/help/profile/</description>
+    </item>
+    
+  </channel>
+</rss>

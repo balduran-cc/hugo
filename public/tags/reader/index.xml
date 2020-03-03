@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reader on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/reader/</link>
+    <description>Recent content in reader on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Jan 2008 20:20:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/reader/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>免費好用的 RSS閱覽器 FeedDemon</title>
+      <link>https://hugo.balduran.cc/post/freedemon/</link>
+      <pubDate>Fri, 18 Jan 2008 20:20:16 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/freedemon/</guid>
+      <description>Nick Bradbury: FREE Demon? Yes, FeedDemon is Now Free!
+Free NewsGator Consumer RSS Readers – Frequently Asked Questions
+這又是我漏掉的一件事，超好用的 FeedDemon 現在已經是開放免費下載的狀態了，而這軟體有多好用呢？看它得過的獎就知道。
+會知道這軟體，是因為一開始 jedi 翻譯的。
+下載頁面: FeedDemon for Windows
+中文語系檔</description>
+    </item>
+    
+    <item>
+      <title>google reader 增加分享文章功能</title>
+      <link>https://hugo.balduran.cc/post/google-reader-share/</link>
+      <pubDate>Tue, 18 Dec 2007 17:43:30 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-reader-share/</guid>
+      <description>Official Google Reader Blog: Reader and Talk are Friends!
+首先說明，這功能增加了google reader 的社交性質，讓 googel reader 不只是單純的 RSS reader 了，當然，你要有朋友和你一起使用才有趣。
+切換到英文介面，在照常瀏覽 feed 之際，注意一下每篇文章的下方除了以前的 add star (星號) 之外，還多了一個 share (分享)，這一個功能就是主角。對於那些覺得不錯的，值得推薦的文章就大力的按下 share 吧。
+應該可以看到 Friend’s shared items 出現在左上角的列表中，上面會自動出現你的 GTalk 聯絡人當中有使用 google reader 又有 share item 的人，無形中增加了自家產品的相連性，對用戶來說也方便，不用特地找尋。
+有在使用這個 share 功能的話會自動增加一個 &amp;ldquo;your shared items&amp;rdquo;，預設當然是公開，而且可以內嵌到網頁，提供 RSS 輸出和網頁形式介面。在這個功能尚未推出前，也是可以將 starred items 的權限設定為公開，或用任一標籤都可以達到同樣功能，但是直接整合好的功能不是更順手嗎？
+如果想要收看大神之流的 shared items，除了將大神加入好友 Gtalk 好友之外，可以直接訂閱 shared items RSS，切割出比較私人的空間。
+順道一提 share stuff (s2)，原本想說這兩樣功能互打，但是 s2 還是比較偏向書籤收藏的方向，而 reader share 則是收藏 feed。</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gvo on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/gvo/</link>
+    <description>Recent content in gvo on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Nov 2007 03:38:56 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/gvo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>封鎖 web2.0 網站的地區地圖</title>
+      <link>https://hugo.balduran.cc/post/access-denied-map/</link>
+      <pubDate>Thu, 29 Nov 2007 03:38:56 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/access-denied-map/</guid>
+      <description>英文: Access Denied Map: Mapping Web 2.0 Censorship at Global Voices Advocacy
+中文: Google地圖秀出全球web2.0網站遭封鎖情況
+在網路很自由的現代，還是有些地區是資訊流通不易，例如中國大陸的偉大防火牆就不知道擋下了多少開放的訊息，除此之外，世界還是有很多封閉的政權國家，這個地圖可以看看世界其他地區的情況。單獨提起 web2.0 的網站，我想是因為 web2.0 鼓勵 user-generated content，而這種行為在這些封閉地區的政權政府被視為毒蛇猛獸，不鼓勵且大力禁止，wikipedia，提供各式資料條目，關於歷史與地理的解釋也比較多元面向。blogging services，可以傳遞自己的思想，闡釋自己的理念。
+配合昨天出現的 collaborate google Maps，這份地圖要編修就更加容易了。</description>
+    </item>
+    
+  </channel>
+</rss>

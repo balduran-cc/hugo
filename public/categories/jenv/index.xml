@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jenv on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/jenv/</link>
+    <description>Recent content in jenv on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Jul 2015 22:50:02 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/jenv/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>java SDK on mac</title>
+      <link>https://hugo.balduran.cc/post/java-sdk-on-mac/</link>
+      <pubDate>Mon, 13 Jul 2015 22:50:02 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/java-sdk-on-mac/</guid>
+      <description>##java_home /usr/libexec/java_home 是個 symbolic link，link到目前正在用的 JVM version
+$ ll /usr/libexec/java_home lrwxr-xr-x 1 root wheel 79 Oct 28 2014 /usr/libexec/java_home -&amp;gt; /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/java_home*  可以用一個環境變數 $JAVA_HOME 來記住這個 symbolic link 指到的JDK
+export JAVA_HOME=$(/usr/libexec/java_home) 同時他可以列出目前安裝在機器上的所有 JDK
+$ /usr/libexec/java_home -V Matching Java Virtual Machines (5): 1.8.0_40, x86_64:	&amp;quot;Java SE 8&amp;quot;	/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home 1.7.0_80, x86_64:	&amp;quot;Java SE 7&amp;quot;	/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home 1.7.0_79, x86_64:	&amp;quot;Java SE 7&amp;quot;	/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home 1.6.0_65-b14-466.1, x86_64:	&amp;quot;Java SE 6&amp;quot;	/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home 1.6.0_65-b14-466.1, i386:	&amp;quot;Java SE 6&amp;quot;	/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home /Library/Java/JavaVirtualMachines/jdk1.</description>
+    </item>
+    
+  </channel>
+</rss>

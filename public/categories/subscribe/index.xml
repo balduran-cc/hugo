@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>subscribe on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/subscribe/</link>
+    <description>Recent content in subscribe on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Nov 2007 09:46:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/subscribe/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>訂閱</title>
+      <link>https://hugo.balduran.cc/post/subscribe/</link>
+      <pubDate>Fri, 02 Nov 2007 09:46:19 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/subscribe/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

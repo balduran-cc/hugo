@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>buzzword on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/buzzword/</link>
+    <description>Recent content in buzzword on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Nov 2007 19:28:25 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/buzzword/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Buzzword : flash 介面的線上文書</title>
+      <link>https://hugo.balduran.cc/post/buzzword/</link>
+      <pubDate>Fri, 09 Nov 2007 19:28:25 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/buzzword/</guid>
+      <description>http://preview.getbuzzword.com/ 可以註冊然後玩看看，操作比起 google doc 非常流暢，原因就是因為 flash 的多媒體效果還是比 ajax 好。
+不過內容物只有文書處理一項而已，其他投影片編輯功能和試算表都還沒有推出，網址有 preview 字樣，應該以後會補完吧。</description>
+    </item>
+    
+  </channel>
+</rss>

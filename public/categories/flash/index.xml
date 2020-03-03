@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>flash on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/flash/</link>
+    <description>Recent content in flash on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Oct 2008 18:28:48 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/flash/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GemCraft tips</title>
+      <link>https://hugo.balduran.cc/post/gemcraft-tips/</link>
+      <pubDate>Sun, 05 Oct 2008 18:28:48 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/gemcraft-tips/</guid>
+      <description>GemCraft TD 有一些小秘訣，我也是玩到 epic 卡關才開始找一些小技巧，揭示如下。
+炸寶石：初期極度好用衝高分。點左邊石板部分加速出怪，可以多獲得額外分數，一次點個幾波，然後用低等寶石炸一群，可以短時間內爆光小怪。B 和 1 是熱鍵
+蓋塔：可以在離生怪點最近的地方蓋一個塔，在怪還沒有出來的時候就會開始攻擊，建議放紅寶擴散。當然ㄇ字型路口或轉角是一定要蓋塔的。T 和 2 是熱鍵。
+生寶石：按 ctrl 可以一次生滿你要生的等級的寶石，可以快速生成低等寶石之後看是要合成還是要拿來炸，C 和 3 是熱鍵。
+Mana Pool：就花費少許魔力擴大法力池，這還滿重要的，加大的法力池可以增加打死一隻小怪獲得的法力值，所以都盡量能加大就加大，而且避免法力滿點的浪費。M 和 4 是熱鍵。
+蓋水溝：可以減慢怪物在上面的移動速度，所以在火力大砲區域是一定要改滿的啦！W 和 5 是熱鍵。
+合成寶石：這超超超重要的，整個遊戲就是一直在合成寶石，由於太重要了，容後再敘。G 和 6 是熱鍵。
+SKILL 有十二項，比較重要是第六項：減少合成和產生寶石的法力，因為最直接的省魔手段就是這個啦。其他的就加減點，第五項：初始基本寶石可以讓你開場就有一些寶石可以用，也是很不錯。其他如第一第二項，增加的法力值就真的太少了。如果喜歡炸寶石，可以強化寶石炸彈。混色大師在拿飾品部分需要，因為要一直合成，純色大師要打隱藏關必備，因為只有一種顏色 XD。
+飾品部分是達到特定條件就會獲得，這部分樂趣自己發覺比較好玩。
+合成寶石部分，兩個同級寶石可以合成高一等級寶石，建議純色，不過混色也有混色的好處，如果是兩個不同級的寶石，一定要從高等寶石拖曳到低等寶石上，不然能力會越合成越低，可以用低等寶石一直強化高等的，混了三色以上時候，會以一開始的主色為主。
+紅色：範圍攻擊，imba 寶石，非常犯規，能夠做出圓形紅色極佳！
+藍色：緩慢敵人，使用上還好，和水溝同效果，頂多和紅色搭配作範圍緩速。
+綠色：機率使敵人中毒，對 boss 級怪物必用，毒無視護甲，但需要時間作用，可累加。
+黃綠色：機率連鎖攻擊(最高40%)，彈跳 (chain hit)，攻速最高。和紅色混雙色極好。
+橘色：攻擊增加mana，沒啥用，可以拿來炸，不建議合成高等寶石。
+黃色：機率三倍傷害，對小怪好用，遇上高防禦就效果差，配紫色減防不錯。
+紫色：機率減低敵人防禦，對 boss 怪必備，減防加上其他攻擊效果才有傷害。
+淡藍色：機率擊暈1秒(最高14%)，對 boss 怪必備，暈怪一秒可以多打好幾下，建議蓋在火力區外圍，多個低等定身比一個高等更好用。
+根據 ptt 魔人的專業實驗，使用等級三 (菱形) 寶石加上兩次等級二，之後使用等級一寶石來做合成算是最好的效果。打小怪一群的話，紅色混黃綠色最好。打 boss 的話，紫色+(淡)藍色+綠色，破防加減速加用毒，是打王建議組合。另外初期合出九級寶石的方式我沒試過，之後就是一直吃小寶石在加速加攻擊力。</description>
+    </item>
+    
+    <item>
+      <title>GemCraft 好玩的 flash TD 遊戲</title>
+      <link>https://hugo.balduran.cc/post/gemcraft-flash-game/</link>
+      <pubDate>Thu, 02 Oct 2008 18:37:56 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/gemcraft-flash-game/</guid>
+      <description>GemCraft
+GemCraft有玩過魔獸三的人會覺得很熟悉，這就是 Tower Defence，塔攻？守塔？
+遊戲裡的寶石有七種。
+紅色：範圍攻擊
+藍色：緩慢敵人
+綠色：機率使敵人中毒
+黃綠色：機率連鎖攻擊(最高40%)
+橘色：攻擊增加mana
+黃色：機率三倍傷害
+紫色：機率減低敵人防禦
+淡藍色：機率擊暈1秒(最高14%)
+MANA 值的獲得可以從打怪獲得，也會自己隨著時間”慢慢”上升。
+可以蓋塔，也可以蓋水溝。蓋塔可以放寶石，蓋水溝可以拖慢敵人速度。</description>
+    </item>
+    
+    <item>
+      <title>Buzzword : flash 介面的線上文書</title>
+      <link>https://hugo.balduran.cc/post/buzzword/</link>
+      <pubDate>Fri, 09 Nov 2007 19:28:25 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/buzzword/</guid>
+      <description>http://preview.getbuzzword.com/ 可以註冊然後玩看看，操作比起 google doc 非常流暢，原因就是因為 flash 的多媒體效果還是比 ajax 好。
+不過內容物只有文書處理一項而已，其他投影片編輯功能和試算表都還沒有推出，網址有 preview 字樣，應該以後會補完吧。</description>
+    </item>
+    
+    <item>
+      <title>bubbl.us-bubbl your mind</title>
+      <link>https://hugo.balduran.cc/post/bubblus-bubbl-your-mind/</link>
+      <pubDate>Fri, 16 Feb 2007 07:22:12 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/bubblus-bubbl-your-mind/</guid>
+      <description>網路發展至今的好玩之處就是曾出不窮的創意，運用新的技術創造新的「網頁應用程式」，還在用單機版的mind map軟體嗎？試試bubbl.us – brainstorming made simple吧。
+mind map是講求思緒整理的技巧，經由圖表組織化的表示，要深談是可以寫成一本書的。如果你本身就熟練心智圖，那個使用這個網站想必一點都不困難，軟體本身就夠易學易用了。
+介面是用flash製作，在點選一個節點(node)之後，tab可以快速產生橫向的sibling，enter則是產生child子節點，如果你靈感一來，靈思泉湧，絕對不會想要多花時間用滑鼠點選。</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>xcode on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/xcode/</link>
+    <description>Recent content in xcode on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Jul 2014 10:16:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/xcode/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>homebrew error after upgrading to Mac OS X Yosemite</title>
+      <link>https://hugo.balduran.cc/post/homebrew-error-after-upgrading-to-mac-os-x-yosemite/</link>
+      <pubDate>Tue, 29 Jul 2014 10:16:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/homebrew-error-after-upgrading-to-mac-os-x-yosemite/</guid>
+      <description>Yosemite is still in preview, everyone could join beta program and play with it.
+我剛好就把 OS 升上 10.10，但遇到homebrew出現錯誤訊息。
+ /usr/local/bin/brew: /usr/local/Library/brew.rb: /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby: bad interpreter: No such file or directory
+/usr/local/bin/brew: line 26: /usr/local/Library/brew.rb: Undefined error: 0  解法是
+ 安裝 xcode 6, (beta version) 安裝 command line tool    xcode-select –install
+ 重新安裝 homebrew   ruby -e “$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)”
+ 安裝完成記得 brew doctor檢查一下  </description>
+    </item>
+    
+  </channel>
+</rss>

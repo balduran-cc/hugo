@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wave on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/wave/</link>
+    <description>Recent content in wave on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Jun 2009 06:14:33 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/wave/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>google wave</title>
+      <link>https://hugo.balduran.cc/post/google-wave/</link>
+      <pubDate>Thu, 04 Jun 2009 06:14:33 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-wave/</guid>
+      <description>google 日前在 google I/O 上公開了正在研發的服務，google wave。目前能得到的消息和畫面，就僅止於 keynote 和 youtube 上的預覽影片。
+好多文章都強調 google wave 多麼 powerful，形容它是可以整併 twitter or plurk 微網誌和 IM 即時通訊的殺手級應用，對於這麼多的讚譽，感到疑惑。我自己也喜歡使用 google 的各項服務，但是只看幾個畫面而沒有親身使用，很難讓我說出這個服務多麼多麼讚這樣的話。
+網路資訊雜誌» Google Wave將帶來網路海嘯殺遍四方嗎？
+Google Wave 會改變這個世界嗎？ – 西瓜的滋味- Tenz’s blog
+Google Wave 是「長得像Outlook的MSN」，但功能強大100倍！ 【重灌狂人】
+這個名字讓我想到 the third wave，暗指這個技術的重要性。</description>
+    </item>
+    
+  </channel>
+</rss>

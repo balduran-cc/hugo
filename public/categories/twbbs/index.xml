@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>twbbs on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/twbbs/</link>
+    <description>Recent content in twbbs on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 17 Jul 2017 22:17:37 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/twbbs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>twbbs.org 熄燈號</title>
+      <link>https://hugo.balduran.cc/post/twbbs-org-eol/</link>
+      <pubDate>Mon, 17 Jul 2017 22:17:37 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/twbbs-org-eol/</guid>
+      <description>http://twbbs.org/?q=about
+感謝網友過去 18 年來的支持。twbbs 服務即將於 12/1/2017 劃下句點。既有網域 DNS 將持續運作至到期日。請在停止服務前為您的網站/主機做調整。 twbbs.org 是早期多數 BBS 用來轉址的服務，也提供了個人網站的轉址，很多人都受惠於此免費的資源。想不到已經是到了停止服務的時候了。</description>
+    </item>
+    
+  </channel>
+</rss>

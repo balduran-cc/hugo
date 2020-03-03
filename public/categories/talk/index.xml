@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>talk on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/talk/</link>
+    <description>Recent content in talk on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Feb 2008 19:55:29 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google Talk chatback badge</title>
+      <link>https://hugo.balduran.cc/post/gtalk_chatback/</link>
+      <pubDate>Thu, 28 Feb 2008 19:55:29 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/gtalk_chatback/</guid>
+      <description>Google Talkabout 發佈一個小小的新功能，Google Talk chatback badge，說成是小玩意 (badge) 也可以。
+擺在網頁上，顯示你的 Google Talk 狀態，讓網友可以直接透過 badge 傳訊息，像 MSN 就有提供這樣的功能。
+http://www.google.com/talk/service/badge/New直接可以做小小的調整。
+發現是用個 chatback bot 在回應，gtalk 本身只會接到 chatback bot 的訊息，要進一步點連結開視窗才會出現對 guest 的對話框。</description>
+    </item>
+    
+  </channel>
+</rss>

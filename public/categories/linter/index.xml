@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linter on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/linter/</link>
+    <description>Recent content in linter on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Sep 2016 01:41:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/linter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>php codes analyze tools</title>
+      <link>https://hugo.balduran.cc/post/php-codes-analyze-tools/</link>
+      <pubDate>Tue, 20 Sep 2016 01:41:15 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/php-codes-analyze-tools/</guid>
+      <description>PHP 程式檢測工具
+ php -l xxx.php 最簡單，僅檢查 syntax PHPSA phar或composer安裝，靜態檢查工具 PHP_CodeSniffer phpcs，曾經存在過 PHPMD 一樣 phar或composer安裝，仿自 java 的 PMD  </description>
+    </item>
+    
+  </channel>
+</rss>

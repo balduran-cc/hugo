@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>check on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/check/</link>
+    <description>Recent content in check on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Jun 2015 02:53:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/check/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>雲端帳單</title>
+      <link>https://hugo.balduran.cc/post/yun-duan-zhang-dan/</link>
+      <pubDate>Wed, 10 Jun 2015 02:53:52 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/yun-duan-zhang-dan/</guid>
+      <description>現在雲端服務這麼夯，身為developer難免有用些雲端服務，這些花費不比水電，但總是要繳，稍微紀錄一下有哪些帳單。
+ Godaddy 購買網域 DigitalOcean VPS，虛擬主機 spotify 線上串流音樂 flickr pro 線上相簿 apple app store 用iphone的都會有  有用但是沒有付費
+ dropbox google storage amazon clouddrive evernote  </description>
+    </item>
+    
+  </channel>
+</rss>

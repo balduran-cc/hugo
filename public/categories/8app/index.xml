@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>8app on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/8app/</link>
+    <description>Recent content in 8app on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Mar 2007 04:21:01 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/8app/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>8app</title>
+      <link>https://hugo.balduran.cc/post/8app/</link>
+      <pubDate>Tue, 13 Mar 2007 04:21:01 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/8app/</guid>
+      <description>我在8apps上的頁面，右邊是我的skill表，現在不知道啥問題出現錯誤。
+8apps是日本人作的社交網路，主打的是生產力，裡面提供的功能也是為了增加生產力而設計的。
+handshake為一般的social network，目前採邀請制，在這邊你可找到值得共同合作的夥伴，他可以是程式設計師，也可以是介面設計或是專案管理者。orchestrate是工作管理，有點像是to-do list的功能，為每個專案開出task列表，方便管理，不過沒有甘特圖，只有簡單的list而已。blueprint則是創意激盪，每個參與專案的人都可以貼出自己的點子，comment、link或是keyword。
+照名稱推測還有 5個 app還沒推出，以現有的服務來說 basecamp是我想到和這服務最相似的，但這加入了social network，也是個創業者尋求合作夥伴的好地方。
+應該有專門為遊戲迷設計的社交網路吧！
+50個邀請函，請寄信或留言。</description>
+    </item>
+    
+  </channel>
+</rss>

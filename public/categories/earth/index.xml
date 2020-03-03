@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>earth on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/earth/</link>
+    <description>Recent content in earth on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Feb 2009 05:46:41 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/earth/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>google earth 5.0</title>
+      <link>https://hugo.balduran.cc/post/google-earth-50/</link>
+      <pubDate>Tue, 03 Feb 2009 05:46:41 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-earth-50/</guid>
+      <description>google earth 新版，5.0，主打功能是海洋，增加了海洋圖層。</description>
+    </item>
+    
+    <item>
+      <title>Google Sky</title>
+      <link>https://hugo.balduran.cc/post/google-sky/</link>
+      <pubDate>Fri, 14 Mar 2008 19:49:28 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-sky/</guid>
+      <description>Google Sky
+google 好樣的，什麼東西都可以搞上網路，現在我們可以在網路上瀏覽星空 (不是抬頭就好了嗎?)
+它可以搜尋行星、星系，瀏覽望遠鏡影像，範圍走到了太空，不得不提一下 InterPlaNET，google計畫建構的星際網路，由衛星串接。
+值得一提的是，它是由南美洲 Code Jam 入圍者 Diego Gavinowich 花三個月在 google 實習期間和內部員工合作的作品。這個應該讓很多人磨刀霍霍想一試身手吧！最近就有校園徵才唷！
+ Diego Gavinowich from Buenos Aires was a finalist in our Latin America Code Jam, and joined us for a winter internship three months ago
+ </description>
+    </item>
+    
+    <item>
+      <title>google 地球新增天氣圖層 Google Earth new layer: weather</title>
+      <link>https://hugo.balduran.cc/post/google-earth-new-layer-weather/</link>
+      <pubDate>Sun, 11 Nov 2007 15:54:52 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-earth-new-layer-weather/</guid>
+      <description>google earth 小小的更新，可以顯示天氣，資料是抓 http://www.weather.com/，至於台灣的氣象資料就不要要求太多準確度了。
+附記: Google 日曆支援氣象預報
+Link: Google LatLong: How’s the weather?</description>
+    </item>
+    
+  </channel>
+</rss>

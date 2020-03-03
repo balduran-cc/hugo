@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>performance on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/performance/</link>
+    <description>Recent content in performance on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Sep 2015 21:01:08 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/performance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Webpage resource prefetch</title>
+      <link>https://hugo.balduran.cc/post/webpage-resource-prefetch/</link>
+      <pubDate>Tue, 08 Sep 2015 21:01:08 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/webpage-resource-prefetch/</guid>
+      <description>Frontend peformance 一般著重的重點在於讓 resource files更小，或是各種 cahce機制(CDN or browser cache)，另一個 tuning 的方向可以是預先讀取。
+減低解析時間 DNS prefetch &amp;lt;link rel=&amp;quot;dns-prefetch&amp;quot; href=&amp;quot;//abc.com&amp;quot;&amp;gt; 手動預查DNS。
+DNS prefetch control &amp;lt;meta http-equiv=&amp;quot;x-dns-prefetch-control&amp;quot; content=&amp;quot;on&amp;quot;&amp;gt; 前一項技巧是手動指定要預查的 domain，這一項則是在 meta 裡告訴瀏覽器要 prefetch domain。
+Preconnect &amp;lt;link rel=&amp;quot;preconnect&amp;quot; href=&amp;quot;http://abc.com&amp;quot;&amp;gt; 除了查DNS，也建立 TCP 連線，詳見此文
+以上都只是針對下載 resource files的前半段動作，DNS 反查的優化，以下則是實際會下載 resource files 以備使用。
+預先讀取 Subresource &amp;lt;link rel=&amp;quot;subresource&amp;quot; href=&amp;quot;abc.png&amp;quot;&amp;gt; 如果是當下頁面使用的檔案，應該用 subresource標明。
+Prefetch &amp;lt;link rel=&amp;quot;prefetch&amp;quot; href=&amp;quot;abc.png&amp;quot; &amp;gt; 先讀取並下載，但留待之後使用，適合當下頁面沒用到的檔案使用，例如其他頁面會用到的 js/css，可用此先下載，但優先權較 subresource低。
+如果使用 webfont，那此技巧是最適合不過了
+prerender &amp;lt;link rel=&amp;quot;prerender&amp;quot; href=&amp;quot;http://abc.com&amp;quot;&amp;gt; 讀取 link URL 裡的所有 resource files，如同開個tab開頁面，負載非常重，如果 user 沒有進入 prerender的頁面，那頻寬完全是浪費，只有在某些情境下，使用者一定會進到下一個頁面，那用此技巧可。</description>
+    </item>
+    
+  </channel>
+</rss>

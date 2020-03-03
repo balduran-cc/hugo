@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>s/n on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/s/n/</link>
+    <description>Recent content in s/n on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/s/n/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>序號保管箱</title>
+      <link>https://hugo.balduran.cc/post/serialsticker/</link>
+      <pubDate>Sat, 10 Mar 2007 03:52:19 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/serialsticker/</guid>
+      <description>MacXeagle : SerialSticker
+SerialSticker可以幫你儲存你所購買軟體的序號，同時也有輸出和同步的功能，對於備份序號有很大的幫助。</description>
+    </item>
+    
+  </channel>
+</rss>

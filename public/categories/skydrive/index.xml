@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>skydrive on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/skydrive/</link>
+    <description>Recent content in skydrive on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Feb 2008 09:30:29 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/skydrive/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windows Live SkyDrive</title>
+      <link>https://hugo.balduran.cc/post/skydrive/</link>
+      <pubDate>Wed, 27 Feb 2008 09:30:29 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/skydrive/</guid>
+      <description>Windows Live SkyDrive 提供高達 5GB 的容量供客戶使用，而且不在掛上 beta 的字樣。這雖然是過時的消息，還是要紀錄一下。
+大空間對於容易把越做越小的隨身碟搞丟的朋友有莫大幫助。而且有 msn 帳號就可以使用，單檔大小限制 50MB。
+同是審視相簿清單、朋友清單與活動中心，live space 凝聚越來越多的 social 元素，愛用微軟分享空間的人的人也不在少數。相簿功能還不錯，一次展現十張預覽，對於跳著看的使用習慣頗親和。</description>
+    </item>
+    
+  </channel>
+</rss>

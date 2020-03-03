@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>desktop on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/desktop/</link>
+    <description>Recent content in desktop on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Nov 2007 08:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/desktop/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>iDesktop.tv 給你更好的 youtube 體驗</title>
+      <link>https://hugo.balduran.cc/post/idesktoptv/</link>
+      <pubDate>Mon, 26 Nov 2007 08:00:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/idesktoptv/</guid>
+      <description>YouTube Desktop is NOW iDesktop.tv，iDesktop.tv 和 apple 公司沒什麼關係，他只是 youtube desktop 改名字而已。
+iDesktop 最大的特色就是可以下載，而且支援儲存的格式有 avi, wmv, mov, mp4, 3gp, zip, flv, exe 這麼多，速度也很快，畫面構成是一格格的螢幕擷圖，和 Joost 的頻道選擇有相似到。
+iDesktop 的主要理念是讓瀏覽器的操作就像一般桌面的應用程式，不論是拖拉點選，都像是單機軟體一樣，也因此這個網站在使用上非常的流暢。
+ one goal – to make the richest web application for viewing and managing video content!
+ </description>
+    </item>
+    
+    <item>
+      <title>Top 10 Free Desktop Blog Editors for Windows</title>
+      <link>https://hugo.balduran.cc/post/top-10-free-desktop-blog-editors-for-windows/</link>
+      <pubDate>Tue, 06 Nov 2007 17:49:18 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/top-10-free-desktop-blog-editors-for-windows/</guid>
+      <description>Top 10 Free Desktop Blog Editors for Window  介紹了十個免費的離線部落格編寫軟體，來看看其中有使用過的。
+ Windows Live Writer ScribeFire Qumana w.Bloggar  後面出現的幾個我就沒聽過也沒用過了。
+Windows Live Writer 是少數極為推薦的微軟產品，何況又是免費的，唯一比較大的問題是要安裝 .net framework 2.0，對於某些人來說，浪費硬碟空間安裝這個函式庫簡直是要了他的命，不過沒別的辦法，想用就安裝吧。
+ScribeFire 是 firefox 的 addon，和 firefox 在一起的好處是一邊寫一邊查資料，也不用特別安裝其他軟體，缺點是 firefox 安裝的 addon 一多，速度和記憶體吃的異常大，寫到一半 hang 住是會欲哭無淚的。
+Qumana 我之前一安裝完開啟之後馬上就移除了，不得我好感的軟體。
+w.Bloggar 雖然風評不錯，但是最大的問題是不支援中文，而且無解，所以馬上又移除了。
+其他的 Zoundry, Thingamablog, Flock, Blog Desk, Post2Blog, Bleezer 就等有空在用看看吧。光是開一個 browser 寫感覺也不會太差，怕不小心關了視窗罷了。
+付費軟體的話，滿多人推 ecto 這一套，win 和 mac 平台都有。</description>
+    </item>
+    
+    <item>
+      <title>Google Desktop 5 Beta!</title>
+      <link>https://hugo.balduran.cc/post/google-desktop-5-beta/</link>
+      <pubDate>Wed, 07 Mar 2007 15:00:20 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-desktop-5-beta/</guid>
+      <description>Google Desktop: The New Sidebar and Gadgets宣佈Google 桌面 5 Beta推出，提供新的sidebar和Gadget。
+側邊欄(sidebar)有嶄新的外觀，小工具(Gadget)也重新設計過，還有桌面搜尋的介面更加人性化，提供了預覽功能，安全性也提升了，更多詳細內容參見「Google 桌面」- 功能。
+還有一點
+ 需要 Windows Vista/XP/2000 SP3+
+ </description>
+    </item>
+    
+  </channel>
+</rss>

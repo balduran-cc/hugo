@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>poster on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/poster/</link>
+    <description>Recent content in poster on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Nov 2007 15:44:33 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/poster/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TwitterPoster</title>
+      <link>https://hugo.balduran.cc/post/twitterposter/</link>
+      <pubDate>Mon, 12 Nov 2007 15:44:33 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/twitterposter/</guid>
+      <description>http://twitterposter.com/ 上面都是 followers 上三位數的傢伙，也就是 twitter 上的多人追隨的明星啊！(工頭、凱洛、vista)。3×3 區塊是影響力最大的，只有四位，2×2 區塊次之也不多，最一般的就是占有一小格之地了，大概 followers 要上 300 是基本要求吧。
+http://twitterposter.com/network/asia 亞洲區域的話，日本人頗多，台灣的有cjin、csmitc、alice425、bias、CoolPeter。</description>
+    </item>
+    
+  </channel>
+</rss>

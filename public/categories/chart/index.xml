@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chart on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/chart/</link>
+    <description>Recent content in chart on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Feb 2009 18:58:21 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/chart/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>timeline 時間軸</title>
+      <link>https://hugo.balduran.cc/post/timeline-e69982e99693e8bbb8/</link>
+      <pubDate>Wed, 25 Feb 2009 18:58:21 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/timeline-e69982e99693e8bbb8/</guid>
+      <description>像 plurk 以橫軸代表時間現的圖像表示方式，為 timeline，除了可以表示事件的先後次序外，在行事曆上或是甘特圖都帶有這樣時間隨著橫軸移動的概念。
+hiiir 是很容易申請的服務，可以吃 RSS 然後用點的方式顯示在圖表上。
+現在是網路發達的時代，當然要摻入 social 的元素，@nifty timeline 就是這樣的一個網站，詳細的介紹請見純敏達康。
+xtimeline 也是一個提供 timeline 的網站，需要手動加入 event，可以吃 rss 但不會自動更新。
+現在的 blog entry 或是網路事件，都可以集結成一組資料，轉換成為 timeine 的方式表示，也許有奇效。</description>
+    </item>
+    
+    <item>
+      <title>balduran的成份分析</title>
+      <link>https://hugo.balduran.cc/post/baldurane79a84e68890e4bbbde58886e69e90/</link>
+      <pubDate>Wed, 09 Jul 2008 18:16:29 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/baldurane79a84e68890e4bbbde58886e69e90/</guid>
+      <description>拿這種內容好像有點濫竽充數，不過我對於圓餅圖和抖動的字型有種親切感啊，好像是宅神學恆吧。
+Link: balduran的成份分析</description>
+    </item>
+    
+    <item>
+      <title>Google Chart API</title>
+      <link>https://hugo.balduran.cc/post/google-chart-api/</link>
+      <pubDate>Tue, 11 Dec 2007 14:04:48 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-chart-api/</guid>
+      <description>使用 Google Chart API 可以動態地生成圖表，只要使用 http://chart.apis.google.com/chart?&amp;lt;parameter 1&amp;gt;&amp;amp;這種形式的 URL 就可以產生圖表，不用申請 API，沒有繁雜的編寫過程，只要收集完整的 dataset，圖表隨手可得。
+wordpress 有個 SparkStats Plugin，可以產生名為 Sparkline 的線圖，我想這個 API 讓這個功能更簡單實做了吧。
+Link: http://google-code-updates.blogspot.com/2007/12/embed-charts-in-webpages-with-one-of.html</description>
+    </item>
+    
+  </channel>
+</rss>

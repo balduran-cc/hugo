@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>spreadsheet on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/spreadsheet/</link>
+    <description>Recent content in spreadsheet on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Feb 2014 18:36:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/spreadsheet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Import stock price data in google doc</title>
+      <link>https://hugo.balduran.cc/post/import-stock-price-data-in-google-doc/</link>
+      <pubDate>Thu, 13 Feb 2014 18:36:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/import-stock-price-data-in-google-doc/</guid>
+      <description>在google doc的spreadsheet 裡面可用函數取得股價資訊。
+最直接的，就是使用google 提供的函數 =GoogleFinance()，直接用 =GOOGLEFINANCE(&amp;quot;GOOG&amp;quot;)就可以直接拉回股價，若要取得台股資訊，可以直接使用股票號碼，以中華電信 2412為例，
+=GoogleFinance(&amp;quot;2412&amp;quot;, &amp;quot;price&amp;quot;)
+但事情不是如此美好，有些台股股票代號和其他地區的代碼相衝，例如 1314，直接使用&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;=GoogleFinance(&amp;quot;1314&amp;quot;, &amp;quot;price&amp;quot;)會拉到香港Tsui Wah Holdings Ltd(HKG:1314)，此時需要用=GoogleFinance(“1314.tw”, “price”)
+你以為這樣就大功告成了嗎？事實上google對於台股的資料並不齊全，上櫃股票完全沒有資料，例如德昌(5511)，怎麼樣都找不到。這個時候，就來求助Yahoo finance吧。
+Yahoo finance的資料頗為齊全，雖然台灣網站界面陽春，但是在 US yahoo finance是可以查得到台股資料的，5511.two就是德昌的公司資訊，請注意代號後面灌的是 two。
+Yahoo finance 有很多 API，記下兩種。第一個直接用web service，第二個則是csv output。
+ web service API範例：
+http://finance.yahoo.com/webservice/v1/symbols/2412.tw/quote
+可直接輸入= ImportXML(API,&amp;quot;//field[@name=&#39;price&#39;]&amp;quot;)，用xpath自動去切出股價那一欄   csv output： Yahoo finance還有提供另一api可直接輸出成csv（excel可直接吃），範例URL: http://finance.yahoo.com/d/quotes.csv?s=2412.TW&amp;amp;f=l1，取得價格的function爲= ImportData(URL)，因為此csv output已經調整為只輸出價格資訊，不需要再過濾。 值得注意的一點是上櫃公司的代號尾碼需要使用two，德昌 5511的url為 http://finance.yahoo.com/d/quotes.csv?s=5511.TWO&amp;amp;f=l1
+以股票資訊來說，Yahoo還是有比較充足的後端資料。</description>
+    </item>
+    
+    <item>
+      <title>Google Docs 製作線上問卷</title>
+      <link>https://hugo.balduran.cc/post/google-doc-form/</link>
+      <pubDate>Wed, 14 May 2008 18:58:08 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-doc-form/</guid>
+      <description>誠如小梅子所言，使用連結 http://spreadsheets.google.com/newform 就可以產生一個供網友填寫的表單 (也就是問卷)，但是要怎麼樣從 google doc 的操作介面點選到這樣的功能呢？
+google Doc help center的解說在此，但是還是提一下。在編輯 spreadsheet 的時候選擇 share，有個 to fill out a form，就可以 step by step 產生表單，簡單容易。
+最有用的還是 embed，可以嵌入表單到網頁，不一定要用 mail。
+嗯，對於 doc 的各種應用可以做個詳盡的介紹，我也很少用到這些功能，學會的話會省事很多。
+題外話: YEF 別隊的問卷，友情贊助連結。</description>
+    </item>
+    
+  </channel>
+</rss>

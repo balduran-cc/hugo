@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hypo on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/hypo/</link>
+    <description>Recent content in hypo on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Jul 2007 06:57:22 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/hypo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>實體印刷攝影集</title>
+      <link>https://hugo.balduran.cc/post/e5afa6e9ab94e58db0e588b7e6949de5bdb1e99b86/</link>
+      <pubDate>Tue, 24 Jul 2007 06:57:22 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/e5afa6e9ab94e58db0e588b7e6949de5bdb1e99b86/</guid>
+      <description>看到吉米分享的ingTouch好感動。相簿，就來整理一些自己知道的這類服務，將數位相片實體化，以成品來分，分成相片沖印以及紙本印刷兩種，差別在於紙質。以服務方式來說也分兩種，網頁上傳照片或是單機軟體選擇。
+首先，ingTouch是相簿印刷，也就是紙本，大小有A4、A5、CD三種，採用安裝專用軟體的方式編排上傳，Goston也有用。Goston還是有使用心得。
+hypo之前就提供iPhoto外掛的方式讓客戶選擇所要印刷的攝影作品，不過最近新增hypoDot 12平方，採用與flickr合作的方式，線上選擇相片製作，比較特別的是12平方大小是目前唯一提供的尺寸。
+MOO是國外廠商，與 flickr合作，製作的都是小尺寸產品，其中MiniCards有和 Fotolog合作的免費十張！
+話說吉米的文章好油，看到後來已經不覺得有那麼多「感動」了。</description>
+    </item>
+    
+  </channel>
+</rss>

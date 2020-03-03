@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>push on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/push/</link>
+    <description>Recent content in push on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Sep 2008 14:32:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/push/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>你推我報 beta - 「時間就是金錢，朋友」</title>
+      <link>https://hugo.balduran.cc/post/e4bda0e68ea8e68891e5a0b1-beta-e3808ce69982e99693e5b0b1e698afe98791e98ca2efbc8ce69c8be58f8be3808d/</link>
+      <pubDate>Wed, 24 Sep 2008 14:32:16 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/e4bda0e68ea8e68891e5a0b1-beta-e3808ce69982e99693e5b0b1e698afe98791e98ca2efbc8ce69c8be58f8be3808d/</guid>
+      <description>既然你推我報在這裡留下了留言，那就來看他們在幹嘛。
+你推我報分成兩部分，你推和我報，你推是 digg-like 的推文互動，我報是 vlog 形式的對應內容。
+分開來看，你推的部分可以不用著墨太多，這類型網站不是第一次出現，能不能成功要看的是使用者人數，從熱門第一篇的推文人數是個位數來看，可以直接下定論，使用者不多，所以才要用額外的方法增加曝光率。
+針對較為「熱門」的話題，由工作人員製作數位內容，呈現一個主題，有點像是個主題節目一般，就是我報，想借由影音吸引目光，但是！我覺得這些內容一點都不好看，講難聽一點，浪費我六分鐘的時間得到一個無言體驗。
+time is money, friend.</description>
+    </item>
+    
+  </channel>
+</rss>

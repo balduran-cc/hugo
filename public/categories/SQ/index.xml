@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SQ on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/SQ/</link>
+    <description>Recent content in SQ on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Jan 2017 09:51:55 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/SQ/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ｃitibank 花旗更改紅利兌換表</title>
+      <link>https://hugo.balduran.cc/post/tw-citibank-devalue/</link>
+      <pubDate>Mon, 23 Jan 2017 09:51:55 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/tw-citibank-devalue/</guid>
+      <description>去年底就已經有消息了，現在確認 4/1 花旗的紅利兌換表格會正式改表，最大的影響就是紅利兌換 IHG 與 新航 SQ哩程的門檻大大增加。
+IHG 原本 1:1 的兌換，現在貶值到 3:1 新航原本 2:1 的兌換，現在貶值到 3:1
+如果點數現在不足 75000點，那沒什麼好說的，轉 IHG 是拿不到 Spire的，如果對 IHG 沒有什麼規劃，倒是可以放棄，換到新航的話，配合中國信託的點數至少還可以換張機票。
+如果真的少到低於兩萬點，轉到 IHG 至少還可以換得到一些地區的免費房。</description>
+    </item>
+    
+    <item>
+      <title>新航頁面改版</title>
+      <link>https://hugo.balduran.cc/post/enhanced-sq-page/</link>
+      <pubDate>Sun, 26 Jul 2015 21:34:47 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/enhanced-sq-page/</guid>
+      <description>新航正在測試新的網站版面，頁面設計與中文字體看起來滿舒服的，但是多按幾個連結就會發現只有首頁拉皮而已，很多功能的版面設計還是和以前一樣。這個新版面我最欣賞的是 Nav Bar 的設計。
+至於宣稱的
+ Enhanced check-in, seat selection, flight status/schedules and promotions
+ 目前沒有訂新航的票，就沒法實驗了。</description>
+    </item>
+    
+  </channel>
+</rss>

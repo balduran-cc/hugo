@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>plaNet on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/plaNet/</link>
+    <description>Recent content in plaNet on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Mar 2008 19:49:28 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/plaNet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google Sky</title>
+      <link>https://hugo.balduran.cc/post/google-sky/</link>
+      <pubDate>Fri, 14 Mar 2008 19:49:28 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-sky/</guid>
+      <description>Google Sky
+google 好樣的，什麼東西都可以搞上網路，現在我們可以在網路上瀏覽星空 (不是抬頭就好了嗎?)
+它可以搜尋行星、星系，瀏覽望遠鏡影像，範圍走到了太空，不得不提一下 InterPlaNET，google計畫建構的星際網路，由衛星串接。
+值得一提的是，它是由南美洲 Code Jam 入圍者 Diego Gavinowich 花三個月在 google 實習期間和內部員工合作的作品。這個應該讓很多人磨刀霍霍想一試身手吧！最近就有校園徵才唷！
+ Diego Gavinowich from Buenos Aires was a finalist in our Latin America Code Jam, and joined us for a winter internship three months ago
+ </description>
+    </item>
+    
+    <item>
+      <title>Vint Cerf博士演講後記</title>
+      <link>https://hugo.balduran.cc/post/vint-cerf-speech/</link>
+      <pubDate>Fri, 19 Oct 2007 08:51:23 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/vint-cerf-speech/</guid>
+      <description>大約在剛剛三點半的時候結束了，演講的內容大約一個小時，QA時間花了約半小時。
+等待開場的時候林一平教授就交待請同學們踴躍發言，從現場的聽眾組成來看，交大學生占大多數，但不乏穿著襯衫的上班人士，就是學校裡的教授們也是低調的進入會場聆聽。 林一平教授調侃道「我得過的獎項他通通都得過，而且是我的兩到三倍之多」，諸多大人物坐在前面，小輩如我只好在最後一排觀看。
+既然是網際網路之父， Vint Cerf博士當然是談論網路的發展，從三十年前的 TCP/IP的出現到現在上網人口比例的上升，給了很清楚的介紹，但是歷史只是提醒我們過去的發現，未來的發展才是我們想要聽到的內容。大體上談論的內容都是現在很新穎又火熱的名詞，Semantic Web、Social Network、Blog、Homenetwork都有介紹到，這些內容我本來就有概念，所以不多說了。
+但是最後提出的名詞卻是我從沒想過！ InterPlaNet─意指星球與星球間的網路，這就是 Google執著於外太空探索的主因？建立一個星球與星球間通訊的網路有些特殊之處，例如星球會自轉，因此固定在地上的接受發送裝置就不太適合，轉到背面的時候資料要怎麼通訊？此是要借助衛星提供的網路做為通訊的管道，當然，這是不可能有「牽線」這種天方夜譚的。
+看到這張投影片的時候我眼睛一亮，太新奇的想法了，在人類還沒有摸清火星的底細之前， Google就想要建立這樣的通訊管道，非常瘋狂的想法，但又讓人感到興奮。GOOGLE X PRIZE不是個搞笑的競賽，是真的有計劃性的一個行動，時間可能拉得很長很遠，但我真的相信。
+最後QA時間我聽不太清楚發問的問題，但最後 Vint Cerf博士給了我們這些學生兩個建議。第一，Do what you like，第二，Never give up even it’s risky。
+聽力不是很好，應該八九不離十。</description>
+    </item>
+    
+    <item>
+      <title>Google 資深副總裁 Vint Cerf 博士演講</title>
+      <link>https://hugo.balduran.cc/post/google-vint-cerf/</link>
+      <pubDate>Mon, 15 Oct 2007 15:52:22 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-vint-cerf/</guid>
+      <description>之前看到的TANET 2007 專題講座，原本以為只有台北一場，那就只能眼看它隨風而去啦。
+But，沒想到在交大也有另一個場次，而且時間上我完全可以配合！
+ 敬邀參加～
+網際網路之父、Turing Award得主、Google資深副總裁-
+Vint Cerf博士演講
+講題：Tracking the Internet into the 21st Century
+（探索二十一世紀網路趨勢）
+主講人：Dr. Vint Cerf, ACM A.M. Turing Award Winner
+時間：96年10月19日（星期五） 13:40~15:30 (13:30 開始入場)
+地點：交大電資大樓一樓國際會議廳（新竹市大學路1001號）
+主辦單位：交通大學資訊學院
+Google台灣工程研究所
+ </description>
+    </item>
+    
+  </channel>
+</rss>

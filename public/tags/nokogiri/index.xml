@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nokogiri on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/nokogiri/</link>
+    <description>Recent content in nokogiri on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 May 2015 04:11:43 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/nokogiri/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Errors when installing vagrant plugin</title>
+      <link>https://hugo.balduran.cc/post/errors-when-installing-vagrant-plugin/</link>
+      <pubDate>Tue, 05 May 2015 04:11:43 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/errors-when-installing-vagrant-plugin/</guid>
+      <description>Vagrant 有很多 providers 可以運用，不只是預設的 VirtualBox，其他 VPS1 也可以和 Vagrant 串接，例如 AWS 和 DigitalOcean。我自己在試著用 DigitalOcean 的時候遇到了問題
+照著tutorial 首先 follow DigitalOcean 上的 Tutorial，看似簡單，只要
+vagrant plugin install vagrant-digitalocean vagrant box add digital_ocean https://github.com/smdahlen/vagrant-digitalocean/raw/master/box/digital_ocean.box 但我的 mac 上卻給出了 nokogiri 相關的錯誤訊息。
+安裝 nokogiri  An error occurred while installing nokogiri (1.6.6.2), and Bundler cannot continue. Make sure that gem install nokogiri -v &#39;1.6.6.2&#39; succeeds before bundling.
+ 當然，這個訊息提示了我們需要安裝 nokogiri，搭配 rbenv 來安裝 nokogiri 是建議做的做法，也比較乾淨。但無獨有偶，gem install nokogiri 也還是出現了錯誤。
+ Building native extensions.</description>
+    </item>
+    
+  </channel>
+</rss>

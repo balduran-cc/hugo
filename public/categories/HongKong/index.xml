@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HongKong on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/HongKong/</link>
+    <description>Recent content in HongKong on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Oct 2017 21:43:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/HongKong/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>香港機場退離境稅</title>
+      <link>https://hugo.balduran.cc/post/hkg-departure-tax/</link>
+      <pubDate>Mon, 16 Oct 2017 21:43:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/hkg-departure-tax/</guid>
+      <description>如果自己單買台北香港的機票，不論是旅行社或是自己網路購票，都包含了一項機場離境稅，120 港幣。
+如果台北香港的航班是為了接另外香港發的航班，那有很大機會可以退離境稅。條件很簡單，同日進港又離港，那就可以退稅。例如，早上到達的航班，出機場去市區吃吃喝喝，晚上飛離香港的航班，那這樣就可以退。
+退稅櫃台在出境大廳的 E F 櫃檯中間，其實就是出境大廳的正中央，非常好找。備好
+ 電子機票文件 進港航班登機證 離港航班登機證  讓工作人員影印之後，就會退還 120 港幣現金。同時登機證上會蓋上一個章表示退稅完成。</description>
+    </item>
+    
+  </channel>
+</rss>

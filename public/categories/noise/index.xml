@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>noise on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/noise/</link>
+    <description>Recent content in noise on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Jul 2008 17:25:13 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/noise/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>白噪音 white noise</title>
+      <link>https://hugo.balduran.cc/post/white-noise/</link>
+      <pubDate>Mon, 14 Jul 2008 17:25:13 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/white-noise/</guid>
+      <description>SimplyNoise.com 是用來產生白噪音的網站，聽起來就像是收不到的訊號的收音機。
+原來噪音還有顏色的。</description>
+    </item>
+    
+  </channel>
+</rss>

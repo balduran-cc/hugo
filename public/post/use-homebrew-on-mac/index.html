@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>use homebrew on mac &middot; </title>
+        <meta name="description" content="homebrew 是 MAC 平台上普遍使用的 package management system. 同類型的工具還有 apt &amp; yum
+安裝 homebrew 很簡單，只要在 terminal 輸入 ruby -e “$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)” 安裝完成就可以使用以下指令
+ brew install 安裝套件 brew uninstall 移除套件 brew search [foo] 安裝之前先搜尋一下 brew list 列出已安裝套件 brew update 更新已安裝套件 brew upgrade 升級 homebrew  可能遇到的疑難雜症有
+ xcode 非最新版 安裝新版即可。   Warning: Your compilers are different from the standard versions for your Xcode. If you have Xcode 4.3 or newer, you should install the Command Line Tools for Xcode from within Xcode’s Download preferences.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.65.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://hugo.balduran.cc/dist/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+    </head>
+    <body>
+        
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a title="說故事給你聽" href="https://hugo.balduran.cc/">說故事給你聽</a>
+                            </h1>
+                        
+                        <a class="button-square" href="https://hugo.balduran.cc/index.xml"><i class="fa fa-rss"></i></a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">use homebrew on mac</h1>
+    
+    <p class="post-date post-line">
+        <span>Published <time datetime="2013-03-30" itemprop="datePublished">Sat, Mar 30, 2013</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Balduran Chang</a>
+            </span>
+        </span>
+    </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p><a href="http://mxcl.github.com/homebrew/">homebrew</a> 是 MAC 平台上普遍使用的 package management system. 同類型的工具還有 apt &amp; yum</p>
+<p>安裝 homebrew 很簡單，只要在 terminal 輸入 <code>ruby -e “$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)”</code> 安裝完成就可以使用以下指令</p>
+<ul>
+<li>brew install 安裝套件</li>
+<li>brew uninstall 移除套件</li>
+<li>brew search [foo] 安裝之前先搜尋一下</li>
+<li>brew list 列出已安裝套件</li>
+<li>brew update 更新已安裝套件</li>
+<li>brew upgrade 升級 homebrew</li>
+</ul>
+<p>可能遇到的疑難雜症有</p>
+<ul>
+<li>xcode 非最新版 安裝新版即可。</li>
+<li>
+<blockquote>
+<p>Warning: Your compilers are different from the standard versions for your Xcode. If you have Xcode 4.3 or newer, you should install the Command Line Tools for Xcode from within Xcode’s Download preferences. Otherwise, you should reinstall Xcode. 以上錯誤訊息需要到 <a href="https://developer.apple.com/downloads/index.action?name=for%20Xcode%20-"> Apple downloads </a> 下載 command line tools</p>
+</blockquote>
+</li>
+<li>/usr/local 目錄權限不足 <code>sudo chown -R $(whoami) /usr/local</code></li>
+</ul>
+
+</div>
+
+        <footer class="post-footer clearfix">
+    
+        <p class="post-tags">
+            <span>Tagged:</span>
+            
+            
+                <a href="/tags/developer/">developer</a>, 
+            
+                <a href="/tags/mac/">mac</a>, 
+            
+                <a href="/tags/homebrew/">homebrew</a>, 
+            
+                <a href="/tags/package/">package</a>, 
+            
+                <a href="/tags/tools/">tools</a>
+            
+        </p>
+    
+
+    <div class="share">
+        
+            <a class="icon-twitter" href="https://twitter.com/share?text=use%20homebrew%20on%20mac&url=https%3a%2f%2fhugo.balduran.cc%2fpost%2fuse-homebrew-on-mac%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fa fa-twitter"></i>
+                <span class="hidden">Twitter</span>
+            </a>
+        
+
+        
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhugo.balduran.cc%2fpost%2fuse-homebrew-on-mac%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <i class="fa fa-facebook"></i>
+                <span class="hidden">Facebook</span>
+            </a>
+        
+
+        
+            <a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2fhugo.balduran.cc%2fpost%2fuse-homebrew-on-mac%2f"
+              onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+              <i class="fa fa-google-plus"></i>
+                <span class="hidden">Google+</span>
+            </a>
+        
+        
+    </div>
+</footer>
+
+        
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a title="說故事給你聽" href="https://hugo.balduran.cc/">說故事給你聽</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://hugo.balduran.cc/js/jquery-1.11.3.min.js"></script>
+        <script src="https://hugo.balduran.cc/js/jquery.fitvids.js"></script>
+        
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        
+        
+        <script src="https://hugo.balduran.cc/js/scripts.js"></script>
+    </body>
+</html>
+

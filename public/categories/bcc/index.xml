@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bcc on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/bcc/</link>
+    <description>Recent content in bcc on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Nov 2007 17:35:24 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/bcc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>請多多使用密件副本</title>
+      <link>https://hugo.balduran.cc/post/bcc-please/</link>
+      <pubDate>Sun, 25 Nov 2007 17:35:24 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/bcc-please/</guid>
+      <description>有多少人在使用密件副本呢？
+剛剛打開一封大一學弟寄的信，裡面的 mail 列表非常精彩，blockquote 包裝了十五層有了，還不用看內容我罵了一聲X。
+Blog.XDite.net » BCC 是一種基本禮貌，你同意嗎？我並不想知道收件人有誰。</description>
+    </item>
+    
+  </channel>
+</rss>

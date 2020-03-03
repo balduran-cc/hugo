@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>catc on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/catc/</link>
+    <description>Recent content in catc on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Feb 2008 09:24:11 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/catc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CATC 新設備</title>
+      <link>https://hugo.balduran.cc/post/catc_new/</link>
+      <pubDate>Wed, 27 Feb 2008 09:24:11 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/catc_new/</guid>
+      <description>CATC 位在記中裡的一間小教室，是 cisco 的，我們 meeting 的場地就在那兒。昨天發現原本的舊筆電全部換新，Veriton 1000 和 AL1916W，小主機寬螢幕，真是超讚的。
+我發現學校集體採購的主機，顯示卡是合板、小型、單一顯示輸出，鎖住的方式 DVI 視訊線的螺絲砍一半，就拆不下來了。
+裡面還有很多 router，是課程用的設備，以後應該有實作機會吧。
+CISCO 的網路設備好像很貴。</description>
+    </item>
+    
+  </channel>
+</rss>

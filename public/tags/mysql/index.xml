@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mysql on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/mysql/</link>
+    <description>Recent content in mysql on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Nov 2007 03:33:25 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>mediawiki 安裝記錄</title>
+      <link>https://hugo.balduran.cc/post/mediawiki_setup/</link>
+      <pubDate>Wed, 21 Nov 2007 03:33:25 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/mediawiki_setup/</guid>
+      <description>從昨天搞到現在一直在 try &amp;amp; error。遇到
+ 1267: Illegal mix of collations
+ 網路上 google 到的解法都是一致性 (流傳?) 的說修改 Database.php，加上 mysql_query(&amp;ldquo;SET NAMES ‘utf8′;&amp;quot;, $this-&amp;gt;mConn ); 巴拉巴拉的，對我來說都沒用。
+然後我突然想到一個很根本的問題，我建立資料庫之後沒有更改 Collation (中文翻譯:校對)，所以 Localsettings.php 產生的時候建立的資料表都不是 UTF-8，打所有資料表刪除之後重新 config 一次，就 OK 了，白花了很多時間。
+下一步，試著安裝 drupal。
+notes: oddmuse from Reflection</description>
+    </item>
+    
+  </channel>
+</rss>

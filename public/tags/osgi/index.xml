@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>osgi on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/osgi/</link>
+    <description>Recent content in osgi on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Aug 2008 17:43:26 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/osgi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2008 COSCUP</title>
+      <link>https://hugo.balduran.cc/post/2008-coscup/</link>
+      <pubDate>Fri, 01 Aug 2008 17:43:26 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/2008-coscup/</guid>
+      <description>08 COSCUP 議程，每次我說想去都沒去，不過第一天第一個 session 吸引了我的目光，「OSGi」是我現在正在研究的題目，說研究太嚴肅，正在學習倒是真的。
+如果是 opensource 的話，有 knopflerfish, equinox, prosyst mBedded Server Equinox Edition 和 Apache Felix。
+每次看到這些東西就會覺得要學得太多，而自己懂得得太少。
+不限制人數但還是可以報名。</description>
+    </item>
+    
+  </channel>
+</rss>

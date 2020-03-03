@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>apache on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/apache/</link>
+    <description>Recent content in apache on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Jun 2015 02:17:09 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/apache/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>伺服器安全性注意要點</title>
+      <link>https://hugo.balduran.cc/post/si-fu-qi-an-quan-xing-zhu-yi-yao-dian/</link>
+      <pubDate>Tue, 02 Jun 2015 02:17:09 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/si-fu-qi-an-quan-xing-zhu-yi-yao-dian/</guid>
+      <description>##php.ini 增強安全性
+  disable_functions =exec,passthru,shell_exec,system,proc_open,popen,curl_exec,curl_multi_exec,parse_ini_file,show_source
+  allow_url_fopen=Off
+  allow_url_include=Off
+  expose_php=Off http header (X-Powered-By) 不帶php info
+  load less modules php -m 可看 module 列表 rename 副檔名 ini 成 disable mv /etc/php.d/sqlite3.ini /etc/php.d/sqlite3.disable
+  display_errors=Off lod error 但不讓 end user 看到
+  file_uploads=Off 關閉上傳檔案，如果必要，限制檔案大小
+  file_uploads=On upload_max_filesize=1M   sql.safe_mode=On
+  magic_quotes_gpc=Off
+  避免執行過久，耗用資源，避免阻斷攻擊 DoS
+  max_execution_time = 30 max_input_time = 30 memory_limit = 40M   cgi.</description>
+    </item>
+    
+    <item>
+      <title>Hide php from user</title>
+      <link>https://hugo.balduran.cc/post/hide-php-from-user/</link>
+      <pubDate>Tue, 22 Jul 2014 09:57:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/hide-php-from-user/</guid>
+      <description>為了安全性的理由，我們儘量不想讓網頁的副檔名出現在url內，也就是儘量不讓外界得知 uri 的實際檔案形態，例如 https://www.google.com.tw/?#q=obj 就完全把負責處理的檔案名稱隱藏了。
+php.net 上有說明頁面，可用的php ini
+expose_php = off
+或是
+AddType application/x-httpd-php .asp .py .pl
+此為偽裝php 為其他script lang
+AddType application/x-httpd-php .htm .html
+此為偽裝php 為靜態html 頁面
+除此之外，還有sethandler可用。</description>
+    </item>
+    
+  </channel>
+</rss>

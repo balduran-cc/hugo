@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programmer on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/programmer/</link>
+    <description>Recent content in programmer on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Nov 2007 17:40:58 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/programmer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google 台北程式開發日</title>
+      <link>https://hugo.balduran.cc/post/google-developerday/</link>
+      <pubDate>Sun, 11 Nov 2007 17:40:58 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-developerday/</guid>
+      <description>先看看這個網頁吧！台北程式開發日
+這種簡潔程度還真是一針見血，回答問題之後可以看到報名表格，就這麼簡單的一頁 (是一頁！請看原始碼)。
+ 活動地點和流程
+台北程式開發日將於
+2007年11月22日舉行：
+地點：亞太會館B1會議室
+地址：台北市信義區松高路68號
+電話：02-87805168
+活動流程如下：
+09:00 歡迎大駕光臨
+09:30~10:20 漫談Google小工具 –Google工程師劉宗原
+10:20~11:10 漫談Google地圖小工具 –Google工程師談偉航
+11:10~12:00 漫談Google與開放原始碼 –Google工程師葉平博士
+12:00~13:00 享用午餐&amp;amp;分組
+13:00~15:00 大顯身手寫程式
+15:00~16:00 成果展示分享
+16: 00 活動落幕
+ 可以知道重點在於 web gadget 的開發，也可以參閱微軟的比賽。</description>
+    </item>
+    
+  </channel>
+</rss>

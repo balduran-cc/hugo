@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rss on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/rss/</link>
+    <description>Recent content in rss on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Jan 2008 20:20:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/rss/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>免費好用的 RSS閱覽器 FeedDemon</title>
+      <link>https://hugo.balduran.cc/post/freedemon/</link>
+      <pubDate>Fri, 18 Jan 2008 20:20:16 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/freedemon/</guid>
+      <description>Nick Bradbury: FREE Demon? Yes, FeedDemon is Now Free!
+Free NewsGator Consumer RSS Readers – Frequently Asked Questions
+這又是我漏掉的一件事，超好用的 FeedDemon 現在已經是開放免費下載的狀態了，而這軟體有多好用呢？看它得過的獎就知道。
+會知道這軟體，是因為一開始 jedi 翻譯的。
+下載頁面: FeedDemon for Windows
+中文語系檔</description>
+    </item>
+    
+    <item>
+      <title>RSS feed 暫時出錯</title>
+      <link>https://hugo.balduran.cc/post/rss_feed_error/</link>
+      <pubDate>Thu, 08 Nov 2007 12:22:11 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/rss_feed_error/</guid>
+      <description>這幾天一直好奇 FeedBurner 的訂閱人數怎麼會是 “0”，點下去之後也是錯誤訊息，本來以為是 FeedBurner 的問題，但事實上是我不知道把 WP 搞到出問題了，實在是失禮啊。
+看 FeedBurner 的 troubleshoot顯示是 404 – Not Found ，才發現 /~changcc/wordpress/feed 無法開啟，可是原始的 RSS feed 位址 wp-rss2.php 是正常的，我也不知道自己改了哪些設定，WP 我不熟悉，但直接先把 plugins裡面的 FeedBurner FeedSmith 關掉，還是無效，最後直接更改 FeedBurner 指向 wp-rss2.php 就解決了。
+事後我想應該是 self reference 造成，Feedsmith 會更改 /Feed 目錄指向 FeedBurner/balduran，而我的 FeedBurner 的原始 RSS Feed 又是 /Feed，就這樣兩個互相指向對方，內容當然是空白啦。
+裝很多 Plugins 很好玩，但是也有些問題會出現。</description>
+    </item>
+    
+    <item>
+      <title>訂閱</title>
+      <link>https://hugo.balduran.cc/post/subscribe/</link>
+      <pubDate>Fri, 02 Nov 2007 09:46:19 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/subscribe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feedburner Graph 追蹤你的訂閱人數</title>
+      <link>https://hugo.balduran.cc/post/feedburner-graph-e8bfbde8b9a4e4bda0e79a84e8a882e996b1e4babae695b8/</link>
+      <pubDate>Thu, 08 Mar 2007 08:13:48 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/feedburner-graph-e8bfbde8b9a4e4bda0e79a84e8a882e996b1e4babae695b8/</guid>
+      <description>有使用FeedBurner的blogger應該都很關心自己feed的訂閱人數，當人數慢慢增加時，成就感也隨之漸增，想要知道自己Feedurner訂閱人數的曲線圖嗎？試試看Feedburner Graph – Joost de Valk
+注意 Awareness API需要開啟。</description>
+    </item>
+    
+    <item>
+      <title>yahoo! pipes</title>
+      <link>https://hugo.balduran.cc/post/yahoo-pipes/</link>
+      <pubDate>Tue, 13 Feb 2007 12:05:28 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/yahoo-pipes/</guid>
+      <description>Pipes: Rewire the web
+pipe這個字的確讓人直接聯想到unix上的pipe，將輸出輸入串接在一起的概念，「｜」符號就像是個水管一樣，pipeline前的程式輸出會自動導向到pipeline後面所接續程式的輸入，可以完成很多有趣的一行程式，對一般使用者難了點，不太友善。
+yahoo推出這beta服務的概念也是如此，資料像流水般流過，隨心所欲取一瓢飲，最後流出的絕對是你需要的。可以重複使用別人的pipes，不用從車輪造起。輸出格式可以是rss也可是json，用在各種網站應用都可以。
+Yahoo!水管，全民駭客任務！ (Mr. 6)有更多介紹。
+我稍微試了一下，不易上手，要看些文件範例才行。不覺得容易讓人想動手玩玩。
+—
+變得不太會說話，能寫出來的字非常少。</description>
+    </item>
+    
+  </channel>
+</rss>

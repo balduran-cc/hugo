@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cookie on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/cookie/</link>
+    <description>Recent content in cookie on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Jul 2014 11:06:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/cookie/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Write Cookie in JS level</title>
+      <link>https://hugo.balduran.cc/post/write-cookie-in-js-level/</link>
+      <pubDate>Mon, 21 Jul 2014 11:06:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/write-cookie-in-js-level/</guid>
+      <description>通常我們寫入cookie是直接使用setrawcookie，當然安全性是個問題，在此先不討論。
+setrawcookie有個要注意的事項是他必須在http response出去之前就被呼叫，因為他是header的一部份，因此呼叫setrawcookie時要注意return value，或是自己必須確保呼叫之前沒有任何echo。
+如果setcookie所要寫入的值是來自于另一個後端，而且這份資料並不是一定要在header建立cookie，為了不讓這個後端擋住前端機器吐頁面，我們可以讓他inline setup cookie。
+sample PHP code
+$cookie = array(
+‘name’ =&amp;gt; $name,
+‘value’ =&amp;gt; $value,
+‘expiration’ =&amp;gt; $expiration,
+‘path’ =&amp;gt; $path,
+‘domain’ =&amp;gt; $domain
+);
+$cookie[‘expiration’] *= 1000; // from seconds to mileseconds
+$config = json_encode($cookie);
+$script = &amp;laquo;EOS;
+Y.use(‘cookie’, function(Y){setcookie = function(config){
+Y.Cookie.set(config.name, config.value, {
+expires: new Date(config.expiration),
+path: config.path,
+domain: config.domain
+});
+};
+setcookie($config);
+});
+EOS;
+其中需要注意的是，php 生成的 date() 和 javascript new Date() 的基本單位不同，從 php 傳遞到 js 的時候需要乘以1000。</description>
+    </item>
+    
+    <item>
+      <title>設定gae中回應標頭的cookie</title>
+      <link>https://hugo.balduran.cc/post/e8a8ade5ae9agaee4b8ade59b9ee68789e6a899e9a0ade79a84cookie/</link>
+      <pubDate>Tue, 25 Aug 2009 06:23:40 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/e8a8ade5ae9agaee4b8ade59b9ee68789e6a899e9a0ade79a84cookie/</guid>
+      <description>ericsk在他的書「google應用服務引擎開發實戰」中P.78提到一個tip，self.request.cookies[‘name’]=’eric’可以讓responce回應時候自動送出set-cookie，可是我自己改了一下範例覺得有點詭異，當cookie不存在的時候直接用上面的程式碼設定cookie，responce並沒有回應對應的標頭啊。
+按照webob的設計，應該有self.response.set_cookie(‘name’,’eric’)可以用，但是gae的文件裡是沒有提供這樣的函式呼叫，所以只能自己在回應標頭裡加入該有的字串，self.response.headers.add_header( ‘Set-Cookie’, ‘name=eric’)。
+參考discussion</description>
+    </item>
+    
+  </channel>
+</rss>

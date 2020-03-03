@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>windows on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/windows/</link>
+    <description>Recent content in windows on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Jun 2016 01:53:08 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>windows 上的 default browser</title>
+      <link>https://hugo.balduran.cc/post/default-browser-on-windows/</link>
+      <pubDate>Tue, 28 Jun 2016 01:53:08 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/default-browser-on-windows/</guid>
+      <description>需要知道使用者的 default browser 的話，可以讀取 \SOFTWARE\Clients\StartMenuInternet 這個 registry key。如果是一台全新的 windows，這時候 HKEY_CURRENT_USER 應該沒有這個值，在 HKEY_LOCAL_MACHINE 下預設是 IEXPLORE.EXE。
+隨著安裝 Firefox 或是 Chrome，會在 HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet 下增加 subkey，每個 subkey 的 shell\open\command 就會是指到瀏覽器的路徑。
+使用者自己更改了 default browser 的話，就會在 HKEY_CURRENT_USER 下面新增 \SOFTWARE\Clients\StartMenuInternet，並且寫入新的 browser value。
+不過這個 registry 在 Win10 上有點問題，如果設定 Edge 為 default browser 但是這個 registry key 還會是寫 IEXPLORE.EXE。</description>
+    </item>
+    
+    <item>
+      <title>Some Environment variables on Windows</title>
+      <link>https://hugo.balduran.cc/post/env-var-windows/</link>
+      <pubDate>Fri, 06 May 2016 03:36:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/env-var-windows/</guid>
+      <description>##Windows 上的環境變數
+Windows 上也有環境變數可以用，有些記起來會方便許多，和 unix-like 平台不一樣，windows 的環境變數是 %變數名稱%，以 % 作為開頭與結尾。
+%PATH% PATH 是查找執行檔時候的順序
+%HOMEPATH% 會是 \Users\{username}
+%USERPROFILE% 則是 C:\Users\{username}
+%APPDATA% 和 %LOCALAPPDATA% 程式的 profile folder 通常是在這，差別是 roaming 或是 local
+%SYSTEMROOT% 通常是 C:\Windows ，如果是 NT 那會是 WINNT %ProgramFiles% 就是程式集的路徑，
+%TEMP% 會是 C:\Users\{Username}\AppData\Local\Temp，有時候會把程式的 log 放這裡</description>
+    </item>
+    
+    <item>
+      <title>Eee PC 搭載 Windows OS</title>
+      <link>https://hugo.balduran.cc/post/eee-pc-and-windows-os/</link>
+      <pubDate>Sat, 03 Nov 2007 19:10:47 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/eee-pc-and-windows-os/</guid>
+      <description>原本以為 Eee PC 會是市場上獨特搭載 Linux 的資訊產品，但是華碩與微軟共同宣佈為 Eee PC 開發 Windows 作業系統完全破壞了我這個美麗的幻想啊啊啊啊啊！
+所以事情是怎麼來著？ OLPC 一出現風聲的時候，台灣廠商使用摳比絕招，用本身資訊製造業的優勢 down down down cost，然後出現了這一個創世鉅作，當然 OS 也是依樣畫葫蘆不能用 M$ 的產品，不這樣成本怎麼降的下來！
+本來對 Eee PC 還充滿期望，但顯然 M$ 不會放棄任何推廣自家產品的機會，於是 Ausu 就很歡樂的宣布攜手合作，美好啊！低價的策略搭載 Windows OS。
+我相信 OLPC 的美好構想，但事實上發展的並不如此美好。
+Link: http://eeepc.asus.com/tc/news10172007.htm</description>
+    </item>
+    
+    <item>
+      <title>正版軟體的品質</title>
+      <link>https://hugo.balduran.cc/post/ms-joke/</link>
+      <pubDate>Thu, 15 Feb 2007 03:36:30 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/ms-joke/</guid>
+      <description>正版Microsoft軟體上黑白分明的大字(默)。
+ 品質 – 正版軟體常常會發生缺少重要元件與文件的問題，而且沒有保固，也無法升級。
+ 。
+updated: 晚上六點發現錯誤已修正。</description>
+    </item>
+    
+  </channel>
+</rss>
