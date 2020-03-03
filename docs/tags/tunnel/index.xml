@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tunnel on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/tunnel/</link>
+    <description>Recent content in tunnel on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Oct 2007 06:30:55 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/tunnel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SSH tunnels</title>
+      <link>https://hugo.balduran.cc/post/ssh-tunnels/</link>
+      <pubDate>Fri, 05 Oct 2007 06:30:55 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/ssh-tunnels/</guid>
+      <description>同事 Kcc教了我從家中電腦遠端連進辦公室電腦的方法，不是用VPN，是用SSH進入院內一台主機，在forward到我使用的電腦，然後用windows內建的遠端桌面連線。
+SSH Tunnel我之前沒接觸過，一直想了解三台機器的關係，似乎是本機的 Source port經由和 Host的 SSH連線連到 destination，以遠端桌面為例 destination的 port是3189，Source port是自訂，在開啟遠端桌面連線時候鍵入 127.0.0.1:source port就可。
+如果我早一點知道這一招就好了，之前在環保局都是用 port 443連線，不過前提是要有一台 SSH Server可以連線。
+由http暗藏通道看網路安全、FreeBSD GIF Tunnel講的是不是同一件事情呢？
+Msn: 1080 dynamic勾選，destination空白
+IE: 8080 destination:192.168.0.1:3180(??)
+OE: Source: 25(smtp),110(pop3)</description>
+    </item>
+    
+  </channel>
+</rss>

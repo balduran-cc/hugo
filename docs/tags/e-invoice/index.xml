@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>e-invoice on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/e-invoice/</link>
+    <description>Recent content in e-invoice on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Jan 2018 23:41:01 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/e-invoice/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>電子發票支援信用卡載具</title>
+      <link>https://hugo.balduran.cc/post/e-invoice-with-creditcard/</link>
+      <pubDate>Thu, 04 Jan 2018 23:41:01 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/e-invoice-with-creditcard/</guid>
+      <description>電子發票 推行也有兩三年了，雖然藍圖與目標立意良好，但現實生活中還是很多人會印出那薄薄的一張感熱紙。行政院研擬增加信用卡作為載具也是拖了一陣子，現在已經全面上線，信用卡載具已經可以在電子發票整合服務平台設定了。
+目前看來最輕鬆的使用情境，就是只使用手機條碼而不使用自然人憑證。手機條碼和自然人憑證都是最高層級的共通性載具，所有其他的載具都可以歸戶到共通性載具上，但這歸戶的設定一連結下去，被歸戶的載具就不能再連結。
+例如，悠遊卡歸戶到手機條碼之後，再把手機條碼歸戶到自然人憑證，這時候就無法再新增其他悠遊卡到手機條碼。從數學上來看，就是綁定的節點無法再更改，這當然大大的影響了彈性。
+也許有人就這樣綁定了但無法解除歸戶，電子發票整合服務平台也是很好笑，沒有足夠的說明網頁解釋如何排除錯誤，但在手機條碼的歸戶頁面有這樣一行說明。
+若使用IE瀏覽器無法正常顯示已歸戶之載具列表或未出現「無符合條件資料」文字，請將IE瀏覽器更新至最新版本，於「工具&amp;gt;相容信檢視設定」將「nat.gov.tw」新增至「相容性檢視的網站列表」，並於「工具&amp;gt;網際網路選項&amp;gt;進階」選擇「重設」後點選「確定」按鈕。 重點就是設定「相容性檢視設定」需要增加 nat.gov.tw，信任網站要加入https://einvoice.nat.gov.tw/</description>
+    </item>
+    
+  </channel>
+</rss>

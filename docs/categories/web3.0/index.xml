@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web3.0 on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/web3.0/</link>
+    <description>Recent content in web3.0 on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Feb 2007 17:20:05 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/web3.0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What&#39;s Next, Web 3.0?</title>
+      <link>https://hugo.balduran.cc/post/whats-next-web-30/</link>
+      <pubDate>Mon, 26 Feb 2007 17:20:05 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/whats-next-web-30/</guid>
+      <description>無庸置疑地，Mashup是近年網路服務的趨勢，也是眾多演講者曾談論過的「結合，再創新。」
+What’s Next, Web 3.0?一文中提到在mashup* 22nd Feb. 2007與會者所談論的種種想法，其中兩個重要概念就是Microformats和Content Labels。
+microformat的概念可以先看看柏強寫的一些內容，主要概念是在現有的網頁html上加上一些些標記(mark up)，而這些標記是可以讓機器讀取的，取名microformat也是為此。而現在支援microformat的瀏覽器還沒有出現，需要額外安裝軟體才能支援，例如firefox的Operator和Tails Export
+XPort沒有著墨太多，XForm的處理器？SideWinder則是感覺和現在widget差不多。
+Content Labels則是比較特別的。html中可以自訂metadata敘述網頁的內容不是新鮮事，Content Labels也是同樣的概念，但最大的不同是需要認證，也因此比metadata更加有力且值得信賴，可以想像ssl的認證機制套用在一般的網域上。現階段也沒有瀏覽器支援，必須安裝add-on如Search Thresher才行，圖片中綠色打勾就是Verified，橘色打勾是有定label但未認證(self label)，紅色叉叉當然就是連label都沒有囉。
+理想一點的話，網路要分級，要避免網路釣魚，都可以做得到才對(因為需要認證)，現實面來看，這項技術還不是個標準，支援的軟體不多。
+最後提到的readable和understandable的差別，我還不是很了解，文章有任何誤解也請指正。</description>
+    </item>
+    
+  </channel>
+</rss>

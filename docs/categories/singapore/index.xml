@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>singapore on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/singapore/</link>
+    <description>Recent content in singapore on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Jul 2015 21:34:47 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/singapore/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>新航頁面改版</title>
+      <link>https://hugo.balduran.cc/post/enhanced-sq-page/</link>
+      <pubDate>Sun, 26 Jul 2015 21:34:47 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/enhanced-sq-page/</guid>
+      <description>新航正在測試新的網站版面，頁面設計與中文字體看起來滿舒服的，但是多按幾個連結就會發現只有首頁拉皮而已，很多功能的版面設計還是和以前一樣。這個新版面我最欣賞的是 Nav Bar 的設計。
+至於宣稱的
+ Enhanced check-in, seat selection, flight status/schedules and promotions
+ 目前沒有訂新航的票，就沒法實驗了。</description>
+    </item>
+    
+  </channel>
+</rss>

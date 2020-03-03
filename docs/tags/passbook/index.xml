@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>passbook on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/passbook/</link>
+    <description>Recent content in passbook on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Mar 2017 02:42:28 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/passbook/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>集保e存摺</title>
+      <link>https://hugo.balduran.cc/post/tdcc-e-passbook/</link>
+      <pubDate>Wed, 29 Mar 2017 02:42:28 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/tdcc-e-passbook/</guid>
+      <description>集保結算所推出「集保e存摺」服務，讓投資人可以直接用手機 App查詢集保帳戶。
+集保結算所將於明（29）日推出手機存摺「集保e存摺」APP服務，投資人透過網路即可於手機上登摺，即時掌握交易異動及持有部位，前5,000名完成安裝「集保e存摺」APP並開通帳戶存摺的投資人，即可獲得200元超商禮券，投資人儘速向往來證券商申請使用。 如果要說這是 Fintech，我是覺得言過其實，但至少有人願意做新的嘗試，例如基富通和這個集保手機存摺，也算是值得鼓勵。但實用性來看，用這個 App和用券商提供的下單 App相比，這個集保e存摺實在是脫褲子放屁，券商提供的下單軟體就可以看庫存了。
+就算可以一機多摺，對大多數的人來說，並不會有這麼多證券戶，可以說這是一件虛應故事的功能。
+另外，既然是金融相關，網站沒有支援 HTTPS 也是一件頗為趣味的事。</description>
+    </item>
+    
+  </channel>
+</rss>

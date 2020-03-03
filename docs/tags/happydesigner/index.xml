@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>happydesigner on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/happydesigner/</link>
+    <description>Recent content in happydesigner on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Mar 2008 21:47:57 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/happydesigner/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HappyDesigner Meetup No. 3</title>
+      <link>https://hugo.balduran.cc/post/happydesigner-meetup-no-3/</link>
+      <pubDate>Sat, 15 Mar 2008 21:47:57 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/happydesigner-meetup-no-3/</guid>
+      <description>HappyDesigner Meetup No. 3 第三次聚會將在 Newton’s A 蘋果電腦專賣店舉辦，這個場地就是之前 mobile 01 蘋果板板聚的地方，工學新城社區前方，園區小巴士可到達，可是周末小巴停駛。
+時間是 3/29 禮拜六青年節下午，題目是 “Template, Library, and Framework”，很好很強大我都不懂。這個聚會要付場地費，200。
+這個報名平台 Registrano 很好玩，有eventful的感覺，如果訂便當代表團購，那這個可以代表揪團吧。Registrano 是由和多建構，強者 hlb, gugod, ihower 的交集合。
+HappyDesigner 和 HappyWeb有什麼關係？網站開發者和使用者的差別？</description>
+    </item>
+    
+  </channel>
+</rss>

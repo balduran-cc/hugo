@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wordpress on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/wordpress/</link>
+    <description>Recent content in wordpress on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Sep 2008 15:18:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>balduran.twbbs.org</title>
+      <link>https://hugo.balduran.cc/post/twins-org-domain/</link>
+      <pubDate>Sun, 28 Sep 2008 15:18:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/twins-org-domain/</guid>
+      <description>感謝 chenpc 學長的 comment，原來我把 wp-config 檔案設成 644 是不行的，用 wget 之類是看不到，但是用別的帳號 cat 可以看到內容，嗯～我完全沒想過這問題。
+如果我用成 600 ，就會出現錯誤是 wp-load.php，一整個奇怪啊！chenpc 學長是系計中助教，帳號的機器和我的好像不一樣，我對系統管理很無知，對於 php 更無知，後來就只好先暫時不管這問題，掩耳盜鈴當沒人看到。
+雖然學到了一個方法是 vhost，我弄了 balduran.twbbs.org 這個免費 domain，也設了cname 和目錄，還是不通啊！就又把他擱著。
+原來 wordpress 裡的 blog address 和 wordpress address 也要跟著設定，所以弄一弄之後，這個 domain 就可以用啦！
+所以 balduran.twbbs.org 以後就用這個吧！向 www.cs.nctu.edu.tw/~changcc/wordpress 告別。</description>
+    </item>
+    
+    <item>
+      <title>WordPress 2.6</title>
+      <link>https://hugo.balduran.cc/post/wordpress-26/</link>
+      <pubDate>Tue, 15 Jul 2008 19:29:25 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/wordpress-26/</guid>
+      <description>WordPress 2.6 出了！
+2.6 的新功能，文章加上版本控制的概念，還有更加方便的 Press This! Bookmarklet，參照了Tumblelog的概念吧，還有預覽佈景主題，和其他拉裡拉雜小功能。
+我是很快就搞定升級了，但是 admin menu drop down css 也掛了的樣子。</description>
+    </item>
+    
+    <item>
+      <title>WordPress 2.5 release</title>
+      <link>https://hugo.balduran.cc/post/wordpress-25-release/</link>
+      <pubDate>Mon, 31 Mar 2008 18:41:26 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/wordpress-25-release/</guid>
+      <description>詳情可看WordPress › Blog » WordPress 2.5，一整個大翻新。
+使用上最大最顯眼的改變就是後台操作介面變漂亮了，新的配色 fresh 更顯得活潑。dashboard 的畫面切割也把一些 wordpress 新聞往下放，把 blog 相關資料放在明顯的位置。
+Multi-file upload with progress bar – 這一項我還沒用到過，不過寫文章時可以新增影像、錄影、音效或其他媒體，是直接上傳喔，內建管理各式多媒體的功能。
+Tag management – 這一項倒是改進很大，可以先把所有的 TAG plugin 先停用一下，add TAG 會即時新增 (using AJAX)。
+Concurrent editing protection – 沒有 multi author 的問題，用不到。
+Few-click plugin upgrades – 可 autoupgrade，不過我自己沒使用成功過，總是超過 30 秒等待時間。
+Built-in galleries – 朝 photoblog 前進？
+改變很大，大推薦。
+我一直覺得 wordpress 怎麼沒有編輯中預覽功能，我指的是續編文章的時候，而不是新編文章的時候。
+參考:
+終極邊疆BLOG » 我的 WordPress 2.5 體驗
+WordPress 2.5 繁體中文版的升級方法　【重灌狂人】</description>
+    </item>
+    
+    <item>
+      <title>Yahoo! Shortcuts</title>
+      <link>https://hugo.balduran.cc/post/yahoo-shortcuts/</link>
+      <pubDate>Mon, 17 Dec 2007 04:34:42 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/yahoo-shortcuts/</guid>
+      <description>Yahoo! Shortcuts
+Yahoo! 所推出的網頁預覽工具，和我所使用的 snap.com 的預覽效果差不多，就是網頁上的連結會開出個小畫面框顯示連結預覽畫面。
+如果只是這麼簡單，Yahoo! Shortcuts 就沒什麼特別了，它提供了更多的彈性，取消或是保留預覽，或是轉成 badge 的形式內嵌在網頁裡，而不是滑鼠移到上頭再跳出一個小視窗。
+Short cuts 還支援多種服務預覽，flcikr 相簿、Maps 地圖、Financial Information 金融資訊、NEWS 新聞、Search 搜尋等等，都是 Yahoo! 自家推出的內容。
+wordpress 限定，也許又會更拖慢網頁的速度 :p
+附帶一提，中文支援的程度是趨近於零。</description>
+    </item>
+    
+    <item>
+      <title>my blog sucks?</title>
+      <link>https://hugo.balduran.cc/post/my-blog-sucks/</link>
+      <pubDate>Thu, 11 Oct 2007 01:47:27 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/my-blog-sucks/</guid>
+      <description>41 Reasons Why Your Blog Probably Sucks列舉了41個可能成為令人失望的部落格的原因，用這麼多項目檢視自己的 blog，我只好說「My Blog Sucks」。
+我不是用最好的blog平台 wordPress 我沒放廣告，更不用說放的位置好不好 雖然不是很頻繁，但OUI還是有掛點的時候 我不是很想強調某些文章
+8.-25. 太多關於內容的部分了，寫出來的文字有沒有料端看作者肚子裡的書袋，這一點我是徹底投降 從我曾經一兩個月沒理這個 blog就可以知道，三心二意的 可惜我非常喜歡用日期做目錄，文章一多擠在同一個資料夾下面不會非常難以整理嗎？雖然網址會因此好看許多 以前還會拿 sitemeter看看 keyword，現在只放 google analytic也很少看 不確定自己的 RSS Feed內容是部分還是全文 有網友的互動確實可以大大提高曝光率，但我現在連 OUI主頁都不會出現我的新文章  結論：My Blog Sucks</description>
+    </item>
+    
+  </channel>
+</rss>

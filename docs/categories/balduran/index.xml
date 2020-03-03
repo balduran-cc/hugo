@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>balduran on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/balduran/</link>
+    <description>Recent content in balduran on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Jun 2009 07:21:06 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/balduran/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>畢業典禮</title>
+      <link>https://hugo.balduran.cc/post/e795a2e6a5ade585b8e7a6ae/</link>
+      <pubDate>Mon, 29 Jun 2009 07:21:06 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/e795a2e6a5ade585b8e7a6ae/</guid>
+      <description>禮拜六是交大的畢業典禮，oops，這是兩天前的事了。
+其實也還滿普通的一個畢典，下午在校園內和朋友同學拍拍照，穿著熱死人不償命的畢業服，校園內好多畢業生陪同父母，我想他們的心中都充滿引以為傲的自信吧。
+晚上的煙火我沒看到 T_T</description>
+    </item>
+    
+    <item>
+      <title>balduran.twbbs.org</title>
+      <link>https://hugo.balduran.cc/post/twins-org-domain/</link>
+      <pubDate>Sun, 28 Sep 2008 15:18:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/twins-org-domain/</guid>
+      <description>感謝 chenpc 學長的 comment，原來我把 wp-config 檔案設成 644 是不行的，用 wget 之類是看不到，但是用別的帳號 cat 可以看到內容，嗯～我完全沒想過這問題。
+如果我用成 600 ，就會出現錯誤是 wp-load.php，一整個奇怪啊！chenpc 學長是系計中助教，帳號的機器和我的好像不一樣，我對系統管理很無知，對於 php 更無知，後來就只好先暫時不管這問題，掩耳盜鈴當沒人看到。
+雖然學到了一個方法是 vhost，我弄了 balduran.twbbs.org 這個免費 domain，也設了cname 和目錄，還是不通啊！就又把他擱著。
+原來 wordpress 裡的 blog address 和 wordpress address 也要跟著設定，所以弄一弄之後，這個 domain 就可以用啦！
+所以 balduran.twbbs.org 以後就用這個吧！向 www.cs.nctu.edu.tw/~changcc/wordpress 告別。</description>
+    </item>
+    
+    <item>
+      <title>balduran的成份分析</title>
+      <link>https://hugo.balduran.cc/post/baldurane79a84e68890e4bbbde58886e69e90/</link>
+      <pubDate>Wed, 09 Jul 2008 18:16:29 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/baldurane79a84e68890e4bbbde58886e69e90/</guid>
+      <description>拿這種內容好像有點濫竽充數，不過我對於圓餅圖和抖動的字型有種親切感啊，好像是宅神學恆吧。
+Link: balduran的成份分析</description>
+    </item>
+    
+    <item>
+      <title>oui-design.com 的存在是?</title>
+      <link>https://hugo.balduran.cc/post/oui-design-virus/</link>
+      <pubDate>Mon, 12 Nov 2007 16:23:05 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/oui-design-virus/</guid>
+      <description>oui-blog 的前身 oui-design 現在是什麼狀態？
+偶然搜尋到最早的 http://www.oui-design.com/balduran/ (勿點)，已經變成毒窟一窩，所有的頁面都遭受 Trojan-Downloader.JS 感染，我不知道這個網域還存在的原因是為什麼，只後悔以前沒有把所有頁面清空變成空白，現在這些網頁所在的主機也不知道是哪裡，似乎是沒有人在管理。
+有特洛伊木馬！千萬不要點！</description>
+    </item>
+    
+    <item>
+      <title>關於我</title>
+      <link>https://hugo.balduran.cc/post/about/</link>
+      <pubDate>Fri, 02 Nov 2007 07:00:22 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/about/</guid>
+      <description>我的名字是張家駿 (Chang Chia Chun)，從研究所畢業（耶比），進入網路業從事前端開發。
+這個 Blog 是我的習字簿，從觀察、思考、歸納、整理，並嘗試用通順的方式書寫，做為我文字能力與組織能力的練習，希望網友可以多多給予意見。
+ 男性。 處女座。 資工所，是個宅宅吧 年齡是不能說的秘密，有點老 XD 應用數學系畢業，不想當數學老師！ mac user, ibook 末代，很舊的一台。MacBook Pro 09年版本。MacBook Pro Retina 公務機 新竹人，風中遊子 環保替代役，為地球盡一份心力 桌球新手，喜歡抽球 國樂社混十年，其實是以上啦！不過後來都沒在練琴了 Salsa dancing 資歷三年。  </description>
+    </item>
+    
+  </channel>
+</rss>

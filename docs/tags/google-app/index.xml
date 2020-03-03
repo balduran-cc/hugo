@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>google app on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/google-app/</link>
+    <description>Recent content in google app on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Nov 2007 19:41:08 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/google-app/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>交大 g2 信箱開放申請</title>
+      <link>https://hugo.balduran.cc/post/nctu-g2mail-for-all/</link>
+      <pubDate>Fri, 30 Nov 2007 19:41:08 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/nctu-g2mail-for-all/</guid>
+      <description>不知道交大 g2 的請看之前文章。原本是 96 新生獨有，現在則是開放校內學生使用選課帳密申請，聽說畢業學生用 d2 帳號密碼也是可以申請的唷 (nctu 大神說的)！
+Link: 交大 g2 信箱申請</description>
+    </item>
+    
+    <item>
+      <title>交大g2信箱啟用</title>
+      <link>https://hugo.balduran.cc/post/e4baa4e5a4a7g2e4bfa1e7aeb1e5959fe794a8/</link>
+      <pubDate>Mon, 10 Sep 2007 16:10:51 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/e4baa4e5a4a7g2e4bfa1e7aeb1e5959fe794a8/</guid>
+      <description>原本使用的gmail收到了教務處的通知信，96新生的gmail已經正式啟用，我抱著orz的心情要用之前好玩申請的orz帳號登入，結果失敗了！選課系統裡面自動出現的新mail帳號是我後來更改的，也就是說我的帳號不是orz.cs96g了，儘管更改時出現的訊息沒有更改，實際上申請的帳號是改變後的。
+可是這麼一來，我的帳號好長阿。乾脆就將這個信箱作為選課和課程資訊的統整吧。
+登入位址是http://partnerpage.google.com/g2.nctu.edu.tw，不好記又長，難道google app提供的方案不能統一由gmail進入嗎？試著key入帳號多次，結論是肯定的，就是只能由那單一位址進入。所有access的服務後面都接著一串a/g2.nctu.edu.tw。
+能用的服務有mail、doc、calendar和start page，其他找不到進入點的不在此列。
+mail: http://mail.google.com/a/g2.nctu.edu.tw/
+doc: http://docs.google.com/a/g2.nctu.edu.tw
+cal: https://www.google.com/calendar/a/g2.nctu.edu.tw
+start page: http://partnerpage.google.com/g2.nctu.edu.tw</description>
+    </item>
+    
+    <item>
+      <title>交大新生g2信箱</title>
+      <link>https://hugo.balduran.cc/post/nctu-g2mail/</link>
+      <pubDate>Mon, 03 Sep 2007 05:27:04 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/nctu-g2mail/</guid>
+      <description>CNET的報導裡提到交大發給新生GMail帳號，是的，沒錯，就是今年入學的新生們，我也在其中(挺)。
+登入選課系統就會出現填寫的申請表，帳號最少取三個字，本來我是想用 balduran作為帳號的，可是內心一股惡搞心態升起。
+
+這就是我手賤 key in的下場，發現好像沒法更改，選課系統找不到選項。
+所以我開始看網頁原始碼，Gmail帳號申請表是頁面所在，不過不是交大新生點了也沒用，然後殘酷的事實出現了，我還是沒法更改之前填入的帳號，也就是說，我一輩子都要 orz了。
+google app對校園真是友善，免費呢！</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>price on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/price/</link>
+    <description>Recent content in price on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Nov 2007 17:54:43 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/price/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>軟體該有的價格</title>
+      <link>https://hugo.balduran.cc/post/sw_price/</link>
+      <pubDate>Tue, 20 Nov 2007 17:54:43 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/sw_price/</guid>
+      <description>前天 (禮拜一) 上吳毅成教授的 NP (網路程式設計) 課程時，教授閒聊了一下軟體的價格該是多少，提到 Eee PC 搭配 Windows 和 Linux 的價差只在一千元，我知道有 windows 版本的存在，卻不知道定價策略是這樣。
+依照 digitimes 新聞 所述，價差若真的少於一千，則明白的說明了一件事「價格端乎客戶所能付出的價格。」
+以微軟的作法，閹割版本是一定會的，可是以教育版、正式版、更加昂貴版 (professional?)、校園授權吸血版、企業授權吃人不吐骨頭版的價差來看，軟體可以有價也可以無價，程式能正常執行，有無可替代的價值就是有價，軟體可以搞爛你的工作 (crush)，則為無價，連一點價值都沒有。
+這真是非常殘酷，因為在台灣大部分人不認為軟體有價。
+還有就是應該把軟體業看成服務業，販賣 service over software。</description>
+    </item>
+    
+  </channel>
+</rss>

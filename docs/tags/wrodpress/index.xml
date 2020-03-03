@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wrodpress on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/wrodpress/</link>
+    <description>Recent content in wrodpress on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Dec 2008 17:52:58 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/wrodpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WordPress 2.7 “Coltrane”</title>
+      <link>https://hugo.balduran.cc/post/wordpress-27-e2809ccoltranee2809d/</link>
+      <pubDate>Mon, 15 Dec 2008 17:52:58 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/wordpress-27-e2809ccoltranee2809d/</guid>
+      <description>WordPress 2.7 “Coltrane” 已經可以下載了，安裝升級過程如同以往，但是升級完卻帶給人驚艷的感覺，後台操作介面大翻，其他的改進對我來說都不明顯，因為我膚淺啦～
+想必有在使用 wordpress 的朋友們都是馬上更新吧。</description>
+    </item>
+    
+  </channel>
+</rss>

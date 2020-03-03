@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>google on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/google/</link>
+    <description>Recent content in google on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Jun 2016 20:24:22 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google voice number</title>
+      <link>https://hugo.balduran.cc/post/google-voice-number/</link>
+      <pubDate>Tue, 21 Jun 2016 20:24:22 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-voice-number/</guid>
+      <description>google voice
+Google voice 是 Google 推出的 VOIP 服務，可以將個人的多個號碼經由一個 google voice number 管理，撥話方只需要記得這一個 google voice number，收話方可以自己決定要由自己的市內電話、辦公室電話或手機接通。
+但這些對於住在臺灣的人沒有什麼用。打網路電話？那用 skype 也就夠了，視訊？現在 facetime 也很容易。這個服務最有價值的，就是那一個 +1 開頭的 google voice number。
+要在台灣遠端註冊一個 google voice number 是不可能的，首先，要驗證一個美國電話號碼，這個難度就很高了，願意付錢的，租個門號，不想付太多錢就考慮預付卡。但是，也是有免費方案的。
+這個方法就是當人在美國境內旅遊的時候，下載 Talkatone，註冊一個號碼，在用這個免費號碼註冊 google voice。
+Talkatone 可以讓你用無線網路打電話和收簡訊，安裝之後它會檢查你所在的位置，在美國境內的話就會發給你一個暫時使用的門號，這個門號是可以收發話的喔。
+用這美國門號註冊 google voice 之後，可能要等幾天才能選 google voice number，選定之後就可以把這個 Talkatone 門號從紀錄裡刪掉了。
+完成了之後，恭喜你有了一個美國的電信門號。</description>
+    </item>
+    
+    <item>
+      <title>Amazon Cloud Drive超優惠</title>
+      <link>https://hugo.balduran.cc/post/amazon-cloud-drivechao-you-hui/</link>
+      <pubDate>Fri, 27 Mar 2015 00:12:36 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/amazon-cloud-drivechao-you-hui/</guid>
+      <description>https://www.amazon.com/clouddrive/
+Amazon宣布 Cloud drive現在開放付費使用，而且！！無限空間！！！
+方案目前有
+ 11.99 usd per year，照片無限空間，5GB 影片和檔案。 59.99 usd per year，空間無限，各種檔案都可以存  如果是 Prime member可以免費獲得方案一，也就是無限照片儲存空間。raw檔也算是照片檔案格式，有在拍單眼的可以瘋狂上傳 raw file。
+12 usd 一年的價格，這比 dropbox，google storage還要殺，更不用說 iCloud了
+現在註冊還有三個月免費，還不快試試看？</description>
+    </item>
+    
+    <item>
+      <title>Import stock price data in google doc</title>
+      <link>https://hugo.balduran.cc/post/import-stock-price-data-in-google-doc/</link>
+      <pubDate>Thu, 13 Feb 2014 18:36:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/import-stock-price-data-in-google-doc/</guid>
+      <description>在google doc的spreadsheet 裡面可用函數取得股價資訊。
+最直接的，就是使用google 提供的函數 =GoogleFinance()，直接用 =GOOGLEFINANCE(&amp;quot;GOOG&amp;quot;)就可以直接拉回股價，若要取得台股資訊，可以直接使用股票號碼，以中華電信 2412為例，
+=GoogleFinance(&amp;quot;2412&amp;quot;, &amp;quot;price&amp;quot;)
+但事情不是如此美好，有些台股股票代號和其他地區的代碼相衝，例如 1314，直接使用&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;=GoogleFinance(&amp;quot;1314&amp;quot;, &amp;quot;price&amp;quot;)會拉到香港Tsui Wah Holdings Ltd(HKG:1314)，此時需要用=GoogleFinance(“1314.tw”, “price”)
+你以為這樣就大功告成了嗎？事實上google對於台股的資料並不齊全，上櫃股票完全沒有資料，例如德昌(5511)，怎麼樣都找不到。這個時候，就來求助Yahoo finance吧。
+Yahoo finance的資料頗為齊全，雖然台灣網站界面陽春，但是在 US yahoo finance是可以查得到台股資料的，5511.two就是德昌的公司資訊，請注意代號後面灌的是 two。
+Yahoo finance 有很多 API，記下兩種。第一個直接用web service，第二個則是csv output。
+ web service API範例：
+http://finance.yahoo.com/webservice/v1/symbols/2412.tw/quote
+可直接輸入= ImportXML(API,&amp;quot;//field[@name=&#39;price&#39;]&amp;quot;)，用xpath自動去切出股價那一欄   csv output： Yahoo finance還有提供另一api可直接輸出成csv（excel可直接吃），範例URL: http://finance.yahoo.com/d/quotes.csv?s=2412.TW&amp;amp;f=l1，取得價格的function爲= ImportData(URL)，因為此csv output已經調整為只輸出價格資訊，不需要再過濾。 值得注意的一點是上櫃公司的代號尾碼需要使用two，德昌 5511的url為 http://finance.yahoo.com/d/quotes.csv?s=5511.TWO&amp;amp;f=l1
+以股票資訊來說，Yahoo還是有比較充足的後端資料。</description>
+    </item>
+    
+    <item>
+      <title>google wave</title>
+      <link>https://hugo.balduran.cc/post/google-wave/</link>
+      <pubDate>Thu, 04 Jun 2009 06:14:33 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-wave/</guid>
+      <description>google 日前在 google I/O 上公開了正在研發的服務，google wave。目前能得到的消息和畫面，就僅止於 keynote 和 youtube 上的預覽影片。
+好多文章都強調 google wave 多麼 powerful，形容它是可以整併 twitter or plurk 微網誌和 IM 即時通訊的殺手級應用，對於這麼多的讚譽，感到疑惑。我自己也喜歡使用 google 的各項服務，但是只看幾個畫面而沒有親身使用，很難讓我說出這個服務多麼多麼讚這樣的話。
+網路資訊雜誌» Google Wave將帶來網路海嘯殺遍四方嗎？
+Google Wave 會改變這個世界嗎？ – 西瓜的滋味- Tenz’s blog
+Google Wave 是「長得像Outlook的MSN」，但功能強大100倍！ 【重灌狂人】
+這個名字讓我想到 the third wave，暗指這個技術的重要性。</description>
+    </item>
+    
+    <item>
+      <title>google social bar</title>
+      <link>https://hugo.balduran.cc/post/google-social-bar/</link>
+      <pubDate>Thu, 12 Feb 2009 17:24:05 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-social-bar/</guid>
+      <description>google friend connect 的新功能，提供一個類似 blogger.com Navi-bar 的 social bar，供網站經營者使用，裡面提供了各種 GFC 提供的功能，加入會員、事件清單、留言和會員列表，基本上一個 social bar 全部搞定，內嵌在網頁各處的小 Gadget 可以拆掉啦！
+搜尋 WP 可用的 Plugin，還沒出現合適的。</description>
+    </item>
+    
+    <item>
+      <title>google latitude</title>
+      <link>https://hugo.balduran.cc/post/google-latitude/</link>
+      <pubDate>Thu, 05 Feb 2009 09:40:15 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-latitude/</guid>
+      <description>google latitude 是個概念有趣的服務，而我在看到這個服務之時感到非常興奮，因為他和我去年 YEF 參賽組隊在 brainstorming 的時候曾提出的概念一樣，雖然被隊員們否定但我仍記在心內。
+google latitude 可以用手機的位置作定位，定位的原理就是 MyLocation 的方法，用基地台的服務區域做大致的推測，而這個定位的服務加上社交網路的元素，就是現在的 google latitude，在保有隱私的前提下，將自己的位置公佈，或是取得朋友們的所在位置，不是挺好玩的嗎？
+去年討論的時候，我是以「人生不相見，動如參與商」的想法為起點，現在人的朋友往往分布各地，有時候當你去到朋友所在的城市，卻抽不出時間可以拜訪他。有時候朋友來了，也是擦身而過，在事後的聚會或聊天才提起說你怎麼沒來找我。就是這樣的想法我想說可以讓自己的所在位置讓自己的朋友們知道，這樣要臨時約也方便。(我就是很愛臨時約)</description>
+    </item>
+    
+    <item>
+      <title>google earth 5.0</title>
+      <link>https://hugo.balduran.cc/post/google-earth-50/</link>
+      <pubDate>Tue, 03 Feb 2009 05:46:41 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-earth-50/</guid>
+      <description>google earth 新版，5.0，主打功能是海洋，增加了海洋圖層。</description>
+    </item>
+    
+    <item>
+      <title>赤壁 與 Google maps</title>
+      <link>https://hugo.balduran.cc/post/e8b5a4e5a381-e88887-google-maps/</link>
+      <pubDate>Tue, 06 Jan 2009 18:56:42 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/e8b5a4e5a381-e88887-google-maps/</guid>
+      <description>電影赤壁與 google maps 合作，推出 赤壁之戰地圖，可以直接在 gmap 上看到一些互動訊息，實在大妙！有一種玩三國志電玩遊戲的 fu。</description>
+    </item>
+    
+    <item>
+      <title>Picasa 3 正式下載</title>
+      <link>https://hugo.balduran.cc/post/picasa-3-e6ada3e5bc8fe4b88be8bc89/</link>
+      <pubDate>Wed, 17 Dec 2008 15:03:01 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/picasa-3-e6ada3e5bc8fe4b88be8bc89/</guid>
+      <description>之前一直都是 beta 板的 picasa 已經發布正式版了，快去下載吧！
+picasa 3 有什麼新功能呢？可以同步 picasa 3 和 picasa web albums，還有新的 picasa 相片檢視器，效果不錯唷！另外還有剪輯影片、抓圖screenshot，更方便的整合了 picasa 網路相簿，還有一些些操作上的小改變。
+不管它吃多少記憶體，先裝起來用看看再說。</description>
+    </item>
+    
+    <item>
+      <title>google Lively 即將關閉</title>
+      <link>https://hugo.balduran.cc/post/google-lively-e58db3e5b087e9979ce99689/</link>
+      <pubDate>Sun, 30 Nov 2008 22:09:40 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-lively-e58db3e5b087e9979ce99689/</guid>
+      <description>google Lively shut down.
+google lively 是類似 second life 的 3D 畫面聊天室，現在傳出將要在 12/31 關閉服務的消息。
+google blog post</description>
+    </item>
+    
+    <item>
+      <title>Google Browser Sync is no longer available for download</title>
+      <link>https://hugo.balduran.cc/post/google-browser-sync-is-no-longer-available-for-download/</link>
+      <pubDate>Fri, 22 Aug 2008 08:10:28 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-browser-sync-is-no-longer-available-for-download/</guid>
+      <description>Google Browser Sync 是給 Firefox用的 extension，可以將 FF 的設定、書籤、cookies、密碼在不同電腦間做同步，使用者在使用時所開啟的session頁面都會儲存。
+不過現在這個服務不再提供下載了，因為 FF 進到三版以後，mozilla 自己有自行規劃的同步軟體weave，還有其他的 extension 也是同樣功能，google 自己也將它整合進 toolbar 裡，因此 google 不再提供更新，但還是開放程式碼供後進發展新 project。</description>
+    </item>
+    
+    <item>
+      <title>knol 上線</title>
+      <link>https://hugo.balduran.cc/post/knol-e4b88ae7b79a/</link>
+      <pubDate>Tue, 29 Jul 2008 17:39:58 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/knol-e4b88ae7b79a/</guid>
+      <description>之前提過的 knol – google 推行的維基百科已經上線了，網址就是knol.google.com/。
+撰寫條目的頁面很簡單，標題、副標題、摘要、內容和評比星數，挺特別的是 reference管理的部分，因為我沒寫過 wikipedia，也不知道 reference 會怎麼寫，但從整個介面包含這一項來看，是很注重 reference 的。
+除了線上編寫之外也提供 doc, xls, pdf, txt 的上傳。每個 knol 的編者都會有自己的一頁描述自己，這個和 wikipedia 是一樣的，而且還不能刪除勒。
+knol 很注重編寫者的認證，採用的是 google profile，在 knol setting 裡有兩種認證方式，手機或是信用卡。
+額外一提的是一個 knol 有各自的管理介面，可以設定頁面的共同編寫者、CC 授權、廣告顯示、評論者 (reviewer)，也因此在使用上和 google sites 有點相似。
+中文使用OK，但是能吸引多少使用者貢獻內容就不知道了，畢竟內容要寫得專業不是件容易的事，knol 也有針對內容該有的、該避免的建議。</description>
+    </item>
+    
+    <item>
+      <title>Google Lively</title>
+      <link>https://hugo.balduran.cc/post/googlelively/</link>
+      <pubDate>Wed, 09 Jul 2008 19:31:22 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/googlelively/</guid>
+      <description>Lively? by Google ?
+詭異的google新服務沒掛在google的網址下。
+lively 是類似虛擬人生的 3D聊天室，在這個聊天室裡面會有一個 3D avatar 代表你自己，可以「開房間」，也就是聊天室，可以做各種的裝飾。
+也許有人會把這個和虛擬人生相提並論，我倒覺得這個只是小品，雖然 google 現在的勢力可以從網路研伸到現實世界，金流、廣告、拍賣，但這畢竟不是 google 的主業，3D化只是讓聊天室更有趣更具體罷了。
+我也弄了個來佔位置。</description>
+    </item>
+    
+    <item>
+      <title>google developer day 2008 taiwan resource</title>
+      <link>https://hugo.balduran.cc/post/google-developer-day-2008-taiwan-resource/</link>
+      <pubDate>Tue, 08 Jul 2008 20:00:11 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-developer-day-2008-taiwan-resource/</guid>
+      <description>Slice: Google 2008 台北程式開發日 (Google Developer Day 2008 Taiwan)
+Video: YouTube – GoogleDevelopersZHTW 的頻道
+Album: Picasa Web Albums – Developer Day – Developer Day…
+app engine code sample: google-app-engine-codelab – Google Code</description>
+    </item>
+    
+    <item>
+      <title>Google Health</title>
+      <link>https://hugo.balduran.cc/post/google-health/</link>
+      <pubDate>Fri, 23 May 2008 19:42:37 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-health/</guid>
+      <description>剛看到 Google Health 的時候覺得挺扯，怎麼會把 Google 和健康管理摻在一起呢？又或者 Google 怎麼又開始有奇怪的構想出現。
+Google health 提供你一個醫療記錄的平台，使用者可以管理自己的健康資料、檢查報告或是處方箋，也可以線上尋找一些醫療服務或是搜尋醫生。這樣一個充滿個人隱私資料的平台應該要求有更高的安全性，內容部分也應該是保密的，儘管這樣大量的資料做 Data mining 可能可以做出對醫學有貢獻的成果，但實在是太過敏感的地帶了。
+我稍微知道的是 EHR 中有一個 HL7，還有歐洲在這方面很久前就開始了。國內對醫療記錄的處理依然是各家醫院各自為政，並沒有一個統籌管理的中心，現行的電子病歷交換是以 TMT 為主。
+對於醫療照顧還有很多構想可以談，尤其配合資通訊 (ICT) 更是有很多衍生題目可以打嘴炮！
+附記: HL7-taiwan</description>
+    </item>
+    
+    <item>
+      <title>Google Sites now open to everyone</title>
+      <link>https://hugo.balduran.cc/post/google-sites-now-open-to-everyone/</link>
+      <pubDate>Fri, 23 May 2008 19:11:33 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-sites-now-open-to-everyone/</guid>
+      <description>如 Official Google Blog 所說，現在 google sites 是開放註冊使用的了，以目前的免費 wiki 空間來說，這可以算是最好的 wiki 了吧。
+如之前所述，多人工同編輯，而且現在不用掛在 Google App 下，容量限制是 100Mb。
+那與 Google Page Creator 有什麼區別呢？Google Page Creator 明顯只能單人使用，做為代表個人的頁面很適合。Google Sites 一開始規劃是以組織使用者為主，所以搭配 Google App，現在每個人都可以申請，當然做為個人的頁面也很適合，也可以邀請多人共同編輯一個主題 wiki。
+我個人是建議使用 Sites，最大的支持理由是連結的管理方面，考量一般使用者對於超連結的概念可能抓不清楚，以 wiki 的方式自動生成頁面連結更是方邊直覺也不會出錯，何況提供了 WYSISWYG 編輯器，不用特地另記語法就更好上手了。
+值得一提的是 Sites 提供的嵌入檔案的方式，可以夾帶附檔，也可以嵌入 google doc 提供的文件、試算表及投影片，以及 google video 和 youtube 的線上影片，還有 google calendar 和 picasaweb 的 slice show，哇，真多，更沒提到 Toc 和其他 Gadget，把現有旗下的服務皆整合，超強，但這也要歸功於 JotSpot。
+網址形式: http://sites.google.com/site/balduran/</description>
+    </item>
+    
+    <item>
+      <title>google 援助川震</title>
+      <link>https://hugo.balduran.cc/post/google-ch-earthquake/</link>
+      <pubDate>Mon, 19 May 2008 20:52:04 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-ch-earthquake/</guid>
+      <description>日前發生的四川大地震，引起國際關注，死傷人數多，國際間救援行動頻繁。
+google 為此弄了個 援助中国抗震救灾 的捐款頁面，協助募款動作的進行以及震災相關新聞報導的傳遞 (使用GMaps)，不僅如此，google 本身捐出了 200萬美金。
+這次的震災救援不只是單純人道議題，還牽涉進了政治因素，為此，台灣釋出的善意被阻絕門外。我的朋友多為此新聞哀傷，純粹為了救難互助的情感因素，少有為了政治立場而叫囂快意者。然而面對中國官方的回應，只能說為此表示遺憾。
+同樣也受到震災的緬甸就不是這麼回事了，鎖國，因為軍方的立場不開放國際組織進入，至於內情一般人也不可得知。
+這個時候應該可以發現有很多募款捐助的活動，但是做善事要小心，詐騙並不會因此停止。
+附記: Google – 尋親，使用搜尋引擎尋找親人。</description>
+    </item>
+    
+    <item>
+      <title>Google Docs 製作線上問卷</title>
+      <link>https://hugo.balduran.cc/post/google-doc-form/</link>
+      <pubDate>Wed, 14 May 2008 18:58:08 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-doc-form/</guid>
+      <description>誠如小梅子所言，使用連結 http://spreadsheets.google.com/newform 就可以產生一個供網友填寫的表單 (也就是問卷)，但是要怎麼樣從 google doc 的操作介面點選到這樣的功能呢？
+google Doc help center的解說在此，但是還是提一下。在編輯 spreadsheet 的時候選擇 share，有個 to fill out a form，就可以 step by step 產生表單，簡單容易。
+最有用的還是 embed，可以嵌入表單到網頁，不一定要用 mail。
+嗯，對於 doc 的各種應用可以做個詳盡的介紹，我也很少用到這些功能，學會的話會省事很多。
+題外話: YEF 別隊的問卷，友情贊助連結。</description>
+    </item>
+    
+    <item>
+      <title>Google Photos Screensaver</title>
+      <link>https://hugo.balduran.cc/post/google-photos-screensaver/</link>
+      <pubDate>Sun, 11 May 2008 03:49:13 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-photos-screensaver/</guid>
+      <description>Google Photos Screensaver
+早在 07年三月就出現的東西，不過在 googla pack 軟體集裡卻沒出現，原因就是在於語言選項，不知怎地自動會跳到中文頁面，花了點功夫才找到方法，似乎更新器也必須是英文的才能下載，將中文的更新器移除之後可以試試看。
+Google Photos Screensaver</description>
+    </item>
+    
+    <item>
+      <title>Google Developer Day</title>
+      <link>https://hugo.balduran.cc/post/google-developer-day/</link>
+      <pubDate>Fri, 25 Apr 2008 17:48:07 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-developer-day/</guid>
+      <description>又是一個慢消息。
+Google Developer Day 08年的預計舉辦的地點，台灣已經確定在 6/14 台北舉行，至於規模，未知。
+以現在公布的訊息來看，技術主題都圍繞在 google 主打的題目上，cloud computing, google gears, Maps, Androids, Gadgets, OpenSocial 都是很熱門的主題。講者也都很強的樣子 (廢話，只有強者才能進去吧)。
+目前還不知道人數限制，而且以去年秋冬時後辦的 developer days 的報名情況來看，應該也是狂多人報名的，只是篩選機制就不知道了。報名的時候有選項可以填入自己開發過的專案，也許有經驗能和分享是一項優勢，尤其現在國內也不乏有人開發出不錯的網站。</description>
+    </item>
+    
+    <item>
+      <title>Google AJAX Language API</title>
+      <link>https://hugo.balduran.cc/post/google-ajax-language-api/</link>
+      <pubDate>Tue, 25 Mar 2008 16:33:01 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-ajax-language-api/</guid>
+      <description>Google AJAX Language API – Google Code
+可以直接拿來當作字典翻譯？</description>
+    </item>
+    
+    <item>
+      <title>google 校園徵才</title>
+      <link>https://hugo.balduran.cc/post/google-intern/</link>
+      <pubDate>Mon, 17 Mar 2008 15:58:45 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-intern/</guid>
+      <description>他特別強調 google 裡面是不講「管理」management 的，硬要說的話要說 leadership，更直接一點就是 help，這句話我看過，leadership is about helping，也就是強調管理是不存在的，應該要說是 leadership 的展現，又或者說所謂的 leadership 其實就是去幫助別人，協助同事解決困難而不是管理，我可以理解這些，當然一部分是因為 AIESEC 有強調這一部分。
+其實他整場講的其他東西我都不太在意，最在意的就是這部分，如果在裡面 team build-up 的過程是如此的自由，那真的會是軟體開發天堂，或者更積極一點來說，是創新實踐的樂園。我接觸到關於創新的講題都不會脫離 leadership, entrepreneurship, innovation，工程師 andy 說，那就是一種 google 人的特質，而他們也只要最好的人才。
+相較於 google，IBM就比較冷場了，一個女性主管在上面巴拉巴拉了四十分鐘，聽得我耐心都沒了，所以別提了。不過它們還是很強調員工的成長啊之類的，但是包袱太多了，台灣區部分一級主管就有 26 個。
+現場居然還和坐我旁邊的清大學生聊開來了，然後留下聯絡方式，很妙。</description>
+    </item>
+    
+    <item>
+      <title>Google Sky</title>
+      <link>https://hugo.balduran.cc/post/google-sky/</link>
+      <pubDate>Fri, 14 Mar 2008 19:49:28 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-sky/</guid>
+      <description>Google Sky
+google 好樣的，什麼東西都可以搞上網路，現在我們可以在網路上瀏覽星空 (不是抬頭就好了嗎?)
+它可以搜尋行星、星系，瀏覽望遠鏡影像，範圍走到了太空，不得不提一下 InterPlaNET，google計畫建構的星際網路，由衛星串接。
+值得一提的是，它是由南美洲 Code Jam 入圍者 Diego Gavinowich 花三個月在 google 實習期間和內部員工合作的作品。這個應該讓很多人磨刀霍霍想一試身手吧！最近就有校園徵才唷！
+ Diego Gavinowich from Buenos Aires was a finalist in our Latin America Code Jam, and joined us for a winter internship three months ago
+ </description>
+    </item>
+    
+    <item>
+      <title>校園徵才與實習</title>
+      <link>https://hugo.balduran.cc/post/intern/</link>
+      <pubDate>Thu, 13 Mar 2008 12:40:48 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/intern/</guid>
+      <description>第五屆台灣微軟-未來生涯體驗計畫
+因為臨近五六月的畢業季節，徵才和實習的廣告打很大，台灣微軟就有在推這樣的實習機會，是在學生暑期時候增加經驗不錯選擇。3/26 在交大浩然國際會議廳。
+除了微軟當然還有 google，3/17 晚間有 openhouse主辦的座談會，事前就已經大力宣傳可以準備簡歷在當場投遞，軟體工程師與實習生校園徵才。今天的網路服務與應用課程也有請到 google 的工程師講解 mapreduce 技術，以 Maps Tiles 和 PageRank 的計算為例。
+3/17 同場上映的還有 IBM，都是很不錯的廠商。
+補個 Yahoo!奇摩2008年校園講座，動作都很大。</description>
+    </item>
+    
+    <item>
+      <title>Google Talk chatback badge</title>
+      <link>https://hugo.balduran.cc/post/gtalk_chatback/</link>
+      <pubDate>Thu, 28 Feb 2008 19:55:29 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/gtalk_chatback/</guid>
+      <description>Google Talkabout 發佈一個小小的新功能，Google Talk chatback badge，說成是小玩意 (badge) 也可以。
+擺在網頁上，顯示你的 Google Talk 狀態，讓網友可以直接透過 badge 傳訊息，像 MSN 就有提供這樣的功能。
+http://www.google.com/talk/service/badge/New直接可以做小小的調整。
+發現是用個 chatback bot 在回應，gtalk 本身只會接到 chatback bot 的訊息，要進一步點連結開視窗才會出現對 guest 的對話框。</description>
+    </item>
+    
+    <item>
+      <title>Google Sites</title>
+      <link>https://hugo.balduran.cc/post/googlesites/</link>
+      <pubDate>Thu, 28 Feb 2008 19:38:44 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/googlesites/</guid>
+      <description>Google Sites 是 Google 收購 JotSpot 之後所推出相對應的服務，也就是協同作業編輯，白話一點就是 wiki。
+這個服務提供使用者與多人共同編輯頁面，搭配 Google App 使用，作為小型企業的內部討論或是專案文件管理都很適合，也因此我踹了一下 http://sites.google.com/a/g2.nctu.edu.tw，還不能使用，按照 Google App 的網址命名應該是沒有錯誤的，而且教育版的功能應該是完整的。如果本身是 Google App 的使用者，將介面轉換成英語之後應該可以看到啟用服務的選項。
+如果有用過 JotSpot 應該會對於它的效果印象深刻，幾乎像是即時線上編輯了，這也是它 05 年獲獎的原因之一。而這次推出的版本，更是整合了 google doc, picasaweb 和 youtube，可以嵌入的媒體形式更多，也更豐富。</description>
+    </item>
+    
+    <item>
+      <title>google profile</title>
+      <link>https://hugo.balduran.cc/post/google-profile/</link>
+      <pubDate>Tue, 18 Dec 2007 17:54:41 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-profile/</guid>
+      <description>在 google reader shared items 功能之外，注意到了一張名片式的 profile，在settings 的 Friends 就可以預覽看到，同樣的 profile 也會出現在 share stuff (s2) 的頁面，但還沒看到可以 embeded 在網頁之中，也許這 profile 以後會在 google 產品中通用。
+Link: http://www.google.com/help/profile/</description>
+    </item>
+    
+    <item>
+      <title>google reader 增加分享文章功能</title>
+      <link>https://hugo.balduran.cc/post/google-reader-share/</link>
+      <pubDate>Tue, 18 Dec 2007 17:43:30 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-reader-share/</guid>
+      <description>Official Google Reader Blog: Reader and Talk are Friends!
+首先說明，這功能增加了google reader 的社交性質，讓 googel reader 不只是單純的 RSS reader 了，當然，你要有朋友和你一起使用才有趣。
+切換到英文介面，在照常瀏覽 feed 之際，注意一下每篇文章的下方除了以前的 add star (星號) 之外，還多了一個 share (分享)，這一個功能就是主角。對於那些覺得不錯的，值得推薦的文章就大力的按下 share 吧。
+應該可以看到 Friend’s shared items 出現在左上角的列表中，上面會自動出現你的 GTalk 聯絡人當中有使用 google reader 又有 share item 的人，無形中增加了自家產品的相連性，對用戶來說也方便，不用特地找尋。
+有在使用這個 share 功能的話會自動增加一個 &amp;ldquo;your shared items&amp;rdquo;，預設當然是公開，而且可以內嵌到網頁，提供 RSS 輸出和網頁形式介面。在這個功能尚未推出前，也是可以將 starred items 的權限設定為公開，或用任一標籤都可以達到同樣功能，但是直接整合好的功能不是更順手嗎？
+如果想要收看大神之流的 shared items，除了將大神加入好友 Gtalk 好友之外，可以直接訂閱 shared items RSS，切割出比較私人的空間。
+順道一提 share stuff (s2)，原本想說這兩樣功能互打，但是 s2 還是比較偏向書籤收藏的方向，而 reader share 則是收藏 feed。</description>
+    </item>
+    
+    <item>
+      <title>knol - google 推行的維基百科</title>
+      <link>https://hugo.balduran.cc/post/knol/</link>
+      <pubDate>Mon, 17 Dec 2007 08:44:26 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/knol/</guid>
+      <description>所有相關的消息只有一張截圖，googel official blog 上輕描淡寫的一篇引起眾多媒體報導，消息非常隱匿，只有透過邀請制才能加入。
+knol 是 google 新創的詞，代表是的「知識」的計量單位，為了鼓勵人們發表知識，這個 knol 著重在作者本身，提供文章的發表人資訊，希望藉由人們的虛榮心鼓勵創作，喔，更正是「榮譽感」。
+如果有真才實學，那要在 knol 發表闊論自然是揮灑自如，也不會出現奇摩知識+ 的荒謬答案。如果靠著作者的真實署名可以藉由名聲控管品質，那也不會出現知識+ 那種剪下貼上的淺薄答案。還沒推出，也不可說的太滿。
+這是標準的 user generated content。google 能否靠著自有的廣告網路達成雙贏？或許是能否超越為基百科的重點，不過要注意的是，向維基百科這樣龐大的資料庫，成長到一定數量辭目的時候，就會開始趨緩，內容的產出也會越來越少。</description>
+    </item>
+    
+    <item>
+      <title>Google Chart API</title>
+      <link>https://hugo.balduran.cc/post/google-chart-api/</link>
+      <pubDate>Tue, 11 Dec 2007 14:04:48 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-chart-api/</guid>
+      <description>使用 Google Chart API 可以動態地生成圖表，只要使用 http://chart.apis.google.com/chart?&amp;lt;parameter 1&amp;gt;&amp;amp;這種形式的 URL 就可以產生圖表，不用申請 API，沒有繁雜的編寫過程，只要收集完整的 dataset，圖表隨手可得。
+wordpress 有個 SparkStats Plugin，可以產生名為 Sparkline 的線圖，我想這個 API 讓這個功能更簡單實做了吧。
+Link: http://google-code-updates.blogspot.com/2007/12/embed-charts-in-webpages-with-one-of.html</description>
+    </item>
+    
+    <item>
+      <title>Google 的徵才</title>
+      <link>https://hugo.balduran.cc/post/google-jobs/</link>
+      <pubDate>Tue, 04 Dec 2007 05:46:36 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-jobs/</guid>
+      <description>首先從Google的語言考題看到，這是翻譯人才的考題，不是我的專業，看看就過去了。
+翻看104人力銀行─美商科高國際有限公司上職缺烈表，履歷都要求投遞到 jobs@google.com 上，104 上寄送履歷不會有回應，和世界的人才競爭，沒有其他管道。
+工作地點都是台北或是北京，為了中文市場？Google Jobs Taiwan也有列表，學生實習。
+好多軟體職，這應該是這領域最好的出路了吧。</description>
+    </item>
+    
+    <item>
+      <title>Google Gadgets 跨平台</title>
+      <link>https://hugo.balduran.cc/post/google-gadget-on-mac/</link>
+      <pubDate>Thu, 29 Nov 2007 17:59:29 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-gadget-on-mac/</guid>
+      <description>Google Code Blog: Google Gadgets going cross-platform，本來 google gadget 是執行在 web (iGoogle) 和 Google Desktop (windows) 兩個平台，現在還增加了 MAC 一族，不然占大多數使用者的 WINDOWS 專美於前，支援 Apple 公司的 Dashboard 啦。
+要能夠跨平台執行的 Gadgets 當然又額外的要求，Javascript, avoid Win-specific APIs, Dashboard environment，google 準備了 Cross-Platform 文件給開發人員。相較於 Yahoo widget Engine，估狗的動作是慢了，但是 gadget 可以直接在 Dashboard 執行則是 YAHOO 無法達到的功能，再加上 MS 的 Vista sidebar 來看，是永遠都不可能跨平台的LOL
+以未來的網頁發展趨勢來看，widget 和 javascript plugins 是同等的重要，兩項技術都提供了豐富網頁元件的功能，從現在為數眾多的 blog 中要找到清爽乾淨沒有額外 widget 還真是不容易，我們仰賴這些元件提供額外的互動性與趣味，lightweight, easy use &amp;amp; rich content。
+網站: http://desktop.google.com/mac/</description>
+    </item>
+    
+    <item>
+      <title>My Location, Google 替你定位</title>
+      <link>https://hugo.balduran.cc/post/gmm-mylocaiotn/</link>
+      <pubDate>Thu, 29 Nov 2007 09:26:04 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/gmm-mylocaiotn/</guid>
+      <description>google Maps with My Location
+相信很多人都看過 MMDays 對於 My Location 的介紹，就不多說了。:p
+google 自己拍的宣傳影片也很清楚簡明，就是利用 GSM 的基地台 BTS 做簡單的定位，以個人通訊課程所教授的內容印證，是可以達到大範圍位置的追蹤。手機 (MS) 本身就是一個發信器，經常性對 BTS, MSC 確認自己的位置，但是無法做得很精準，頂多 Location Area 轉換時可以清楚知道從哪個地區做切換。
+簽下電信合約的我們其實就和隨時被監控沒兩樣，電信公司隨時都能掌握我們的位置、生活習慣、出沒區域，如果設定信用卡自動轉帳扣繳，那你更是白白將自己個人資料交了出去。
+圖示上的藍色範圍圈圈就是無法確切抓到位置，只能概括一個區域。
+google Maps 很好用，當越多人在上面增加資料的同時，我們也提供了更多的廣告機會。這龐大的資料庫建立在地圖上，可以擺脫舊時 Page Rank 容易被惡搞的窘境，以現在來說，操作好幾個網站互相引用造成 PR 提高，因為網域名稱的不同還可以這麼幹，但地圖資料用經緯度識別，更貼近生活，也獨一無二。
+同時想到車用網路 (vehicular networking) 的連結部分，是用 GPS 定位、mobile 連結還是 WiFi 小範圍廣播比較好？這部分還在學，mobile 上 JAVA 軟體互相連結說不定有搞頭。</description>
+    </item>
+    
+    <item>
+      <title>share your google Maps</title>
+      <link>https://hugo.balduran.cc/post/share-your-google-maps/</link>
+      <pubDate>Wed, 28 Nov 2007 15:38:16 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/share-your-google-maps/</guid>
+      <description>Google LatLong 公布了一項很讚的功能，google Map 也能共同編輯了。
+google 本身推出的服務都帶有一點社交色彩，gmail, google doc 在人與人互動上都有其獨特之處。獨獨 google Map 還是一份個人地圖，你可以分享給別人看，但是別人不能在上面增加資料，這樣的分享，還少了一塊。
+現在這遺失的一塊已經補回來了，你的地圖不再是孤單的，多人共同編輯同一份圖資，就像共同編輯 google doc 一樣，簡單方便，最大最直接的好處就是補完美食地圖更容易啦 :Q
+再來想想 google 還有什麼服務沒加上協同作業。picasaweb + geotagging ?</description>
+    </item>
+    
+    <item>
+      <title>google Logo contest on UK</title>
+      <link>https://hugo.balduran.cc/post/google-logo-contest-on-uk/</link>
+      <pubDate>Tue, 20 Nov 2007 18:26:01 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-logo-contest-on-uk/</guid>
+      <description>see: http://blogoscoped.com/archive/2007-11-20-n65.html
+重點在於那張圖，暖化啊啊啊啊！
+可是很多人都是喊喊口號，或是表現得一副道貌岸然。</description>
+    </item>
+    
+    <item>
+      <title>Google Apps Email Migration API</title>
+      <link>https://hugo.balduran.cc/post/google-apps-email-migration-api/</link>
+      <pubDate>Mon, 19 Nov 2007 07:03:37 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-apps-email-migration-api/</guid>
+      <description>Google Apps Email 釋出 Migration API，可從任何地方搬移 e-mail 到 Google Apps Email，為什麼不靠 IMAP 系統呢？是考量到使用者可能沒有 IMAP 伺服器或是安全因素必須採用主動 push migration 的方式，因此提供 API 讓應用程式使用。
+例如 LimitNone 的 gMove 就是這樣的一套工具，可以搬移 Microsoft Outlook calendar (行事曆), email, contacts (聯絡人) and tasks 到 Gmail 或是 google app。
+google 力推 app，想讓一般企業也使用，但是我覺得 app 是做佛心來的，學校、慈善團體應該是獲益最大的，而一般中小企業可能沒有迫切需要有自己的 domain name 和 mail address，而夠大的企業又要保密，怎麼可能讓 google 代管呢？
+所以讓使用者自己獻上 e-mail 內容 (誤)。</description>
+    </item>
+    
+    <item>
+      <title>google 共同創辦人之一 Larry Page 下個月結婚</title>
+      <link>https://hugo.balduran.cc/post/larry-page-to-wed-next-month/</link>
+      <pubDate>Wed, 14 Nov 2007 18:40:04 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/larry-page-to-wed-next-month/</guid>
+      <description>Google co-founder Larry Page to wed next month 新聞連結。
+嗯，所有關於 google 的八卦消息都是好消息！雖然不關我的事，就是很想貼這則新聞。</description>
+    </item>
+    
+    <item>
+      <title>Gmail 新版終於盼到了!</title>
+      <link>https://hugo.balduran.cc/post/new_gmail/</link>
+      <pubDate>Mon, 12 Nov 2007 15:11:48 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/new_gmail/</guid>
+      <description>自從在 blog 上抱怨後也只能靜靜等待，今天才發現已經是新版了，真是千呼萬喚始出來啊。
+新版和舊版還真是感覺不出差別，除了通訊錄的介面大翻新之外，其它都是很微妙的小地方，別人沒說，我還不知道呢！
+google operation system 上說 Gmail 架構翻新，有了更好的效能和易用性，同時網址列也有些小更動，用以區分不同的 view，還有預先載入郵件內容，不用等待太多時間。講了滿多點更動，但是不仔細注意真的真的沒發現。
+比起這個，我現在才注意到 IMAP access更動所帶來的便利性，在手持裝置這一塊領域上，iPhone 是明日之星，還有各式的 PPC 陪襯，google 自己的介紹影片也是用 iPhone 示範，這個功能讓 Gmail 顯得更酷更好用，但是僅限於有錢買 iPhone 的傢伙。
+上面這段話有點酸 :p，我是後來有看到中華電信的 快遞郵 Push Mail，也支援有 IMAP access功能的信箱，那對於現在市面上常見的 3G 手機而言，都是可以使用的服務了，至於費率，好像還是不夠划算，但是至少 Push Mail 不是只有黑莓機能說。</description>
+    </item>
+    
+    <item>
+      <title>Google 台北程式開發日</title>
+      <link>https://hugo.balduran.cc/post/google-developerday/</link>
+      <pubDate>Sun, 11 Nov 2007 17:40:58 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-developerday/</guid>
+      <description>先看看這個網頁吧！台北程式開發日
+這種簡潔程度還真是一針見血，回答問題之後可以看到報名表格，就這麼簡單的一頁 (是一頁！請看原始碼)。
+ 活動地點和流程
+台北程式開發日將於
+2007年11月22日舉行：
+地點：亞太會館B1會議室
+地址：台北市信義區松高路68號
+電話：02-87805168
+活動流程如下：
+09:00 歡迎大駕光臨
+09:30~10:20 漫談Google小工具 –Google工程師劉宗原
+10:20~11:10 漫談Google地圖小工具 –Google工程師談偉航
+11:10~12:00 漫談Google與開放原始碼 –Google工程師葉平博士
+12:00~13:00 享用午餐&amp;amp;分組
+13:00~15:00 大顯身手寫程式
+15:00~16:00 成果展示分享
+16: 00 活動落幕
+ 可以知道重點在於 web gadget 的開發，也可以參閱微軟的比賽。</description>
+    </item>
+    
+    <item>
+      <title>google 地球新增天氣圖層 Google Earth new layer: weather</title>
+      <link>https://hugo.balduran.cc/post/google-earth-new-layer-weather/</link>
+      <pubDate>Sun, 11 Nov 2007 15:54:52 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-earth-new-layer-weather/</guid>
+      <description>google earth 小小的更新，可以顯示天氣，資料是抓 http://www.weather.com/，至於台灣的氣象資料就不要要求太多準確度了。
+附記: Google 日曆支援氣象預報
+Link: Google LatLong: How’s the weather?</description>
+    </item>
+    
+    <item>
+      <title>google open social</title>
+      <link>https://hugo.balduran.cc/post/google-open-social/</link>
+      <pubDate>Mon, 05 Nov 2007 18:07:01 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-open-social/</guid>
+      <description>google opensocial 正式推出，在 SNS (spcial networl service) 的領域中 google 想要占有一角的意味濃厚，不過為什麼不是推出自己新的服務 (我覺得 Orkut 已經被放棄了) 而是採取結盟呢？難道 facebook 的聲勢真的大到 google 必須聯合各家網站才能與之抗衡？
+opensocial 是以 API 的方式在運作，任何使用這組 API 的 widget 都可以在其上執行各種 application，只要就是針對 facebook 內各式各樣的 application 做出更開放的平台，例如 twitter 在 facebook 裡的整合，我可以在 facebook 裡面開始 twitter，也可以介紹給臉書裡面的朋友使用。臉書提供平台，twitter 則是application。
+因此主體可以分成兩方，一方是 social network 所提供的使用者資料，一方則是使用這些資料所構築出來的應用程式。這就是現在社交網路的發展趨勢，也是臉書如此熱門的原因，這個平台讓使用者更樂意在其上分享與互動。
+opensocial API 是針對 widget app developer 所設計的嗎？我想也不是，它是一個中間的介質，SNS 可以搭上它的順風車讓 user 有更多玩意可玩，對於凝聚 SNS 內的群聚向心力是有一定幫助，而這種相連的特性保持客戶不被大宗同業 (facebook?) 拉走。當用戶越來越多，群聚的效益就出現了，我們也看到支援此 API 的服務有很多。
+這是一個實驗性質的概念，剛推出還沒見到很有趣的東西，而臉書的內容我也還在慢慢體驗，就看看這些 social network建構出的 platform 可以有多大發展。
+還有一個 openID 可以討論，未來的網路說不定什麼都是開放的標準呢！
+API doc: http://code.google.com/apis/opensocial/docs/</description>
+    </item>
+    
+    <item>
+      <title>Google 資深副總裁 Vint Cerf 博士演講</title>
+      <link>https://hugo.balduran.cc/post/google-vint-cerf/</link>
+      <pubDate>Mon, 15 Oct 2007 15:52:22 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-vint-cerf/</guid>
+      <description>之前看到的TANET 2007 專題講座，原本以為只有台北一場，那就只能眼看它隨風而去啦。
+But，沒想到在交大也有另一個場次，而且時間上我完全可以配合！
+ 敬邀參加～
+網際網路之父、Turing Award得主、Google資深副總裁-
+Vint Cerf博士演講
+講題：Tracking the Internet into the 21st Century
+（探索二十一世紀網路趨勢）
+主講人：Dr. Vint Cerf, ACM A.M. Turing Award Winner
+時間：96年10月19日（星期五） 13:40~15:30 (13:30 開始入場)
+地點：交大電資大樓一樓國際會議廳（新竹市大學路1001號）
+主辦單位：交通大學資訊學院
+Google台灣工程研究所
+ </description>
+    </item>
+    
+    <item>
+      <title>Google Video Units 影音化的Adsense</title>
+      <link>https://hugo.balduran.cc/post/google-video-units-e5bdb1e99fb3e58c96e79a84adsense/</link>
+      <pubDate>Thu, 11 Oct 2007 02:07:35 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-video-units-e5bdb1e99fb3e58c96e79a84adsense/</guid>
+      <description>Mr. Saturday介紹 Google Adsense的新產品video units，是結合 Youtube上的影音資源所提供的新型態廣告，和日前提過的 gadget ad同樣都是多媒體內容的廣告，不同的是一方為 AdWord是供給廣告主使用，Video Unit則是瞄準 Content Provider，和 Adsense for Feed一樣是特定用戶才可以使用的功能，且只限美語系地區。</description>
+    </item>
+    
+    <item>
+      <title>google gadget ad 互動廣告</title>
+      <link>https://hugo.balduran.cc/post/google-gadget-ad-e4ba92e58b95e5bba3e5918a/</link>
+      <pubDate>Wed, 26 Sep 2007 06:40:30 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-gadget-ad-e4ba92e58b95e5bba3e5918a/</guid>
+      <description>Google 互動廣告有中文的說明，互動廣告是結合了feeds、地圖、圖片、影片等等等的多媒體廣告(rich media ad)，更直覺一點就想成是adSense大小的迷你網站。
+這服務瞄準的當然不是升斗小民，它可說是adWord的更進化版本，結合gadget的豐富特性，甚至會出現gadgets directory裡。
+我有一點不懂的是，以客戶的觀點來看，是將 gadget ad放到 iGoogle中，然後出現的廣告是針對個人使用習慣嗎？那加入這個 gadget小玩意就是自願接收 google的廣告，也就是一種大量的廣告派發管道，而且是接收者主動接收的，比較難計算的是 google和廣告主要怎麼算錢？</description>
+    </item>
+    
+    <item>
+      <title>google doc 推出新功能 presentation</title>
+      <link>https://hugo.balduran.cc/post/google-doc-e68ea8e587bae696b0e58a9fe883bd-presentation/</link>
+      <pubDate>Wed, 19 Sep 2007 05:56:54 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-doc-e68ea8e587bae696b0e58a9fe883bd-presentation/</guid>
+      <description>google doc推出的新功能，就是代表簡報能力的presentation，上傳吃的是ppt和pps副檔名，但mac上的page就是不吃，存檔也是以存成ppt為主。
+看起來挺不錯用的，也有theme可以換，以辦公室軟體主要的三項文書、試算和簡報來說是備齊了，線上版的office軟體也一直在喊，這樣可說是更進一步了。
+和google doc最佳的搭配我覺得是google app，同一家企業、公司、學校或團體，有文書作業上傳遞的時候就非常適合使用這種線上的系統。像我自己在寄word給別人看的時候還要擔心對方的軟體版本，如果太舊還會無法讀取，當我要寄信給十個人的時候就要擔心十次，信件往返之間往往弄得一個頭兩個大，web系統的價值這時候就顯現出來了。儘管 ms強調不會影響到單機軟體的市場，這是趨勢的話又有誰能抵擋呢？
+Official Google Blog: Our feature presentation
+Google 簡報 : O3noBLOG</description>
+    </item>
+    
+    <item>
+      <title>Gmail video出爐</title>
+      <link>https://hugo.balduran.cc/post/gmail-videoe587bae78890/</link>
+      <pubDate>Fri, 31 Aug 2007 20:06:52 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/gmail-videoe587bae78890/</guid>
+      <description>登入 Gmail使用時，注意到右上角的紅字”Watch our video“，這份影片就是用之前徵求的影片片段拼湊而成，紅色的M-velope不斷的傳遞，用來傳達email連接起整個世界的概念。
+下方的GMap可以看到，這些影片真的遍佈世界。
+link: Official Gmail Blog: Watch the final Gmail collaborative video</description>
+    </item>
+    
+    <item>
+      <title>Google 日曆支援氣象預報</title>
+      <link>https://hugo.balduran.cc/post/google-calendar-weather/</link>
+      <pubDate>Fri, 31 Aug 2007 19:51:31 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-calendar-weather/</guid>
+      <description>Google Help Center有說明如何在英語環境下增加氣象預報，現在不只有美國有這項功能，台灣地區靠些小技巧也可以達到同樣效果。
+首先在「設定」的地方，將「國家/地區」改成美國之後儲存，氣象的選項就會出現了，這時填入地區如「新竹」，還有選擇溫度顯示方式，在將「國家/地區」改回台灣，成功的話就會在小日曆上看到可愛的氣象圖案囉！
+顯示預報最多三天。</description>
+    </item>
+    
+    <item>
+      <title>twittervison: Gmap &#43; twitter即時顯示</title>
+      <link>https://hugo.balduran.cc/post/twittervison-gmap-twittere58db3e69982e9a1afe7a4ba/</link>
+      <pubDate>Mon, 19 Mar 2007 08:48:28 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/twittervison-gmap-twittere58db3e69982e9a1afe7a4ba/</guid>
+      <description>twittervision
+這東東真鮮！再google map上即時地顯示twitter的publicline訊息，也就是全世界即時送出的twitter都會在Gmap上顯示，無用！但感覺很奇妙。
+我真是小看了twitter造成的影響，這個介於blog和 IM的碎碎唸，比 IM公開，又比blog輕鬆，隨意的一段話都可以吸引即時的回應。
+若是有分散式的twitter我想會更好玩，不用受限主機的存在。像blog的存在可以在BSP，也可以自行架站，又要像現在twitter一樣匯集聯絡人列表上的訊息，有明確的contact list，也可以和手機連結。這些想法好像有些衝突，要額外安裝軟體的話不就和現行的 IM一樣，那若是 IM會自動整理聯絡人的暱稱變換呢？過往的訊息要怎麼儲存？
+不管怎樣，看看twittervision上即時顯示的訊息吧。</description>
+    </item>
+    
+    <item>
+      <title>Google Gmail 部落客家聚</title>
+      <link>https://hugo.balduran.cc/post/google-gmail-e983a8e890bde5aea2e5aeb6e8819a/</link>
+      <pubDate>Sun, 18 Mar 2007 17:22:28 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-gmail-e983a8e890bde5aea2e5aeb6e8819a/</guid>
+      <description>昨天(3/17)進行的google公司邀請blogger們聚會的活動，很可惜的不能參加，我對其他的blogger不感興趣，但對google公司本身在台灣的人事很好奇。
+如果說這場合是blogger的家聚，倒不如說是google公司接觸台灣blogger，藉次獲取使用者經驗，得到直接的意見回饋吧。聚會的內容也可以經由blogger們撰文的習慣推廣，在網路上傳播，不管怎樣，一定會有討論產生。還是試探性的公關活動？再決定下一步該採取的動作。
+ 石墨工房 5.1β – 網路生活 – Google部落客家聚進行中‥‥ 愛麗絲夢遊部落格仙境: Gmail首次部落客家聚 by 李怡志: Google Gmail的Blogger記者會 ericsk’s blog � GMail 部落客家聚 G 社辦的……家聚？ | Jedi’s BLOG | Jedi.org Gmail 部落客家聚 @ 苦牢之最後一年 Google台灣部落客家聚邀請紀實 – Jas9 Taipei.  </description>
+    </item>
+    
+    <item>
+      <title>Gmail 部落客聚會</title>
+      <link>https://hugo.balduran.cc/post/gmail-e983a8e890bde5aea2e8819ae69c83/</link>
+      <pubDate>Wed, 14 Mar 2007 16:22:56 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/gmail-e983a8e890bde5aea2e8819ae69c83/</guid>
+      <description>Vista 2.0 – 維斯塔日記 – � 你想參加Gmail的聚會嗎？提供的訊息，有意前往的blogger可以先報名。
+「Gmail部落客家聚邀請函」
+「Gmail部落」「客家」聚邀請函，這是我拆字的方式，因為我是客家人。
+當天要考試，話說我真的很不喜歡考試，大概是衝勁都沒了。越念越覺得格局變小，兜圈子。</description>
+    </item>
+    
+    <item>
+      <title>Spanning Sync 同步 iCal和 Google Calendar</title>
+      <link>https://hugo.balduran.cc/post/spanning-sync-e5908ce6ada5-icale5928c-google-calendar/</link>
+      <pubDate>Wed, 14 Mar 2007 03:29:18 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/spanning-sync-e5908ce6ada5-icale5928c-google-calendar/</guid>
+      <description>同時使用 Google Calendar和 iCal的使用者有福了，現在Spanning Sync結合這兩者，讓兩者同步資料。
+多台mac要同步資料，利用google canlendar就可以完成。支援iSync的裝置也同樣適用，iPod或是iPhone。
+不是免費軟體，要錢。
+兩大公司的產品結合，google是線上 Canlendar，apple是單機的 iCal，這樣的合作顯得更powerful，這項產品也可以讓我們多思考，未來的應用程式應該不是只有線上版，web OS的藍圖很大很遠，但是都要靠網路來結合，沒有網路的地方，還是要有單機作業才行。而適當地結合這兩者，會是很好的經驗。
+第三方軟體可以作這條路，企業間也可以放下身段互相支援，就看以後官方會不會主動推出這樣的功能。
+update: gsync，免費，但我覺得不好用。</description>
+    </item>
+    
+    <item>
+      <title>Picasa Web Albums隱藏功能</title>
+      <link>https://hugo.balduran.cc/post/picasa-web-albumse99ab1e8978fe58a9fe883bd/</link>
+      <pubDate>Sun, 11 Mar 2007 03:52:41 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/picasa-web-albumse99ab1e8978fe58a9fe883bd/</guid>
+      <description>使用中文介面的網友對照What’s New列出的功能，會發現中文介面少了幾項功能。
+   Search and tag your photos. Search over your friend’s public photos
+    Hey, we’re Google. Search across album descriptions, captions, our new tags and more.
+ 是的，搜尋圖片和標籤功能要英文介面才會出現 2. blogger圖片上傳管理，使用blogger出傳圖片後，Picasa Web Album會出現對應的一本相簿，預設是隱藏，可以統一管理blogger所使用到的圖片，當然！這代表你的blogger有 1G的圖片空間可以用 3. &amp;gt; What is Picasa Web Albums community search?
+ Checking this setting enables the Picasa Web Albums community to find your public albums. Unlisted albums never appear in Picasa Web Albums public search results.</description>
+    </item>
+    
+    <item>
+      <title>Picasa Web Albums 容量加大</title>
+      <link>https://hugo.balduran.cc/post/picasa-web-albums-e5aeb9e9878fe58aa0e5a4a7/</link>
+      <pubDate>Thu, 08 Mar 2007 07:44:04 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/picasa-web-albums-e5aeb9e9878fe58aa0e5a4a7/</guid>
+      <description>Picasa Web Albums免費帳號容量加大到 1G！這絕對是值得慶賀的一件事。投靠google的blogger似乎也是很不錯，心動 :p
+ We’ve upped the free storage quota to 1GB (and counting!). That’s enough room to post and share around 4,000 standard resolution photos.
+ Picasa Web Albums mac user專用
+Embedding Picasa Web Album galleries on your webpages 參考看看
+via: Official Google Blog</description>
+    </item>
+    
+    <item>
+      <title>Google Desktop 5 Beta!</title>
+      <link>https://hugo.balduran.cc/post/google-desktop-5-beta/</link>
+      <pubDate>Wed, 07 Mar 2007 15:00:20 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-desktop-5-beta/</guid>
+      <description>Google Desktop: The New Sidebar and Gadgets宣佈Google 桌面 5 Beta推出，提供新的sidebar和Gadget。
+側邊欄(sidebar)有嶄新的外觀，小工具(Gadget)也重新設計過，還有桌面搜尋的介面更加人性化，提供了預覽功能，安全性也提升了，更多詳細內容參見「Google 桌面」- 功能。
+還有一點
+ 需要 Windows Vista/XP/2000 SP3+
+ </description>
+    </item>
+    
+    <item>
+      <title>google logo的巧克力草莓代表?</title>
+      <link>https://hugo.balduran.cc/post/googlelogo-starberry/</link>
+      <pubDate>Fri, 16 Feb 2007 04:50:47 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/googlelogo-starberry/</guid>
+      <description>當天看到這個巧克力草莓也不覺得有什麼特別，就只是個甜蜜的代表吧！日記與隨筆: Valentine’s Day也提到不懂其中關聯，不多想的我也開始好奇，是我想的太少，還是確實另有深義？
+甜蜜的心型巧克力+酸甜的草莓不就很明確的表示了情人節的代表物嗎？但是google的「l」跑哪裡去了？是紅色草莓那長長的梗嗎？還是google忘了自己的公司名稱？
+Official Google Blog: Strawberries are red, stems are green…沒有明說，只淡淡的點出這個logo的微妙之處需要一些羅曼史與詩意，挺耐人尋味。
+搜尋googe的第一個網頁是Barnabe Googe – Wikipedia，是個十六世紀的詩人，最有名的詞句是
+ I did but see her passing by, and yet I love her till I die.
+ 看來這就是正解了，既有詩意又浪漫，至於Digg – Google’s obscure literary reference for Valentine’s Day?上的諸多猜測，就隨意看看囉。
+Flickr上有很多的心形圖片，也許可以讓你感受到更多熱情。</description>
+    </item>
+    
+    <item>
+      <title>blogger舊帳號轉換至新版</title>
+      <link>https://hugo.balduran.cc/post/bloggere8888ae5b8b3e8999fe8bd89e68f9be887b3e696b0e78988/</link>
+      <pubDate>Wed, 24 Jan 2007 16:31:04 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/bloggere8888ae5b8b3e8999fe8bd89e68f9be887b3e696b0e78988/</guid>
+      <description>blogger新版在beta的時候，我創了一個新的帳號，也就是google帳戶，一方面嚐鮮，一方面找不到到舊版轉換帳號的方法(我試過，但失敗)。這個新帳號我無心經營，只是為了試試看有何進步之處，使用上是改善許多，但是不能發佈到ftp上，新增的眾多功能都要在blogspot網域才能使用，那時我覺得舊版還是有存在的必要。
+現在發覺已經可以轉換至新版blogger了，在沒有登入任何帳號的情況下，blogger首頁有轉換的選項，若是存有cookie就會直接轉到控制台(像我就是)，所以這個功能出現了多久我也不清楚。
+現在範本分成兩個部份，傳統的和新的，若是要發佈到ftp上就一定要使用傳統範本。看自己的需求，想要留存網頁備份還是更多的互動功能，今晚你選那一個？
+我一直期盼能有的功能，那就是匯入，如果能提供文字格式檔案匯入多篇文章的話，搬家就輕而易舉了，目前還沒找到相關的功能。maill發表不知道能不能這樣子搞？
+官方詳細說明(中文)：Blogger 說明 : 我要如何切換至 Blogger 試用版？</description>
+    </item>
+    
+  </channel>
+</rss>

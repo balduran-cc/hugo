@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>oui-blog on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/oui-blog/</link>
+    <description>Recent content in oui-blog on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Feb 2007 16:32:49 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/oui-blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>oui-blog三歲</title>
+      <link>https://hugo.balduran.cc/post/oui-blog-3year/</link>
+      <pubDate>Mon, 05 Feb 2007 16:32:49 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/oui-blog-3year/</guid>
+      <description>OUi-BLOG 3.0 ::: OUi-BLOG 三歲了
+好不容易的三歲呢，經過好多好多風雨，還有那段每到月底就要準備迎接頻寬被用完的日子，想起來還是這個blog活最久呢：p
+繼續插科打諢吧！
+—
+好簡單的一篇，純紀念性質。blogging時間三年多。</description>
+    </item>
+    
+  </channel>
+</rss>

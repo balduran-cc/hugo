@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ime on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/ime/</link>
+    <description>Recent content in ime on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 May 2008 05:42:06 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/ime/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Yahoo!奇摩輸入法</title>
+      <link>https://hugo.balduran.cc/post/yahoo-keykey/</link>
+      <pubDate>Fri, 16 May 2008 05:42:06 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/yahoo-keykey/</guid>
+      <description>Yahoo!奇摩輸入法
+世界無奇不有，Yahoo! 奇摩也推出了自己的輸入法。聽說，比新酷音好用。雙平台支援，除了 window 版本之外還有 MAC OS X版本。
+這種東西還是讓給別人嘗鮮吧。</description>
+    </item>
+    
+    <item>
+      <title>OpenVanilla輸入法尋求測試</title>
+      <link>https://hugo.balduran.cc/post/openvanilla-beta/</link>
+      <pubDate>Sat, 13 Jan 2007 07:19:31 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/openvanilla-beta/</guid>
+      <description>cahier lukhnos：OpenVanilla的酷音輸入法發佈新版：徵求測試
+我是膽小鬼～～我不敢下載當白老鼠。
+酷音選字的問題真的很麻煩，預設字都不是常用字。</description>
+    </item>
+    
+  </channel>
+</rss>

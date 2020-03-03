@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vagrant on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/vagrant/</link>
+    <description>Recent content in vagrant on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 May 2016 23:48:27 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/vagrant/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Vagrant - introduction</title>
+      <link>https://hugo.balduran.cc/post/vagrant-introduction/</link>
+      <pubDate>Sun, 29 May 2016 23:48:27 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/vagrant-introduction/</guid>
+      <description>vagrant 開發人員在每個案子的最開頭，一定會遇到一件事，那就是建立開發環境。建立開發環境，在古早的時期，先是自己拿一台閒置的桌機或筆電，看是要裝 ubuntu 還是 debian，或是 Microsoft 系列的 windows server，基本上，就是一台電腦專職作開發用途。
+到了後來有虛擬機的時候，開始了切割開發環境和一般使用兩種情境，不過這件事情大多是發生在進入業界以後，在學校，老師教導學生都不會提到這類方便的做法。這種作法就是靠 VirtualBox 或是 VMware 這類的虛擬機器軟體，切割出一台虛擬機，裡面只安裝開發環境所需要的軟體，而且也可以隨時開關，唯一的缺點，就是吃資源，需要一台夠有力的機器跑虛擬機。
+虛擬機固然是一個很不錯的選擇，但如果所開發的軟體需要各種不同的環境下測試，例如開發網站的 web developer需要在 IE6, IE7, IE8, IE9, IE10 and IE11 and Edge browser，那就要安裝七個 windows 虛擬機，數量一多，實在累人。
+面臨一堆的虛擬機要管理，這時候就需要小工具，Vagrant就是這樣一個超方便的工具，他可以很方便快速的設定好虛擬機器，無論是架設開發環境或是用來重現測試環境，都很容易。
+Vagrant 的使用 Vagrant 支援多種虛擬機的格式，舉凡 VirtualBox、VMware、AWS、Hyder-V 或是 Docker 都支援。使用上也很簡單，安裝好 Vagrant 後直接下個命令
+$ vagrant init hashicorp/precise64 $ vagrant up 就會自動下載 Ubuntu 12.04 LTS 64-bit 並且啟動。
+只要在下個 vagrant ssh 就可以登入這台虛擬機器，如果想要砍掉這個虛擬機，只要 vagrant destroy 就可以無痕摧毀了。</description>
+    </item>
+    
+    <item>
+      <title>Errors when installing vagrant plugin</title>
+      <link>https://hugo.balduran.cc/post/errors-when-installing-vagrant-plugin/</link>
+      <pubDate>Tue, 05 May 2015 04:11:43 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/errors-when-installing-vagrant-plugin/</guid>
+      <description>Vagrant 有很多 providers 可以運用，不只是預設的 VirtualBox，其他 VPS1 也可以和 Vagrant 串接，例如 AWS 和 DigitalOcean。我自己在試著用 DigitalOcean 的時候遇到了問題
+照著tutorial 首先 follow DigitalOcean 上的 Tutorial，看似簡單，只要
+vagrant plugin install vagrant-digitalocean vagrant box add digital_ocean https://github.com/smdahlen/vagrant-digitalocean/raw/master/box/digital_ocean.box 但我的 mac 上卻給出了 nokogiri 相關的錯誤訊息。
+安裝 nokogiri  An error occurred while installing nokogiri (1.6.6.2), and Bundler cannot continue. Make sure that gem install nokogiri -v &#39;1.6.6.2&#39; succeeds before bundling.
+ 當然，這個訊息提示了我們需要安裝 nokogiri，搭配 rbenv 來安裝 nokogiri 是建議做的做法，也比較乾淨。但無獨有偶，gem install nokogiri 也還是出現了錯誤。
+ Building native extensions.</description>
+    </item>
+    
+  </channel>
+</rss>

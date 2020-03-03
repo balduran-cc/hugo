@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tips on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/tips/</link>
+    <description>Recent content in tips on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Oct 2017 21:59:12 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/tips/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Domain Name Registration</title>
+      <link>https://hugo.balduran.cc/post/domain-name-registration/</link>
+      <pubDate>Mon, 16 Oct 2017 21:59:12 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/domain-name-registration/</guid>
+      <description>之前有記錄過 GoDaddy 購買 domain，但續約價格實在不太好。
+另外推薦 gandi.net 和 namecheap，續約時候的價格就比較實惠，長期下來 GoDaddy 反而沒什麼吸引力。另外也可以考慮 AWS 的 route53。
+如果要選擇搬家（domain trafnser)，那就要先看好各家的收費方案。
+以 .cc domain為例，在 Gandi 價格為 17.5 USD 一年，轉移費用為 15.5 USD。 在 namecheap 為註冊 9.88 USD 一年，[轉移費用]和 renew (https://www.namecheap.com/domains/transfer.aspx)是 11.88 USD。
+以此判斷，namecheap 是比較實惠的方案。</description>
+    </item>
+    
+    <item>
+      <title>香港機場退離境稅</title>
+      <link>https://hugo.balduran.cc/post/hkg-departure-tax/</link>
+      <pubDate>Mon, 16 Oct 2017 21:43:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/hkg-departure-tax/</guid>
+      <description>如果自己單買台北香港的機票，不論是旅行社或是自己網路購票，都包含了一項機場離境稅，120 港幣。
+如果台北香港的航班是為了接另外香港發的航班，那有很大機會可以退離境稅。條件很簡單，同日進港又離港，那就可以退稅。例如，早上到達的航班，出機場去市區吃吃喝喝，晚上飛離香港的航班，那這樣就可以退。
+退稅櫃台在出境大廳的 E F 櫃檯中間，其實就是出境大廳的正中央，非常好找。備好
+ 電子機票文件 進港航班登機證 離港航班登機證  讓工作人員影印之後，就會退還 120 港幣現金。同時登機證上會蓋上一個章表示退稅完成。</description>
+    </item>
+    
+    <item>
+      <title>different git repo, different ssh key</title>
+      <link>https://hugo.balduran.cc/post/different-git-repo-different-ssh-key/</link>
+      <pubDate>Thu, 21 Jan 2016 03:55:02 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/different-git-repo-different-ssh-key/</guid>
+      <description>一般來說，git 的 user 設定只要會是自己，所有的 commit 也都是自己的名字。不過剛好工作上有需要用一個共用的 github account 來和另一家公司合作，流程是我方需要隨著對方版本的更新而更新，更新的內容主要就是版號而不是程式實做的更動。
+當每一次對方要出新版之前，我方就要先拉下對方新版程式碼，更新我方程式中的版本號，進行測試，測試完成則使用 github 發 PR 給對方，對方會將我方的程式碼納進下次要發行的新版本。
+我想要簡化 commit 的時候要輸入共用 github account 的流程，就開始設定 ssh config，同時也做了一個 key for this shared account。
+Host github_partner User git HostName github.com IdentityFile ~/.ssh/partnerKey 在 fork 對方 git repo 之後，直接 clone 下來的 remote url 會是 https://github.com/xxxteam/myrepo.git 或是 git@github.com:xxxteam/myrepo.git，直接用這組 url 來 push 的話，還是會要你輸入帳號密碼。
+試著將 git@github.com:xxxteam/myrepo.git 改成 git@ github_partner:xxxteam/myrepo.git就會直接使用 ssh config 裡面的 key了，要更簡化的話，github_partner:xxxteam/myrepo.git。</description>
+    </item>
+    
+    <item>
+      <title>recommended atom packages</title>
+      <link>https://hugo.balduran.cc/post/recommended-atom-packages/</link>
+      <pubDate>Tue, 04 Aug 2015 03:49:56 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/recommended-atom-packages/</guid>
+      <description>Some useful package of atom editor
+  atom-beautify
+  atom-bootstrap3
+  atom-csscomb
+  color-picker
+  pigments
+  project-manager
+  另外，建議可以打開preview tab Settings-&amp;gt;packages-&amp;gt;core packages-&amp;gt;Tab-&amp;gt;settings-&amp;gt;Use preview Tabs</description>
+    </item>
+    
+    <item>
+      <title>GNU tools on MAC</title>
+      <link>https://hugo.balduran.cc/post/gnu-tools-on-mac/</link>
+      <pubDate>Fri, 19 Jun 2015 16:04:28 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/gnu-tools-on-mac/</guid>
+      <description>在 MAC 與 linux 之間穿梭，就會發現頗多 commandline tool 有些微不一樣，原因就是 MAC OS X 是延續 BSD 發展的，想要加強這些tool，我們可以自己安裝。
+##安裝 GCC
+身為軟體工程師，安裝 GCC on mac 好像不需要理由。
+$ gcc --version Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1 Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn) Target: x86_64-apple-darwin14.3.0 Thread model: posix 內建的gcc是由llvm編譯的。
+  安裝 official Command Line Tools for Xcode package 可直接下指令xcode-select --install或是從 https://developer.apple.com/downloads/ 下載 Command Line Tools
+  經由 homebrew安裝
+  brew tap homebrew/versions brew install gcc48 要更改支援的語言，可從brew options gcc48看可以下的參數。</description>
+    </item>
+    
+    <item>
+      <title>跨行轉帳、跨行提款優惠</title>
+      <link>https://hugo.balduran.cc/post/transfer-money/</link>
+      <pubDate>Fri, 15 May 2015 05:34:30 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/transfer-money/</guid>
+      <description>跨行轉帳 一般在提款機轉帳的時候，都會收取 15 元手續費，如果常常用轉帳的方式收付金錢，十五元也是很大的。列下一些銀行的轉帳優惠，通常都是存款門檻達到，可以有幾次的優惠免收跨轉手續費。如果是薪轉戶，那優惠應該是更好，但那不是自己想開可以開的。
+跨行轉帳就是用 A銀行提款卡在 B銀行ATM操作的任何轉帳行為都算是跨轉，公定價十五元手續費，9.5 給ATM所屬銀行，金融卡發卡銀行拿 3，財金公司拿 2.5。在提款機操作的時候需要注意一項，「繳費」，繳費不一定歸類在跨轉，如果打算用跨轉優惠繳卡費，請選轉帳。全國繳費網就是收「繳費」，如果信用卡沒有「繳費」優惠，倒不如用跨轉來繳。
+###永豐銀行
+ 存款平均餘額大於五萬，次月三次跨轉跨提優惠 combo卡(金融信用卡) 刷一次，次月八次跨轉跨提優惠。 理財客戶有 次月五次、八次、十五次的跨轉跨提優惠，不過理財客戶的資產需有一百萬以上。 MMA+ 投資理財客戶，次月八次跨轉跨提優惠。MMA+ 投資理財客戶為同時持有臺幣帳戶、外幣帳戶、證券帳戶、信託帳戶及黃金存摺等五項帳戶。  永豐最划算的方式就是開 MMA+ 然後放月均餘額五萬，可以達到十六次跨轉跨提優惠，其他方式要放的資產太多，不甚划算。
+###花旗銀行
+ 活期存款日平均餘額二十五萬以上，次月無限次數跨行/跨國提款優惠 日平均餘額五萬以上，次月享五次跨提優惠 設定帳戶為信用卡/房貸自動扣款帳戶，可享五次跨提優惠 當月第一次外行轉帳至花旗帳戶的手續費會回補 財管客戶不限次數跨行/跨國提款優惠  花旗適合拿來放一筆錢，然後出國留學或是旅遊，直接在當地提領現金，當然要記得保持在二十五萬以上。不提供跨行轉帳優惠，基本上是要讓客戶把錢留在花旗銀行內購買理財商品。
+###凱基 Green Account無摺活儲帳戶
+ 活儲存款平均餘額一萬以上，次月享有三次、十萬以上五次、二十萬以上十次跨提跨轉優惠。 證卷交割帳戶，可享有三十次跨提跨轉優惠。  凱基銀行在併購完之後動作很大，信用卡優惠也推，個人儲蓄帳戶也推，不管有沒有投資股票，開個證卷戶＋存款戶，三十次跨轉跨提不需要成本。
+###國泰世華 Combo(ETC)財富卡，1. 單筆未滿兩萬，每月一次跨提優惠。 2. 單筆滿兩萬，不限次數免費跨提優惠，上限三百等於無限。
+專攻跨提，除非是常常現金交易付款，不然用不太到
+##小結 最輕鬆又划算的方式是先開好永豐 MMA+，薪水拿到後轉一次到永豐，用這八次（或十六次）的跨轉優惠繳信用卡費，現在凱基也有同樣的好處，不過永豐的行動銀行設計不錯，滿推薦。
+至於其他銀行，大多是要搭配財管方案，需要放的資金動輒百萬，就不建議使用了。</description>
+    </item>
+    
+    <item>
+      <title>several useful git tips</title>
+      <link>https://hugo.balduran.cc/post/several-useful-git-tips/</link>
+      <pubDate>Sun, 15 Mar 2015 20:38:01 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/several-useful-git-tips/</guid>
+      <description>需要從別人的branch延伸功能
+git checkout -b featureA –track remote/featureA  或是設定upstream為remote branch
+ git v1.7 可用  git br –set-upstream feature origin/featureA  git v1.8 有更直覺的語法  git br –set-upstream-to origin/featureA git br -u origin/featureA   push branch 之前精簡曾有的commit log
+gire rebase -i HEAD~5
+精簡五個commit
+  將本地端 branch featureA推到遠端
+git push origin featureA
+  刪除github上的已存在的branch
+git push remote :featureA
+git branch -d -r remote/featureA
+  revert 前一個commit</description>
+    </item>
+    
+    <item>
+      <title>GemCraft tips</title>
+      <link>https://hugo.balduran.cc/post/gemcraft-tips/</link>
+      <pubDate>Sun, 05 Oct 2008 18:28:48 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/gemcraft-tips/</guid>
+      <description>GemCraft TD 有一些小秘訣，我也是玩到 epic 卡關才開始找一些小技巧，揭示如下。
+炸寶石：初期極度好用衝高分。點左邊石板部分加速出怪，可以多獲得額外分數，一次點個幾波，然後用低等寶石炸一群，可以短時間內爆光小怪。B 和 1 是熱鍵
+蓋塔：可以在離生怪點最近的地方蓋一個塔，在怪還沒有出來的時候就會開始攻擊，建議放紅寶擴散。當然ㄇ字型路口或轉角是一定要蓋塔的。T 和 2 是熱鍵。
+生寶石：按 ctrl 可以一次生滿你要生的等級的寶石，可以快速生成低等寶石之後看是要合成還是要拿來炸，C 和 3 是熱鍵。
+Mana Pool：就花費少許魔力擴大法力池，這還滿重要的，加大的法力池可以增加打死一隻小怪獲得的法力值，所以都盡量能加大就加大，而且避免法力滿點的浪費。M 和 4 是熱鍵。
+蓋水溝：可以減慢怪物在上面的移動速度，所以在火力大砲區域是一定要改滿的啦！W 和 5 是熱鍵。
+合成寶石：這超超超重要的，整個遊戲就是一直在合成寶石，由於太重要了，容後再敘。G 和 6 是熱鍵。
+SKILL 有十二項，比較重要是第六項：減少合成和產生寶石的法力，因為最直接的省魔手段就是這個啦。其他的就加減點，第五項：初始基本寶石可以讓你開場就有一些寶石可以用，也是很不錯。其他如第一第二項，增加的法力值就真的太少了。如果喜歡炸寶石，可以強化寶石炸彈。混色大師在拿飾品部分需要，因為要一直合成，純色大師要打隱藏關必備，因為只有一種顏色 XD。
+飾品部分是達到特定條件就會獲得，這部分樂趣自己發覺比較好玩。
+合成寶石部分，兩個同級寶石可以合成高一等級寶石，建議純色，不過混色也有混色的好處，如果是兩個不同級的寶石，一定要從高等寶石拖曳到低等寶石上，不然能力會越合成越低，可以用低等寶石一直強化高等的，混了三色以上時候，會以一開始的主色為主。
+紅色：範圍攻擊，imba 寶石，非常犯規，能夠做出圓形紅色極佳！
+藍色：緩慢敵人，使用上還好，和水溝同效果，頂多和紅色搭配作範圍緩速。
+綠色：機率使敵人中毒，對 boss 級怪物必用，毒無視護甲，但需要時間作用，可累加。
+黃綠色：機率連鎖攻擊(最高40%)，彈跳 (chain hit)，攻速最高。和紅色混雙色極好。
+橘色：攻擊增加mana，沒啥用，可以拿來炸，不建議合成高等寶石。
+黃色：機率三倍傷害，對小怪好用，遇上高防禦就效果差，配紫色減防不錯。
+紫色：機率減低敵人防禦，對 boss 怪必備，減防加上其他攻擊效果才有傷害。
+淡藍色：機率擊暈1秒(最高14%)，對 boss 怪必備，暈怪一秒可以多打好幾下，建議蓋在火力區外圍，多個低等定身比一個高等更好用。
+根據 ptt 魔人的專業實驗，使用等級三 (菱形) 寶石加上兩次等級二，之後使用等級一寶石來做合成算是最好的效果。打小怪一群的話，紅色混黃綠色最好。打 boss 的話，紫色+(淡)藍色+綠色，破防加減速加用毒，是打王建議組合。另外初期合出九級寶石的方式我沒試過，之後就是一直吃小寶石在加速加攻擊力。</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cs on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/cs/</link>
+    <description>Recent content in cs on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Oct 2008 20:15:01 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/cs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>系所評鑑</title>
+      <link>https://hugo.balduran.cc/post/e7b3bbe68980e8a995e99191/</link>
+      <pubDate>Thu, 30 Oct 2008 20:15:01 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/e7b3bbe68980e8a995e99191/</guid>
+      <description>這兩天是高教中心執行系所評鑑，之前，就寄發了電子郵件給同學，請同學們這兩天準時出席上課，留意服裝儀容，並強調要同學們接受晤談的時候要保持客觀理性應答。除此之外，順道宣揚系上教育主旨，拉裡拉雜一大堆並強調不用強記。
+工三館在硬體上也有一些改變，不過都很小，例如在電梯裡多了樓層的標牌，但是電梯故障的問題還是存在。工三大門入口處兩個柱子上也有樓層的標牌，不過右邊是工三館，左邊的卻是電資大樓，請問電資大樓在哪？怎麼會把樓層的鏢台放在這裡勒？頂樓弄了防水層，不過系辦的人可能不知道，這幾天沒下雨，七樓淹水像游泳池喔！可能他們順便把排水孔也塞住了吧。
+聽學長說過，系上定禮拜四這一天是系友日，可是系友這個時間應該都在上班耶，定這一天事有任何幫助嗎？</description>
+    </item>
+    
+    <item>
+      <title>第一次當 TA 就上手</title>
+      <link>https://hugo.balduran.cc/post/imta/</link>
+      <pubDate>Wed, 20 Feb 2008 14:41:21 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/imta/</guid>
+      <description>這學期接了一個助教工作，其實上學期也有，但我是掛名，沒做事。這次就是真的要做些助教該做的事，點數才不會白領，課程是大學部的資訊工程專題，聽起來好專業，其實工作也就只是點點名、做做課程網頁，輕鬆自在，毫無技術成分，以白話來說，是個閒差。
+做課程網頁嘛，我一開始也是想說做做靜態網頁好了，但是做得太簡潔純粹了，要自己輸入一些 html code 我還滿懶的，就弄了tiddlywiki的版本，編輯容易，wikiword寫頁面又迅速確實，畫面又比自己設計得好得多，可是被打槍了，授課老師喜歡單純簡單的東西，結果我還是逃不了製作靜態頁面的命運。
+用記事本寫網頁，是每個男子漢的浪漫！不過我不是男子漢，所以我用 MS visual web developer express 牛刀，加上新秀 KompoZer (取代NVU?)，學過的 CSS 和 html 結構都完全拋諸腦後，一個學期之後，這一頁將會消失。
+標題抄襲自「第一次XX就上手」，事實上也才第一堂課，說上手是言之過早。</description>
+    </item>
+    
+    <item>
+      <title>所謂的做研究</title>
+      <link>https://hugo.balduran.cc/post/school_mur2/</link>
+      <pubDate>Wed, 21 Nov 2007 14:22:43 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/school_mur2/</guid>
+      <description>林一平教授很愛在課堂上屁來屁去，今天他說，D-Link 要和交大合作一個實驗室，一年經費一千萬，人家台大一個經費是用「億」來算，和交大的一千萬相比交大是小零頭，可是要做研究啊還是要留在交大，因為沒錢所以才會積極申請計畫案，生活過得太好是不能做研究地。要去台大念的話，就不能忘記在交大這邊的習慣，好比他的學生巴拉巴拉只花了三年就升上教授，就是不改在交大的研究態度，巴拉巴拉一大堆。以上，聽聽笑笑就好。
+我不是對此有什麼意見，而是台大拿的經費真的超多，我們實驗室的電腦還是和記中借的勒，說到經費，真的是不太充裕啊。就算加上五年五百億，真的用到學生上用到教學上的又有多少呢？
+以現在大三這個年級的學生為例，當初近來交大是因為有宣傳交換遊學計畫，即是 96 級開辦的電資專班在大三大四時候可以到美國交換半年，這個計畫後來擴及成績優秀的同學都可以申請，而現在校長也換了，政策也改了，經費的補助沒了，錢用到別的地方，例如鼓勵學生參加 ACM 競賽等現任上位者認為對於學生學習較有幫助的政策上，學生當然有反彈啦，和當初入學的承諾不一，而這件事會怎樣發展？大概就是隨著主政者的意見吧。
+回歸原題目，做研究，有錢好辦事，沒錢只好多申請計畫囉。
+題外話: 甄試結果公布，限量是殘忍的。</description>
+    </item>
+    
+    <item>
+      <title>學生創業推推王</title>
+      <link>https://hugo.balduran.cc/post/e5adb8e7949fe589b5e6a5ade68ea8e68ea8e78e8b/</link>
+      <pubDate>Wed, 10 Oct 2007 18:03:07 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/e5adb8e7949fe589b5e6a5ade68ea8e68ea8e78e8b/</guid>
+      <description>下禮拜的系統研討(大學部)請來推推王的創辦人來演講 web2.0產業趨勢與 funP的冒險故事，介紹網頁就是交大公共事務委員會的新聞網頁，資科工所博班七年級，好高的年份，怎麼還不把博士學位拿一拿呢？雖然我之前就有聽聞推推王是交大資工學生所創，但不知道詳細。
+剛好在這禮拜的例行 meeting中，指導教授提到另一個實驗室做的就是推推王，他們一次 meeting就是兩小時，兩個同學報告，這樣看來我們需要自覺自己的懶散。以主角的名字google就可以搜尋到是哪間實驗室囉，因此就不提示了。
+根據新聞稿，他申請實習是在研一升研二的時候，去國外九個月正好是其他碩二學生的三月趕畢業論文的時候，實驗室裡有個學長也是正在美國實習，這一條路是不是值得嘗試呢？</description>
+    </item>
+    
+  </channel>
+</rss>

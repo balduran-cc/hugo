@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>video on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/video/</link>
+    <description>Recent content in video on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Apr 2008 09:18:50 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Video on Flickr!</title>
+      <link>https://hugo.balduran.cc/post/video-on-flickr/</link>
+      <pubDate>Fri, 11 Apr 2008 09:18:50 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/video-on-flickr/</guid>
+      <description>Flickr Blog 上公佈 Video on Flickr!功能，也就是除了照片之外，現在還可以上傳短片到 flickr 上。
+檔案的大小限制 10MB，付費會員 20MB，時間限制 90秒，如果以 youtube 類的影音站來看，時間明顯不夠的，但 flickr 將之視為 long photos，也許可以朝微型化趨勢思考，要怎麼在 90秒的時間限制內塞入想要表達的內容，也許短短三十秒就足夠抓住夠多的眼球。
+嵌入的大小有很多選擇，做為自我介紹的小短片挺適合，名片大小的方框有會動的人物。
+但是網友的反應是？</description>
+    </item>
+    
+    <item>
+      <title>Yahoo! LIVE</title>
+      <link>https://hugo.balduran.cc/post/yahoo-live/</link>
+      <pubDate>Wed, 19 Mar 2008 17:12:07 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/yahoo-live/</guid>
+      <description>Y! LIVE 很好玩喔，即時的影音串流。
+線上串流視訊在 youtube 統一天下 (大誤) 之後，其他業者當然要想出新的法子攻下其他版圖，Yahoo! 推出的 Live 服務和微軟推的 live.com 可是完全不同的，但是它的名字傳達出一個概念，it’s live!
+Yahoo! Live 播放的影像片斷是即時廣播出去的，就像你和朋友開視訊聊天一樣，這種設定和 youtube 的上傳視訊檔案不同，更多了即時的互動，或者更大膽的說，它就是你個人的 VJ 台，你想要放什麼聲音，表演什麼節目都可以！
+我用了自己的 webcam 玩了一下，LIVE: balduran，光是開這個小小的視訊邀請朋友來看大家就覺得非常好玩，而這也順便滿足一下自己的表演慾，可以在電腦前當做線上卡拉OK般的唱歌，那感覺非常的妙。
+所以啦，想玩這東西就只需要現在很普遍的 webcam 就可以，不用多複雜的 DV，你就可以製作自己的線上廣播。如果觀看的人都有 webcam 的話，開線上視訊會議也不是夢想喔。
+LIVE: balduran’s Profile
+當然這也有嵌入網頁的功能囉。</description>
+    </item>
+    
+    <item>
+      <title>Video Chat for Adium</title>
+      <link>https://hugo.balduran.cc/post/video-chat-for-adium/</link>
+      <pubDate>Tue, 13 Nov 2007 17:48:09 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/video-chat-for-adium/</guid>
+      <description>在 Mac 上也不是不能開視訊，iChat 本身在這方面的功能就很齊全，但若是要開 MSN 的視訊，我還不知道有哪個軟體可以辦到，也因此我非常習慣使用文字而非 Webcam。
+Adium 的 blog 上介紹一個 plugin for Adium，就是擴充 Video Chat 的功能，而且跨平台、跨服務，這 plugin 的名字就叫做 MeBeam。
+下載頁面在此。</description>
+    </item>
+    
+    <item>
+      <title>Google Video Units 影音化的Adsense</title>
+      <link>https://hugo.balduran.cc/post/google-video-units-e5bdb1e99fb3e58c96e79a84adsense/</link>
+      <pubDate>Thu, 11 Oct 2007 02:07:35 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-video-units-e5bdb1e99fb3e58c96e79a84adsense/</guid>
+      <description>Mr. Saturday介紹 Google Adsense的新產品video units，是結合 Youtube上的影音資源所提供的新型態廣告，和日前提過的 gadget ad同樣都是多媒體內容的廣告，不同的是一方為 AdWord是供給廣告主使用，Video Unit則是瞄準 Content Provider，和 Adsense for Feed一樣是特定用戶才可以使用的功能，且只限美語系地區。</description>
+    </item>
+    
+    <item>
+      <title>Gmail video出爐</title>
+      <link>https://hugo.balduran.cc/post/gmail-videoe587bae78890/</link>
+      <pubDate>Fri, 31 Aug 2007 20:06:52 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/gmail-videoe587bae78890/</guid>
+      <description>登入 Gmail使用時，注意到右上角的紅字”Watch our video“，這份影片就是用之前徵求的影片片段拼湊而成，紅色的M-velope不斷的傳遞，用來傳達email連接起整個世界的概念。
+下方的GMap可以看到，這些影片真的遍佈世界。
+link: Official Gmail Blog: Watch the final Gmail collaborative video</description>
+    </item>
+    
+  </channel>
+</rss>

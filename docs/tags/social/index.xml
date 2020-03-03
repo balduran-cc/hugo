@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>social on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/social/</link>
+    <description>Recent content in social on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Feb 2009 17:24:05 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/social/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>google social bar</title>
+      <link>https://hugo.balduran.cc/post/google-social-bar/</link>
+      <pubDate>Thu, 12 Feb 2009 17:24:05 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-social-bar/</guid>
+      <description>google friend connect 的新功能，提供一個類似 blogger.com Navi-bar 的 social bar，供網站經營者使用，裡面提供了各種 GFC 提供的功能，加入會員、事件清單、留言和會員列表，基本上一個 social bar 全部搞定，內嵌在網頁各處的小 Gadget 可以拆掉啦！
+搜尋 WP 可用的 Plugin，還沒出現合適的。</description>
+    </item>
+    
+    <item>
+      <title>tag a Face, tag a Name</title>
+      <link>https://hugo.balduran.cc/post/tag-a-face/</link>
+      <pubDate>Sun, 11 Jan 2009 09:55:07 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/tag-a-face/</guid>
+      <description>隨著 iPhoto 的新功能推出，在照片上標籤出人臉這功能似乎很重要。
+在社交網路中，facebook 提供的方法是在相片中畫出固定大小的區域做人名的標籤，當你被標籤在一個相片中會收到通知，在你的相簿中也會列出所有有你出現的相片。
+微軟的 live space 中，也有類似的功能，這是在最進的版本加入的，將相簿整合進 skydrive，可以做標記，但是不能指定相片中的區域，這是做好玩的嗎？
+flickr 可以在圖片上貼任意大小的註解，但是沒有跟人名做連結。
+picasa 自 3.0 後增加這個功能，自動偵測所有照片中的人臉後，可以直接選擇之後輸入姓名標籤或是直接選擇 gmail 的連絡人，算是最方便的，印象中 web picasa album 先有這個功能。
+iphoto，我忘了 keynote 裡面是怎麼 tag ，好像是和 facebook 的方式一樣吧。
+血淚控訴 picasa 3 on mac 不可以裝在 Power PC 上，就連學校的 matlab 2008 也不給裝啊 &amp;gt;_</description>
+    </item>
+    
+    <item>
+      <title>funP 麻吉 Beta 開放測試</title>
+      <link>https://hugo.balduran.cc/post/funp-e9babbe59089-beta-e9968be694bee6b8ace8a9a6/</link>
+      <pubDate>Wed, 24 Sep 2008 17:49:02 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/funp-e9babbe59089-beta-e9968be694bee6b8ace8a9a6/</guid>
+      <description>funP 麻吉 Beta 開放測試，因為這個新玩意，讓我開啟了許久沒開啟的 funP 帳號，因為對於自推實在沒什麼熱情，大概了解了推推王的使用流程就很少登入了。
+剛登入是有點摸不著頭腦的，除了一貫會有的OOXX同意書之外，新平台，空白的體驗。就把 twitter 上的一干人等加為好友，應該大部份人都在試著這個新東西，短時間內收到好友回應三封。可是點啊點的，就是說不上來。
+首先知道的是結合了 Facebook 的 F8 和 google 的 opensocial，但是用在哪裡，哇無災。面對著自己空白的個人檔案，趕快加些資料吧，像那什麼學歷的部分還沒弄好，學校列表出不來。其他細項設定應該會覺得似曾相識，反正非死不可樣大家都差不多。
+相簿的匯入我覺得挺好，picasa, flickr, wretch, pixnet, pchome 倒是很切合台灣使用者的使用習慣，不過並沒有做存取的認證 -_-|||，如果我輸入別人的相簿帳號，應該不太好吧(因為我手賤了)。
+部落格部分就不需多做設定，直接延用先前哈部落裡設定的個人部落格就好，文章的 crawler 也是現成的不是嗎。
+以 william 的頁面為例 (因為比較多元素)，一個大頭圖，下方的「戳一下」等等元素，還有右方的最新動態總覽，看吧看吧，一切都似曾相識，新版的臉書也差不多這樣吧，不過人家可是用了動態網頁的技術唷。
+目前的應用程服務都是由 funP 自己開發的，之後有沒有人捧場添增更多小玩意就留待以後發展。</description>
+    </item>
+    
+    <item>
+      <title>meeya 的加入邀請</title>
+      <link>https://hugo.balduran.cc/post/meeya-find-frien/</link>
+      <pubDate>Fri, 09 May 2008 09:21:59 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/meeya-find-frien/</guid>
+      <description>我有時候會在 MSN 的 mail 上收到 meeya 的加入好友邀請，通常點下去就是要你新註冊帳號，網址是 r.php?uid
+點下去的時候我是有點惱羞的，註冊註冊註冊，就沒有一個選項是讓我用現有的帳號登入。沒有留下自己的MSN也不必這樣吧 -.-
+findfriend功能很方便，但是收到這些邀請信的感覺，居然和 hi5 感覺一樣，偏偏 hi5 質感超差，邀請信像 spam 一樣地在送。
+題外話，政大甜姐兒選拔居然有人為了拉票寫信。
+附記: 目前米亞註冊人數 10849</description>
+    </item>
+    
+    <item>
+      <title>你需要 social 嗎?</title>
+      <link>https://hugo.balduran.cc/post/social/</link>
+      <pubDate>Tue, 25 Mar 2008 00:43:55 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/social/</guid>
+      <description>[網路]我們受夠Social Network了！ @ 宅，與不宅之間–黃文彥一文觀後。
+facebook 已經是社交網路服務的一個代表，也是一代霸主，這句話想必沒人會反駁，儘管如此，google openhouse 座談會上還是有人不知其名。克隆 facebook 的網站也有，meeya 就犯過這樣的錯誤，不過這也顯示了 facebook 是 SNS 亟欲超越的目標。
+facebook 的 application 超多，這是它有趣又開放的地方，我在還沒搞懂之前也很愛加 application，不過目前 pending 的就有 24 個，大部分都是某個超愛玩的朋友的邀請，但這麼多的 request 我也懶得看了，久了之後每個 app 看起來都一樣。
+所以 facebook 用到現在對我來說最大的用途在於 mini-feed，看看朋友們新增的相簿或是一些小動態就是我關心他們的方式。而這些功能在微軟的 live spaces 也有，甚至更簡單化，告訴你連絡人的相簿和 blog 更新，而這間單的兩三個訊息就是我想知道的，no application，anything is fine.
+儘管如此我並不是認為 application 是個壞主意，它增加了變化與互動，但是過多的 app request 讓我想直接 ignore，而我最想知道保留的就只有 photo 和 notes，其他如 twitter 我將之視為結合兩種不同的 social network。
+既然說到了搜咻 (social)，就不得不提到最近 YEF 的活動，就是非常標準的社交場合，而參與的人彼此不認識，經由這些活動達到拓展交際圈的目的，不過這建立在一個功同目標下，就是尋求隊友，以目的來論，到也沒這麼單純了。
+但不能否認這樣的環境是讓自己去認識更多的人，並試著了解他人，但在使用的平台上就不是很恰當了。YEF 使用 phpBB 架設論壇，而參賽者自行在上發表文章自我介紹並依據文章與 MSN 彼此互動，有用過論壇的人應該都知道灌水的意義，當一個版面上的最後回應者都是同一人時，就算它不是故意的，還是讓人覺得被洗版面了，而討論串就在這樣浮浮沉沉的過程中漂流。
+要改進這樣的系統，建立一個 personal resume 的系統我認為是可行的，這個比賽需要自我介紹，需要與他人互動，有 SNS 的特性，也有 104 自我推銷的味道，又以 team build-up 的前提下，可以特製化的地方很多，而這又與傳統的 SNS 把朋友拉進來的特性不同。</description>
+    </item>
+    
+    <item>
+      <title>meeya 再開</title>
+      <link>https://hugo.balduran.cc/post/meeyaisback/</link>
+      <pubDate>Thu, 17 Jan 2008 23:13:38 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/meeyaisback/</guid>
+      <description>meeya開發日記: 『公告』2008/1/16 公開信(一)
+真是遲鈍，鈍到 twitter 也沒看，絲毫不覺這些正在發生的改變，meeya 再度開啟， 好朋友們一起來塞爆它吧！
+好像已經沒有邀請函的必要了。
+7 天前就已經有留言在米亞上，所以有五天是在內部封測囉？
+我的個人檔案</description>
+    </item>
+    
+    <item>
+      <title>meeya暫時關閉</title>
+      <link>https://hugo.balduran.cc/post/meeya-close/</link>
+      <pubDate>Fri, 21 Dec 2007 10:24:45 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/meeya-close/</guid>
+      <description>meeya開發日記: [公告] meeya暫時閉關修煉
+從 19 號中午活到 21 號下午，整整兩天，米亞就結束了。
+支持米亞的網友很多，從湧入的註冊人數可窺見一二，正面的支持意見之外，也有嚴格的品質檢視，在外觀相像 facebook 的印象下，被踢爆 JS 拷貝使用，還有 CSS 的換湯不換藥，這是多麼嚴重的一件事！程式作業可以參考， 但是不能照摳。
+我說這就像是作業版本被助教抓包， 學程式的學生應該都有這類的經驗，不過在學校抄襲的下場是被當，社會上被發現的結果恐怕就不是這麼簡單了。也許是這麼嚴重的問題造成管理團隊決定暫時關閉，也許是真的是還沒有準備好。
+以一個成品來看，meeya 是還沒有準備好的，alpha beta 測試字樣不一，信箱認證機制爆炸，隨時會跳出來的 js 錯誤 (我也不知道原因) ，是急就章刻畫出來的作品？還是天真的以為這樣可以打下一片天？
+早夭的 meeya，期待再出發。</description>
+    </item>
+    
+    <item>
+      <title>meeya 人數觀察</title>
+      <link>https://hugo.balduran.cc/post/meeya-ppl/</link>
+      <pubDate>Wed, 19 Dec 2007 18:09:20 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/meeya-ppl/</guid>
+      <description>先從 meeya (小米) 的好友列表來看，共有 530 位，meeya (小米) 本身的 uid 是 33，又很恰巧的好友列表是照著 uid 上升排列，直接翻到最後一頁的最後一位好友的 uid 是 611，和估計的 530+33 不等，是因為有人移除了預設的好友 meeya (小米)。用這種方法觀察的人數可以說是現有的使用者數目，也可以用 http://meeya.cc/s.php?uid=xxx 去找最後一位。
+學校的人數分佈光靠 meeya 的好友名單不太準確，直接到各主網路 (network) 頁面確認成員人數。台大是 88 位，清大是 55 位，交大是 109 位，政大是 133 位，政大人數最多，nwid 又是第一個，關係之深。交大是人數第二多的，嗯，意料中。
+若要推廣的話，丟到 ptt 上給人求邀請函，或是藉由宅宅大學的網路環境應該可以塑造很多忠實使用者，但是社交網路只存在於網路上是不是有點薄弱？
+http://meeya.cc/network.php?nwid=xxx 隨意填入數字有時會有錯誤出現。
+http://meeya.cc/photo.php?pid=830&amp;amp;id=33 原來是米，黑米白米。
+傳出使用 facebook 的 JS 檔，第一天就傳出這種事情，不妙唷。聽說是國外高材生回來台灣創業。
+開放申請註冊，以測試來說，是走到 beta 測試吧？alpha 還是封測不是嗎？</description>
+    </item>
+    
+    <item>
+      <title>黑米結合 facebook</title>
+      <link>https://hugo.balduran.cc/post/hemi-facebook/</link>
+      <pubDate>Tue, 18 Dec 2007 17:00:27 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/hemi-facebook/</guid>
+      <description>mashup 是時勢所趨，異業結合是拓展版圖。
+黑米 (hemidemi) 自己有自己的社群，雖然發展的不太好，但是黑米一開始是以社交書籤網站的姿態出限是確定的，現在的聲勢則是遜於 funP 推推王，黑米要如何挽回失去的大位呢？
+也許是看到了中肯意見網的 facebook 版本，又或者黑米已是安中策劃許久，推出了黑米書籤在 facebook 平台上的 application，結合了 facebook 廣大的人氣，黑米本身的書籤網站能否激發更多玩法嗎？
+這麼描述似乎暗指黑米是為了求生存所以斷了自己經營社群的後路轉而投靠 facebook 上的群眾，但並不是這樣的，在 facebook 中加入黑米的應用程式過程需要輸入黑米的帳號，因此黑米還是有自己的使用者資料庫，而他只是方便有在用臉書的那一群用戶罷了。
+不可否認的，經營社群的功力上，臉書是壓倒性的勝利，若果藉由臉書豐富的互動性增添黑米低調的氣氛，則結局甚好，但前提是臉書的中文使用者夠多，又要剛好有在用黑米。
+黑米BLOG
+facebook applicaiotn</description>
+    </item>
+    
+    <item>
+      <title>mr.6 「網路、台灣」 in 工研院</title>
+      <link>https://hugo.balduran.cc/post/mr6-in-itri/</link>
+      <pubDate>Wed, 28 Nov 2007 13:56:53 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/mr6-in-itri/</guid>
+      <description>今天劉威麟先生在工研院有一場演講，題目是「網路、台灣」，這是一系列講座中的一場，開頭是年初由詹宏志先生開先河的「web 2.0」，之後陸續請到諸多講者，接下來的講座可以看 Web X 網路近未來。
+開場劉先生先連到自己的 blog 播放一則「快樂病毒影片」，效果很好，rap 的內容或是 youtube 的展現，也順道再宣傳了一下自己的 blog (或許根本不用宣傳了吧)。接著就以 youtube 的爆紅因素作引子，導入今天的講題「網路、台灣」。
+劉先生分享了三個 S 、六個方向，Sweet Spot, Stickiness，甜蜜點這東西他真的很愛講，我也順應時勢好了。以 youtube 的內嵌為例，說這就是它擊中的甜蜜點，以黏性來說，facebook 的 mini feed 現在已經是人人習以為常的東西，並舉網站的成長圖例來看，竄紅的爆增時間點是 sweet spot，使用者持續成長靠的是stickiness。
+六個方向分別是分享、全民、社群、分工、全球、獲利。這中間沒有對每一個項目作長篇大論，大都是導覽一下現在網路創業的新興網站所擁有的特性，以這些成功的案例來看這些成分，其實以 web 2.0 喊得喉嚨乾的情況來看，很多要素都被討論的差不多了，但是並不是講講就會成功。
+最後總結之後的提問時間，發問非常踴躍，到了欲罷不能的地步，都超過十二點吃飯時間了，在院內還是有很多人在關注網路的發展，甚至磨刀霍霍準備大展身手吧！
+提問中的一個問題說，要如何用專利保護這些網站發展出的新技術 (功能) ，我噗哧一笑，在網路上還能談專利嗎？現在應該都是搞 service 的時代了，這個問題代表了舊式的智財思維，認為發展出的技術需要有 IP 保護，這是我認為工研院無法跳脫出來的巢臼，畢竟過去的獲利都來自於累積的專利。以網站技術做服務的現在，能夠快速開發、修改服務內容以符合顧客的需求，才是正確的方向，開發了技術，沒人使用還是死。
+劉先生有提到 Din.ben.don 是以秘書為標的族群，我不是很同意。 訂便當一開始是先做出來自己使用，效果不錯才開放給網友使用，並沒有特地瞄準族群吧，而且訂便當的主要服務是方便「團購」的順利進行，並不是「訂便當」，劉先生對此網站的解說讓我覺得非常不贊同。
+有粉絲？座位坐第一排，發問第一個，會後繼續追問問題。
+見到南宮博士真面目！南宮博士真是帥！搞不好今天周遭很多 blogger勒。
+配合 twittai 使用，現場手機 twitter。
+附記: 我還滿喜歡那首 rap，之前曾出現過國樂 remix 嘻哈，陝北三韻混xxx (忘了)</description>
+    </item>
+    
+    <item>
+      <title>樂多朋友 三國大戰</title>
+      <link>https://hugo.balduran.cc/post/roodo-friend-three/</link>
+      <pubDate>Tue, 27 Nov 2007 20:23:18 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/roodo-friend-three/</guid>
+      <description>樂多朋友 三國大戰
+偶然看到的小遊戲，建構在樂多朋友的架構下，乍看之下，以為樂多甚麼時候發展出類似 facebook 的 app 平台，事實但這的確有那麼一點影子，但只是個案，我能找到的就這一個小遊戲。
+這個小遊戲可以靠「遭遇戰」來練兵，或是邀請朋友參加來「募集士兵」，逛到別人的朋友頁面時候，如果對方也有玩，可以下達攻擊指令，持了帳面上的數字變化外，我不知道還有甚麼好玩的，是人數太少了還是缺乏了結社的感覺？
+樂多朋友有個作弊的地方，每個加入的人有會有一個「朋友」在朋友列表 (天阿！好饒口)，在瀏覽別人的頁面時候，一定找的到一個路徑是 你-朋友-對方，和古老的六度分離相比，這是二度分離 (冷)。
+我的樂多朋友</description>
+    </item>
+    
+    <item>
+      <title>unis.tw 的校園社群結構</title>
+      <link>https://hugo.balduran.cc/post/unistw-campus-group/</link>
+      <pubDate>Thu, 22 Nov 2007 15:48:37 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/unistw-campus-group/</guid>
+      <description>瀏覽了一下 unis.tw 的社群中大學部分的社群列表。</description>
+    </item>
+    
+    <item>
+      <title>我的 unis.tw</title>
+      <link>https://hugo.balduran.cc/post/my_unis/</link>
+      <pubDate>Fri, 16 Nov 2007 09:18:59 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/my_unis/</guid>
+      <description>之前介紹過的台灣新生 SNS unis.tw，我已經弄到邀請函了，想要玩玩的就留下留言吧。
+我是用 gmail 接收邀請的，因此學校 e-mail 沒有認證，想要主動用學校 e-mail 認證也是可以，我還在觀望，不想交出太多個人資料。
+登入之後的首頁色彩鮮明，高明度的紅色綠色藍色，正是 logo 上三種主色，版面算是清爽的。中間有一欄「訊息」專門顯示好友的新日記、新相簿、社群新文章，把這一區想成是 facebook 的 mini feed 就可以了，讓你最快時間接受親友動態的更新。
+在裡面你可以寫自己的日記，上傳自己的相簿，在別人的留言板刻畫，或是看看自己的訪客紀錄，這是最基本的功能。或是可以搜尋別人，依照學校或是星座，看看有沒有和你同校的朋友在其中。若是熱烈積極一點，有各式各樣的社群可以參加。
+會員有等級之分，依照邀請的好友數分成初始會員、普通會員和高級會員，越高等級所能使用的空間容量越多，把更多好朋友拉拉拉進來吧。
+my profile: http://unis.tw/profile.php?sn=1673</description>
+    </item>
+    
+    <item>
+      <title>Unis.tw 會是台灣的 facebook 嗎?</title>
+      <link>https://hugo.balduran.cc/post/unistw/</link>
+      <pubDate>Wed, 14 Nov 2007 19:47:15 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/unistw/</guid>
+      <description>一直納悶依照台灣人 copy 的速度之快，怎麼還沒有一個比擬外國的 SNS 出現，就是最紅的 facebook，應該也會有人想要抄皮不抄骨吧。
+Unis.tw 的註冊要求是要有台灣各大學的校園 e-mail 為註冊資訊，想進入這一個網站的起點設計的和一開始的臉書一樣，不過內涵嘛？我還沒試，看到 profile/?sn 是一串數字我不敢貿然註冊。不然就等待有緣人願意寄給我吧 :p</description>
+    </item>
+    
+    <item>
+      <title>樂多書籤 roodo clip</title>
+      <link>https://hugo.balduran.cc/post/roodo_clip/</link>
+      <pubDate>Sun, 11 Nov 2007 09:50:24 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/roodo_clip/</guid>
+      <description>稍早之前發現了樂多書籤 roodo clip 這個網站，很簡明易辨的方式可以知道是社交書籤類的網站，不過人氣卻很少，roodo 首頁上也看不到連結。
+樂多目前有
+ 樂多拍賣 樂多日誌 樂多朋友  樂多在 yam 天空事件之後是要走出自己的一條路，樂多朋友和書籤應該就是想要主打社交網路的部份，但是力不從心還是且戰且走，都沒有用心經營，書籤這部份更是已經飽和的區塊，光是黑米和推推王就打死一堆同類型網站。樂多朋友呢？看社群導覽裡討論的熱度，也是慘不忍睹啊！
+然後 pchome 又照樣摳比了一個 pchome join，實在無言。</description>
+    </item>
+    
+    <item>
+      <title>網路與現實生活之間</title>
+      <link>https://hugo.balduran.cc/post/between_life_blog/</link>
+      <pubDate>Wed, 07 Nov 2007 02:33:18 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/between_life_blog/</guid>
+      <description>Hey! 偶而關機一下，有空多陪陪家人聊聊天吧! « Mr./Ms. Days – 網路, 資訊, 觀察, 生活
+圖片中的情境是女生對男生說，我不想要看你的 blog，直接和我說你今天過得如何，很妙！當中暗示男生熱衷 blogging，不擅現實溝通，而女生則是偏好口語上的互動，有點成見存在。
+我自己是沒在言談中參雜任何 blog 中說過的事情，在 blog 中也不太會提及現實生活情緒上的絮語，我認為這是兩個世界，分開來的，也不太在網路上搞 social，實際見面的互動應該比較吸引人。
+不過我在 facebook 上找到了幾個現實生活中的朋友，試著將兩個世界串連起來，還是有點困難，網路上我寫封 mail 不知道何時對方才會收到，對方收到後什麼時候回應我也不可預期，但現實生活中我只要打一通電話，對方有接通就可以直接互動，是更為直接而且獨占的， 只是要付出金錢代價 :p
+我好像也沒提過玩 WOW 的遊戲經驗。</description>
+    </item>
+    
+    <item>
+      <title>社交網站的重點在於族群</title>
+      <link>https://hugo.balduran.cc/post/about_facebook/</link>
+      <pubDate>Tue, 06 Nov 2007 16:41:09 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/about_facebook/</guid>
+      <description>請先看看這篇 Web 2.0必學 向Facebook取經的4堂課。
+第一點說 Facebook 首先瞄準的族群是大學生是很正確的做法，我想這是無庸置疑的，但是若說它是精確的地位，我倒是不這麼認為。以大學生而言，有幾項特點，年輕、樂於嘗試、社交圈正在擴張、時間很多，這幾像我認為是實驗一個網站平台很適合的特色，在學生族群間靠著校園的地域性與社交圈，做為社交網路服務的實驗是再適合不過了。
+以台灣的 PTT 為例，雖然它不是 social network 的服務網站，但是其中匯集的人氣與使用者以大學生占大多數為表徵，顯示出這樣一個 BBS 服務吸引的正是這個年齡層的網友。時間再推早一點，無名一開始聚集的人氣也是交大自己校內的學生，進而推展到其他學生族群與勇於嚐鮮的社會人事，現在高中以下的學生們也很熱中，就是因為若以社會人士為目標族群，能夠引起的迴響恐怕就不是如此明顯。
+第二點滿足最挑剔的使用者，聽起來就是行銷類型的書會出現的詞句，不予置評，服務不是做給使用者是做給誰用啊？
+第三點說開放平台，這平台說是開放也還說得過去，提供一個 API 讓其他 third-party 提供更多服務 app 的確是高招，這也是我玩 facebook 覺得它最特別之處，不要等它發展需求功能，直接找現成的或是自己開發。但以網路版的作業系統來比喻倒是言過其實，可以在上面利用人脈做很多商業上的推廣，但是對於「作業系統」的功能性要求，則是看以後 web app 的發展程度。
+第四點簡單流暢的使用介面，簡單我同意，流暢？哪裡流暢呢？我自己的使用經驗覺得動線有點亂耶，我點來點去不知道自己點到什麼功能去了。
+話說，台灣何時會出現更好的社群網站？</description>
+    </item>
+    
+    <item>
+      <title>google open social</title>
+      <link>https://hugo.balduran.cc/post/google-open-social/</link>
+      <pubDate>Mon, 05 Nov 2007 18:07:01 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-open-social/</guid>
+      <description>google opensocial 正式推出，在 SNS (spcial networl service) 的領域中 google 想要占有一角的意味濃厚，不過為什麼不是推出自己新的服務 (我覺得 Orkut 已經被放棄了) 而是採取結盟呢？難道 facebook 的聲勢真的大到 google 必須聯合各家網站才能與之抗衡？
+opensocial 是以 API 的方式在運作，任何使用這組 API 的 widget 都可以在其上執行各種 application，只要就是針對 facebook 內各式各樣的 application 做出更開放的平台，例如 twitter 在 facebook 裡的整合，我可以在 facebook 裡面開始 twitter，也可以介紹給臉書裡面的朋友使用。臉書提供平台，twitter 則是application。
+因此主體可以分成兩方，一方是 social network 所提供的使用者資料，一方則是使用這些資料所構築出來的應用程式。這就是現在社交網路的發展趨勢，也是臉書如此熱門的原因，這個平台讓使用者更樂意在其上分享與互動。
+opensocial API 是針對 widget app developer 所設計的嗎？我想也不是，它是一個中間的介質，SNS 可以搭上它的順風車讓 user 有更多玩意可玩，對於凝聚 SNS 內的群聚向心力是有一定幫助，而這種相連的特性保持客戶不被大宗同業 (facebook?) 拉走。當用戶越來越多，群聚的效益就出現了，我們也看到支援此 API 的服務有很多。
+這是一個實驗性質的概念，剛推出還沒見到很有趣的東西，而臉書的內容我也還在慢慢體驗，就看看這些 social network建構出的 platform 可以有多大發展。
+還有一個 openID 可以討論，未來的網路說不定什麼都是開放的標準呢！
+API doc: http://code.google.com/apis/opensocial/docs/</description>
+    </item>
+    
+    <item>
+      <title>學生創業推推王</title>
+      <link>https://hugo.balduran.cc/post/e5adb8e7949fe589b5e6a5ade68ea8e68ea8e78e8b/</link>
+      <pubDate>Wed, 10 Oct 2007 18:03:07 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/e5adb8e7949fe589b5e6a5ade68ea8e68ea8e78e8b/</guid>
+      <description>下禮拜的系統研討(大學部)請來推推王的創辦人來演講 web2.0產業趨勢與 funP的冒險故事，介紹網頁就是交大公共事務委員會的新聞網頁，資科工所博班七年級，好高的年份，怎麼還不把博士學位拿一拿呢？雖然我之前就有聽聞推推王是交大資工學生所創，但不知道詳細。
+剛好在這禮拜的例行 meeting中，指導教授提到另一個實驗室做的就是推推王，他們一次 meeting就是兩小時，兩個同學報告，這樣看來我們需要自覺自己的懶散。以主角的名字google就可以搜尋到是哪間實驗室囉，因此就不提示了。
+根據新聞稿，他申請實習是在研一升研二的時候，去國外九個月正好是其他碩二學生的三月趕畢業論文的時候，實驗室裡有個學長也是正在美國實習，這一條路是不是值得嘗試呢？</description>
+    </item>
+    
+    <item>
+      <title>FriendFeed 整合你的朋友資訊</title>
+      <link>https://hugo.balduran.cc/post/friendfeed-e695b4e59088e4bda0e79a84e69c8be58f8be8b387e8a88a/</link>
+      <pubDate>Tue, 02 Oct 2007 17:14:21 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/friendfeed-e695b4e59088e4bda0e79a84e69c8be58f8be8b387e8a88a/</guid>
+      <description>FriendFeed的頁面非常簡單，就是一連串的更新消息，排列的像是twitter。
+FriendFeed強調朋友的部份，他包含的比 twitter更多，舉凡網頁、影像、影片或是新聞，都幫你整合起來。Embed FriendFeed可以看到一些雛型，blogs、美味書籤、digg、flcikr、Google Reader、Last.fm、Picasa、Tumblr、Twitter、Youtube、zooomr以及國外很紅的facebook都在名單之內。
+現在推出的各種服務都越來越強調social，而且著重在現實生活的連結。
+friendfeed有自己的crawler，註冊帳號之後提供以上那些網站的帳號，自動會更新，需要密碼的網站就靠 API來收集資料。推測將這些資料設定成一個profile，有另一位使用者輸入朋友的某一個網站的帳號，剛好有符合的profile就正好可以提供更多的資訊，沒有的話就直接用crawler抓取，這是我猜測背後運作的模式。
+Service Helps Friends Share Their Online Discoveries – New York Times也有報導。</description>
+    </item>
+    
+    <item>
+      <title>social bookmark search</title>
+      <link>https://hugo.balduran.cc/post/social-bookmark-search/</link>
+      <pubDate>Sun, 18 Feb 2007 15:24:08 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/social-bookmark-search/</guid>
+      <description>Search Engine For All Social Bookmark Services | Infopirate.org弄了個共享書籤搜尋引擎，不過不要以為他們這麼神奇的寫了一個，其實是用Google Co-op搞出來的。
+若要用yahoo搞出來一個可以參考Pipes: Bookmark Search，正好用上前陣子介紹的pipes。
+以搜尋的功力來說，你會選擇yahoo還是google？
+link: Social Bookmark Search</description>
+    </item>
+    
+    <item>
+      <title>熱蛋塔，冷蛋塔</title>
+      <link>https://hugo.balduran.cc/post/blindbee/</link>
+      <pubDate>Sun, 18 Feb 2007 08:15:40 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/blindbee/</guid>
+      <description>看完又一個蛋塔熱，我的胡言亂語又要脫口而出了。
+啪啦罐頭(palacan)一開始叫做TOMSUN BROKER聯播，我特別記住的原因是除了聯播還有相簿，站長叫做tomsun？聯播取名BROKER。我心裡對這個站的想法是「又是一個熱蛋塔」，當時出現的聯播網站很多，都是繼oui-news後出現，加入聯播對blog曝光率不無小補，所以我也很熱衷於此。
+以同樣的說法，那聯播網站是不是也需求飽和，尤其是沙灘上的浪花這麼多，每個blog在所有的聯播站都參加聯播，那每個聯播站都差不多，那我們就只需要一個聯播站，以同樣的想法，書籤也只要有一家共享書籤就可以了。
+總是會有脫穎而出者，同樣的東西給十個人做，就是會有人做的與眾不同，其他一模一樣的就當背景陪襯。不自己跳進來怎麼知道自己是不是亂中選一的那一個？如果沒有那麼多新的網站成立，那blogger也少了很多寫blog的機會，介紹一個新網站就可以冒充一篇，多好混（我常幹這事）！
+熱蛋塔一一出爐你可以選擇你喜歡的口味。蛋塔冷了之後你可以丟掉，也可以重新加熱創造新一股熱潮。
+—
+蛋塔蛋撻傻傻分不清楚</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>read/write NTFS on MAC OS X &middot; </title>
+        <meta name="description" content="讀取NTFS 檔案系統 NTFS 是微軟研發的檔案系統，如果外接硬碟是用 Windows 格式化，那九成是採用 NTFS，而這個檔案系統，MAC 是能讀不能寫，如果要用外接硬碟分享檔案，就需要安裝額外的驅動程式讓 MAC 可以寫入。
+付費方案   http://www.paragon-software.com/tw/home/ntfs-mac/ NT 550元，花錢是最快最直接的方式，
+  Tuxera NTFS for mac 31 USD，看起來是 NTFS-3G project 的商業版本。
+  免費方案   Download Fuse for OS X MacFUSE 停止開發後的繼任者。
+  Download NTFS-3G 停止開發了，最後一次更新是2010，
+  Download fuse-wait Patch for NTFS-3G，總是有好心人會發 patch
+  CLI-lover brew install osxfuse brew install ntfs-3g sudo mv /sbin/mount_ntfs /sbin/mount_ntfs.original sudo ln -s /usr/local/Cellar/ntfs-3g/2014.2.15/sbin/mount_ntfs /sbin/mount_ntfs 參考資料  https://github.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.65.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://hugo.balduran.cc/dist/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+    </head>
+    <body>
+        
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a title="說故事給你聽" href="https://hugo.balduran.cc/">說故事給你聽</a>
+                            </h1>
+                        
+                        <a class="button-square" href="https://hugo.balduran.cc/index.xml"><i class="fa fa-rss"></i></a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">read/write NTFS on MAC OS X</h1>
+    
+    <p class="post-date post-line">
+        <span>Published <time datetime="2015-06-19" itemprop="datePublished">Fri, Jun 19, 2015</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Balduran Chang</a>
+            </span>
+        </span>
+    </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <h2 id="讀取ntfs-檔案系統">讀取NTFS 檔案系統</h2>
+<p><a href="https://www.wikiwand.com/en/NTFS">NTFS</a> 是微軟研發的檔案系統，如果外接硬碟是用 Windows 格式化，那九成是採用 NTFS，而這個檔案系統，MAC 是能讀不能寫，如果要用外接硬碟分享檔案，就需要安裝額外的驅動程式讓 MAC 可以寫入。</p>
+<h2 id="付費方案">付費方案</h2>
+<ol>
+<li>
+<p><a href="http://www.paragon-software.com/tw/home/ntfs-mac/">http://www.paragon-software.com/tw/home/ntfs-mac/</a>
+NT 550元，花錢是最快最直接的方式，</p>
+</li>
+<li>
+<p><a href="http://www.tuxera.com/products/tuxera-ntfs-for-mac/">Tuxera NTFS for mac</a>
+31 USD，看起來是 NTFS-3G project 的<a href="http://www.tuxera.com/about-us-2/">商業版本</a>。</p>
+</li>
+</ol>
+<h2 id="免費方案">免費方案</h2>
+<ol>
+<li>
+<p>Download <a href="http://osxfuse.github.io/">Fuse for OS X</a>
+<a href="https://code.google.com/p/macfuse/">MacFUSE</a> 停止開發後的繼任者。</p>
+</li>
+<li>
+<p>Download <a href="http://macntfs-3g.blogspot.tw/2010/09/ntfs-3g-for-mac-os-x-201088.html">NTFS-3G</a>
+停止開發了，最後一次更新是2010，</p>
+</li>
+<li>
+<p>Download <a href="https://github.com/bfleischer/fuse_wait/downloads">fuse-wait</a>
+Patch for NTFS-3G，總是有好心人會發 patch</p>
+</li>
+</ol>
+<h3 id="cli-lover">CLI-lover</h3>
+<pre><code>brew install osxfuse
+brew install ntfs-3g
+</code></pre><pre><code>sudo mv /sbin/mount_ntfs /sbin/mount_ntfs.original
+sudo ln -s /usr/local/Cellar/ntfs-3g/2014.2.15/sbin/mount_ntfs /sbin/mount_ntfs
+</code></pre><h2 id="參考資料">參考資料</h2>
+<ul>
+<li><a href="https://github.com/osxfuse/osxfuse/wiki/NTFS-3G">https://github.com/osxfuse/osxfuse/wiki/NTFS-3G</a></li>
+<li><a href="https://gist.github.com/bjorgvino/f24e5c079b92f921b765">gist</a></li>
+<li><a href="http://brewformulas.org/Ntfs-3g">Homebrew Formulas NTFS-3G</a></li>
+</ul>
+
+</div>
+
+        <footer class="post-footer clearfix">
+    
+        <p class="post-tags">
+            <span>Tagged:</span>
+            
+            
+                <a href="/tags/mac-OS-X/">mac OS X</a>, 
+            
+                <a href="/tags/cli/">cli</a>, 
+            
+                <a href="/tags/NTFS/">NTFS</a>
+            
+        </p>
+    
+
+    <div class="share">
+        
+            <a class="icon-twitter" href="https://twitter.com/share?text=read%2fwrite%20NTFS%20on%20MAC%20OS%20X&url=https%3a%2f%2fhugo.balduran.cc%2fpost%2freadwrite-ntfs-on-mac-os-x%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fa fa-twitter"></i>
+                <span class="hidden">Twitter</span>
+            </a>
+        
+
+        
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhugo.balduran.cc%2fpost%2freadwrite-ntfs-on-mac-os-x%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <i class="fa fa-facebook"></i>
+                <span class="hidden">Facebook</span>
+            </a>
+        
+
+        
+            <a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2fhugo.balduran.cc%2fpost%2freadwrite-ntfs-on-mac-os-x%2f"
+              onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+              <i class="fa fa-google-plus"></i>
+                <span class="hidden">Google+</span>
+            </a>
+        
+        
+    </div>
+</footer>
+
+        
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a title="說故事給你聽" href="https://hugo.balduran.cc/">說故事給你聽</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://hugo.balduran.cc/js/jquery-1.11.3.min.js"></script>
+        <script src="https://hugo.balduran.cc/js/jquery.fitvids.js"></script>
+        
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        
+        
+        <script src="https://hugo.balduran.cc/js/scripts.js"></script>
+    </body>
+</html>
+

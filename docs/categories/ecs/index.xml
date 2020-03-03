@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ecs on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/ecs/</link>
+    <description>Recent content in ecs on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Mar 2020 22:57:08 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/ecs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ecs agent ports</title>
+      <link>https://hugo.balduran.cc/post/ecs-agent-ports/</link>
+      <pubDate>Sun, 01 Mar 2020 22:57:08 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/ecs-agent-ports/</guid>
+      <description>一般情境是使用AWS 提供的 ecs AMI，但有時候還是會有需要自己安裝 ecs agent 自行管理的情況。
+ecs 上跑的 container 會用哪些 port呢？Docker 1.6 之後會看 /proc/sys/net/ipv4/ip_local_port_range，如果找沒有的話就會用預設值，預設是 49153 到 65535。
+Docker 1.6 之前的版本則是固定使用 49153 到 65535。
+ecs agent 則是使用 51678-51680 這些port 來通訊。
+Docker daemon 需要 2375 and 2376
+這時候 VPC 裡的 NACL 就要打通對應的 port，如果沒開，ecs cluster 就不會加入新開的機器。算是個小地方但如果沒注意就要多花時間找原因了。
+ref: https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_PortMapping.html</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>joanna on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/joanna/</link>
+    <description>Recent content in joanna on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Feb 2008 07:29:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/joanna/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Joanna 的 YouTube頻道</title>
+      <link>https://hugo.balduran.cc/post/joanna_youtube_channel/</link>
+      <pubDate>Fri, 29 Feb 2008 07:29:52 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/joanna_youtube_channel/</guid>
+      <description>之前說過歌聲很好聽的 Joanna在 Youtube 上有自己的頻道，festouverture的頻道，有很多 unplugged 演唱，值得一聽喔！</description>
+    </item>
+    
+    <item>
+      <title>值得一聽的好聲音 Joanna Wang 王若琳</title>
+      <link>https://hugo.balduran.cc/post/joanna_wang/</link>
+      <pubDate>Wed, 23 Jan 2008 10:47:17 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/joanna_wang/</guid>
+      <description>§ Joanna Wang 王若琳 start from here §
+光聽歌聲你絕對感覺不出這是個華人女孩，英文歌讓我以為是外國歌手，其所走的歌路在台灣也是少數，試聽一下就可以了解我所說的感覺，很值得細細品味的聲音，尤其是在夜晚。我在墾丁天氣晴 – 有你的快樂。</description>
+    </item>
+    
+  </channel>
+</rss>

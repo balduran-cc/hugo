@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>beta on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/beta/</link>
+    <description>Recent content in beta on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jan 2007 16:31:04 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/beta/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>blogger舊帳號轉換至新版</title>
+      <link>https://hugo.balduran.cc/post/bloggere8888ae5b8b3e8999fe8bd89e68f9be887b3e696b0e78988/</link>
+      <pubDate>Wed, 24 Jan 2007 16:31:04 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/bloggere8888ae5b8b3e8999fe8bd89e68f9be887b3e696b0e78988/</guid>
+      <description>blogger新版在beta的時候，我創了一個新的帳號，也就是google帳戶，一方面嚐鮮，一方面找不到到舊版轉換帳號的方法(我試過，但失敗)。這個新帳號我無心經營，只是為了試試看有何進步之處，使用上是改善許多，但是不能發佈到ftp上，新增的眾多功能都要在blogspot網域才能使用，那時我覺得舊版還是有存在的必要。
+現在發覺已經可以轉換至新版blogger了，在沒有登入任何帳號的情況下，blogger首頁有轉換的選項，若是存有cookie就會直接轉到控制台(像我就是)，所以這個功能出現了多久我也不清楚。
+現在範本分成兩個部份，傳統的和新的，若是要發佈到ftp上就一定要使用傳統範本。看自己的需求，想要留存網頁備份還是更多的互動功能，今晚你選那一個？
+我一直期盼能有的功能，那就是匯入，如果能提供文字格式檔案匯入多篇文章的話，搬家就輕而易舉了，目前還沒找到相關的功能。maill發表不知道能不能這樣子搞？
+官方詳細說明(中文)：Blogger 說明 : 我要如何切換至 Blogger 試用版？</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>SSH tunnels &middot; </title>
+        <meta name="description" content="同事 Kcc教了我從家中電腦遠端連進辦公室電腦的方法，不是用VPN，是用SSH進入院內一台主機，在forward到我使用的電腦，然後用windows內建的遠端桌面連線。
+SSH Tunnel我之前沒接觸過，一直想了解三台機器的關係，似乎是本機的 Source port經由和 Host的 SSH連線連到 destination，以遠端桌面為例 destination的 port是3189，Source port是自訂，在開啟遠端桌面連線時候鍵入 127.0.0.1:source port就可。
+如果我早一點知道這一招就好了，之前在環保局都是用 port 443連線，不過前提是要有一台 SSH Server可以連線。
+由http暗藏通道看網路安全、FreeBSD GIF Tunnel講的是不是同一件事情呢？
+Msn: 1080 dynamic勾選，destination空白
+IE: 8080 destination:192.168.0.1:3180(??)
+OE: Source: 25(smtp),110(pop3)">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.65.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://hugo.balduran.cc/dist/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+    </head>
+    <body>
+        
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a title="說故事給你聽" href="https://hugo.balduran.cc/">說故事給你聽</a>
+                            </h1>
+                        
+                        <a class="button-square" href="https://hugo.balduran.cc/index.xml"><i class="fa fa-rss"></i></a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">SSH tunnels</h1>
+    
+    <p class="post-date post-line">
+        <span>Published <time datetime="2007-10-05" itemprop="datePublished">Fri, Oct 5, 2007</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Balduran Chang</a>
+            </span>
+        </span>
+    </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>同事 Kcc教了我從家中電腦遠端連進辦公室電腦的方法，不是用VPN，是用SSH進入院內一台主機，在forward到我使用的電腦，然後用windows內建的遠端桌面連線。</p>
+<p><a href="http://stefan.huberdoc.at/comp/info/ssh_tunnel.html" title="sth - SSH Tunnel">SSH Tunnel</a>我之前沒接觸過，一直想了解三台機器的關係，似乎是本機的 Source port經由和 Host的 SSH連線連到 destination，以遠端桌面為例 destination的 port是3189，Source port是自訂，在開啟遠端桌面連線時候鍵入 127.0.0.1:source port就可。</p>
+<p>如果我早一點知道這一招就好了，之前在環保局都是用 port 443連線，不過前提是要有一台 SSH Server可以連線。<br>
+<a href="http://www-128.ibm.com/developerworks/tw/library/l-httpunnel/" title="由http暗藏通道看網路安全">由http暗藏通道看網路安全</a>、<a href="http://ylchang.blogspot.com/2005/09/freebsd-gif-tunnel.html" title="ylchang - BBBbbbbb.....loggggggg: FreeBSD GIF Tunnel">FreeBSD GIF Tunnel</a>講的是不是同一件事情呢？</p>
+<p>Msn: 1080 dynamic勾選，destination空白<br>
+IE: 8080 destination:192.168.0.1:3180(??)<br>
+OE: Source: 25(smtp),110(pop3)</p>
+
+</div>
+
+        <footer class="post-footer clearfix">
+    
+        <p class="post-tags">
+            <span>Tagged:</span>
+            
+            
+                <a href="/tags/SSH/">SSH</a>, 
+            
+                <a href="/tags/tunnel/">tunnel</a>, 
+            
+                <a href="/tags/remote/">remote</a>, 
+            
+                <a href="/tags/developer/">developer</a>
+            
+        </p>
+    
+
+    <div class="share">
+        
+            <a class="icon-twitter" href="https://twitter.com/share?text=SSH%20tunnels&url=https%3a%2f%2fhugo.balduran.cc%2fpost%2fssh-tunnels%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fa fa-twitter"></i>
+                <span class="hidden">Twitter</span>
+            </a>
+        
+
+        
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhugo.balduran.cc%2fpost%2fssh-tunnels%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <i class="fa fa-facebook"></i>
+                <span class="hidden">Facebook</span>
+            </a>
+        
+
+        
+            <a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2fhugo.balduran.cc%2fpost%2fssh-tunnels%2f"
+              onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+              <i class="fa fa-google-plus"></i>
+                <span class="hidden">Google+</span>
+            </a>
+        
+        
+    </div>
+</footer>
+
+        
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a title="說故事給你聽" href="https://hugo.balduran.cc/">說故事給你聽</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://hugo.balduran.cc/js/jquery-1.11.3.min.js"></script>
+        <script src="https://hugo.balduran.cc/js/jquery.fitvids.js"></script>
+        
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        
+        
+        <script src="https://hugo.balduran.cc/js/scripts.js"></script>
+    </body>
+</html>
+

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>javascript on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/javascript/</link>
+    <description>Recent content in javascript on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Oct 2015 05:21:06 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>cross domain request by CORS</title>
+      <link>https://hugo.balduran.cc/post/cross-domain-request-by-cors/</link>
+      <pubDate>Tue, 20 Oct 2015 05:21:06 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/cross-domain-request-by-cors/</guid>
+      <description>#same origin 限制 Same-origin policy1是在瀏覽器上用 javascript 發動 request的時候，要求所在頁面與 requested resource需要是同個 domain，因為安全性的因素，做 ajax call 或是拉 webfont 的時候，只能向自家伺服器請求，也加深了對於應用程式開發的限制。
+CORS2 則是解決 cross domain 的方法之一，需要將 server/client 都設定好才會成功。
+CORS 中文翻作跨來源資源共享，直接叫 cross domain 比較乾脆，現代的瀏覽器內建的 XMLHttpRequest 都支援，除了 js script 要寫好之外，還需要額外設定伺服器。
+基本順序如下
+ JS 發出 cross-domain XHR server 收到 request 檢查 header and 自身設定 符合 cors 設定，回傳結果，如果設定不對，request 失敗是常有的事。  client side 發送端 發送 request 的時候，會設定 header裡的
+ Origin Access-Control-Request-Headers (optional) Access-Control-Request-Method(optional)  POST 的 contentType and dataType 很重要</description>
+    </item>
+    
+    <item>
+      <title>javascript 存取瀏覽器的寬高</title>
+      <link>https://hugo.balduran.cc/post/javascript-access-height-and-width/</link>
+      <pubDate>Thu, 24 Sep 2015 03:01:59 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/javascript-access-height-and-width/</guid>
+      <description>瀏覽器的寬高 ###window window 即為瀏覽器本身，瀏覽器的高度，有分兩種，包含工具列與不包含，當然包含工具列的值會比較大，只要不 resize，這個值是不會變的。
+window.innerHeight 是不包含工具列的，比較常使用到，是瀏覽器的可視範圍。 window.outerHeight 則是包含的。
+網頁文件的寬高 ###[document] document 即為當前瀏覽的網頁，網頁可能很大，比瀏覽器視窗還大，因此 document 的寬高比 window 寬高還要大是正常現象，網頁內容的高度，取值用
+ document.body.clientHeight document.documentElement.clientHeight document.documentElement.scrollHeight  三者等價，用document.body就好，不要用 document.height。 [document]: https://developer.mozilla.org/en-US/docs/Web/API/document
+width 以此類推，不贅述。
+頁面捲動距離 網頁開出來之後，初始捲動的值都是 0，往下滑動之後，Y 軸的值會增加，往右滑動，X 軸的值會增加。這個數值配合 window/document height，可以算出現在出現在使用者面前的頁面是整個網頁的哪一段，例如常見的一些功能是捲到頁面底端之後出現某些模組、按鈕、圖案，就需要用這數值判斷。
+以 Y 軸 (垂直)為例
+ [window.scrollY] window.pageYOffset document.defaultView.scrollY document.defaultView.pageYOffset  這些數字永遠一樣，統一使用 [window.scrollY] 就好。 [window.scrollY]: https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY
+window.scrollTo 則是可以用程式控制頁面捲動到定點，在 iOS 早期的版本，手機版頁面為了讓上方網址列在讀取完之後自動收起，都會用 window.scrollTo(0, 1); 讓瀏覽器以為使用者已經捲動頁面而自動收起網址，不過 mobile safari 已經沒有這樣的設計。
+window.scrollBy 則是控制捲動的幅度，稍有不同。
+useful framework YUI YUI 有很多好用的 utility function，使用 Y.DOM 就可以拿到寬高。</description>
+    </item>
+    
+    <item>
+      <title>Write Cookie in JS level</title>
+      <link>https://hugo.balduran.cc/post/write-cookie-in-js-level/</link>
+      <pubDate>Mon, 21 Jul 2014 11:06:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/write-cookie-in-js-level/</guid>
+      <description>通常我們寫入cookie是直接使用setrawcookie，當然安全性是個問題，在此先不討論。
+setrawcookie有個要注意的事項是他必須在http response出去之前就被呼叫，因為他是header的一部份，因此呼叫setrawcookie時要注意return value，或是自己必須確保呼叫之前沒有任何echo。
+如果setcookie所要寫入的值是來自于另一個後端，而且這份資料並不是一定要在header建立cookie，為了不讓這個後端擋住前端機器吐頁面，我們可以讓他inline setup cookie。
+sample PHP code
+$cookie = array(
+‘name’ =&amp;gt; $name,
+‘value’ =&amp;gt; $value,
+‘expiration’ =&amp;gt; $expiration,
+‘path’ =&amp;gt; $path,
+‘domain’ =&amp;gt; $domain
+);
+$cookie[‘expiration’] *= 1000; // from seconds to mileseconds
+$config = json_encode($cookie);
+$script = &amp;laquo;EOS;
+Y.use(‘cookie’, function(Y){setcookie = function(config){
+Y.Cookie.set(config.name, config.value, {
+expires: new Date(config.expiration),
+path: config.path,
+domain: config.domain
+});
+};
+setcookie($config);
+});
+EOS;
+其中需要注意的是，php 生成的 date() 和 javascript new Date() 的基本單位不同，從 php 傳遞到 js 的時候需要乘以1000。</description>
+    </item>
+    
+    <item>
+      <title>Recommended sublime plugin</title>
+      <link>https://hugo.balduran.cc/post/recommended-sublime-plugin/</link>
+      <pubDate>Thu, 13 Mar 2014 12:25:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/recommended-sublime-plugin/</guid>
+      <description>Sublime Text 2 還滿多人用的，而且plugin很多，以下列出好用的作為筆記。
+  Package Control 優先第一安裝，建議管理package都由此plugin https://sublime.wbond.net/
+  DocBlockr 用來產生註解 https://github.com/spadgos/sublime-jsdocs
+  SASS 寫css的好幫手 https://github.com/n00ge/sublime-text-haml-sass
+  PHPUnit
+https://github.com/stuartherbert/sublime-phpunit
+  Mustache
+https://github.com/defunkt/Mustache.tmbundle
+  Trailing Spaces
+https://github.com/SublimeText/TrailingSpaces
+  Sublime-jsLint Webdev的JS一定要過這個檢查 https://github.com/fbzhong/sublime-jslint
+  SublimePrettyJSON
+https://github.com/dzhibas/SublimePrettyJson
+  sublime plugin - 1 sublime plugin - 2</description>
+    </item>
+    
+    <item>
+      <title>download youtube video using bookmarklet</title>
+      <link>https://hugo.balduran.cc/post/download-youtube-video-using-bookmarklet/</link>
+      <pubDate>Mon, 22 Jun 2009 00:32:26 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/download-youtube-video-using-bookmarklet/</guid>
+      <description>via http://googlesystem.blogspot.com/2008/04/download-youtube-videos-as-mp4-files.html
+我對於怎麼下載youtube的影音滿有興趣的，不過動機並沒有那麼邪惡，是想要作youtube上面的影片的一些分析，不過這個不在我的學位論文範疇之內，就先打住。
+youtube的影音是用flv的方式在傳遞，有些網站可以解析出這些flv檔案的所在位置並下載，對影音檔處理苦手的我是不太碰觸這領域的，google怎麼隱藏這些原始位置巴拉巴拉，我完全都不知道。
+get youtube video 這個小書籤實在太強了，很短，作用卻很大。稍微看了一下，是解析網頁原始檔中用jscript引入flash的參數，有video_id，這個很明顯在網址可以看到，還有一個隱藏的 t 作檢查之用，這樣一看，就稍微有點概念youtube的頁面適用jscript動態生成，只看html的部份是無所穫。
+jscript 學會的話對於解析網頁應該頗有幫助。</description>
+    </item>
+    
+    <item>
+      <title>新書購入</title>
+      <link>https://hugo.balduran.cc/post/e696b0e69bb8e8b3bce585a5/</link>
+      <pubDate>Tue, 20 Jan 2009 16:48:24 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/e696b0e69bb8e8b3bce585a5/</guid>
+      <description>禮拜天去台北和朋友吃飯之餘，去了天瓏，收了三本書。平常的我很少花錢買書的，都是用圖書館和 google，也許是消費卷領了覺得有點餘裕可以花錢。
+learning python 3/e 中譯本，這本錯字聽說不少，翻譯品質不算很好，但是圖書館的 python 書都很熱門，常常無法續借，所以還是自己買一本吧。
+python 3.0 這本有 cover 到的樣子，而 3.0 和 2.5 的語法差異挺多，還好我學的不夠透澈，正好重新學起 (-.-)。
+ppk on javascript，說不上為什麼，就買了。我對 javascript 是一竅不通的，但是從畢業學長那交接了一本 greasemonkey，顯然的之後的研究題目會和 javascript 有關，就順便入手吧，大概知道這本書內容不錯，有點賭博性質。
+presentation zen，這本啊，拿來當成做投影片參考，能力待加強。
+合計一張半。
+話說領了消費劵，好小張，像玩具。「劵」不要打成「卷」。</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>financial on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/financial/</link>
+    <description>Recent content in financial on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Jul 2017 23:52:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/financial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>美股投資 分析工具</title>
+      <link>https://hugo.balduran.cc/post/us-investment-tool/</link>
+      <pubDate>Tue, 11 Jul 2017 23:52:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/us-investment-tool/</guid>
+      <description>由於開設了多個美國券商帳戶，想要有個工具可以一次統整各個帳戶的交易紀錄和資產現值，自己用excel也是可以，但就是想要有個懶人法。
+Personal Capital 是我很喜歡的美股投資管理工具，可以匯入多個卷商的帳號，一次總覽全部資產，就連投資的各個部位都有圖表化的呈現。除了券商投資，他也可以匯入銀行帳號，可惜我沒有開設美銀帳戶，無法使用。
+Personal Capital 可以記錄的資產非常多種，對於生活在美國的人來說，連同貸款、房地產或是動產都可以一次管理，非常方便。對於台灣人來說，要註冊帳號最麻煩的就是需要電話號碼來收認證碼，可以在美國旅行的時候趕快註冊一個。
+Sigfig和 Personal Capital很類似，不過他會一直推薦付費服務，呈現的圖表也稍微簡陋一些，不過註冊很容易。
+Mint 應該算是這類管理服務的始祖，但我覺得他投資的圖表不夠精細，只有大略的圓餅圖，對於想要深入分析資產配置的使用者來說，功能有些不足。Mint 有個特別的功能是可以估算個人的 credit score，對於想要移民的人來說，可以當個參考。
+finviz 用來挑選個股不錯。</description>
+    </item>
+    
+    <item>
+      <title>MoneyBook 結束服務</title>
+      <link>https://hugo.balduran.cc/post/moneybook-eol/</link>
+      <pubDate>Sun, 30 Apr 2017 10:47:09 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/moneybook-eol/</guid>
+      <description>MoneyBook是個台灣本土的新創服務，師法 mint.com，讓使用者可以一次同步多個銀行與信用卡的交易紀錄，當然因為台灣各家銀行網銀的實作並不支援使用 API 拉取資料，因此過去都是將網銀帳密存在 MoneyBook 伺服器端，讓伺服器的程式去登入並分析交易紀錄。
+可惜的是它即將收攤了。
+對比常見的記帳軟體，皆要求使用者手動輸入每一筆消費，不論是手機 app或是桌機程式，對於懶人使用者，這樣的行為很難持之以恆。如果能夠從銀行帳戶的現金流增減直接自動記錄，才是最方便的。也因此，我一直以來都有使用 MoneyBook，也盡量使用信用卡付款，讓交易紀錄由工具產生與管理。可惜這樣直覺方便的方式在台灣無法繼續營運下去，各家銀行的網銀和資料彼此還是難以交換，每多一個帳戶就多一份心力管理。</description>
+    </item>
+    
+    <item>
+      <title>金融憑證報稅</title>
+      <link>https://hugo.balduran.cc/post/financial-credentials-and-tax/</link>
+      <pubDate>Tue, 26 Apr 2016 21:01:35 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/financial-credentials-and-tax/</guid>
+      <description>使用金融憑證報稅 又到了報稅季節，大家熟知的報稅方法不外乎 1. 現場報稅 2. 自然人憑證線上報稅，現場報稅花時間，自然人憑證方便多了，但是自然人憑證並不是免費的，250台幣可以用 5年+3年展延共八年，而且要換新的時候還是要跑一趟戶政事務所。
+還有另一種方法，不用額外花錢申請，那就是金融憑證。
+金融憑證是金融機構所發出的電子憑證，用於各金融機構（銀行，券商，保險，金控）的線上交易功能，例如線上下單，那就要有券商所發的憑證，才能確保交易的安全。也因為安全性上的控管，持有憑證可以等同個人身份的認證，也才能拿來報稅。
+說不用額外花錢申請，但有些銀行還是會收費，券商則因為交易的關係，一定會提供憑證。取得成本很低，也可以線上簽發，不需要讀卡機讀取。
+憑證本身是個 .pfx 檔，可以存到隨身碟做備份保存。
+相關網站說明: http://itax.twca.com.tw
+105年可支援的卷商有  元大 中信 合庫 元富 日盛 永豐金 玉山 兆豐 宏遠 亞東 國泰 國票 第一金 統一 凱基 富邦 華南 群益 台銀 康和 台新 大昌 大眾  可支援的銀行憑證  兆豐 合庫 一銀 彰銀 土銀 台企銀  可支援的保險憑證  南山人壽  Reference:
+ 北區國稅局 中區國稅局 南區國稅局  </description>
+    </item>
+    
+  </channel>
+</rss>

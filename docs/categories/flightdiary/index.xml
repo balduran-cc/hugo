@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>flightdiary on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/flightdiary/</link>
+    <description>Recent content in flightdiary on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Jul 2017 01:48:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/flightdiary/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>flightdiary and flightradar24</title>
+      <link>https://hugo.balduran.cc/post/flightdiary-flightradar24/</link>
+      <pubDate>Mon, 03 Jul 2017 01:48:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/flightdiary-flightradar24/</guid>
+      <description>http://flightdiary.net/ 已經被 flightradar24 買下了。
+基本界面沒有變太多，畢竟是很單純的記錄功能。自己寫程式做網頁呈現也不是不可以。
+2017年，好像還沒有坐飛機出國去ＸＤ</description>
+    </item>
+    
+    <item>
+      <title>flightdiary</title>
+      <link>https://hugo.balduran.cc/post/flightdiary/</link>
+      <pubDate>Sun, 06 Dec 2015 22:27:44 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/flightdiary/</guid>
+      <description>喜歡旅遊，要如何有效地紀錄曾經去過的地方，曾經搭過的飛機呢？
+flightdiary 是最近知道的好用網站，簡單，但呈現方式很直覺。如果有 tripit 帳號，可以直接匯入飛航紀錄，節省時間。
+如果要手動登記，也沒那麼困難，輸入航班號碼和日期，很多資訊就會自動載入了。</description>
+    </item>
+    
+  </channel>
+</rss>

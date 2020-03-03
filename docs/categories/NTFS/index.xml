@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NTFS on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/NTFS/</link>
+    <description>Recent content in NTFS on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Jun 2015 20:09:39 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/NTFS/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>read/write NTFS on MAC OS X</title>
+      <link>https://hugo.balduran.cc/post/readwrite-ntfs-on-mac-os-x/</link>
+      <pubDate>Fri, 19 Jun 2015 20:09:39 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/readwrite-ntfs-on-mac-os-x/</guid>
+      <description>讀取NTFS 檔案系統 NTFS 是微軟研發的檔案系統，如果外接硬碟是用 Windows 格式化，那九成是採用 NTFS，而這個檔案系統，MAC 是能讀不能寫，如果要用外接硬碟分享檔案，就需要安裝額外的驅動程式讓 MAC 可以寫入。
+付費方案   http://www.paragon-software.com/tw/home/ntfs-mac/ NT 550元，花錢是最快最直接的方式，
+  Tuxera NTFS for mac 31 USD，看起來是 NTFS-3G project 的商業版本。
+  免費方案   Download Fuse for OS X MacFUSE 停止開發後的繼任者。
+  Download NTFS-3G 停止開發了，最後一次更新是2010，
+  Download fuse-wait Patch for NTFS-3G，總是有好心人會發 patch
+  CLI-lover brew install osxfuse brew install ntfs-3g sudo mv /sbin/mount_ntfs /sbin/mount_ntfs.original sudo ln -s /usr/local/Cellar/ntfs-3g/2014.2.15/sbin/mount_ntfs /sbin/mount_ntfs 參考資料  https://github.</description>
+    </item>
+    
+  </channel>
+</rss>

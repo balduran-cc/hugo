@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ebook on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/ebook/</link>
+    <description>Recent content in ebook on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Nov 2015 20:45:36 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/ebook/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>O&#39;Reilly Ebooks on sale</title>
+      <link>https://hugo.balduran.cc/post/oreilly-ebook-on-sale/</link>
+      <pubDate>Sun, 29 Nov 2015 20:45:36 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/oreilly-ebook-on-sale/</guid>
+      <description>O&amp;rsquo;Reilly 歐萊禮 Cyber Monday Sale，所有電子書 Ebook 半價！！十二月一號截止。 http://shop.oreilly.com/category/deals/cyber-monday.do</description>
+    </item>
+    
+  </channel>
+</rss>

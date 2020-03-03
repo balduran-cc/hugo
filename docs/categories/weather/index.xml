@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>weather on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/weather/</link>
+    <description>Recent content in weather on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Nov 2007 15:54:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/weather/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>google 地球新增天氣圖層 Google Earth new layer: weather</title>
+      <link>https://hugo.balduran.cc/post/google-earth-new-layer-weather/</link>
+      <pubDate>Sun, 11 Nov 2007 15:54:52 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-earth-new-layer-weather/</guid>
+      <description>google earth 小小的更新，可以顯示天氣，資料是抓 http://www.weather.com/，至於台灣的氣象資料就不要要求太多準確度了。
+附記: Google 日曆支援氣象預報
+Link: Google LatLong: How’s the weather?</description>
+    </item>
+    
+    <item>
+      <title>Google 日曆支援氣象預報</title>
+      <link>https://hugo.balduran.cc/post/google-calendar-weather/</link>
+      <pubDate>Fri, 31 Aug 2007 19:51:31 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-calendar-weather/</guid>
+      <description>Google Help Center有說明如何在英語環境下增加氣象預報，現在不只有美國有這項功能，台灣地區靠些小技巧也可以達到同樣效果。
+首先在「設定」的地方，將「國家/地區」改成美國之後儲存，氣象的選項就會出現了，這時填入地區如「新竹」，還有選擇溫度顯示方式，在將「國家/地區」改回台灣，成功的話就會在小日曆上看到可愛的氣象圖案囉！
+顯示預報最多三天。</description>
+    </item>
+    
+  </channel>
+</rss>

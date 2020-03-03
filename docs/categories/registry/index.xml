@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>registry on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/registry/</link>
+    <description>Recent content in registry on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Jun 2016 01:53:08 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/registry/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>windows 上的 default browser</title>
+      <link>https://hugo.balduran.cc/post/default-browser-on-windows/</link>
+      <pubDate>Tue, 28 Jun 2016 01:53:08 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/default-browser-on-windows/</guid>
+      <description>需要知道使用者的 default browser 的話，可以讀取 \SOFTWARE\Clients\StartMenuInternet 這個 registry key。如果是一台全新的 windows，這時候 HKEY_CURRENT_USER 應該沒有這個值，在 HKEY_LOCAL_MACHINE 下預設是 IEXPLORE.EXE。
+隨著安裝 Firefox 或是 Chrome，會在 HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet 下增加 subkey，每個 subkey 的 shell\open\command 就會是指到瀏覽器的路徑。
+使用者自己更改了 default browser 的話，就會在 HKEY_CURRENT_USER 下面新增 \SOFTWARE\Clients\StartMenuInternet，並且寫入新的 browser value。
+不過這個 registry 在 Win10 上有點問題，如果設定 Edge 為 default browser 但是這個 registry key 還會是寫 IEXPLORE.EXE。</description>
+    </item>
+    
+    <item>
+      <title>different way to install chrome extension</title>
+      <link>https://hugo.balduran.cc/post/different-way-to-install-chrome-extension/</link>
+      <pubDate>Mon, 30 May 2016 08:43:54 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/different-way-to-install-chrome-extension/</guid>
+      <description>##安裝 chrome extension 的幾種方法
+一般的使用者都會是直接連到 Chrome Web Store，搜尋特定 extension 然後安裝。
+還有其他種方式適用其他情境。
+ inline JS  可以直接使用 js trigger chrome 安裝 extension，適合用在 promotion page上，user 不用轉換頁面，同時埋入 analytics code可以分析轉換率。
+chrome.webstore.install(url, successCallback, failureCallback) 對於 JS developer 應該不陌生，不贅述。
+preferences JSON file  Mac OS 和 Linux適用，如果 extension 經由單機軟體散佈，那就需要用這個方法。假設要安裝的extension ID 是 aabbccddee，那麼在 ~USERNAME/Library/Application Support/Google/Chrome/External Extensions/ 或 /usr/share/google-chrome/extensions/  寫入一個 aabbccddee.json，裡面內容寫明 external_update_url，在 chrome 下次啟動的時候，會跳出一個小 popup windows問你要不要啟動這個 extension。
+Windows registry  Windows上也有類似的方法，不過寫入的地方是 windows registry，需要用 C++ 之類的語言寫入 registry key。在 HKEY_LOCAL_MACHINE\Software\Google\Chrome\Extensions下開一個 new key，key name 就是 aabbccddee (extension ID)，在這個 key 之下也需要指定 update_url，同樣地，chrome每次啟動的時候就會掃這些 metadata，然後試著安裝或更新 extension。</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>down on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/down/</link>
+    <description>Recent content in down on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Jul 2008 18:13:18 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/down/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>plurk 掛了</title>
+      <link>https://hugo.balduran.cc/post/plurk-e68e9be4ba86/</link>
+      <pubDate>Fri, 18 Jul 2008 18:13:18 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/plurk-e68e9be4ba86/</guid>
+      <description>我很無聊，把plurk掛了這種事弄成一篇。
+不過我現在還真得是沒事就開 plurk，twitter 倒是沒這麼熱衷了。</description>
+    </item>
+    
+  </channel>
+</rss>

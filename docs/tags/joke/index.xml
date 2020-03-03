@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>joke on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/joke/</link>
+    <description>Recent content in joke on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Feb 2007 03:36:30 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/joke/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>正版軟體的品質</title>
+      <link>https://hugo.balduran.cc/post/ms-joke/</link>
+      <pubDate>Thu, 15 Feb 2007 03:36:30 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/ms-joke/</guid>
+      <description>正版Microsoft軟體上黑白分明的大字(默)。
+ 品質 – 正版軟體常常會發生缺少重要元件與文件的問題，而且沒有保固，也無法升級。
+ 。
+updated: 晚上六點發現錯誤已修正。</description>
+    </item>
+    
+    <item>
+      <title>三隻小豬！</title>
+      <link>https://hugo.balduran.cc/post/3pig/</link>
+      <pubDate>Sat, 27 Jan 2007 07:11:26 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/3pig/</guid>
+      <description>張無忌的家庭BLOG: Hatena Serif
+你這個人很「杜正勝」耶！此詞怎解？
+ 「賀杜公腦殘」七言詩
+杜公千古音容在，即便罄竹亦難書；
+顛倒台灣著新史，原來是學三小豬。
+作者：pol9(阿兔真可愛)
+ 一切盡在ptt。</description>
+    </item>
+    
+  </channel>
+</rss>

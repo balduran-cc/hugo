@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pipes on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/pipes/</link>
+    <description>Recent content in pipes on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Mar 2007 16:37:29 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/pipes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OnePipe</title>
+      <link>https://hugo.balduran.cc/post/onepipe/</link>
+      <pubDate>Mon, 19 Mar 2007 16:37:29 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/onepipe/</guid>
+      <description>OnePipe : the Single-Button Generic Feed Filtering Bookmarklet
+其實這是一個bookmarklet，不是軟體。經由javascript結合 Yahoo! Pipes上OnePipe，產生自訂的rss。
+使用的方法很簡單，在想要篩選資料的網頁按下bookmarklet，輸入你感興趣的關鍵字，就會自動產生以關鍵字篩選過後的rss，完全自訂你想要的主題、站台。
+ 從bookmark網址延伸，bookmarklet加入了javascript創造很多有趣的功能，Yahoo! Pipes可以混著玩，gadget也可以。</description>
+    </item>
+    
+    <item>
+      <title>yahoo! pipes</title>
+      <link>https://hugo.balduran.cc/post/yahoo-pipes/</link>
+      <pubDate>Tue, 13 Feb 2007 12:05:28 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/yahoo-pipes/</guid>
+      <description>Pipes: Rewire the web
+pipe這個字的確讓人直接聯想到unix上的pipe，將輸出輸入串接在一起的概念，「｜」符號就像是個水管一樣，pipeline前的程式輸出會自動導向到pipeline後面所接續程式的輸入，可以完成很多有趣的一行程式，對一般使用者難了點，不太友善。
+yahoo推出這beta服務的概念也是如此，資料像流水般流過，隨心所欲取一瓢飲，最後流出的絕對是你需要的。可以重複使用別人的pipes，不用從車輪造起。輸出格式可以是rss也可是json，用在各種網站應用都可以。
+Yahoo!水管，全民駭客任務！ (Mr. 6)有更多介紹。
+我稍微試了一下，不易上手，要看些文件範例才行。不覺得容易讓人想動手玩玩。
+—
+變得不太會說話，能寫出來的字非常少。</description>
+    </item>
+    
+  </channel>
+</rss>

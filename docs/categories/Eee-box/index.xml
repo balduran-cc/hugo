@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eee box on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/Eee-box/</link>
+    <description>Recent content in Eee box on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Aug 2008 17:16:42 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/Eee-box/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Eee BOX &amp; OLPC2</title>
+      <link>https://hugo.balduran.cc/post/eee-box/</link>
+      <pubDate>Fri, 01 Aug 2008 17:16:42 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/eee-box/</guid>
+      <description>Eee box 推出，光看名字就知道和 Eee PC 有不可磨滅的關係，Eee 系列已經是一種品牌了，低價、輕巧、上網機。
+Eee BOX 瞄準了比準系統更為低價的市場，而且有無線網路，但是同樣的低價策略使用在桌機環境是不是也能成功就不一定了吧，尤其筆電需要帶著走，地價輕巧是有加分，那桌機環境呢？
+不知道適不適合改造成 OBU。
+Eee PC 搞掉 OLPC 計畫以前就說過了，這也難怪，硬體生產本來就是台灣科技業的強項，能夠在新的產品線上找到生存機會當然要趁勝追擊。百元電腦現在還有誰會記得呢？還是高科技玩具比較有商業價值 (淚目)。
+其實OLPC也不是完全陣亡，OLPC 2也有動作了，youtube 上有 demo 影片。
+可以看到 OLPC 2 更精緻了，在外觀上也像傳統書本一樣攤開，在軟性電子普及之前，用這樣的型式呈現電子書顯得較為親合。
+同樣是低價特性的產品，一個訴求是公益與教育，另一個則是商業與玩具(?)</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>leopard on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/leopard/</link>
+    <description>Recent content in leopard on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Nov 2007 20:36:44 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/leopard/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>mac OS X on Eee PC</title>
+      <link>https://hugo.balduran.cc/post/hackintosh/</link>
+      <pubDate>Tue, 20 Nov 2007 20:36:44 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/hackintosh/</guid>
+      <description>我不是專業，詳情請看 Load OSX 10.5 Leopard on the eeePC。
+照著 Mac Hack 就可以弄出來一台的樣子，這下子 Eee PC 真的是名符其實的玩具了，甚麼東西都灌上去玩玩看。
+咦？討論這個好像違反道德。
+Link: Hack Attack: Build a Hackintosh Mac for Under $800</description>
+    </item>
+    
+  </channel>
+</rss>

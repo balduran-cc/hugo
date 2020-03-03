@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sharethis on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/sharethis/</link>
+    <description>Recent content in sharethis on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 17 Mar 2008 14:51:33 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/sharethis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ShareThis</title>
+      <link>https://hugo.balduran.cc/post/sharethis/</link>
+      <pubDate>Mon, 17 Mar 2008 14:51:33 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/sharethis/</guid>
+      <description>ShareThis 是新興的 social bookmark？
+Share This classic 一開始一個 wordpress 的plugin，就是多出一個小按鈕，可以貼文章到各個 social web 上，這個嘛，靠很多小按鈕排一排也是同樣功能，但是 Share This 效果很特別，又不佔空間。
+還有Share Icon project
+發展到後來，架構更完整了，有給上網衝浪的網友用的 Browser button，各家 blog 軟體可用的外掛，甚至ShareThis API 都出現了。
+註冊自己的帳號，還可以看到自己的 ShareBox，但是我不知道功能。但是起碼很容易就可以分享文章倒是真的，等於一個萬用 bookmarklet，缺點是沒有國內廠商。</description>
+    </item>
+    
+  </channel>
+</rss>

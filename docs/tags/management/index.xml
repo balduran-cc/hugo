@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>management on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/management/</link>
+    <description>Recent content in management on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Jan 2018 23:26:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/management/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>lastpass, 1password的替代方案</title>
+      <link>https://hugo.balduran.cc/post/lastpass-1password/</link>
+      <pubDate>Thu, 04 Jan 2018 23:26:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/lastpass-1password/</guid>
+      <description>1password 一度是我慣用的密碼管理軟體，有單機程式，也有瀏覽器的 extension支援，還有 iOS上的 app，整體來說相當不錯，不過從買斷制改到訂閱制之後，我就不再推薦這個軟體了。
+訂閱制沒什麼不好，只是費用算下去貴了點，月費三美金。
+我從 2011年開始使用，買了 1password 3，算一算用了五年，也是夠本了。舊的軟體更新到新版之後就不認舊的序號，就是直接 check for update 也是 error。
+現在，我改用 lastpass，可免費使用，其實免費版就已經很好用了，各種整合都有，也可以結合 yubikey。
+他還可以 share folder to team，不過這是付費後才有的功能，如果是小團隊工作，需要共用一個 emaill account 而又要維持密碼的安全性，可以將共用的帳號密碼用 share 的方式共用，但可以設定只有 master可以看得到密碼內容，其他人只能使用自動填入但無法看到密碼。
+我真的覺得這個軟體比 1password好很多。</description>
+    </item>
+    
+    <item>
+      <title>Award Wallet</title>
+      <link>https://hugo.balduran.cc/post/award-wallet/</link>
+      <pubDate>Wed, 12 Jul 2017 01:40:03 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/award-wallet/</guid>
+      <description>要玩點數，通常不會只有玩航空哩程，飯店也是一個大項目，多個計畫全都註冊的話，要管理紀錄也是一個費時。
+Award Wallet 是個幫助管理各個點數計畫的網站，也有 App，帳號密碼可以選擇不存在遠端伺服器上。可以直接看到會員等級與哩程總數，也有貼心提示即將過期的哩程。
+如果常常在美國網購的話，有玩 rebate也有支援。
+如果第一次註冊，可以使用我的 upgrade coupon free-lvvrtv，升級到 AwardWallet Plus，以個人使用來說，其實不太需要花錢升級。FAQ 21 有詳細的說明關於帳號等級的差異。</description>
+    </item>
+    
+    <item>
+      <title>home-brew 1.0.0</title>
+      <link>https://hugo.balduran.cc/post/home-brew-1-0-0/</link>
+      <pubDate>Mon, 26 Sep 2016 02:54:11 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/home-brew-1-0-0/</guid>
+      <description>http://brew.sh/2016/09/21/homebrew-1.0.0/
+Mac 上面很好用的套件管理程式 homebrew 已經發佈 1.0.0版。
+一些改變如
+ 套件一律安裝到 /usr/local/Homebrew cask 整合 auto-update brew update 加速  更新的方法很簡單，只要 brew update + brew upgrade就可以了喔</description>
+    </item>
+    
+    <item>
+      <title>向上管理</title>
+      <link>https://hugo.balduran.cc/post/e59091e4b88ae7aea1e79086/</link>
+      <pubDate>Sat, 21 Mar 2009 00:39:51 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/e59091e4b88ae7aea1e79086/</guid>
+      <description>這周部門下午茶的時候，經理和我們聊了這個話題，何謂向上管理？一般的印象中，管理就是主管對屬下叫做管理，是上對下的一種關係，那要怎麼樣才能稱為向上管理呢？
+我插科打諢地說，就是和主管對罵，當然引起一陣大笑，我也知道這不是正確答案，但是總要有人當第一個說話的。之後每個人發表自己的看法，大致不外乎溝通，和主管溝通，而不是單方向的上對下命令的傳達。
+我認為一個好的主管，或說是一個具有 Leadership 的主管都應該具有傾聽的能力，傾聽組織的聲音，傾聽同仁的意見，而我也見識到自己的部門經理在處理事情上的成熟態度，其實我一直都很崇拜他（笑），從我第一天被他面試的時候，感受到的威嚴，進來後卻又有他平易近人的一面，在他身上學到很多，是慢慢觀察體會的。
+學生時期往往是聽從老師的指導，作為一個學生，很少有人敢主動發言積極表達意見，這在一般大學課堂上，詢問同學們有沒有問題卻得到一片鴉然，老師習慣了如此，學生也習慣安靜，這樣的模式輪迴幾轉，步入了 bad cycle。不管怎麼說，願意對上表達自己的意見，是很重要的，而我也很感謝自己的指導教授是個明理的人。
+這一週的 tea break，好像還是嚴肅了一點。</description>
+    </item>
+    
+  </channel>
+</rss>

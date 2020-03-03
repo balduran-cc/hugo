@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>json on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/json/</link>
+    <description>Recent content in json on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Jun 2017 09:53:09 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/json/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>search.json.mozlz4</title>
+      <link>https://hugo.balduran.cc/post/search-json-mozlz4/</link>
+      <pubDate>Tue, 27 Jun 2017 09:53:09 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/search-json-mozlz4/</guid>
+      <description>Firefox 從 FF45 開始，不再使用 searchplugins folder，改用 search.json.mozlz4 這個檔案。讀取這個檔案是有點麻煩的，原因是這個檔案並不是一般的 LZ4 壓縮檔，它是 Mozilla 客製化的版本。
+Mozilla 客製化的方法就是在header加入幾個 Magic Number， 這個 Magic Number 就是 mozLz4a\0，去掉這些字元之後才是正常的 LZ4 格式。
+估計這樣的設計，是不要讓其他程式可以讀取 Firefox的設定，而這個非標準格式，也有 ticket 在討論。
+reference: LZ4.js</description>
+    </item>
+    
+  </channel>
+</rss>

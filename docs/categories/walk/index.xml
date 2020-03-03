@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>walk on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/walk/</link>
+    <description>Recent content in walk on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Nov 2007 16:24:40 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/walk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>World Wide WALK 行走環遊世界</title>
+      <link>https://hugo.balduran.cc/post/wwwalk/</link>
+      <pubDate>Tue, 13 Nov 2007 16:24:40 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/wwwalk/</guid>
+      <description>這是我目前看過最猛的環遊世界方式，不是熱氣球，不是單車，而是用自己的雙腳。WWWalk 這個比 deray 騎單車 B2P 更猛。
+WWWALK記錄了 Jean Beliveau 走遍天下的宏願，不過他還沒有完成這項創舉，還在挑戰中，而現在的位置在印度，預計的路線圖中將會經過台灣，至於是什麼時候？不知道 LOL
+他從兩千年出發，現在已經過了七年，大概也才走過一半，完成這項壯舉，恐怕是需要超過十年。</description>
+    </item>
+    
+  </channel>
+</rss>

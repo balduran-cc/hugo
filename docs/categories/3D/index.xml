@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3D on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/3D/</link>
+    <description>Recent content in 3D on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Jul 2008 19:31:22 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/3D/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google Lively</title>
+      <link>https://hugo.balduran.cc/post/googlelively/</link>
+      <pubDate>Wed, 09 Jul 2008 19:31:22 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/googlelively/</guid>
+      <description>Lively? by Google ?
+詭異的google新服務沒掛在google的網址下。
+lively 是類似虛擬人生的 3D聊天室，在這個聊天室裡面會有一個 3D avatar 代表你自己，可以「開房間」，也就是聊天室，可以做各種的裝飾。
+也許有人會把這個和虛擬人生相提並論，我倒覺得這個只是小品，雖然 google 現在的勢力可以從網路研伸到現實世界，金流、廣告、拍賣，但這畢竟不是 google 的主業，3D化只是讓聊天室更有趣更具體罷了。
+我也弄了個來佔位置。</description>
+    </item>
+    
+  </channel>
+</rss>

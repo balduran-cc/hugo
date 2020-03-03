@@ -3,3 +3,4 @@ disablePathToLower = true
 languageCode = "en-us"
 title = "說故事給你聽"
 theme = "ghostwriter"
+publishDir = "docs"

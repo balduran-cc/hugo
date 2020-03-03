@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hack on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/hack/</link>
+    <description>Recent content in hack on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Aug 2008 18:46:10 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/hack/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2008 Open Hack Day in TW</title>
+      <link>https://hugo.balduran.cc/post/2008-open-hack-day-in-tw/</link>
+      <pubDate>Tue, 12 Aug 2008 18:46:10 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/2008-open-hack-day-in-tw/</guid>
+      <description>台灣雅虎奇摩聚辦 Open Hack Day，就在九月20的周末，方式很硬，四十個隊伍在一天內要構築出成品競賽，完全不是講座纇的輕鬆型式，想參加，還得要找隊友才行。
+我對廣告詞「讓 Hack girl與無名美少女xxxxxx」有點感冒。</description>
+    </item>
+    
+    <item>
+      <title>mac OS X on Eee PC</title>
+      <link>https://hugo.balduran.cc/post/hackintosh/</link>
+      <pubDate>Tue, 20 Nov 2007 20:36:44 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/hackintosh/</guid>
+      <description>我不是專業，詳情請看 Load OSX 10.5 Leopard on the eeePC。
+照著 Mac Hack 就可以弄出來一台的樣子，這下子 Eee PC 真的是名符其實的玩具了，甚麼東西都灌上去玩玩看。
+咦？討論這個好像違反道德。
+Link: Hack Attack: Build a Hackintosh Mac for Under $800</description>
+    </item>
+    
+  </channel>
+</rss>

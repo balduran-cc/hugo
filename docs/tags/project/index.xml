@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>project on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/project/</link>
+    <description>Recent content in project on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Jun 2016 00:12:30 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Visual studio project folder</title>
+      <link>https://hugo.balduran.cc/post/visual-studio-project/</link>
+      <pubDate>Tue, 28 Jun 2016 00:12:30 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/visual-studio-project/</guid>
+      <description>visual studio project folder 中的檔案
+.sln 可以 commit 進 VCS1
+.suo 檔則不該commit 進 VCS
+.vcxproj 是 project file，可以 commit，其中會標明 project 的類別，例如是 Application、DLL 或是 Static Lib。
+project file 可以使用 MSBuild 來達到自動化建置的效果，在 Jenkins 裡面設置好對應的參數 /p:buildEnv=jenkins /p:Configuration=Release /p:Platform=Win32，就可以用 commandline 去建置。
+.user 檔案盡量避免，這是個人的設定，會覆寫 project file的設定，如果要用統一的 build system，不要有 .user 檔案。
+  Version control system &amp;#x21a9;&amp;#xfe0e;
+   </description>
+    </item>
+    
+  </channel>
+</rss>

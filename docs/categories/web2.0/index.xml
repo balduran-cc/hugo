@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web2.0 on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/web2.0/</link>
+    <description>Recent content in web2.0 on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Sep 2008 17:24:30 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/web2.0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Clone or Not, that&#39;s not a problem</title>
+      <link>https://hugo.balduran.cc/post/clone-or-not-thats-not-a-problem/</link>
+      <pubDate>Thu, 25 Sep 2008 17:24:30 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/clone-or-not-thats-not-a-problem/</guid>
+      <description>punk.tw 談 funp的逆襲，clone的開始。
+clone 啊，和copy 可不一樣，有看過星際大戰吧，裡面的複製人大軍，也就是克隆，我喜歡稱它為克隆大軍 (誤)。
+究竟克隆一個有名的網站服務礙不礙事呢？每每出現像國外網站致敬 (抄襲) 的服務的時候，難免酸上一口，說著只會模仿別人。這擺脫不了台灣嘴砲人士總是提著產業應該做自己的品牌這類的口號大張旗鼓地灌輸「抄襲是不好的！(嬌聲)」，當然，從小的教育也是這樣跟我們說的，「不可以抄別人的作業喔！」，就在修課的時候，教授也會說「同學，要獨立完成。」。
+我的老師開的課程則反其道而行，作業題目都事先公佈了，也會提供一份前人的優良作業當作範本，這樣的作法完全和我以前受的教育大相違背，怎麼會有老師大大方方的把解答公布了呢？以老師的觀點，他不覺得這是一個問題，有好的範例做參考，提供一個正確的方向讓同學們做作業，才能激發後來修課同學的創意，要做得更好才能超越。
+當然一方是因為這門課程是很活用的，沒有所謂的標準答案，不像數學題目，一個題目只會有一種標準答案，而這樣的答題方式 (標準答案) 卻容易扼殺學生的創造能力，考試追求正確答案，作業追求正確答案，不正確的答案拿不到分數，拿不到分數就沒有意義。
+好吧，回到現實世界，這個社會是有標準答案的嗎？人家做出了一個好東西，你不能夠跟著做嗎？跟著做了然後發現了技術上的困難，用自己的方法克服 (土法煉鋼)，這樣的方式不好嗎？就算技術部分是開放的，在開發過程中會一路順暢嗎？總有些地方要跟著修改吧。像這樣的方式，是我認為學習最快的途徑，就是以別人做榜樣，而且只以最好的榜樣為目標。
+啊！對了，funP 的個人最新狀態更新做得更動態一點比較好喔。</description>
+    </item>
+    
+    <item>
+      <title>新世代網路應用培育計畫</title>
+      <link>https://hugo.balduran.cc/post/itasp/</link>
+      <pubDate>Thu, 22 May 2008 03:07:21 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/itasp/</guid>
+      <description>昨天晚上在清大有一場經濟部技術處主導的新世代網路應用培育計畫的演講，內容就網路創業的一些經驗分享，主辦單位有資策會、清大創意中心 (DreamLab?)，交大資訊系 (有嗎?)等等。
+辦在清大校園的場次，在場的交大學生卻比清大多，原因是因為彭文志老師開的網路服務與應用要求學生到場 (簽到)，但是也可以感覺得出來校園內學生對於這類話題不太熱衷。資工系當然是聽眾大多數，但也有工工所學生和資管所的在場。
+請來的團隊分別是 FunP推推王、地圖日記 atlaspost、RecordCup、buzzshare，講者多與清交有關係，電工、資管、資工、科管，很能引起宅宅的共鳴，諸如投影片的魯夫、名聞遐邇的好人卡。
+推推王和地圖日記實在沒有太多好記錄的了，RecordCup 和即將推出的 globme 倒是挺有趣的，一個創造自己的世界紀錄，一個是藉由朋友的描述來記錄自己的生活，而不是自己寫自己發生過的事，而經由這些客觀的描述來分析是不是自己締造了什麼特別的記錄而自己沒有發現的，這提醒了我，加強互動的功能並不一定要經由分享，分享音樂分享日記之類的，也許以分本人的角度來切入思考互動的過程是另一個面向。
+他們都提到組織一個好的團隊是很重要的，找到志同道合的朋友是難得的。
+參考: 科技應用與服務業界科專推動計畫網站</description>
+    </item>
+    
+    <item>
+      <title>資工盃校園創新創意競賽</title>
+      <link>https://hugo.balduran.cc/post/web20-contest/</link>
+      <pubDate>Wed, 27 Feb 2008 17:57:58 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/web20-contest/</guid>
+      <description>這課程所提到的比賽辦法就是這個，之前名稱和做法還未定，可能是校長盃或逼哩叭啦盃，現在名稱確定是資工盃，實驗性質，和思源盃有所差別。但都鼓勵創新為主。
+詳細報名資料 http://www.cs.nctu.edu.tw/~tsaimh/2008_CS_Creativity_Contest.doc
+3/25 就報名截止，報名時候要繳交報名表與「作品構想書 (proposal)」，4/12 初賽繳交的簡報檔就是實際要上台解說概念、原型給台下評審評分，分數就是期中考成績，初賽沒過不會 Fail，只是沒法參加決賽，作品還是要在期末繳交，不然不能打分數。6/30 決賽就是玩真的，優勝可以贏得四萬元獎金。
+也許有 lab 同學的支援會好得多，但是我沒有，不要和分數作對的前提下還是退選比較好，但我很想聽聽請來的業界人士的演說。
+軟體教材師資有了，硬體也在系記中準備好了，播下什麼種子能長出什麼花？</description>
+    </item>
+    
+    <item>
+      <title>web services &amp; applications</title>
+      <link>https://hugo.balduran.cc/post/5955_web_app/</link>
+      <pubDate>Tue, 19 Feb 2008 17:45:23 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/5955_web_app/</guid>
+      <description>這學期系上開了一門很有趣的課，課號 5955，網路服務與應用，由黃俊龍老師與彭文志老師合開，課程目標就是建構出一個 web app。
+這門課獲得 google、MS、Yahoo! 的協助，將會有業界人士到課堂上講解新的技術與概念，審核標準是將會有一個公開的比賽，修課同學都要參加並通過初選，並角逐最後的決賽，不是傳統那種課堂上講解講解的模式，沒有教科書，沒有標準教材，非常的開放。
+可以發現，校園裡的教授們也是有在嘗試使用新的服務，例如課程網站就是使用 google group，webservice2008nctu。
+有看新聞的話應該會有一點印象，是 google 在台灣唯二的校園推廣計畫，過年前選課人數是 3x，開學第一天就爆滿到 70 上限。
+web 2.0 畢竟我也看得不少，但沒有實作經驗，以此為出發點似乎是不錯，但是要求團隊合作，我又會擔心隊友擺爛的事情發生。只有是分組我都會有這種顧慮。
+第一堂課請來的業師是誰呢？就是 mr.6 劉威麟，聽過名號的人很多。但我對他沒有到崇拜的地步，不過多聽演講吸收一些想法是必要的。</description>
+    </item>
+    
+    <item>
+      <title>bubble 2.0</title>
+      <link>https://hugo.balduran.cc/post/bubble-20/</link>
+      <pubDate>Wed, 05 Dec 2007 20:07:20 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/bubble-20/</guid>
+      <description>看得懂得應該看完都會心一笑吧。
+現在還無法斷言 web2.0 是不是泡沫，不過我敢打賭 mr.6 絕對會說他不是泡沫。
+其中一個女生面對一整排工程師真是，經典！額外中文版: http://blog.pixnet.net/yeswedo/post/11541633</description>
+    </item>
+    
+    <item>
+      <title>mr.6 「網路、台灣」 in 工研院</title>
+      <link>https://hugo.balduran.cc/post/mr6-in-itri/</link>
+      <pubDate>Wed, 28 Nov 2007 13:56:53 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/mr6-in-itri/</guid>
+      <description>今天劉威麟先生在工研院有一場演講，題目是「網路、台灣」，這是一系列講座中的一場，開頭是年初由詹宏志先生開先河的「web 2.0」，之後陸續請到諸多講者，接下來的講座可以看 Web X 網路近未來。
+開場劉先生先連到自己的 blog 播放一則「快樂病毒影片」，效果很好，rap 的內容或是 youtube 的展現，也順道再宣傳了一下自己的 blog (或許根本不用宣傳了吧)。接著就以 youtube 的爆紅因素作引子，導入今天的講題「網路、台灣」。
+劉先生分享了三個 S 、六個方向，Sweet Spot, Stickiness，甜蜜點這東西他真的很愛講，我也順應時勢好了。以 youtube 的內嵌為例，說這就是它擊中的甜蜜點，以黏性來說，facebook 的 mini feed 現在已經是人人習以為常的東西，並舉網站的成長圖例來看，竄紅的爆增時間點是 sweet spot，使用者持續成長靠的是stickiness。
+六個方向分別是分享、全民、社群、分工、全球、獲利。這中間沒有對每一個項目作長篇大論，大都是導覽一下現在網路創業的新興網站所擁有的特性，以這些成功的案例來看這些成分，其實以 web 2.0 喊得喉嚨乾的情況來看，很多要素都被討論的差不多了，但是並不是講講就會成功。
+最後總結之後的提問時間，發問非常踴躍，到了欲罷不能的地步，都超過十二點吃飯時間了，在院內還是有很多人在關注網路的發展，甚至磨刀霍霍準備大展身手吧！
+提問中的一個問題說，要如何用專利保護這些網站發展出的新技術 (功能) ，我噗哧一笑，在網路上還能談專利嗎？現在應該都是搞 service 的時代了，這個問題代表了舊式的智財思維，認為發展出的技術需要有 IP 保護，這是我認為工研院無法跳脫出來的巢臼，畢竟過去的獲利都來自於累積的專利。以網站技術做服務的現在，能夠快速開發、修改服務內容以符合顧客的需求，才是正確的方向，開發了技術，沒人使用還是死。
+劉先生有提到 Din.ben.don 是以秘書為標的族群，我不是很同意。 訂便當一開始是先做出來自己使用，效果不錯才開放給網友使用，並沒有特地瞄準族群吧，而且訂便當的主要服務是方便「團購」的順利進行，並不是「訂便當」，劉先生對此網站的解說讓我覺得非常不贊同。
+有粉絲？座位坐第一排，發問第一個，會後繼續追問問題。
+見到南宮博士真面目！南宮博士真是帥！搞不好今天周遭很多 blogger勒。
+配合 twittai 使用，現場手機 twitter。
+附記: 我還滿喜歡那首 rap，之前曾出現過國樂 remix 嘻哈，陝北三韻混xxx (忘了)</description>
+    </item>
+    
+    <item>
+      <title>DinBenDon 已經被賣掉了啊!</title>
+      <link>https://hugo.balduran.cc/post/dinbendon-e5b7b2e7b693e8a2abe8b3a3e68e89e4ba86e5958a/</link>
+      <pubDate>Wed, 03 Oct 2007 00:28:29 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/dinbendon-e5b7b2e7b693e8a2abe8b3a3e68e89e4ba86e5958a/</guid>
+      <description>看到Xexex’s Java 和其他二三事上所公佈的消息，他所製作的網站訂便當系統已經賣掉了，讓我非常訝異。打從一開始我就覺得這個網站不錯用，卻沒想過他有甚麼商業上的價值，作為一個企業的內部網站我想是很適合的，這一點作者也有提到，是自己的需求所產生的應用。
+這個賣掉的行為是我不願意見到的，在現在這個時代充斥著一些 A公司買下 B公司的消息，這是商場上的現實沒錯，尤其是 web 2.0的網站更是好賣，加上台灣的無名現象、pixnet也賣出，好像一種風氣就是工程師技術創站，最後也最好的結果就是賣給大公司，而不是苦心經營看能否成長到最後。
+魔獸玩家愛用的任務查詢網站魔獸藏寶箱前一個月也是鬧這樣的事情，頻寬不夠了，機器不夠力了，開始左枝右拙，站長又開始哭說要關站，還提到說想要商業化的構想，這樣的言論一出，ptt和巴哈姆特引起了熱烈迴響，罵的捧的所在皆有，我已經好一陣子沒玩了，絲毫不受影響。最後呢？網站還是開了，線路和機器和商業化的計畫，就留待後續了。中間我省略很多站長被質疑的地方，我想說的是，又是一個開了網站想要賣資料庫的傢伙！
+我說賣「資料庫」，這件事應該和定便當系統分開來說嗎？無名賣的是使用者資料，pixnet說會堅持自己的話(隨便)，魔獸藏寶箱想賣的一堆資料表格和網友的熱心註記。定便當賣的是甚麼呢？整套系統的使用還是已經儲存的商家資料，這個我不知道，只是有這樣的疑問。
+所以想辦法弄個網站在想辦法賣掉是現在時代趨勢。(誤)</description>
+    </item>
+    
+    <item>
+      <title>mint 管理你的錢財</title>
+      <link>https://hugo.balduran.cc/post/mint-e7aea1e79086e4bda0e79a84e98ca2e8b2a1/</link>
+      <pubDate>Thu, 20 Sep 2007 13:37:05 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/mint-e7aea1e79086e4bda0e79a84e98ca2e8b2a1/</guid>
+      <description>Mint | Refreshing Money Management主打的功能是個人金融管理，對於記帳軟體為什麼沒有線上版感到疑惑的我對這挺有興趣。
+很可惜的這個webapp的設計完全是針對美國的使用環境，他可以新增銀行帳戶或信用卡帳戶，線上透過網路連線取的帳號的金融資訊，你的每一筆花費、各種的代繳款項，都有完整的圖表幫助你管理財富。並不是我以為的自己KEY入每天的每一筆花費，而是直接使用信用卡付款，完全是塑膠貨幣的消費習慣。
+這種敏感的資料存取當然會有認證，由TRUSTe認證。
+因此我想試用看看也是沒辦法。還是自己用紙本記帳吧。orz</description>
+    </item>
+    
+    <item>
+      <title>YouTube 2006 video award</title>
+      <link>https://hugo.balduran.cc/post/youtube-2006-video-award/</link>
+      <pubDate>Tue, 20 Mar 2007 16:34:34 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/youtube-2006-video-award/</guid>
+      <description>YouTube 2006 video award
+為YouTube上的影片投票，選出2006年的影像大獎。
+投票方式挺特別的，不是選出前幾名的方式，是全部的參賽影片作排名，不知道這樣的記票方式是直接採用 1~10分嗎？對了，要有YouTube帳號才能投票。</description>
+    </item>
+    
+    <item>
+      <title>8app</title>
+      <link>https://hugo.balduran.cc/post/8app/</link>
+      <pubDate>Tue, 13 Mar 2007 04:21:01 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/8app/</guid>
+      <description>我在8apps上的頁面，右邊是我的skill表，現在不知道啥問題出現錯誤。
+8apps是日本人作的社交網路，主打的是生產力，裡面提供的功能也是為了增加生產力而設計的。
+handshake為一般的social network，目前採邀請制，在這邊你可找到值得共同合作的夥伴，他可以是程式設計師，也可以是介面設計或是專案管理者。orchestrate是工作管理，有點像是to-do list的功能，為每個專案開出task列表，方便管理，不過沒有甘特圖，只有簡單的list而已。blueprint則是創意激盪，每個參與專案的人都可以貼出自己的點子，comment、link或是keyword。
+照名稱推測還有 5個 app還沒推出，以現有的服務來說 basecamp是我想到和這服務最相似的，但這加入了social network，也是個創業者尋求合作夥伴的好地方。
+應該有專門為遊戲迷設計的社交網路吧！
+50個邀請函，請寄信或留言。</description>
+    </item>
+    
+    <item>
+      <title>share e-book on Scribd</title>
+      <link>https://hugo.balduran.cc/post/share-e-book-on-scribd/</link>
+      <pubDate>Wed, 07 Mar 2007 16:14:39 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/share-e-book-on-scribd/</guid>
+      <description>Scribd提供空間讓你上傳各種格式的文件，然後分享。
+特色：
+ 不用註冊帳號即可上傳 doc, pdf, htm, jpg, ppt, xls, Postscript還有聲音檔案也可以 內建的flash viewer讓你不用安裝軟體 文件可下載成各種檔案格式或列印，更甚者，念給你聽 提供文件的各種統計資料，digg式的”I like it!”，讀者分佈地圖，標籤，字數統計，迴響等等一應俱全  開了幾個文件，發現他提供的語音閱讀功能非常非常的有趣！可以拿來練習英聽，對照原文也可以矯正發音，兩樣摻在一起十足是功能強大的電子書。
+版權部份有額外的說明，但我沒多看。
+底下是內嵌在瀏覽器時候的畫面。</description>
+    </item>
+    
+    <item>
+      <title>iJigg分享音樂</title>
+      <link>https://hugo.balduran.cc/post/ijigg-music-sharing/</link>
+      <pubDate>Wed, 31 Jan 2007 16:35:07 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/ijigg-music-sharing/</guid>
+      <description>iJigg.com | Popular Music，近似digg和youtube。
+在blog上放音樂不是新鮮事，有很多flash作成的player可以用，透過檢視網頁原始碼，我可以毫不費力的找到原始mp3檔案的存放之處。這是我覺得使用這種方式播放音樂的一個缺點，不大，但足以讓你爆流量。
+看youtube吸引多少流量，自製影片(當然不乏版權物)的魅力多驚人。這個網站以類似的方法讓你分享聲音，你可以上傳音樂(合法性？)也可以上傳各種音訊檔案，但從iJigg的副標題可以很清楚知道是以音樂為主軸。申請帳號、上傳之後，操作都有現在網站必備的tag、embed code、comment、trackback、releative file，這些實在不用多作介紹。
+看到iJigg這個字有沒有覺得眼熟，和digg很像對吧！確實iJigg提供了Jigg it，就像digg一樣，拍手叫好就給個Jigg it。這行為總讓我聯想到論壇的手動置頂。
+如果用這個存放podcast，似乎也是個不錯的地方。希望他活的長久。</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>radio on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/radio/</link>
+    <description>Recent content in radio on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Feb 2007 16:57:30 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/radio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Radio.blog Downloader</title>
+      <link>https://hugo.balduran.cc/post/radioblog-downloader/</link>
+      <pubDate>Mon, 26 Feb 2007 16:57:30 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/radioblog-downloader/</guid>
+      <description>在看這個RADIO.BLOG Downloader之前，先看看RADIO.BLOG.CLUB，downloader是用來下載RADIO.BLOG.CLUB上的音樂。
+在RADIO.BLOG.CLUB申請帳號之後，隨便搜尋個歌手(英文歌手限定)，會出現歌曲的列表，點下藍色為底的三角箭頭，右邊會出現embed語法，將這段文字copy&amp;amp;paste到RADIO.BLOG Downloader上，就可以下載囉。這中間的暗黑細節我一概不清楚。
+radio.blog是個可以在網頁播放音樂的小玩意，出來滿久的，安裝部份請參考《我一個人…》 � Radio Blog安裝全攻略，其好處是將音樂轉成swf，而有些同樣功能的網頁player則是直接吃mp3，要抓到原始檔案很容易。
+RADIO.BLOG Downloader則將下載的swf或rbs檔案轉成mp3，提供下載，也有提供轉檔程式。
+版權部份嘛，老話一句，僅供試聽。</description>
+    </item>
+    
+  </channel>
+</rss>

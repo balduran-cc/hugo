@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rainbow on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/rainbow/</link>
+    <description>Recent content in rainbow on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Jun 2009 07:42:32 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/rainbow/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>雨後的彩虹</title>
+      <link>https://hugo.balduran.cc/post/e99ba8e5be8ce79a84e5bda9e899b9/</link>
+      <pubDate>Mon, 29 Jun 2009 07:42:32 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/e99ba8e5be8ce79a84e5bda9e899b9/</guid>
+      <description>一場午後雷陣雨，來得快去得也快，在回宿舍的路上，回頭看見一道彩虹。</description>
+    </item>
+    
+  </channel>
+</rss>

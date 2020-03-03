@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mac OS X on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/mac-OS-X/</link>
+    <description>Recent content in mac OS X on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Mar 2017 22:30:46 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/mac-OS-X/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Apple night shift and f.lux</title>
+      <link>https://hugo.balduran.cc/post/apple-night-shift-and-f-lux/</link>
+      <pubDate>Mon, 27 Mar 2017 22:30:46 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/apple-night-shift-and-f-lux/</guid>
+      <description>近期 Apple 更新了 macOS Sierra to 10.12.4，其中一項更新的功能 Night Shift。
+Adds Night Shift for automatically shifting the colors in your display to the warmer end of the spectrum after dark. Night Shift 其實不是Apple 第一個提出的概念，f.lux才是。但在 iOS和 macOS內建這項功能之後，對於 f.lux 開發團隊的心理想必會有影響。</description>
+    </item>
+    
+    <item>
+      <title>create bootable USB for mac OS X</title>
+      <link>https://hugo.balduran.cc/post/create-bootable-usb-for-mac-os-x/</link>
+      <pubDate>Wed, 23 Dec 2015 22:16:50 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/create-bootable-usb-for-mac-os-x/</guid>
+      <description>以前都還有光碟，現在的時代筆電都不配光碟了，用 USB 做個開機碟還比方便。
+需要一個至少 8G的隨身碟，大於 8G 的其他空間在做成開機碟之後就不能用，所以，就用個剛好 8G 的 USB disk。
+簡單作法，用 DiskMaker X，目前支援 10.9, 10.10 and 10.11 的 mac OS X，這個方法推薦給一般使用者。
+For commandline lover
+ download 10.11 installer from App Store sudo /Applications/Install\ OS\ X\ El\ Capitan.app/Contents/Resources/createinstallmedia--applicationpath /Applications/Install\ OS\ X\ El\ Capitan.app --volume /Volumes/MyVolume 其中的 MyVolume要改成自己的隨身碟 path  開機之後，按住 option 鍵，就可以選用 USB開機，並且安裝。
+2018/1/15 更新： 請直接參考 Apple 說明頁面，有詳細指令範例。</description>
+    </item>
+    
+    <item>
+      <title>read/write NTFS on MAC OS X</title>
+      <link>https://hugo.balduran.cc/post/readwrite-ntfs-on-mac-os-x/</link>
+      <pubDate>Fri, 19 Jun 2015 20:09:39 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/readwrite-ntfs-on-mac-os-x/</guid>
+      <description>讀取NTFS 檔案系統 NTFS 是微軟研發的檔案系統，如果外接硬碟是用 Windows 格式化，那九成是採用 NTFS，而這個檔案系統，MAC 是能讀不能寫，如果要用外接硬碟分享檔案，就需要安裝額外的驅動程式讓 MAC 可以寫入。
+付費方案   http://www.paragon-software.com/tw/home/ntfs-mac/ NT 550元，花錢是最快最直接的方式，
+  Tuxera NTFS for mac 31 USD，看起來是 NTFS-3G project 的商業版本。
+  免費方案   Download Fuse for OS X MacFUSE 停止開發後的繼任者。
+  Download NTFS-3G 停止開發了，最後一次更新是2010，
+  Download fuse-wait Patch for NTFS-3G，總是有好心人會發 patch
+  CLI-lover brew install osxfuse brew install ntfs-3g sudo mv /sbin/mount_ntfs /sbin/mount_ntfs.original sudo ln -s /usr/local/Cellar/ntfs-3g/2014.2.15/sbin/mount_ntfs /sbin/mount_ntfs 參考資料  https://github.</description>
+    </item>
+    
+    <item>
+      <title>mac OS X 10.5 即將推出</title>
+      <link>https://hugo.balduran.cc/post/mac-os-x-105-e58db3e5b087e68ea8e587ba/</link>
+      <pubDate>Tue, 16 Oct 2007 17:19:38 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/mac-os-x-105-e58db3e5b087e68ea8e587ba/</guid>
+      <description>Mac OS X 10.5 Leopard 將於 10 月 26 日推出，最直接求證的方式就是The Apple Store (Taiwan)，已經擺上架預購了，可以證實這消息既不是芭樂也不是嘴砲，是千真萬確啊啊啊啊！！！
+千盼萬盼始出來，看學校會不會有CA授權，嘿嘿。
+聽到的八卦是，10.6將不再支援Power PC了，哭哭。</description>
+    </item>
+    
+  </channel>
+</rss>

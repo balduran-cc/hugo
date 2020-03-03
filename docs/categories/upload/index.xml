@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>upload on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/upload/</link>
+    <description>Recent content in upload on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Sep 2007 11:56:25 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/upload/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Flcikr Foldr Monitr</title>
+      <link>https://hugo.balduran.cc/post/flcikr-foldr-monitr/</link>
+      <pubDate>Fri, 28 Sep 2007 11:56:25 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/flcikr-foldr-monitr/</guid>
+      <description>Flickr Foldr Monitr – RebelEOS.com是個有趣的軟體，可以幫你自動上傳圖片到 Flickr上。
+安裝之後，程式會監控一個設定好的資料夾，想要上傳圖片只要放在這個資料夾，它會自動處理上傳的動作，而且會根據目錄的結構處理 set的命名或是固定放到同一個 set，當然permission的設定都存在。唯一我覺得不足之處是不能每一段時間自動 check並上傳。
+這個程式需要用到 .net。
+Hack Attack: Automatically upload a folder’s photos to Flickr – Lifehacker提供另一個方式達到同樣功能，使用 Python。
+Turtlehead OSX Automator Flickr Upload Action 1.1則是使用 mac上的 Automator。</description>
+    </item>
+    
+    <item>
+      <title>jUploadr 好用的 flickr 上傳工具</title>
+      <link>https://hugo.balduran.cc/post/juploadr-e5a5bde794a8e79a84flickre4b88ae582b3e5b7a5e585b7/</link>
+      <pubDate>Mon, 12 Mar 2007 17:05:04 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/juploadr-e5a5bde794a8e79a84flickre4b88ae582b3e5b7a5e585b7/</guid>
+      <description>現在mac可用的flickr工具有
+ juploadr FlickrExport Flickr Uploadr Kula – 1001  附記: Flickr:Important Security Notice，關於釣魚網站的提醒，請多注意 flickr 網址以及登入後不會再要求登入喔，另外也不要下載奇怪的 package。
+via: Goston’s Blog � [Flickr] Flickr Uploadr 太難用!? 試試 jUploadr</description>
+    </item>
+    
+  </channel>
+</rss>

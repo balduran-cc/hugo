@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>thisblog on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/thisblog/</link>
+    <description>Recent content in thisblog on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Nov 2007 16:23:05 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/thisblog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>oui-design.com 的存在是?</title>
+      <link>https://hugo.balduran.cc/post/oui-design-virus/</link>
+      <pubDate>Mon, 12 Nov 2007 16:23:05 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/oui-design-virus/</guid>
+      <description>oui-blog 的前身 oui-design 現在是什麼狀態？
+偶然搜尋到最早的 http://www.oui-design.com/balduran/ (勿點)，已經變成毒窟一窩，所有的頁面都遭受 Trojan-Downloader.JS 感染，我不知道這個網域還存在的原因是為什麼，只後悔以前沒有把所有頁面清空變成空白，現在這些網頁所在的主機也不知道是哪裡，似乎是沒有人在管理。
+有特洛伊木馬！千萬不要點！</description>
+    </item>
+    
+    <item>
+      <title>目前對於此blog的經營方針</title>
+      <link>https://hugo.balduran.cc/post/blog-way/</link>
+      <pubDate>Sat, 13 Jan 2007 08:32:27 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/blog-way/</guid>
+      <description>基於大爆炸所產生的亂碼問題我無心力回復，對於網頁上出現的亂碼我也無心修改template，將以個人自言自語為主要內容，迴響和trackback似乎不太正常，sidebar也暫時不修改，出文速度也會趨近隨性，分類隨便分，內容長短不一，等那天再一次全砍掉採用預設template。
+話說我很久沒開啟自己收集的rss列表，對於新資訊已經是後知後覺。</description>
+    </item>
+    
+  </channel>
+</rss>

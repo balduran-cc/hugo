@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SMS on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/SMS/</link>
+    <description>Recent content in SMS on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Apr 2007 15:49:59 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/SMS/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CallWave 免費傳簡訊</title>
+      <link>https://hugo.balduran.cc/post/callwave-e5858de8b2bbe582b3e7b0a1e8a88a/</link>
+      <pubDate>Sat, 24 Mar 2007 03:23:43 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/callwave-e5858de8b2bbe582b3e7b0a1e8a88a/</guid>
+      <description>CallWave – Free Text Messages
+CallWave是個可以免費傳簡訊的widget，之前只有mac的dashboard版本，現在連yahoo! widget、google gadget和vista gadget的版本都出了。
+google gadget的部份是用在線上個人化首頁，其他都是下載到單機使用。
+順道一提，yahoo! widget 4出了。</description>
+    </item>
+    
+  </channel>
+</rss>

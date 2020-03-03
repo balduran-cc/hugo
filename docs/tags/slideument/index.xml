@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>slideument on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/slideument/</link>
+    <description>Recent content in slideument on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Mar 2009 08:16:24 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/slideument/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>slideking 講義王</title>
+      <link>https://hugo.balduran.cc/post/slideking-e8ac9be7bea9e78e8b/</link>
+      <pubDate>Fri, 06 Mar 2009 08:16:24 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/slideking-e8ac9be7bea9e78e8b/</guid>
+      <description>http://www.slideking.com/index.aspx 是 ITRI 裡的產業學院製作的網站，他提供的服務和 slideshare 相似，就是提供使用者上傳投影片，還有分享。
+雖然說是分享，使用感覺還是有差，投影片播放的介面，整體網站的操作動線，要說是清爽還是陽春就見人見智了。
+以目前在上面流通的投影片內容來看，很貧乏，而且對於投影片的製作思維也是反映在網站名稱上，講義王，也就是將這些投影片視為講義，視為一種文件，而不是輔助講者的「投影片」，所以可以看到的投影片都非常的～內容豐富。
+這個網站的定位實在尷尬，是輔助課程的講義上傳呢？還是真的著眼在投影片的分享呢？從側邊攔的推薦課程和學習活動應該已經說明的很清楚了。
+對於這樣的投影片，很接近 slideument 的程度了吧 (汗)</description>
+    </item>
+    
+  </channel>
+</rss>

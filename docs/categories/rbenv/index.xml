@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rbenv on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/rbenv/</link>
+    <description>Recent content in rbenv on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 May 2015 04:37:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/rbenv/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>rbenv on mac</title>
+      <link>https://hugo.balduran.cc/post/rbenv-on-mac/</link>
+      <pubDate>Tue, 05 May 2015 04:37:15 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/rbenv-on-mac/</guid>
+      <description>gem install xxxyyy 大概是要在mac安裝些軟體時候會需要做的動作，安裝相依性套件，但是！！ 升級到 10.10 mac很容易跑出這樣的錯誤給你看。
+ ERROR: While executing gem &amp;hellip; (Gem::FilePermissionError) You don&amp;rsquo;t have write permissions for the /Library/Ruby/Gems/2.0.0 directory.
+ 意思是/Library/Ruby/Gems/2.0.0無權限寫入，當然啦！這是root所有的目錄，通常一般人也就用sudo gem install xxxyyy來解決，但這並不是一個很好的方法。
+建議用 rbenv來管理ruby的環境，隔離系統內建的ruby(2.0)與開發時候所使用的版本，開發的環境往往需要新舊共存，這樣就不會污染到系統內建的函式庫。
+而 rbenv又可以由 brew 來管理，使用 brew 來安裝 rbenv，然後使用 rbenv 來管理 ruby 開發環境 。
+brew install rbenv ruby-build #記得安裝完後要將`eval &amp;quot;$(rbenv init -)&amp;quot;` 加入到 bash_profile rbenv install -l 可以查看可供下載的ruby版本
+rbenv install 2.0.0-p247 install 2.0.0-p247
+rbenv versions list all installed version
+rbenv global 2.0.0-p247 設定 2.</description>
+    </item>
+    
+  </channel>
+</rss>

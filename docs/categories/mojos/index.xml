@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mojos on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/mojos/</link>
+    <description>Recent content in mojos on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Apr 2008 18:32:14 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/mojos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mojos 在地分享</title>
+      <link>https://hugo.balduran.cc/post/mojos/</link>
+      <pubDate>Sun, 13 Apr 2008 18:32:14 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/mojos/</guid>
+      <description>Mojos 也出現滿久了，一直沒有特地寫篇文章，delay 超久。
+mojos 是清大科管的作品，其他資料不明 (:p)，也因為是清大學生做的，當然是先在清交做 beta 測試，可以預告的是，這可能是最近的顯學，清交兩校都在校內辦新興網路服務的比賽，鼓勵學生創作 web2.0 的網站服務。
+mojos 提供的服務是物品的租、賣、送的平台，輔以地圖做地理上的額外資訊，主題還是在物品的租賣送，至於提供的社交功能，我倒認為是錦上添花，也許現在的網站都要加上 social。
+看起來欲換團好像差不多對吧，不過它比較華麗，有 Google maps，但我覺得有點小。
+使用說明的「聯絡我們」，連結是錯的。</description>
+    </item>
+    
+  </channel>
+</rss>

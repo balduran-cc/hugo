@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cisco on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/cisco/</link>
+    <description>Recent content in cisco on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Mar 2008 17:26:03 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/cisco/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>被誇獎後的心虛</title>
+      <link>https://hugo.balduran.cc/post/mur2-6/</link>
+      <pubDate>Wed, 12 Mar 2008 17:26:03 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/mur2-6/</guid>
+      <description>最近被分配去做一個外商的 network devices configuration file parser，我什麼都還沒開始寫，先熟悉開發環境，ANTLR 和 ant，還有看 CISCO router 的 command manual，就有點七葷八素了。尤其是 CISCO 的操作部分，這學期的課程內容還在進度中，就要先看手冊，網路知識還不慎齊全就開始下海搞這些，好像本末倒置得很厲害啊啊啊啊啊！
+就在上禮拜外商說要照著開發過程中制定好的 source code tree structure 放檔案，其實它們做事真的很有條理，src code 的 grammar file, generated JAVA source code file, compiled JAVA class file, arch JAR file 都分置在適當的目錄，我這也是開了眼界學到了人家怎麼開發。不過因為之前自己內部用的結構和制定的不合，當然要做修改了，而我做的事情並不多，也就只是放到自己的主機目錄下開始測試環境，然後知道這個目錄結構的各個用處。就這樣，被誇獎了。
+ 另外，家駿，你也證明你的本事了，你的表現實在很不錯。
+ 我一直是認為自己努力得不夠啊啊啊啊啊！
+說到 CISCO，最近有一個 program，Graduate and Intern Career programs，要應屆畢業生，我對這個還滿好奇的。重點是，它是由人力派遣藝珂負責的。</description>
+    </item>
+    
+    <item>
+      <title>CATC 新設備</title>
+      <link>https://hugo.balduran.cc/post/catc_new/</link>
+      <pubDate>Wed, 27 Feb 2008 09:24:11 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/catc_new/</guid>
+      <description>CATC 位在記中裡的一間小教室，是 cisco 的，我們 meeting 的場地就在那兒。昨天發現原本的舊筆電全部換新，Veriton 1000 和 AL1916W，小主機寬螢幕，真是超讚的。
+我發現學校集體採購的主機，顯示卡是合板、小型、單一顯示輸出，鎖住的方式 DVI 視訊線的螺絲砍一半，就拆不下來了。
+裡面還有很多 router，是課程用的設備，以後應該有實作機會吧。
+CISCO 的網路設備好像很貴。</description>
+    </item>
+    
+  </channel>
+</rss>

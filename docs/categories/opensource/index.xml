@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>opensource on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/opensource/</link>
+    <description>Recent content in opensource on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Aug 2009 11:54:12 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/opensource/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>COSCUP 2009</title>
+      <link>https://hugo.balduran.cc/post/coscup-2009/</link>
+      <pubDate>Mon, 24 Aug 2009 11:54:12 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/coscup-2009/</guid>
+      <description>已經過去一個禮拜了，我才在這貼宣傳貼紙 XDD
+今年的coscup，場面浩大，報名系統在一天之內關閉，我也是託朋有的福才報到名，比起去年，今天的講者和場次大大增加，報名人數也是爆增到五百五(以上？)，地點還是和去年一樣在台大應力所，不過多了一個電機博理館的場地。
+今年的議程，我完全待在應力所，雲端和android是我認為的重點主題，不過很可惜的第二天下午我陣亡了，直接睡死在座位上。
+除此之外，我還幹了一件惡搞的事，就是玩了一下wow，圖片 為證。場地的無線網路AP算不錯，速度快，不過不太穩定，偶發出現斷線，所以後來我連台大的校園無線網路，開wow畫面就停住了，大概是被擋住了，不過納悶的是學網會擋這個？使用vpn後就順利解決啦XD
+我不太會social，還是專心聽演講就好啦。</description>
+    </item>
+    
+    <item>
+      <title>JavaTWO09 開放原始碼社群大會</title>
+      <link>https://hugo.balduran.cc/post/javatwo09-e9968be694bee58e9fe5a78be7a2bce7a4bee7bea4e5a4a7e69c83/</link>
+      <pubDate>Mon, 09 Feb 2009 10:18:50 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/javatwo09-e9968be694bee58e9fe5a78be7a2bce7a4bee7bea4e5a4a7e69c83/</guid>
+      <description>JavaTWO09 在 3/13 於台北國際會議中心舉行，首先，要付錢報名，早鳥價1200，越慢報越貴。
+早上的議程沒啥吸引力，下午的分區研討會比較吸引人，OSGi, hadoop 滿吸引我的。JavaFX 我總覺得推廣上就慢人家一步了。
+大神快拜！</description>
+    </item>
+    
+    <item>
+      <title>2008 COSCUP</title>
+      <link>https://hugo.balduran.cc/post/2008-coscup/</link>
+      <pubDate>Fri, 01 Aug 2008 17:43:26 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/2008-coscup/</guid>
+      <description>08 COSCUP 議程，每次我說想去都沒去，不過第一天第一個 session 吸引了我的目光，「OSGi」是我現在正在研究的題目，說研究太嚴肅，正在學習倒是真的。
+如果是 opensource 的話，有 knopflerfish, equinox, prosyst mBedded Server Equinox Edition 和 Apache Felix。
+每次看到這些東西就會覺得要學得太多，而自己懂得得太少。
+不限制人數但還是可以報名。</description>
+    </item>
+    
+    <item>
+      <title>Open Source Developers&#39; Conference in Taiwan</title>
+      <link>https://hugo.balduran.cc/post/open-source-developers-conference-in-taiwan/</link>
+      <pubDate>Tue, 08 Apr 2008 17:18:38 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/open-source-developers-conference-in-taiwan/</guid>
+      <description>Open Source Developers’ Conference in Taiwan 時間是 4/12, 4/13 禮拜六日，正好禮拜六是交大校慶。
+現在才發現這個消息是晚了太多了，190個名額已經額滿，雖然我不會去，還是要馬後炮地說聲可惜。
+YUI，yahoo 的前端網頁技術很強嗎？工三有張 yahoo! 的海報是 Nate Koechley 的演講，主題就是「迎向挑戰 網路前端開發的錦囊妙計」，但是上次聽過一個很失敗的 yahoo! 公司員工演講，就不提了。
+hadoop，MapReduce 開源版。
+還滿多有趣的東西，而且熱門。</description>
+    </item>
+    
+    <item>
+      <title>Movable Type Open Source</title>
+      <link>https://hugo.balduran.cc/post/movable-type-open-source/</link>
+      <pubDate>Wed, 12 Dec 2007 17:11:14 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/movable-type-open-source/</guid>
+      <description>MovableType.org 上公布，MT 現在是 open source 了，意味著可以隨意修改、散布與用在各種用途。
+MT 也曾經是我喜歡使用的 blog 系統，可是在 3.X 的版本完全被 wordpress 追著打，出了 4.0 之後也不見好轉，這完全取決於市場策略，six apart 相信自己的產品成熟到可以收費的地步，但事實上還有滿多小缺點，不啻是系統架構上或是使用經驗上。
+MT 4.0 我也曾試著安裝過，但是安裝過程就是不如 wordpress 順手，因此打消了繼續使用 MT 的念頭，從而享受 wordpress theme 可以隨意切換的好處，也不用像以前改模板然後重建 Open Source 可以解決什麼問題嗎？以歷史來看，他確實占了 blog 軟體一席之地，但那是歷史，不是現在。</description>
+    </item>
+    
+    <item>
+      <title>COSCUP 開源人年會</title>
+      <link>https://hugo.balduran.cc/post/coscup-e9968be6ba90e4babae5b9b4e69c83/</link>
+      <pubDate>Sat, 20 Oct 2007 21:28:51 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/coscup-e9968be6ba90e4babae5b9b4e69c83/</guid>
+      <description>COSCUP，Conferfence for Open Source Coders, Users and Promoters的縮寫，因此不是程式人員 Coder的異次元空間， 開放源碼軟體的使用者也歡迎參加，我覺得我好適合啊XD
+議程列表，好多名人喔，都是強者。
+這個頁面是 TiddlyWiki做的，專業！</description>
+    </item>
+    
+  </channel>
+</rss>

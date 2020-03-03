@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>map on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/map/</link>
+    <description>Recent content in map on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Feb 2009 09:40:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/map/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>google latitude</title>
+      <link>https://hugo.balduran.cc/post/google-latitude/</link>
+      <pubDate>Thu, 05 Feb 2009 09:40:15 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-latitude/</guid>
+      <description>google latitude 是個概念有趣的服務，而我在看到這個服務之時感到非常興奮，因為他和我去年 YEF 參賽組隊在 brainstorming 的時候曾提出的概念一樣，雖然被隊員們否定但我仍記在心內。
+google latitude 可以用手機的位置作定位，定位的原理就是 MyLocation 的方法，用基地台的服務區域做大致的推測，而這個定位的服務加上社交網路的元素，就是現在的 google latitude，在保有隱私的前提下，將自己的位置公佈，或是取得朋友們的所在位置，不是挺好玩的嗎？
+去年討論的時候，我是以「人生不相見，動如參與商」的想法為起點，現在人的朋友往往分布各地，有時候當你去到朋友所在的城市，卻抽不出時間可以拜訪他。有時候朋友來了，也是擦身而過，在事後的聚會或聊天才提起說你怎麼沒來找我。就是這樣的想法我想說可以讓自己的所在位置讓自己的朋友們知道，這樣要臨時約也方便。(我就是很愛臨時約)</description>
+    </item>
+    
+    <item>
+      <title>Nokia 地標由我定，玩家大募集</title>
+      <link>https://hugo.balduran.cc/post/nokia-atlaspost/</link>
+      <pubDate>Wed, 14 May 2008 19:44:33 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/nokia-atlaspost/</guid>
+      <description>Nokia【地標由我定，玩家大募集】 – 地圖日記
+地圖日記和 NOKIA 合作的活動，白話來講，就是 NOKIA 提供獎金讓參賽者為它們編輯線上景點的圖資，還附帶不平等條約要使用 N82，先提供企劃案，錄取之後就要拿人手短吃人嘴軟地執行。
+這部分很明顯地可以幫 NOKIA 獲得一些景點資訊，N82 有定位，加上圖片，很標準的 geotagging，根據各個主題可獲取不同的資料內容。以 Garmin 為例，廠商自行發展的 garmin online center 就是提供景點waypoint 資訊，可以很篤定的說，在圖資這方面不管是導航產品廠商還是線上地圖供應者 (如 Gmaps, UrMaps)，都是極為重要的，就連雅虎生活+都牽扯上地圖，你說還有什麼比這更重要？
+這方面可以扯的很多，多扯一下 GPS相關的 2008歐洲伽利略衛星創新應用大賽。</description>
+    </item>
+    
+    <item>
+      <title>My Location, Google 替你定位</title>
+      <link>https://hugo.balduran.cc/post/gmm-mylocaiotn/</link>
+      <pubDate>Thu, 29 Nov 2007 09:26:04 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/gmm-mylocaiotn/</guid>
+      <description>google Maps with My Location
+相信很多人都看過 MMDays 對於 My Location 的介紹，就不多說了。:p
+google 自己拍的宣傳影片也很清楚簡明，就是利用 GSM 的基地台 BTS 做簡單的定位，以個人通訊課程所教授的內容印證，是可以達到大範圍位置的追蹤。手機 (MS) 本身就是一個發信器，經常性對 BTS, MSC 確認自己的位置，但是無法做得很精準，頂多 Location Area 轉換時可以清楚知道從哪個地區做切換。
+簽下電信合約的我們其實就和隨時被監控沒兩樣，電信公司隨時都能掌握我們的位置、生活習慣、出沒區域，如果設定信用卡自動轉帳扣繳，那你更是白白將自己個人資料交了出去。
+圖示上的藍色範圍圈圈就是無法確切抓到位置，只能概括一個區域。
+google Maps 很好用，當越多人在上面增加資料的同時，我們也提供了更多的廣告機會。這龐大的資料庫建立在地圖上，可以擺脫舊時 Page Rank 容易被惡搞的窘境，以現在來說，操作好幾個網站互相引用造成 PR 提高，因為網域名稱的不同還可以這麼幹，但地圖資料用經緯度識別，更貼近生活，也獨一無二。
+同時想到車用網路 (vehicular networking) 的連結部分，是用 GPS 定位、mobile 連結還是 WiFi 小範圍廣播比較好？這部分還在學，mobile 上 JAVA 軟體互相連結說不定有搞頭。</description>
+    </item>
+    
+    <item>
+      <title>share your google Maps</title>
+      <link>https://hugo.balduran.cc/post/share-your-google-maps/</link>
+      <pubDate>Wed, 28 Nov 2007 15:38:16 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/share-your-google-maps/</guid>
+      <description>Google LatLong 公布了一項很讚的功能，google Map 也能共同編輯了。
+google 本身推出的服務都帶有一點社交色彩，gmail, google doc 在人與人互動上都有其獨特之處。獨獨 google Map 還是一份個人地圖，你可以分享給別人看，但是別人不能在上面增加資料，這樣的分享，還少了一塊。
+現在這遺失的一塊已經補回來了，你的地圖不再是孤單的，多人共同編輯同一份圖資，就像共同編輯 google doc 一樣，簡單方便，最大最直接的好處就是補完美食地圖更容易啦 :Q
+再來想想 google 還有什麼服務沒加上協同作業。picasaweb + geotagging ?</description>
+    </item>
+    
+    <item>
+      <title>twittervison: Gmap &#43; twitter即時顯示</title>
+      <link>https://hugo.balduran.cc/post/twittervison-gmap-twittere58db3e69982e9a1afe7a4ba/</link>
+      <pubDate>Mon, 19 Mar 2007 08:48:28 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/twittervison-gmap-twittere58db3e69982e9a1afe7a4ba/</guid>
+      <description>twittervision
+這東東真鮮！再google map上即時地顯示twitter的publicline訊息，也就是全世界即時送出的twitter都會在Gmap上顯示，無用！但感覺很奇妙。
+我真是小看了twitter造成的影響，這個介於blog和 IM的碎碎唸，比 IM公開，又比blog輕鬆，隨意的一段話都可以吸引即時的回應。
+若是有分散式的twitter我想會更好玩，不用受限主機的存在。像blog的存在可以在BSP，也可以自行架站，又要像現在twitter一樣匯集聯絡人列表上的訊息，有明確的contact list，也可以和手機連結。這些想法好像有些衝突，要額外安裝軟體的話不就和現行的 IM一樣，那若是 IM會自動整理聯絡人的暱稱變換呢？過往的訊息要怎麼儲存？
+不管怎樣，看看twittervision上即時顯示的訊息吧。</description>
+    </item>
+    
+    <item>
+      <title>內灣線交通維持專車</title>
+      <link>https://hugo.balduran.cc/post/nawan-bus/</link>
+      <pubDate>Tue, 06 Mar 2007 10:42:41 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/nawan-bus/</guid>
+      <description>現在要前往內灣的話，新竹到竹東路段是靠專車接送，竹東到內灣路段則不受影響，專車的發車站在新竹，據說是靠sogo那一邊的竹客總站，終點站在竹東火車站，上次在竹東火車站前就已經看到四個大格子，中間路線走的台68快速道路，比起中興路節省很多時間。
+我對專車最大的意見就是票價，單程全票要51元，比起122縣道的竹東到新竹44元多了一些，比起火車的25元是多了一倍，通勤學生和上班族對於這樣的票價應該是很不滿意，我以前會坐火車也是為了省點錢，而現在交通車的票價比122線道還要貴！
+冰魚製作的內灣線交通維持資訊還是值得一看，賞心悅目。</description>
+    </item>
+    
+    <item>
+      <title>冰魚自製高鐵連外公車路網</title>
+      <link>https://hugo.balduran.cc/post/icefish-map/</link>
+      <pubDate>Mon, 05 Mar 2007 11:54:21 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/icefish-map/</guid>
+      <description>南極冰魚地圖系列－新增高鐵連外公車路網
+看鐵道版看到的，冰魚自製的地圖，非常特別又實用，像我完全不知道新竹高鐵有甚麼交通車可以搭，把這張地圖印下來帶著覺得沒壞處，有這樣的好東西當然也要盡量宣傳。
+鐵道路也是我自己騎車時很愛走的一條路，知道這條路以前是軍用鐵路之後就更愛走了，況且車流量少，非常方便的一條路。
+停駛前夕 － 內灣線的現在與未來也提到很多我所不知道的內灣線呢！</description>
+    </item>
+    
+    <item>
+      <title>wretch relation map無名好友關係地圖</title>
+      <link>https://hugo.balduran.cc/post/warm/</link>
+      <pubDate>Sat, 17 Feb 2007 06:15:36 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/warm/</guid>
+      <description>Web Allusive Relation Map
+意外發現加我為好友的國中同學，而我一直都不知道他的帳號，試著搜尋一下，你也可以意外地找到久未聯絡的朋友喔。
+blogger之間也有類似的東西，叫做XFN，Xhtml Friends Network。</description>
+    </item>
+    
+  </channel>
+</rss>

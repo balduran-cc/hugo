@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>laptop on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/laptop/</link>
+    <description>Recent content in laptop on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Nov 2007 05:58:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/laptop/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Eee PC 會不會成功?</title>
+      <link>https://hugo.balduran.cc/post/453/</link>
+      <pubDate>Wed, 07 Nov 2007 05:58:19 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/453/</guid>
+      <description>Eee PC 會不會成功？是很多人關注的問題，它的價格與產品定位吸引了消費者第一道目光，接下來能夠能持續引起消費者的熱情就是能不能成功的重點了，況且微軟都願意在上面搭載 windows 作業系統了，對於推廣到一般消費者應該是更容易了。
+在商場上，宏碁諷華碩Eee PC：生不逢時，很顯然的是在唱衰現在 Eee PC 的聲勢，宏碁當年做不起來不代表現在的環境不行，以 Eee PC 的配備來說，講求的就是行動性與易用性，性能上的競賽不是他的強項，況且一萬出頭的價格，也會是頗多人考慮當成買個玩具 (這麼多好像貶低) 。
+原本價格定在 199 美金，現在卻高漲了兩倍，如果很介意的人可以考慮花同樣 199 買台 gOS 桌機。
+Google Trend 上有搜尋 Eee PC 的一些數據排名， 台灣這本地當然查詢率最高，但是請看各個城市，新竹最高啊！科技製造業重鎮的新竹也是最關注這項產品的地區，顯見工程師們對此興趣高昂啊！俄羅斯是查詢語言類最高我不太能明瞭。</description>
+    </item>
+    
+    <item>
+      <title>Apple Tablet PC is REAL?</title>
+      <link>https://hugo.balduran.cc/post/apple-tablet-pc-is-real/</link>
+      <pubDate>Tue, 06 Nov 2007 19:09:04 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/apple-tablet-pc-is-real/</guid>
+      <description>CNET 上的一篇報導，指出 Asus 內部傳出 apple 的 tablet PC 是確實存在的產品。
+有關於 Apple 的產品實在有太多的八卦消息難以證實，但若消息來源來自 Asus 內部，那真實性又另當別論了，畢竟 Asus 單子接的多，說是 apple 的生產工廠也不為過。
+在 mac 全面採用 intel CPU 之後，以往 Apple 電腦一些獨特的特性就消失了，就連 iPhone 的產生，Steve Jobs 也消遣了一下 Bill Gates 曾經說過 iPod 沒有 smartphone 的通話功能，所以現在iPod + Phone = iPhone，在這樣的玩笑之下，Apple 推出 Tablet PC 好像煙霧彈似的。
+Mac User 總是說 MS 抄襲 Apple，但這回可是相反過來啦。
+我覺得 Tablet PC 是太新穎的產品，所以失敗了，一是人們不習慣使用沒有鍵盤的筆記型電腦，二是 Windows 在操作上無法完美配合，這兩個原因，我覺得可以探討。現在 iPhone 的觸控操作功能獲得如此大的好評，是不是代表使用者已經可以接受這樣的操作模式，也代表沒有鍵盤的輸入方式是可以獲得更好的使用者體驗？
+微軟曾經有一向技術叫做 surface，就是在平面上用手指操作，這些新發展的技術都朝著簡單、直覺的方式發展，也就是使用與生俱來的雙手。</description>
+    </item>
+    
+    <item>
+      <title>Eee PC 搭載 Windows OS</title>
+      <link>https://hugo.balduran.cc/post/eee-pc-and-windows-os/</link>
+      <pubDate>Sat, 03 Nov 2007 19:10:47 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/eee-pc-and-windows-os/</guid>
+      <description>原本以為 Eee PC 會是市場上獨特搭載 Linux 的資訊產品，但是華碩與微軟共同宣佈為 Eee PC 開發 Windows 作業系統完全破壞了我這個美麗的幻想啊啊啊啊啊！
+所以事情是怎麼來著？ OLPC 一出現風聲的時候，台灣廠商使用摳比絕招，用本身資訊製造業的優勢 down down down cost，然後出現了這一個創世鉅作，當然 OS 也是依樣畫葫蘆不能用 M$ 的產品，不這樣成本怎麼降的下來！
+本來對 Eee PC 還充滿期望，但顯然 M$ 不會放棄任何推廣自家產品的機會，於是 Ausu 就很歡樂的宣布攜手合作，美好啊！低價的策略搭載 Windows OS。
+我相信 OLPC 的美好構想，但事實上發展的並不如此美好。
+Link: http://eeepc.asus.com/tc/news10172007.htm</description>
+    </item>
+    
+  </channel>
+</rss>

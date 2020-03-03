@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>update on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/update/</link>
+    <description>Recent content in update on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Apr 2009 18:12:34 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/update/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>450D 韌體更新</title>
+      <link>https://hugo.balduran.cc/post/450d-e99f8ce9ab94e69bb4e696b0/</link>
+      <pubDate>Mon, 27 Apr 2009 18:12:34 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/450d-e99f8ce9ab94e69bb4e696b0/</guid>
+      <description>新的 500D 出了，也發表了新的閃燈 270 EX，所以，舊機種就出新韌體支援囉。450D v1.1.0版韌體主要就是提供了新閃燈的支援。
+50D用，1000D用。
+今天陪朋友看nova，已經有現貨可以買了，要價三十張。</description>
+    </item>
+    
+    <item>
+      <title>WordPress 2.6</title>
+      <link>https://hugo.balduran.cc/post/wordpress-26/</link>
+      <pubDate>Tue, 15 Jul 2008 19:29:25 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/wordpress-26/</guid>
+      <description>WordPress 2.6 出了！
+2.6 的新功能，文章加上版本控制的概念，還有更加方便的 Press This! Bookmarklet，參照了Tumblelog的概念吧，還有預覽佈景主題，和其他拉裡拉雜小功能。
+我是很快就搞定升級了，但是 admin menu drop down css 也掛了的樣子。</description>
+    </item>
+    
+  </channel>
+</rss>

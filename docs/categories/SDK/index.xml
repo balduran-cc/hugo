@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SDK on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/SDK/</link>
+    <description>Recent content in SDK on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Oct 2007 17:08:32 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/SDK/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>iPhone SDK will be real</title>
+      <link>https://hugo.balduran.cc/post/iphone-sdk-will-be-real/</link>
+      <pubDate>Wed, 17 Oct 2007 17:08:32 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/iphone-sdk-will-be-real/</guid>
+      <description>Apple – Startpage
+ Let me just say it: We want native third party applications on the iPhone, and we plan to have an SDK in developers’ hands in February. We are excited about creating a vibrant third party developer community around the iPhone and enabling hundreds of new applications for our users. With our revolutionary multi-touch interface, powerful hardware and advanced software architecture, we believe we have created the best mobile platform ever for developers.</description>
+    </item>
+    
+  </channel>
+</rss>

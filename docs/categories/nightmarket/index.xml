@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nightmarket on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/nightmarket/</link>
+    <description>Recent content in nightmarket on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Aug 2008 00:30:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/nightmarket/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>夜市工作坊 spunky trash can</title>
+      <link>https://hugo.balduran.cc/post/spunky-trash-can/</link>
+      <pubDate>Fri, 29 Aug 2008 00:30:19 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/spunky-trash-can/</guid>
+      <description>夜市工作坊結束之後，大夥都在整理數位檔案，影片或是照片，最後匯整出來了約有 8G，就存放在我這給別人抓，順勢放在網路服務上。
+會叫做麥克阿瑟的原因是我們是兩個小組合併，剛好領隊講師一個叫麥可，一個叫阿瑟，合稱「麥克阿瑟」。
+將同組組員做的 Demo 影片放在youtube，在最後成果發表的時候就是用這支影片代替實體 Demo，因為會場離展示場地太遠，搬動不易，搬一次要調整一次電路 (囧)
+影片就是秀出在行人經過的時候，偵測到之後會發出玩具音，除此之外，有另外兩個感應器會發出兩個音，本來要弄成七聲音階，但是錢不夠，買不了七組感應器 (約兩千元吧)。
+第二個要秀的是說有點距離就會有感應，這樣才能達到吸引行人接近垃圾桶的目的，當然這是原型，聲音有點小。
+第三個則是垃圾投入桶中就會有音樂，感應器裝在入口處，如果物體太小或是移動速對太快就會感應不到 (爆)。</description>
+    </item>
+    
+    <item>
+      <title>nmw2008</title>
+      <link>https://hugo.balduran.cc/post/nmw2008/</link>
+      <pubDate>Thu, 21 Aug 2008 16:23:43 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/nmw2008/</guid>
+      <description>這次的夜市工作坊留下很多記錄的影像與錄影，在 web2.0 的時代就用 web2.0 的方式去記錄，所以 flickr 和 youtube 當然是首選，所下的 tag 就是 nmw2008。
+Flickr: “nmw2008″
+youtube 上還沒找到有人上傳，但是我們自己組內就已經有好幾部記錄短片了，因為一直有工作人員拿 DV 在側拍。</description>
+    </item>
+    
+    <item>
+      <title>夜市工作坊 2008</title>
+      <link>https://hugo.balduran.cc/post/nightmarket-workshop-2008/</link>
+      <pubDate>Tue, 19 Aug 2008 15:53:57 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/nightmarket-workshop-2008/</guid>
+      <description>8/14~8/16 我人都在台南參加夜市工作坊，這是一個奇妙的活動，很難讓人具體地描述它，那些逼哩叭啦的敘述就請看官方網頁吧。
+主要的活動是第一天整天的演講和接下來三天的小組活動，最後一天就成果發表然後散場。過程中就看各小組自行發揮，沒有場地和時間的限制，想要移動到安平或是其他地區進行創作都可以。
+第一天報到的時候，排隊人數超多，DV 和 apple macbook pro 好幾台，這樣的陣仗讓空手而來的我感到害怕，這些來參加的人也太專業了吧，器材帶滿滿。一開始還很混亂，彼此都不認識，分組是分好的，但是演講廳內位置隨便坐，到了下午才找到領對講師和小組員，也才開始認識。晚上，和一大群人一起去見識有名的花園夜市，雖然認識的人少，但是大家都很友善，騎車載我這個外地人。
+第二天就開始正式的討論，我們和別組合併，因為兩個領隊講師是搭檔，一開始的生疏是必然的，坐在奇美咖啡館彼此介紹著名字和專長，接著創意發想，從 idea 原型的丟出到 brainstorm稍微具體的概念，中間歷經篩選分類，決定出共同有興趣的幾個題目，再針對每一項做實作的討論，這過程讓我又經驗了一次和YEF截然不同的討論方式，因為時間有限，所以討論的過程挺緊湊的，在不確定 prototype 可以建構的前提下，我們選擇了最有可能製作的選項。
+會偵測丟進垃圾而發出聲響(音樂)的垃圾桶，就是我們最後決定的題目，音樂+好玩+垃圾桶，就是我們的主要元素。
+第二天和第三天，我們都為了 sensor 在奮鬥，自行組裝出現問題，就購買了模組化的 IR bean，叫做光影忍者(XD)，是光感電阻和繼電器的組合，還有另一模組叫做紅外線之橋，也是感應器。為了這些小元件，多花了很多金錢和時間。
+第四天就是實際組裝，將這些材料組裝進垃圾桶和聲音模組的組合，這中間用很簡單的做法，音樂是一直播放的，由一組 timer 控制電源的切斷，就這樣，一個可以感應物體並且發出聲音的垃圾桶產生了！這時候已經是晚上八點了吧，晚餐都沒吃，接著抬上街頭試驗，因為夜市太遠了。這一天，忙到了午夜，一起吃著麻辣鍋。
+最大功臣是兩位懂電機的女孩，電路這玩意都是她們在處理的，我到沒幫上什麼忙，冗員 (囧)。
+最後一天就是聽聽 keynote speech 和準備 Demo，每一組的成品都很有特色，有笑點、有互動還有濃厚的文化風味，上台簡報的時候，真的可以感受到每一組的用心，在這麼多元化的背景下產生出的作品，也可以感受到帶隊 leader 的風格和所要傳達的信息。
+結束很不捨，互留 msn 是必須的啦！
+IDEATION -&amp;gt; BRAINSTORM -&amp;gt; DETAIL -&amp;gt; CONSTRATION.</description>
+    </item>
+    
+  </channel>
+</rss>

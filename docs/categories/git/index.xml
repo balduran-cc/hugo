@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/git/</link>
+    <description>Recent content in git on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Jun 2017 23:32:30 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GPG with git</title>
+      <link>https://hugo.balduran.cc/post/gpg-with-git/</link>
+      <pubDate>Sun, 18 Jun 2017 23:32:30 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/gpg-with-git/</guid>
+      <description>sign code commit with gpg 需要以下步驟。
+ 安裝 GPG command line 產生 GPG key export GPG public key 在github上設定public key commit and sign  安裝 GPG 可以在 GnuPG 下載安裝，或是用homebrew 執行 brew install gpg
+近來也有一個服務，keybase.io 在做 pub/private key 的管理，也可以用它來產生 key
+產生 GPG gpg --gen-key 用 command line 做法
+或是用 GPG keychain 產生，背後原理都一樣。
+export 命令列輸入 gpg --list-secret-keys --keyid-format LONG，如果只輸入 gpg --list-secret-keys，結果沒有顯示 keyid的話，請用 gpg2
+gpg --armor --export ==keyid== 可以得到 public key，一長串的字元
+-----BEGIN PGP PUBLIC KEY BLOCK----- ABCDE ABCDE ABCDE ABCDE ABCDE -----END PGP PUBLIC KEY BLOCK----- github setting 在github的帳號設定下，貼入以上的 public key string</description>
+    </item>
+    
+    <item>
+      <title>different git repo, different ssh key</title>
+      <link>https://hugo.balduran.cc/post/different-git-repo-different-ssh-key/</link>
+      <pubDate>Thu, 21 Jan 2016 03:55:02 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/different-git-repo-different-ssh-key/</guid>
+      <description>一般來說，git 的 user 設定只要會是自己，所有的 commit 也都是自己的名字。不過剛好工作上有需要用一個共用的 github account 來和另一家公司合作，流程是我方需要隨著對方版本的更新而更新，更新的內容主要就是版號而不是程式實做的更動。
+當每一次對方要出新版之前，我方就要先拉下對方新版程式碼，更新我方程式中的版本號，進行測試，測試完成則使用 github 發 PR 給對方，對方會將我方的程式碼納進下次要發行的新版本。
+我想要簡化 commit 的時候要輸入共用 github account 的流程，就開始設定 ssh config，同時也做了一個 key for this shared account。
+Host github_partner User git HostName github.com IdentityFile ~/.ssh/partnerKey 在 fork 對方 git repo 之後，直接 clone 下來的 remote url 會是 https://github.com/xxxteam/myrepo.git 或是 git@github.com:xxxteam/myrepo.git，直接用這組 url 來 push 的話，還是會要你輸入帳號密碼。
+試著將 git@github.com:xxxteam/myrepo.git 改成 git@ github_partner:xxxteam/myrepo.git就會直接使用 ssh config 裡面的 key了，要更簡化的話，github_partner:xxxteam/myrepo.git。</description>
+    </item>
+    
+    <item>
+      <title>several useful git tips</title>
+      <link>https://hugo.balduran.cc/post/several-useful-git-tips/</link>
+      <pubDate>Sun, 15 Mar 2015 20:38:01 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/several-useful-git-tips/</guid>
+      <description>需要從別人的branch延伸功能
+git checkout -b featureA –track remote/featureA  或是設定upstream為remote branch
+ git v1.7 可用  git br –set-upstream feature origin/featureA  git v1.8 有更直覺的語法  git br –set-upstream-to origin/featureA git br -u origin/featureA   push branch 之前精簡曾有的commit log
+gire rebase -i HEAD~5
+精簡五個commit
+  將本地端 branch featureA推到遠端
+git push origin featureA
+  刪除github上的已存在的branch
+git push remote :featureA
+git branch -d -r remote/featureA
+  revert 前一個commit</description>
+    </item>
+    
+    <item>
+      <title>update forked github repo</title>
+      <link>https://hugo.balduran.cc/post/update-forked-github-repo/</link>
+      <pubDate>Thu, 31 Jul 2014 04:56:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/update-forked-github-repo/</guid>
+      <description>Github 很方便的一點就是可以盡量fork自己會用到的library到自己的帳號下，也可以在這些forked repository 之下寫自己的模組。但是github上的 repo是不會自動從原本的repo拉更新。
+有兩種做法，第一種是自己打 git command，另一種直接在github頁面上操作。
+ git command
+以 yui3 為例，原始的repo 是在 https://github.com/yui/yui3 。  $ git remote add upstream https://github.com/yui/yui3.git # add the remote named upstream $ git fetch upstream # fetch the latest version $ git rebase upstream/master # rebase local changes onto upstream/master $ git push origin master # push to forked repo 直接在github web介面操作
+在自己的帳號下，選擇 ‘pull requests’。
+點 ‘new pull request’，這時會出現 ‘There isn’t anything to compare.</description>
+    </item>
+    
+  </channel>
+</rss>

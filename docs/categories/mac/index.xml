@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mac on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/mac/</link>
+    <description>Recent content in mac on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Mar 2017 22:30:46 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/mac/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>home-brew 1.0.0</title>
+      <link>https://hugo.balduran.cc/post/home-brew-1-0-0/</link>
+      <pubDate>Mon, 26 Sep 2016 02:54:11 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/home-brew-1-0-0/</guid>
+      <description>http://brew.sh/2016/09/21/homebrew-1.0.0/
+Mac 上面很好用的套件管理程式 homebrew 已經發佈 1.0.0版。
+一些改變如
+ 套件一律安裝到 /usr/local/Homebrew cask 整合 auto-update brew update 加速  更新的方法很簡單，只要 brew update + brew upgrade就可以了喔</description>
+    </item>
+    
+    <item>
+      <title>install chef on mac</title>
+      <link>https://hugo.balduran.cc/post/install-chef-on-mac/</link>
+      <pubDate>Sun, 06 Dec 2015 22:32:23 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/install-chef-on-mac/</guid>
+      <description>  download chef https://downloads.chef.io/chef-dk/mac/
+  xcode-select &amp;ndash;install check the xcode command line tools
+  check shell is bash and bash_profile echo &#39;eval &amp;quot;$(chef shell-init bash)&amp;quot;&#39; &amp;gt;&amp;gt; ~/.bashrc
+  check ruby and gem which ruby should be /opt/chefdk/embedded/bin/ruby
+  which gem should be /opt/chefdk/embedded/bin/gem
+echo $GEM_PATH should be like /Users/&amp;lt;you&amp;gt;/.chefdk/gem/ruby/2.1.0:/opt/chefdk/embedded/lib/ruby/gems/2.1.0
+ check version  knife -v
+kitchen -v
+chef -v
+ install bundler gem install bundler  </description>
+    </item>
+    
+    <item>
+      <title>java SDK on mac</title>
+      <link>https://hugo.balduran.cc/post/java-sdk-on-mac/</link>
+      <pubDate>Mon, 13 Jul 2015 22:50:02 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/java-sdk-on-mac/</guid>
+      <description>##java_home /usr/libexec/java_home 是個 symbolic link，link到目前正在用的 JVM version
+$ ll /usr/libexec/java_home lrwxr-xr-x 1 root wheel 79 Oct 28 2014 /usr/libexec/java_home -&amp;gt; /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/java_home*  可以用一個環境變數 $JAVA_HOME 來記住這個 symbolic link 指到的JDK
+export JAVA_HOME=$(/usr/libexec/java_home) 同時他可以列出目前安裝在機器上的所有 JDK
+$ /usr/libexec/java_home -V Matching Java Virtual Machines (5): 1.8.0_40, x86_64:	&amp;quot;Java SE 8&amp;quot;	/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home 1.7.0_80, x86_64:	&amp;quot;Java SE 7&amp;quot;	/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home 1.7.0_79, x86_64:	&amp;quot;Java SE 7&amp;quot;	/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home 1.6.0_65-b14-466.1, x86_64:	&amp;quot;Java SE 6&amp;quot;	/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home 1.6.0_65-b14-466.1, i386:	&amp;quot;Java SE 6&amp;quot;	/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home /Library/Java/JavaVirtualMachines/jdk1.</description>
+    </item>
+    
+    <item>
+      <title>GNU tools on MAC</title>
+      <link>https://hugo.balduran.cc/post/gnu-tools-on-mac/</link>
+      <pubDate>Fri, 19 Jun 2015 16:04:28 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/gnu-tools-on-mac/</guid>
+      <description>在 MAC 與 linux 之間穿梭，就會發現頗多 commandline tool 有些微不一樣，原因就是 MAC OS X 是延續 BSD 發展的，想要加強這些tool，我們可以自己安裝。
+##安裝 GCC
+身為軟體工程師，安裝 GCC on mac 好像不需要理由。
+$ gcc --version Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1 Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn) Target: x86_64-apple-darwin14.3.0 Thread model: posix 內建的gcc是由llvm編譯的。
+  安裝 official Command Line Tools for Xcode package 可直接下指令xcode-select --install或是從 https://developer.apple.com/downloads/ 下載 Command Line Tools
+  經由 homebrew安裝
+  brew tap homebrew/versions brew install gcc48 要更改支援的語言，可從brew options gcc48看可以下的參數。</description>
+    </item>
+    
+    <item>
+      <title>rbenv on mac</title>
+      <link>https://hugo.balduran.cc/post/rbenv-on-mac/</link>
+      <pubDate>Tue, 05 May 2015 04:37:15 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/rbenv-on-mac/</guid>
+      <description>gem install xxxyyy 大概是要在mac安裝些軟體時候會需要做的動作，安裝相依性套件，但是！！ 升級到 10.10 mac很容易跑出這樣的錯誤給你看。
+ ERROR: While executing gem &amp;hellip; (Gem::FilePermissionError) You don&amp;rsquo;t have write permissions for the /Library/Ruby/Gems/2.0.0 directory.
+ 意思是/Library/Ruby/Gems/2.0.0無權限寫入，當然啦！這是root所有的目錄，通常一般人也就用sudo gem install xxxyyy來解決，但這並不是一個很好的方法。
+建議用 rbenv來管理ruby的環境，隔離系統內建的ruby(2.0)與開發時候所使用的版本，開發的環境往往需要新舊共存，這樣就不會污染到系統內建的函式庫。
+而 rbenv又可以由 brew 來管理，使用 brew 來安裝 rbenv，然後使用 rbenv 來管理 ruby 開發環境 。
+brew install rbenv ruby-build #記得安裝完後要將`eval &amp;quot;$(rbenv init -)&amp;quot;` 加入到 bash_profile rbenv install -l 可以查看可供下載的ruby版本
+rbenv install 2.0.0-p247 install 2.0.0-p247
+rbenv versions list all installed version
+rbenv global 2.0.0-p247 設定 2.</description>
+    </item>
+    
+    <item>
+      <title>Errors when installing vagrant plugin</title>
+      <link>https://hugo.balduran.cc/post/errors-when-installing-vagrant-plugin/</link>
+      <pubDate>Tue, 05 May 2015 04:11:43 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/errors-when-installing-vagrant-plugin/</guid>
+      <description>Vagrant 有很多 providers 可以運用，不只是預設的 VirtualBox，其他 VPS1 也可以和 Vagrant 串接，例如 AWS 和 DigitalOcean。我自己在試著用 DigitalOcean 的時候遇到了問題
+照著tutorial 首先 follow DigitalOcean 上的 Tutorial，看似簡單，只要
+vagrant plugin install vagrant-digitalocean vagrant box add digital_ocean https://github.com/smdahlen/vagrant-digitalocean/raw/master/box/digital_ocean.box 但我的 mac 上卻給出了 nokogiri 相關的錯誤訊息。
+安裝 nokogiri  An error occurred while installing nokogiri (1.6.6.2), and Bundler cannot continue. Make sure that gem install nokogiri -v &#39;1.6.6.2&#39; succeeds before bundling.
+ 當然，這個訊息提示了我們需要安裝 nokogiri，搭配 rbenv 來安裝 nokogiri 是建議做的做法，也比較乾淨。但無獨有偶，gem install nokogiri 也還是出現了錯誤。
+ Building native extensions.</description>
+    </item>
+    
+    <item>
+      <title>build python environment on MAC</title>
+      <link>https://hugo.balduran.cc/post/temp-slug-880/</link>
+      <pubDate>Mon, 23 Mar 2015 10:04:31 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/temp-slug-880/</guid>
+      <description>用 homebrew 安裝 python
+brew instal python
+  setuptools &amp;amp; pip was installed by homebrew ，但我們需要更新一下
+pip install –upgrade setuptools
+pip install –upgrade pip
+  build link in Application folder
+brew linkapps 會在application下產生兩個link, IDLE.app and python launcher.app
+  安裝virtualenv pip install virtualenv
+  使用 virtualenv
+virtualenv first
+source first/bin/activate
+這時就已經啟用了first 這個虛擬環境
+pip install markdown
+會在這個環境內安裝 markdown
+deactivate會退出這個環境
+  Extra reading: https://github.com/Homebrew/homebrew/wiki/Homebrew-and-Python</description>
+    </item>
+    
+    <item>
+      <title>Error: pg_config executable not found.</title>
+      <link>https://hugo.balduran.cc/post/error-pg_config-executable-not-found/</link>
+      <pubDate>Sat, 27 Dec 2014 19:14:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/error-pg_config-executable-not-found/</guid>
+      <description>當使用pip安裝psycopg2遇到了以下錯誤
+  Error: pg_config executable not found.
+Please add the directory containing pg_config to the PATH
+or specify the full executable path with the option:
+python setup.py build_ext –pg-config /path/to/pg_config build …
+or with the pg_config option in ‘setup.cfg’.
+Complete output from command python setup.py egg_info:
+running egg_info
+ 如果是用brew管理套件，可以安裝postgresql解決。
+brew install postgresql 接著可能需要 ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents 可以讓系統啟動時啟動postgresql
+如果需要馬上啟動，launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+如果不想加入系統啟動清單，單次執行，postgres -D /usr/local/var/postgres
+另外有個應用程式可以安裝，不用打指令，http://postgresapp.com 。</description>
+    </item>
+    
+    <item>
+      <title>homebrew error after upgrading to Mac OS X Yosemite</title>
+      <link>https://hugo.balduran.cc/post/homebrew-error-after-upgrading-to-mac-os-x-yosemite/</link>
+      <pubDate>Tue, 29 Jul 2014 10:16:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/homebrew-error-after-upgrading-to-mac-os-x-yosemite/</guid>
+      <description>Yosemite is still in preview, everyone could join beta program and play with it.
+我剛好就把 OS 升上 10.10，但遇到homebrew出現錯誤訊息。
+ /usr/local/bin/brew: /usr/local/Library/brew.rb: /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby: bad interpreter: No such file or directory
+/usr/local/bin/brew: line 26: /usr/local/Library/brew.rb: Undefined error: 0  解法是
+ 安裝 xcode 6, (beta version) 安裝 command line tool    xcode-select –install
+ 重新安裝 homebrew   ruby -e “$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)”
+ 安裝完成記得 brew doctor檢查一下  </description>
+    </item>
+    
+    <item>
+      <title>use homebrew on mac</title>
+      <link>https://hugo.balduran.cc/post/use-homebrew-on-mac/</link>
+      <pubDate>Sat, 30 Mar 2013 04:34:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/use-homebrew-on-mac/</guid>
+      <description>homebrew 是 MAC 平台上普遍使用的 package management system. 同類型的工具還有 apt &amp;amp; yum
+安裝 homebrew 很簡單，只要在 terminal 輸入 ruby -e “$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)” 安裝完成就可以使用以下指令
+ brew install 安裝套件 brew uninstall 移除套件 brew search [foo] 安裝之前先搜尋一下 brew list 列出已安裝套件 brew update 更新已安裝套件 brew upgrade 升級 homebrew  可能遇到的疑難雜症有
+ xcode 非最新版 安裝新版即可。   Warning: Your compilers are different from the standard versions for your Xcode. If you have Xcode 4.3 or newer, you should install the Command Line Tools for Xcode from within Xcode’s Download preferences.</description>
+    </item>
+    
+    <item>
+      <title>ADC student membership</title>
+      <link>https://hugo.balduran.cc/post/adc-student-membership/</link>
+      <pubDate>Wed, 22 Jul 2009 03:41:59 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/adc-student-membership/</guid>
+      <description>買了學生會員，繞了一些路。
+原來我早在買ibook的時候就有註冊apple ID，而這個 ID我一直以為是 balduran@mac.com，不過我又沒有買 .MAC，這個信箱當然收不到信，才因此找回自己最早註冊的 ID，而且還是用gmail註冊的。XD
+後來訂了之後，信用卡好像扣了款，也收到的 active code，就這樣傻傻的我直接以為這樣就是有了會員資格，可是好像還是有看到一個pending字樣，就寫信到google找到的客服信箱，然後補上學生證照片和學校的學籍資料，就這樣確認資格了。
+然後，就收到這件 T-shirt了，至於什麼時後會買硬體，大概等一下就會確定吧。</description>
+    </item>
+    
+    <item>
+      <title>ODF and open XML</title>
+      <link>https://hugo.balduran.cc/post/odf-and-open-xml/</link>
+      <pubDate>Sun, 11 Jan 2009 14:00:48 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/odf-and-open-xml/</guid>
+      <description>iWork 提供的 iwork.com 這功能，讓我直覺想到了匹敵的微軟 office，因為兩者皆有單機軟體，再額外提供網頁空間作存取。
+iwork 提供下載的檔案支援 iwork ’09, iwork ’08, PDF, doc, xls, ppt 等，是為了提供對 windows 平台的相容性，並且 keynote 09 和 keynote 08 的檔案格式不同，改成單一檔案的方式存檔。
+微軟的 office 系列在 07 之後用自訂的 open xml 格式，舊版程式可以加裝 add-in 來讀取，沒有 office 系列軟體的話可以安裝免費提供的 viewer，使用 openoffice 也是可以讀取，但是常常出錯。XD
+google doc 倒是支援 doc, odt, xls, ods, ppt, odp，完全不支援 open XML 格式，想要使用的話要先用 convert 轉換。
+讓 office 可以讀取 ODF 格式的 add-in : OpenXML/ODF Translator Add-in for Office，安裝之後可以在 office 處理 ODF 系列檔案，開啟 ODF 檔案也是先轉換成 openXML 再開啟，也可以將 ODF 轉存成 office 的格式。</description>
+    </item>
+    
+    <item>
+      <title>macworld 2009</title>
+      <link>https://hugo.balduran.cc/post/macworld-2009/</link>
+      <pubDate>Sun, 11 Jan 2009 04:37:29 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/macworld-2009/</guid>
+      <description>最近 (1/7) apple 公司發布新的產品，只有少數幾項更新。
+這次的 keynote 不再由 steven jobs 主持，顯得有點讓人失望，主持人是 Phil Schiller，我不知道他是誰，但是外型上，顯然有點胖。Phil 介紹了三樣的更新，iLife, iWork and macbook pro。
+iLife，iTune 上的音樂無數位版權管理了，但是價格也不再是統一價。iPhoto 增加人臉辨識和 geotagging。
+iWork，page 有整合 mathtype 和 endnote ，對於寫論文這項工作更能勝任。還有 iwork.com 這個類似 google doc 和 MS office live workspace 的線上儲存。
+macbook pro，更好的電力供應，霧面螢幕選購，恩，好像沒了。
+我要在這裡抗議蘋果公司網站裡的個人帳號資料，居住地居然是「中國台灣」，香港是「中國香港」，這個選項的意思是台灣已經被統一了嗎？怒</description>
+    </item>
+    
+    <item>
+      <title>iPhone 3G 預購</title>
+      <link>https://hugo.balduran.cc/post/iphone-3g-e9a090e8b3bc/</link>
+      <pubDate>Sun, 30 Nov 2008 21:43:23 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/iphone-3g-e9a090e8b3bc/</guid>
+      <description>中華電信預購 iPhone 3G.
+iPhone 的預購應該滿讓人期待的，尤其是沒有鎖機子這件事，也就是如果財大氣粗可以用中華的方案買了機器之後用其他家電信公司的 3G 服務，至於 iPhone 3G 軟體上有沒有搭配中華電信做特製我就不清楚了。
+這麼複雜的費用表格就不管他了，沒有錢買奢侈品本來就不用太在意，看看就好。</description>
+    </item>
+    
+    <item>
+      <title>KKBOX Mac版即將問世!!</title>
+      <link>https://hugo.balduran.cc/post/kkbox-mace78988e58db3e5b087e5958fe4b896/</link>
+      <pubDate>Thu, 11 Sep 2008 18:36:42 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/kkbox-mace78988e58db3e5b087e5958fe4b896/</guid>
+      <description>請看@ Izero@庶務三科，開放索取 KKBOX 的 mac 版本。
+我自己是沒有在使用 KKBOX，我聽廣播就聽網路廣播，播什麼聽什麼，更多時後是重複同一首歌一直放，使用到串流影音的機會不大。可是，可是因為它有推出 mac 版，所以推一下。
+願意花心力開發不同 OS 版本的軟體，這種心態我給予鼓勵，畢竟有太多軟體是 win-only了。不過如果將 web 版開發的功能更完整，可以脫離單機否？</description>
+    </item>
+    
+    <item>
+      <title>VirtueDesktops 虛擬桌面</title>
+      <link>https://hugo.balduran.cc/post/vir-desktop/</link>
+      <pubDate>Mon, 24 Dec 2007 08:58:20 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/vir-desktop/</guid>
+      <description>羨慕 leopard 的 spaces 功能嗎？試試VirtueDesktops 。
+我記得這軟體的開發者放話說他不幹了，可是 macupdate 出現有更新，還是推廣一下好了，安裝之後 alt + tab 可以切換桌面，另外他不太穩定，有時就當了。
+window 平台的虛擬桌面軟體當推 virtual dimension，雖然設定不直覺，但是對於執行很多程式的使用者來說，多個虛擬桌面會好一點工作。</description>
+    </item>
+    
+    <item>
+      <title>MacUpdate 軟體特賣</title>
+      <link>https://hugo.balduran.cc/post/macupdate-promo/</link>
+      <pubDate>Wed, 12 Dec 2007 01:43:37 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/macupdate-promo/</guid>
+      <description>MacUpdate Promo – Big discounts on Mac software every day.
+MacUpdate 網站上舉行的軟體特價，只要花 49.99 美金，就有七套軟體，如果訂購這個特賣的人數超過一千，追加一套，超過兩千四，追加一套，超過五千，再追加一套，現在已經超過五千人，因此是 49.99 美金、十套軟體。
+很多軟體我都沒聽過，但光是買 RapidWeaver 就值回票價了吧。Yep 好像也是個不錯的 PDF 管理工具。
+對了，只剩三小時左右，昨晚看到的時候還沒破 5000 人數。</description>
+    </item>
+    
+    <item>
+      <title>Nally 的 Tiger 版 - Dort</title>
+      <link>https://hugo.balduran.cc/post/dort/</link>
+      <pubDate>Fri, 07 Dec 2007 15:52:05 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/dort/</guid>
+      <description>Nally 的 Tiger 版 – Dort
+本來嘛，Nally應該只有 loepard 版本，但是佛心來著的 yalln 弄了一個 tiger 也可以用的 Dort，不想用萬年外星人的話可玩玩看。</description>
+    </item>
+    
+    <item>
+      <title>BBS 軟體 (Leopard 限定) - Nally</title>
+      <link>https://hugo.balduran.cc/post/nally/</link>
+      <pubDate>Wed, 05 Dec 2007 19:17:43 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/nally/</guid>
+      <description>BBS 軟體 (Leopard 限定) – Nally
+ptt mac 板上看到的消息，yllan 大製作的好用打逼軟體，但是限定在 leopard 執行，所以我只能幹瞪眼。
+暗黑連結功能、快速表情符號，這些都是身為鄉民迫切需要的功能啊啊啊啊！網頁上沒有圖片介紹，Nally打字時候的泡泡框是長什麼樣？
+難道這是 leopard 的 killer app! 好想要用 QQ</description>
+    </item>
+    
+    <item>
+      <title>Google Gadgets 跨平台</title>
+      <link>https://hugo.balduran.cc/post/google-gadget-on-mac/</link>
+      <pubDate>Thu, 29 Nov 2007 17:59:29 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/google-gadget-on-mac/</guid>
+      <description>Google Code Blog: Google Gadgets going cross-platform，本來 google gadget 是執行在 web (iGoogle) 和 Google Desktop (windows) 兩個平台，現在還增加了 MAC 一族，不然占大多數使用者的 WINDOWS 專美於前，支援 Apple 公司的 Dashboard 啦。
+要能夠跨平台執行的 Gadgets 當然又額外的要求，Javascript, avoid Win-specific APIs, Dashboard environment，google 準備了 Cross-Platform 文件給開發人員。相較於 Yahoo widget Engine，估狗的動作是慢了，但是 gadget 可以直接在 Dashboard 執行則是 YAHOO 無法達到的功能，再加上 MS 的 Vista sidebar 來看，是永遠都不可能跨平台的LOL
+以未來的網頁發展趨勢來看，widget 和 javascript plugins 是同等的重要，兩項技術都提供了豐富網頁元件的功能，從現在為數眾多的 blog 中要找到清爽乾淨沒有額外 widget 還真是不容易，我們仰賴這些元件提供額外的互動性與趣味，lightweight, easy use &amp;amp; rich content。
+網站: http://desktop.google.com/mac/</description>
+    </item>
+    
+    <item>
+      <title>how about messenger:mac</title>
+      <link>https://hugo.balduran.cc/post/how-about-messengermac/</link>
+      <pubDate>Wed, 14 Nov 2007 01:53:06 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/how-about-messengermac/</guid>
+      <description>在 Adium 有 A/V 功能之後，你還期待 MSN on mac 有更新版的程式可以支援視訊嗎？
+Mac Mojo 上有一篇 A Chat about Messenger 就是在談這個問題，太多人期待新版的 MSN 了，windows live messenger 都已經玩互動功能玩的不亦樂乎，MSN 在 mac 上則是無盡的等待，而這篇文章稍微給了使用者一點期待，7.0 版在封閉測試了，而且這個產品並沒有被放棄。
+ Messenger for Mac supports both the Corporate service (Office Communications Server) and Personal service (Windows Live Service).
+ 這就是遲遲無法即時更新的主因嗎？Mac 上的 MSN 有 Corporate 的選項我沒有使用過，甚至說我完全不知道有哪家企業有在使用 OCS，我的認知裡 MSN 是個人使用的，在公司企業裡使用，帳號和一般是分開來的嗎？
+這部分對我來說就是個大黑洞，也難怪 live messenger 可以更新的如此迅速，瞄準的市場是一般網友，需求當然是比較花俏的功能。如果是企業用戶的，又是另當別論，而 MSN on Mac 需要兩者兼顧，自然無法追上 live messenger。
+我來找找 OCS 的資料好了。
+題外話: office:mac 有好康，買 office 2004 送 2008 Special Media Edition</description>
+    </item>
+    
+    <item>
+      <title>Video Chat for Adium</title>
+      <link>https://hugo.balduran.cc/post/video-chat-for-adium/</link>
+      <pubDate>Tue, 13 Nov 2007 17:48:09 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/video-chat-for-adium/</guid>
+      <description>在 Mac 上也不是不能開視訊，iChat 本身在這方面的功能就很齊全，但若是要開 MSN 的視訊，我還不知道有哪個軟體可以辦到，也因此我非常習慣使用文字而非 Webcam。
+Adium 的 blog 上介紹一個 plugin for Adium，就是擴充 Video Chat 的功能，而且跨平台、跨服務，這 plugin 的名字就叫做 MeBeam。
+下載頁面在此。</description>
+    </item>
+    
+    <item>
+      <title>Camino 1.5.3</title>
+      <link>https://hugo.balduran.cc/post/camino-153/</link>
+      <pubDate>Sat, 03 Nov 2007 09:33:45 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/camino-153/</guid>
+      <description>看到 applewoods: Camino 1.5.3 釋出才想起這個被我遺忘很久的瀏覽器，在使用 mac 之後我本來照舊使用 firefox，但速度和記憶體使用問題實在惱人，就換用 Camino，Camino 很輕巧是很好，但是沒有眾多好用的 addon 可以安裝，因此我又放棄它了，最後是投 BonEcho 懷抱，這也是 mozilla 核心的瀏覽器，另外編譯的版本 (我也不知道誰編的，應該有改善一些東西吧)。
+firefox也進展到 2.0.0.9 了，我想會試著在用看看 Camino 有沒有更好用的功能。</description>
+    </item>
+    
+    <item>
+      <title>iPhone SDK will be real</title>
+      <link>https://hugo.balduran.cc/post/iphone-sdk-will-be-real/</link>
+      <pubDate>Wed, 17 Oct 2007 17:08:32 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/iphone-sdk-will-be-real/</guid>
+      <description>Apple – Startpage
+ Let me just say it: We want native third party applications on the iPhone, and we plan to have an SDK in developers’ hands in February. We are excited about creating a vibrant third party developer community around the iPhone and enabling hundreds of new applications for our users. With our revolutionary multi-touch interface, powerful hardware and advanced software architecture, we believe we have created the best mobile platform ever for developers.</description>
+    </item>
+    
+    <item>
+      <title>MS office 2008 for mac</title>
+      <link>https://hugo.balduran.cc/post/ms-office-2008-for-mac/</link>
+      <pubDate>Wed, 19 Sep 2007 06:23:37 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/ms-office-2008-for-mac/</guid>
+      <description>Microsoft Office for Mac 2008是微軟介紹 office 2008 mac版本的官方網站，揭示了一些新功能、新介面。
+一直以來，mac上的 office版本停留在2004，Win上面07版本預設的存檔格式是docx，這個副檔名我無法讀取編輯，常常要另存成相容舊版本。這個08版本看起來可以解決這個問題。
+明年一月上市，看學校有沒有買在決定要不要用：p</description>
+    </item>
+    
+    <item>
+      <title>iPod everyday</title>
+      <link>https://hugo.balduran.cc/post/ipod-everyday/</link>
+      <pubDate>Wed, 05 Sep 2007 19:38:05 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/ipod-everyday/</guid>
+      <description>Apple新發表的東西，都是 iPod，iPod已經成長到一整個家族由小到大一應俱全。
+iPod touch，是 iPhone的閹割版，除了打電話的功能沒有之外，browser、multi-touch以及Wi-Fi都有，這麼一來，你還會買iPhone嗎？以隨身攜帶的多媒體播放器來說，這台的確夠強，重點是夠炫。
+原本的 iPod video改名叫 iPod classic。iPod nano我覺得一點都不nano了，醜醜胖胖的。iPod shuffle有新色。
+iTune可以下載鈴聲ringtone，這是給iPhone用戶使用的，同時也可以由 iPod的 Wi-Fi購買，也和星巴克合作，進入 starbucks的無線網路時，會出現星巴克的標誌，並可以瀏覽星巴克所播放過的十首歌曲，但僅限美國使用。
+結束了，就這些而已，所以 apple的股價往下跌了。</description>
+    </item>
+    
+    <item>
+      <title>msn 6.0.3 for mac</title>
+      <link>https://hugo.balduran.cc/post/msn-603-for-mac/</link>
+      <pubDate>Mon, 27 Aug 2007 20:24:01 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/msn-603-for-mac/</guid>
+      <description>Mactopia: Download: Microsoft Messenger for Mac 6.0.3
+修正了6.0.2版本的一個莫名其妙bug，就是關閉對話視窗引發整個程式結束，讓人摸不著頭腦。傳送檔案的速度似乎也變快了，這大概是mac上msn唯一的長處了，adium在傳送檔案方面實在太差勁。</description>
+    </item>
+    
+    <item>
+      <title>最佳化的firefox for mac</title>
+      <link>https://hugo.balduran.cc/post/e69c80e4bdb3e58c96e79a84firefox-for-mac/</link>
+      <pubDate>Mon, 23 Jul 2007 07:58:09 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/e69c80e4bdb3e58c96e79a84firefox-for-mac/</guid>
+      <description>詳情請見Updated: Optimized Firefox 2.0.0.5 for Intel Macs: BeatnikPad Journal
+官方釋出的版本和這個optimized的版本有甚麼差別我沒法感受到，因為我還在用G4，也許有intel mac的使用者用過之後可以說說。
+還在用G4的話就只能試試2.0.0.3囉。</description>
+    </item>
+    
+    <item>
+      <title>可愛的flappie</title>
+      <link>https://hugo.balduran.cc/post/e58fafe6849be79a84flappie/</link>
+      <pubDate>Sun, 18 Mar 2007 17:13:43 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/e58fafe6849be79a84flappie/</guid>
+      <description>從applewoods看來的Flappie，真是個可愛的小東西～～
+好像回到以前玩電子雞的時候喔，windows上有個養魚我也覺得滿好玩的，大概是生活空虛寂寞吧。
+flappie旁邊的紅心若是降到零，代表他餓了喔，要趕快餵食。</description>
+    </item>
+    
+    <item>
+      <title>序號保管箱</title>
+      <link>https://hugo.balduran.cc/post/serialsticker/</link>
+      <pubDate>Sat, 10 Mar 2007 03:52:19 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/serialsticker/</guid>
+      <description>MacXeagle : SerialSticker
+SerialSticker可以幫你儲存你所購買軟體的序號，同時也有輸出和同步的功能，對於備份序號有很大的幫助。</description>
+    </item>
+    
+    <item>
+      <title>Growl-like notification for Win</title>
+      <link>https://hugo.balduran.cc/post/growl-like-notification-for-win/</link>
+      <pubDate>Sun, 25 Feb 2007 06:23:18 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/growl-like-notification-for-win/</guid>
+      <description>mac使用者對於Growl!應當不陌生，非常方便好用，用途嘛？應該就是像msn可以在右下角顯示一個小通知視窗，功能簡單，樣式多樣，支援此功能的程式也不少，Applications with Growl可以看見支援的程式列表，一大串啊！
+Snarl是個類似growl的系統，可惜的是支援的程式少的可憐，玩的起來的話也會是個好用的工具。</description>
+    </item>
+    
+    <item>
+      <title>adium1.0出現</title>
+      <link>https://hugo.balduran.cc/post/adium10/</link>
+      <pubDate>Sun, 04 Feb 2007 05:06:43 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/adium10/</guid>
+      <description>Adium – Download
+鴨子(adium)是我在mac上最愛用的im軟體，支援各種即時通訊，最近從0.93進化到1.0啦，趕緊更新嚐鮮。
+可以直接更改自己的顯示圖片，可以顯示itune正在播放曲目，growl也更新了，還支援大陸流行的QQ喔，聽說支援msn的自訂表情符號，不知道傳檔速度有沒有改善。外觀好像有一點點不同耶，說不上來那裡改變了。</description>
+    </item>
+    
+    <item>
+      <title>OpenVanilla輸入法尋求測試</title>
+      <link>https://hugo.balduran.cc/post/openvanilla-beta/</link>
+      <pubDate>Sat, 13 Jan 2007 07:19:31 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/openvanilla-beta/</guid>
+      <description>cahier lukhnos：OpenVanilla的酷音輸入法發佈新版：徵求測試
+我是膽小鬼～～我不敢下載當白老鼠。
+酷音選字的問題真的很麻煩，預設字都不是常用字。</description>
+    </item>
+    
+  </channel>
+</rss>

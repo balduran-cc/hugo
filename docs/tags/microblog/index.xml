@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>microblog on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/microblog/</link>
+    <description>Recent content in microblog on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Feb 2009 16:33:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/microblog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>my cleenr</title>
+      <link>https://hugo.balduran.cc/post/my-cleenr/</link>
+      <pubDate>Wed, 11 Feb 2009 16:33:16 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/my-cleenr/</guid>
+      <description>http://www.mycleenr.com/ 很簡單，就是幫助你清理 twitter 的聯絡人，twitter 爆紅到現在，隨隨便便 follow 的人都上百個，誰能一個一個檢查帳號已經不再使用了呢？my cleenr 將久沒使用的聯絡人依時間列出，快清一清都沒在上線的帳號吧！</description>
+    </item>
+    
+    <item>
+      <title>ping.fm 更新你的社交生活</title>
+      <link>https://hugo.balduran.cc/post/pingfm-e69bb4e696b0e4bda0e79a84e7a4bee4baa4e7949fe6b4bb/</link>
+      <pubDate>Wed, 01 Oct 2008 15:08:04 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/pingfm-e69bb4e696b0e4bda0e79a84e7a4bee4baa4e7949fe6b4bb/</guid>
+      <description>原來在九月初就開放註冊了，我現在才開始使用 ping.fm，非常方便有用多個 microblog 的人。
+ping.fm 的功能非常簡單，就是可以一次更新 plurk, jaiku, twitter 和其他眾多微網址，twitter 當然是最多人用的，jaiku 有 google 加持，還有 S60系列手機支援，plurk 是後起新秀，獨具一格。如果你和我一樣常在網路閒晃，一定有註冊多個同類型功能的網站，要同時更新，實在麻煩啊。
+所以來使用 ping.fm 吧，他會同時更新你有用的其他服務網站，還有很多貼心設計，分成 status update, micro bloggin 和 blog，可以分組設定各個組別會更新的服務網站。當然也可以針對單一服務網站送出訊息，例如只想要murmur 到 plurk，加個 @pl 就可以了。
+還有提供 ping this! 的bookmarklet，wordpress 使用的 plugin。也可以用 mail 做更新，就連 IM 服務也廣納在內，結合各種方式真的非常推薦。
+同場加映的有 http://hellotxt.com，是同性質的服務網站，擇一使用吧。</description>
+    </item>
+    
+    <item>
+      <title>plurk widget</title>
+      <link>https://hugo.balduran.cc/post/plurk-widget/</link>
+      <pubDate>Fri, 04 Jul 2008 07:15:43 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/plurk-widget/</guid>
+      <description>剛剛登入 plurk 發現右下角紅色的 Embed your plurk widget，應該是更新的功能吧，之前沒看過。
+還有 mobile 版本的顯示，http://www.plurk.com/m/</description>
+    </item>
+    
+    <item>
+      <title>plurk 撲浪好好玩</title>
+      <link>https://hugo.balduran.cc/post/plurk/</link>
+      <pubDate>Sun, 15 Jun 2008 22:29:44 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/plurk/</guid>
+      <description>我的plurk
+上禮拜才加入的，和 Jaiku, twitter 都是同類型的碎碎念微型 blog，不過他好玩的地方在於視覺畫面的呈現，不再只是單一訊息的列表，採用橫軸時間軸的方式，並且每一個獨立訊息的互動都統整在一起，整個介面清楚很多。
+另外還有 Karma 值的設定，玩得越多，數值越高，也就可以開啟了一些隱藏功能，讓這個網站玩起來像遊戲一樣。
+像這樣的創新方式在網頁的呈現上很適合，但是如果要搬到 mobile 端，手機或是 PDA 似乎沒有這麼大的螢幕可以做如此系統化的統整，如果站方能夠做出來，那也是很厲害了！
+經由此連結註冊將自動成為我的 fans，其實也就是 follower 的意思啦。</description>
+    </item>
+    
+    <item>
+      <title>我的 Jaiku</title>
+      <link>https://hugo.balduran.cc/post/m-jaiku/</link>
+      <pubDate>Wed, 14 May 2008 18:16:53 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/m-jaiku/</guid>
+      <description>Jaiku | balduran
+終於從 ptt 上的 EZsoft 拿到了邀請函，每次看到都扼腕，今天終於讓我弄到了。
+Jaiku 嘛，就是被 google 收購，然後最適合搭配 NOKIA 的 Symbian 手機，死都不開放註冊保持邀請函制度，才讓大家對其神秘感保持高度興趣。我註冊之後，新鮮感就消失了 (好快 :p)
+除了自己的 jaikus (對比 twitter 的 twit) 之外，Jaiku 還有 channel 的設定，channel 也可以出現在連絡人裡面，也可以加入自己的 blog feed，這些 feed entry 都會出現在自己的 jaikus 中 (好饒口)。
+但是自己加入的 Feed 似乎有些時區設定的問題，我不確定是自己的 feed 的內容還是啥出錯。</description>
+    </item>
+    
+    <item>
+      <title>twitthat 個人頁面</title>
+      <link>https://hugo.balduran.cc/post/twitthat/</link>
+      <pubDate>Mon, 14 Apr 2008 18:21:13 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/twitthat/</guid>
+      <description>在 twitter 的使用上我的腳步還是有點緩慢，更新少又不常看。twitthat 好像出現一陣子了QQ
+twitthat.com 內容就只有一個 bookmarklet，而這個 bookmarklet 的功能也很簡單，就是將你目前正在瀏覽的頁面 post 到 twitter 上，並加上 “reading :”或是其他動作描述，功能很間單吧，卻是透過這小小 bookmarklet 和主站互動。
+twitthat 新增了新功能: 個人頁面，http://twitthat/username 可以看見自己的個人頁面。
+twitthat bookmarklet 並不是直接對 twitter 發出 request，而是透過 twitthat，我猜測 twitthat 會記錄發出的 tweet，以此做為個人書籤記錄，而認證的部分理所當然是 twitter 的API。
+twitthat 我現在才注意到的另一個原因是，twitthis 的相反 – twitthat。
+ 嘿，不知道有沒有人記得 sharethis，也是透過 bookmarklet 或 bwowser plugin 和主站互動，可以預見，服務提供者並不一定需要時做自己的帳號系統，而且提供瀏覽器端的好用工具是對使用者友善的一點。</description>
+    </item>
+    
+    <item>
+      <title>twitter 的 protected updates</title>
+      <link>https://hugo.balduran.cc/post/twitter-protected-updates/</link>
+      <pubDate>Wed, 12 Dec 2007 08:50:55 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/twitter-protected-updates/</guid>
+      <description>我看不到 http://twitter.com/hlb 的 twitter updates，但透過 twitter client 如 TwitterFox、TwitBox 卻還是可以接收的到。
+就是這樣，有沒有設定 protect 都差不多。</description>
+    </item>
+    
+    <item>
+      <title>soup 濃縮精華</title>
+      <link>https://hugo.balduran.cc/post/soup/</link>
+      <pubDate>Wed, 12 Dec 2007 05:01:44 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/soup/</guid>
+      <description>http://www.soup.io/
+soup 是集合各式各樣 RSS 的 microblog，你可以想成是 twitter，隨意書寫與互動，也可以是 tumblr，收集各式各樣文字書籤引言或是圖片，也可以是 RSS aggregator，整合各式提供 RSS 輸出的服務，說了這麼多，直接看我的湯 。
+soup 提供了方便快速的工具讓使用者新增內容，貼 youtube 影片只要網址，不用 embed 之類的語法。貼圖片不一定要是網頁上的圖片，即時就可以從自己的電腦上傳。還提供了 bookmarklet 小書籤。
+soup 還可以整合各式其他服務的內容如美味書籤 (del.icio.us)、flickr、tumblr、twitter、Jaiku、youtube，只要有 RSS 格是輸出，都可以匯入 soup，說是一碗大雜燴的濃縮精華湯也不為過。
+和 tumblr 很大的不同在於提供了社交性的功能，可以新增 friend，也彙整了所有朋友清單的更新，和 twitter 提供的互動功能一樣，內容卻更加多元。
+在 read/write web 提到關於個人出版的演進 ，也許 soap 就是更新一代。</description>
+    </item>
+    
+    <item>
+      <title>智邦生活館 Phone Party</title>
+      <link>https://hugo.balduran.cc/post/pp-url/</link>
+      <pubDate>Tue, 04 Dec 2007 06:11:47 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/pp-url/</guid>
+      <description>PP 就類似台版的 twitter，在本土化之餘，加強了 mobile 裝置的支援，必須輸入手機號碼才能完成註冊。
+這一點我有點卻步，將自己的手機號碼交出，以台灣的個資外洩事件頻率來說，下一個也不知道會是誰，不過為了試用這新奇的服務，還是妥協了，不過深夜時候註冊卻遇到鬼打牆，認證簡訊沒收到，登入 repeat 再 repeat。
+目前為止在 twitter 上看到的討論不多，吸引的人潮未知。
+DearJohn 在自家 blog 上介紹 PP 時候所說的一段話，
+ 註一：台北資訊展期間，12/1-12/9只要加入PP會員，就可以免費獲得50通簡訊。就算暫時用不到，反正上網註冊會員只要三分鐘，不用花一毛錢，先把50通簡訊拿到手，月底就可以拿來發免費的祝賀簡訊了，何樂而不為？
+ 雖然不花一毛錢，但是你同時把手機號碼交了出去，而且也通過簡訊認證，這樣千真萬確的號碼資料，不值錢嗎？</description>
+    </item>
+    
+    <item>
+      <title>行動裝置上的 MSN 與 Twitter</title>
+      <link>https://hugo.balduran.cc/post/mobile-msn-twitter/</link>
+      <pubDate>Mon, 26 Nov 2007 02:06:41 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/mobile-msn-twitter/</guid>
+      <description>發覺之前提過的手機MSN並不如想像中好用，最主要的原因是手機按鍵不便，JAVA程式全螢幕執行。
+當我連上線時並開始使用時，每丟一個訊息都需切換到中文的輸入畫面，輸入完畢再切換回對話視窗， 然後才傳送訊息，這中間打字速度不快的人應該佔大多數，十二個按鍵要如何和鍵盤的速度相比，因此我打沒幾個訊息就決定停手，為了我的手指健康著想。
+特別需要下載的 JAVA 程式在執行時候占了全螢幕大小，此時若最小化執行，也不會知道程式背景的動作，正常手機待機和 MSN 執行就二選一吧，魚和熊掌不可兼得的。
+剛好之前小小玩了一下 twittai 這個也是 JAVA 的 twitter client，想比較一些其中的差異性。
+MSN：一對一、通知、訊息消失時間短、單人且私密、對話一多就手忙腳亂、需要即時回應
+Twitter：廣播、聊天記錄、 公開、可特化對象、訊息存活時間超長、IRC
+以我目前的使用經驗來看，輸入是最大的問題。</description>
+    </item>
+    
+    <item>
+      <title>Twittai</title>
+      <link>https://hugo.balduran.cc/post/twittai/</link>
+      <pubDate>Fri, 23 Nov 2007 20:50:50 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/twittai/</guid>
+      <description>第一次看到 Twittai 的地方就是 twitter 上，首頁簡單到爆，這是一個執行在手機上的 JAVA 程式，也就是 twitter client，實際使用上可以參照 cjin’s fantastique world 有詳細的說明，現在的手機內部都應該內建 J2ME 了，應該沒有不能使用的情況。
+但是，我的第一篇訊息就失敗了，告訴我帳號密碼錯誤！</description>
+    </item>
+    
+    <item>
+      <title>最受歡迎的 twitter client</title>
+      <link>https://hugo.balduran.cc/post/twitter-client/</link>
+      <pubDate>Wed, 21 Nov 2007 18:16:25 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/twitter-client/</guid>
+      <description>直接照著 The RWW Guide to the World’s Most Popular Twitter Clients 寫，裡面有些我有用過，部分則無，而我不是重度使用者，並不傳送訊息到手機上。 twitter 現在有多重要呢？以 blogblind 為例，就是 Wraecca 先丟上 twitter，引起眾人回應，之後的聊天話題不斷。
+twitter publish tool
+ web twitterrific IM txt  web 是直接從 twitter 頁面發表，很直覺也最多人使用。
+twitterrific 是 MAC 上的軟體，用過，確實不錯。
+IM 用即時通訊軟體傳送訊息到 twitter@twitter.com。
+txt 則是簡訊，要收費，應該不普及吧。
+其他的就不看了，使用者太少就忽略它。</description>
+    </item>
+    
+    <item>
+      <title>TwitterPoster</title>
+      <link>https://hugo.balduran.cc/post/twitterposter/</link>
+      <pubDate>Mon, 12 Nov 2007 15:44:33 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/twitterposter/</guid>
+      <description>http://twitterposter.com/ 上面都是 followers 上三位數的傢伙，也就是 twitter 上的多人追隨的明星啊！(工頭、凱洛、vista)。3×3 區塊是影響力最大的，只有四位，2×2 區塊次之也不多，最一般的就是占有一小格之地了，大概 followers 要上 300 是基本要求吧。
+http://twitterposter.com/network/asia 亞洲區域的話，日本人頗多，台灣的有cjin、csmitc、alice425、bias、CoolPeter。</description>
+    </item>
+    
+    <item>
+      <title>tweet again</title>
+      <link>https://hugo.balduran.cc/post/tweet-again/</link>
+      <pubDate>Mon, 05 Nov 2007 16:37:29 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/tweet-again/</guid>
+      <description>YA! 我沒有打錯。
+twitterwhere，概念是將同一個地區產生的 tweet包成一個 RSS feed，和一般 twitter follow 聯絡人的感念不同，是以地理為主。
+twittervision.com 之前有介紹過，這次看到進化好多，還有 3D 版本，而且加入了 facebook 的交友平台。facebook 我最近常上去看看它的操作模式。
+twittermap 和twitterwhere有點相似，不過沒有產生 RSS feed，我不知道我在上面的地理位置是如何決定的，它顯示的地點根本不是我輸入的，不過還是在新竹之內啦。還可以看的到 hlb 的 twitter 出現在上面喔。
+以上。</description>
+    </item>
+    
+    <item>
+      <title>Yet Another Twitter Badge - Twitter Balloon</title>
+      <link>https://hugo.balduran.cc/post/yet-another-twitter-badge-twitter-balloon/</link>
+      <pubDate>Sun, 04 Nov 2007 13:11:51 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/yet-another-twitter-badge-twitter-balloon/</guid>
+      <description>twitter的 flash Badge 我覺得不太好看，所以我寧願用文字，但是這個 twitter balloon 實在太可愛了，可以放自己指定的圖片，搭配對話泡泡，非常的有漫畫味。
+Yet Another Twitter Badge – Twitter Balloon | korelab
+這才是我心目中的 Badge。
+Link: [網路] 用自己的相片製作 twitter badge：Twitter Balloon – 網路實作 – Christabelle的藝想世界
+Link: 分享│Twitter Badge – Twitter Balloon [ 中文版製作 ] @ Timk 加油 !! = 加拿大遊學攝影記錄
+Link: Precious-pin » Twitter Balloon：使用自己的照片製作 twitter badge</description>
+    </item>
+    
+    <item>
+      <title>Twitter Blocks</title>
+      <link>https://hugo.balduran.cc/post/twitter-blocks/</link>
+      <pubDate>Sat, 03 Nov 2007 14:01:10 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/twitter-blocks/</guid>
+      <description>Twitter Blocks可以將你在 twitter 的活動用 3D 的結構顯示出來，可以看到自己的聯絡人當中還有和哪些人互動，它會根據 timeline 顯示一維的 twit ，繼而衍生出其他人的 timeline，無聊翻翻看看也是非常有趣，如果附近有同一個人碎碎念它還會一併顯示出來喔！
+試著用過其他 windows 平台的 twitter Apps，直覺還是 mac 下的 Twitterrific 好用。
+居然還有看到 FIREFOX 用的 TwitBin ，實在不可思議。</description>
+    </item>
+    
+    <item>
+      <title>twittervison: Gmap &#43; twitter即時顯示</title>
+      <link>https://hugo.balduran.cc/post/twittervison-gmap-twittere58db3e69982e9a1afe7a4ba/</link>
+      <pubDate>Mon, 19 Mar 2007 08:48:28 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/twittervison-gmap-twittere58db3e69982e9a1afe7a4ba/</guid>
+      <description>twittervision
+這東東真鮮！再google map上即時地顯示twitter的publicline訊息，也就是全世界即時送出的twitter都會在Gmap上顯示，無用！但感覺很奇妙。
+我真是小看了twitter造成的影響，這個介於blog和 IM的碎碎唸，比 IM公開，又比blog輕鬆，隨意的一段話都可以吸引即時的回應。
+若是有分散式的twitter我想會更好玩，不用受限主機的存在。像blog的存在可以在BSP，也可以自行架站，又要像現在twitter一樣匯集聯絡人列表上的訊息，有明確的contact list，也可以和手機連結。這些想法好像有些衝突，要額外安裝軟體的話不就和現行的 IM一樣，那若是 IM會自動整理聯絡人的暱稱變換呢？過往的訊息要怎麼儲存？
+不管怎樣，看看twittervision上即時顯示的訊息吧。</description>
+    </item>
+    
+    <item>
+      <title>AutoTwit：Update Twitter automatically</title>
+      <link>https://hugo.balduran.cc/post/autotwitefbc9aupdate-twitter-automatically/</link>
+      <pubDate>Wed, 14 Mar 2007 15:51:23 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/autotwitefbc9aupdate-twitter-automatically/</guid>
+      <description>Update Twitter automatically
+ 用twitter的帳號登入之後，可以設定twitter的post發出的頻率，一小時一次、一天兩次、一天一次、每週一次？
+AutoTwit
+異想天開: my twitter</description>
+    </item>
+    
+    <item>
+      <title>my twitter</title>
+      <link>https://hugo.balduran.cc/post/my-twitter/</link>
+      <pubDate>Mon, 22 Jan 2007 14:18:30 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/my-twitter/</guid>
+      <description>從OUi-BLOG 3.0 ::: What are OUi doing? – 大家都在忙什麼?看來的新玩意，可以隨時更新自己的近況，當然加入好友之類的功能是一定有的。
+其實我還是不太懂為啥要作這樣的服務，也許當課室裡隨呼隨到的小弟習慣了不用腦袋的日子，對這東西的功用我是感到茫茫然，隨意打些無意義的文字丟進去，吐出來的是所有好友列表的twItter都會出現的無意義字句。這東西大概只對好奇心重的網友有用吧，像我試了一下就興趣缺缺，不知道是不是錯覺，讀取的很慢，一大缺點。為了看以下的badge還讓我特地去找mac的flash player9，真是浪費時間。
+
+誰來教教我這東西要怎麼樣變有趣？
+Twitter / balduran</description>
+    </item>
+    
+  </channel>
+</rss>

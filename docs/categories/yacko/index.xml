@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>yacko on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/yacko/</link>
+    <description>Recent content in yacko on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 17 Dec 2007 03:37:58 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/yacko/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>yacko.com</title>
+      <link>https://hugo.balduran.cc/post/yackocom/</link>
+      <pubDate>Mon, 17 Dec 2007 03:37:58 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/yackocom/</guid>
+      <description>Yacko.com
+我真是後知後覺，幸虧有 twitter。正式上線已是兩個月前的事情了。
+第一眼，明顯是向 facebook 致敬，版面一樣，顏色對比 (藍對紅)，不過人氣倒是相差很多。
+若說這是一個社交網路站台，也可以算是吧！但從關於本站的介紹中，似乎更偏向 kijiji 或是 craiglist 類型的廣告網站，提供客戶張貼資訊、打廣告的服務為主。
+為了鼓勵用戶張貼佈告，引進了紅利點數的機制，發文可得點，被推薦可得點，拉人加入可得點，累積之後可以升級，升級之後呢？我沒空試驗。
+以使用者的熱烈程度來說，是冷清冷清，最新一筆佈告是十四小時前張貼。
+政大資管作品?</description>
+    </item>
+    
+  </channel>
+</rss>

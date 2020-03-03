@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>轉換到 zsh &middot; </title>
+        <meta name="description" content="macOS Catalina 預設使用的 shell 從 bash 換到 zsh，雖然早就知道 zsh 有很多方便的套件，但沒特別動力轉換，畢竟遠端登入的機器大多數都還是 bash，不過自己 mac的 shell被改了，那也是個轉換的好時機。
+最快速方便的方法就是用別人調好的 framework，https://github.com/ohmyzsh/ohmyzsh直接 clone 下來安裝，裡面已經有設定好的 plug-in 和 theme ，也不用花太多時間在搞這些細節上。
+需要注意的是 .zshrc 會新增一些內容，如果有自己另外管理 rc 檔案的話要注意不要覆寫了。
+theme theme 的部分很多元，themes list 挑一個順眼的。如果使用到了 Solarized colors scheme，那就要額外安裝顏色設定，這些顏色會比預設的來得柔和許多。
+在 https://ethanschoonover.com/solarized/ 直接下載，如果用 iterm2 就直接 iterm2 資料夾下的檔案。
+fonts 其中一些 theme 有使用特別的字型，可以在 https://github.com/powerline/fonts 下載，工程師應該都會選擇直接 git clone 然後直接下指令，這部分還滿簡單直覺。
+像 https://github.com/agnoster/agnoster-zsh-theme 這個花俏的主題就需要字型和顏色設定。
+syntax highlight / autosuggestions 額外再推薦加裝這個 https://github.com/zsh-users/zsh-syntax-highlighting
+brew install zsh-syntax-highlighting需要手動修改 .zshrc，加上 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+或是最簡單的方法，修改 .zshrc 裡的 plugins需要手動 git clone 到 oh-my-zsh folder 內">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.65.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://hugo.balduran.cc/dist/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+    </head>
+    <body>
+        
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a title="說故事給你聽" href="https://hugo.balduran.cc/">說故事給你聽</a>
+                            </h1>
+                        
+                        <a class="button-square" href="https://hugo.balduran.cc/index.xml"><i class="fa fa-rss"></i></a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">轉換到 zsh</h1>
+    
+    <p class="post-date post-line">
+        <span>Published <time datetime="2020-03-01" itemprop="datePublished">Sun, Mar 1, 2020</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Balduran Chang</a>
+            </span>
+        </span>
+    </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>macOS Catalina 預設使用的 shell <a href="https://support.apple.com/en-us/HT208050">從 bash 換到 zsh</a>，雖然早就知道 zsh 有很多方便的套件，但沒特別動力轉換，畢竟遠端登入的機器大多數都還是 bash，不過自己 mac的 shell被改了，那也是個轉換的好時機。</p>
+<p>最快速方便的方法就是用別人調好的 framework，<a href="https://github.com/ohmyzsh/ohmyzsh">https://github.com/ohmyzsh/ohmyzsh</a>直接 clone 下來安裝，裡面已經有設定好的 plug-in 和 theme ，也不用花太多時間在搞這些細節上。</p>
+<p>需要注意的是 <code>.zshrc</code> 會新增一些內容，如果有自己另外管理 rc 檔案的話要注意不要覆寫了。</p>
+<h2 id="theme">theme</h2>
+<p>theme 的部分很多元，<a href="https://github.com/ohmyzsh/ohmyzsh/wiki/Themes">themes list</a> 挑一個順眼的。如果使用到了 Solarized colors scheme，那就要額外安裝顏色設定，這些顏色會比預設的來得柔和許多。</p>
+<p>在 <a href="https://ethanschoonover.com/solarized/">https://ethanschoonover.com/solarized/</a> 直接下載，如果用 iterm2 就直接 iterm2 資料夾下的檔案。</p>
+<h2 id="fonts">fonts</h2>
+<p>其中一些 theme 有使用特別的字型，可以在 <a href="https://github.com/powerline/fonts">https://github.com/powerline/fonts</a> 下載，工程師應該都會選擇直接 git clone 然後直接下指令，這部分還滿簡單直覺。</p>
+<p>像 <a href="https://github.com/agnoster/agnoster-zsh-theme">https://github.com/agnoster/agnoster-zsh-theme</a> 這個花俏的主題就需要字型和顏色設定。</p>
+<h2 id="syntax-highlight--autosuggestions">syntax highlight / autosuggestions</h2>
+<p>額外再推薦加裝這個 <a href="https://github.com/zsh-users/zsh-syntax-highlighting">https://github.com/zsh-users/zsh-syntax-highlighting</a></p>
+<p><code>brew install zsh-syntax-highlighting</code>需要手動修改 .zshrc，加上 <code>source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh</code></p>
+<p>或是最簡單的方法，修改 .zshrc 裡的 plugins需要手動 git clone 到 oh-my-zsh folder 內</p>
+<pre><code>git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+
+</code></pre><p>然後在 .zshrc 裡面打開 zsh-syntax-highlighting and zsh-autosuggestions</p>
+
+</div>
+
+        <footer class="post-footer clearfix">
+    
+
+    <div class="share">
+        
+            <a class="icon-twitter" href="https://twitter.com/share?text=%e8%bd%89%e6%8f%9b%e5%88%b0%20zsh&url=https%3a%2f%2fhugo.balduran.cc%2fpost%2fzhuan-huan-dao-zsh%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fa fa-twitter"></i>
+                <span class="hidden">Twitter</span>
+            </a>
+        
+
+        
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhugo.balduran.cc%2fpost%2fzhuan-huan-dao-zsh%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <i class="fa fa-facebook"></i>
+                <span class="hidden">Facebook</span>
+            </a>
+        
+
+        
+            <a class="icon-google-plus" href="https://plus.google.com/share?url=https%3a%2f%2fhugo.balduran.cc%2fpost%2fzhuan-huan-dao-zsh%2f"
+              onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+              <i class="fa fa-google-plus"></i>
+                <span class="hidden">Google+</span>
+            </a>
+        
+        
+    </div>
+</footer>
+
+        
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a title="說故事給你聽" href="https://hugo.balduran.cc/">說故事給你聽</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2020 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://hugo.balduran.cc/js/jquery-1.11.3.min.js"></script>
+        <script src="https://hugo.balduran.cc/js/jquery.fitvids.js"></script>
+        
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        
+        
+        <script src="https://hugo.balduran.cc/js/scripts.js"></script>
+    </body>
+</html>
+

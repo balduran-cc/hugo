@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sync on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/categories/sync/</link>
+    <description>Recent content in sync on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Dec 2008 08:30:06 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/categories/sync/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>windows live sync &amp; mesh</title>
+      <link>https://hugo.balduran.cc/post/windows-live-sync/</link>
+      <pubDate>Tue, 23 Dec 2008 08:30:06 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/windows-live-sync/</guid>
+      <description>這是 MS foldershare 的後續版本，在 windows live 推出之後，hotmail 變成了 Windows live hotmail，drive 變成了 skyDrive，.net passport 整合成了 windows live ID，msn messenger 變成了 windows lives messenger，因此 foldershare 變成了 windows live sync。
+windows live sync 的功能是同步不同電腦的資料夾，即使是 WIN 和 MAC 也可以互通，它有提供 Mac OS client，使用方式很簡單，在 windows live sync 網站上新增加一個資料夾，對應到本機的資料夾之一，client 程式會自動同步這兩個資料夾，透過中介的網站空間，達成同步的功能。
+這樣子分享的資料夾和 skyDrive 是不互通的，而且要存取資料夾都需要先設定，設定完成後可以自定要自動同步還是手動。就算是 shared folder，也不是每個人都可以看到，需要寄信給與權限。對於趴趴走又不想帶隨身碟而且網路不慢的人是方便。
+Client 下載
+ 同場加映，微軟本身還有另一個產品 live Mesh 和自己對打，同樣也是 sync，但是多了 mobile device 和 live Desktop，功能比起 live sync 更全面，可以直接在虛擬的 live Desktop 存取，也就完全不需要安裝任何 client 軟體，就可以移動檔案，在各種作業系統下都優游自如。mesh 還有很多特異功能，沒法一一試出。目前看來 live mesh 的功能完全把 live sync 打死，大概是因為 foldershare 是微軟買來的吧。</description>
+    </item>
+    
+    <item>
+      <title>ping.fm 更新你的社交生活</title>
+      <link>https://hugo.balduran.cc/post/pingfm-e69bb4e696b0e4bda0e79a84e7a4bee4baa4e7949fe6b4bb/</link>
+      <pubDate>Wed, 01 Oct 2008 15:08:04 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/pingfm-e69bb4e696b0e4bda0e79a84e7a4bee4baa4e7949fe6b4bb/</guid>
+      <description>原來在九月初就開放註冊了，我現在才開始使用 ping.fm，非常方便有用多個 microblog 的人。
+ping.fm 的功能非常簡單，就是可以一次更新 plurk, jaiku, twitter 和其他眾多微網址，twitter 當然是最多人用的，jaiku 有 google 加持，還有 S60系列手機支援，plurk 是後起新秀，獨具一格。如果你和我一樣常在網路閒晃，一定有註冊多個同類型功能的網站，要同時更新，實在麻煩啊。
+所以來使用 ping.fm 吧，他會同時更新你有用的其他服務網站，還有很多貼心設計，分成 status update, micro bloggin 和 blog，可以分組設定各個組別會更新的服務網站。當然也可以針對單一服務網站送出訊息，例如只想要murmur 到 plurk，加個 @pl 就可以了。
+還有提供 ping this! 的bookmarklet，wordpress 使用的 plugin。也可以用 mail 做更新，就連 IM 服務也廣納在內，結合各種方式真的非常推薦。
+同場加映的有 http://hellotxt.com，是同性質的服務網站，擇一使用吧。</description>
+    </item>
+    
+    <item>
+      <title>Spanning Sync 同步 iCal和 Google Calendar</title>
+      <link>https://hugo.balduran.cc/post/spanning-sync-e5908ce6ada5-icale5928c-google-calendar/</link>
+      <pubDate>Wed, 14 Mar 2007 03:29:18 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/spanning-sync-e5908ce6ada5-icale5928c-google-calendar/</guid>
+      <description>同時使用 Google Calendar和 iCal的使用者有福了，現在Spanning Sync結合這兩者，讓兩者同步資料。
+多台mac要同步資料，利用google canlendar就可以完成。支援iSync的裝置也同樣適用，iPod或是iPhone。
+不是免費軟體，要錢。
+兩大公司的產品結合，google是線上 Canlendar，apple是單機的 iCal，這樣的合作顯得更powerful，這項產品也可以讓我們多思考，未來的應用程式應該不是只有線上版，web OS的藍圖很大很遠，但是都要靠網路來結合，沒有網路的地方，還是要有單機作業才行。而適當地結合這兩者，會是很好的經驗。
+第三方軟體可以作這條路，企業間也可以放下身段互相支援，就看以後官方會不會主動推出這樣的功能。
+update: gsync，免費，但我覺得不好用。</description>
+    </item>
+    
+  </channel>
+</rss>

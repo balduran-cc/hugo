@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>scottrade on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/scottrade/</link>
+    <description>Recent content in scottrade on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Sep 2017 01:20:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/scottrade/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Firstrade 大幅下調手續費</title>
+      <link>https://hugo.balduran.cc/post/firstrade-2-95-fee/</link>
+      <pubDate>Thu, 21 Sep 2017 01:20:00 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/firstrade-2-95-fee/</guid>
+      <description>Firstrade 調低手續費，殺到 單筆交易 2.95 美元，這已經是殺到4.95美元之後又再一次的主動出擊調降。Firstrade 有非常良好的中文支援，對於台灣的投資人來說，已經可以完全忘記國內證券業的複委託業務了！
+另外附帶一提，TDAmeritrade已經完成收購Scottrade，想必也是想要吃中文市場的客戶。</description>
+    </item>
+    
+  </channel>
+</rss>

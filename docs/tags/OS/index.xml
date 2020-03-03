@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OS on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/OS/</link>
+    <description>Recent content in OS on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Aug 2008 17:43:26 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/OS/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>mac OS X 10.5 即將推出</title>
+      <link>https://hugo.balduran.cc/post/mac-os-x-105-e58db3e5b087e68ea8e587ba/</link>
+      <pubDate>Tue, 16 Oct 2007 17:19:38 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/mac-os-x-105-e58db3e5b087e68ea8e587ba/</guid>
+      <description>Mac OS X 10.5 Leopard 將於 10 月 26 日推出，最直接求證的方式就是The Apple Store (Taiwan)，已經擺上架預購了，可以證實這消息既不是芭樂也不是嘴砲，是千真萬確啊啊啊啊！！！
+千盼萬盼始出來，看學校會不會有CA授權，嘿嘿。
+聽到的八卦是，10.6將不再支援Power PC了，哭哭。</description>
+    </item>
+    
+  </channel>
+</rss>

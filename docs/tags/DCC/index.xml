@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DCC on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/DCC/</link>
+    <description>Recent content in DCC on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Nov 2016 22:13:26 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/DCC/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Disable DCC in paypal</title>
+      <link>https://hugo.balduran.cc/post/disable-dcc-in-paypal/</link>
+      <pubDate>Sun, 13 Nov 2016 22:13:26 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/disable-dcc-in-paypal/</guid>
+      <description>DCC，Dynamic currency conversion 的縮寫，中文稱為動態匯率轉換，聽起來很學術很高深，其實就是用比較差的匯率付費。最早是由信用卡公司 (Visa and Mastercard）發明的，可以讓消費者大略知道幣別換算後約消費多少本國貨幣，但這中間的匯率是黑箱，極不合理，能免則免。
+在 Paypal上面註冊的信用卡，在刷卡的時候預設是開啟 Paypal的匯率轉換的，也是一個坑爹，用 Paypal付款國外的網購時候，一定要把它關掉，無奈這個選項被隱藏的很好，特地為了這個紀錄一下。
+  點齒輪符號   選 payment   選 pre-approved payment   set available funding source   找到你已經連結的信用卡   選擇使用原始幣別付費 我討厭 DCC。
+  </description>
+    </item>
+    
+  </channel>
+</rss>

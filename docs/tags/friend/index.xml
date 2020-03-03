@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>friend on 說故事給你聽</title>
+    <link>https://hugo.balduran.cc/tags/friend/</link>
+    <description>Recent content in friend on 說故事給你聽</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 May 2008 09:21:59 +0000</lastBuildDate>
+    
+	<atom:link href="https://hugo.balduran.cc/tags/friend/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>meeya 的加入邀請</title>
+      <link>https://hugo.balduran.cc/post/meeya-find-frien/</link>
+      <pubDate>Fri, 09 May 2008 09:21:59 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/meeya-find-frien/</guid>
+      <description>我有時候會在 MSN 的 mail 上收到 meeya 的加入好友邀請，通常點下去就是要你新註冊帳號，網址是 r.php?uid
+點下去的時候我是有點惱羞的，註冊註冊註冊，就沒有一個選項是讓我用現有的帳號登入。沒有留下自己的MSN也不必這樣吧 -.-
+findfriend功能很方便，但是收到這些邀請信的感覺，居然和 hi5 感覺一樣，偏偏 hi5 質感超差，邀請信像 spam 一樣地在送。
+題外話，政大甜姐兒選拔居然有人為了拉票寫信。
+附記: 目前米亞註冊人數 10849</description>
+    </item>
+    
+    <item>
+      <title>5/2 第一次 lounge bar</title>
+      <link>https://hugo.balduran.cc/post/52lounge-bar/</link>
+      <pubDate>Mon, 05 May 2008 11:23:25 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/52lounge-bar/</guid>
+      <description>朋友生日，也因此第一次進去 lounge bar，事前掙扎許久，半夜的我要在台北國何去何從。
+遲到，過了十點，入場價格飆漲到六百，難得來了還是付了錢，但心裡和荷包都在淌血。
+調酒隨意點，大致喝的出伏特加或威士忌為底，加上可樂或柳橙汁做調味，喝起來還好，我都嚐了一些。
+我說人為什麼會想要泡在這樣的空間呢？是音樂還是酒精讓人放鬆，或是這樣的夜晚可以放縱？
+恍若隔世，獸星如此說。</description>
+    </item>
+    
+    <item>
+      <title>FriendFeed 實際使用</title>
+      <link>https://hugo.balduran.cc/post/friend-feed-used/</link>
+      <pubDate>Sun, 16 Mar 2008 18:34:52 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/friend-feed-used/</guid>
+      <description>之前有介紹卻沒機會試用的 FriendFeed，現在才發現已經是開放申請了。於是我就弄個帳號玩玩看囉。
+目前使用的感覺是個 aggregator of aggregator，先整合個人的各項服務，產生一個 Feed profile，然後以此做 social networking，可以針對個別項目留留言與討論，例如針對新增的 flickr 相片留 comment，也是聚合了使用者的互動。除此之外還有 facebook 的外掛，可以搜尋非死不可 (facebook) 上的好友名單，另外就是 e-mail address 偵測，沒有納入 open social 平台。
+如果 twitter 收到的是文字訊息，那這個就是收到 rss feed 了，而且洗畫面的情形更嚴重 lol，但是它卻沒有整合手持裝置，就有點弱了。
+另外，他會分析 Feed 內容之後做出建議接收的 FriendFeed。也分針對 rss Feed 來源做圓餅圖分析。
+做個 Embed 視窗示範，似乎只會顯示自己的 update。</description>
+    </item>
+    
+    <item>
+      <title>樂多朋友 三國大戰</title>
+      <link>https://hugo.balduran.cc/post/roodo-friend-three/</link>
+      <pubDate>Tue, 27 Nov 2007 20:23:18 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/roodo-friend-three/</guid>
+      <description>樂多朋友 三國大戰
+偶然看到的小遊戲，建構在樂多朋友的架構下，乍看之下，以為樂多甚麼時候發展出類似 facebook 的 app 平台，事實但這的確有那麼一點影子，但只是個案，我能找到的就這一個小遊戲。
+這個小遊戲可以靠「遭遇戰」來練兵，或是邀請朋友參加來「募集士兵」，逛到別人的朋友頁面時候，如果對方也有玩，可以下達攻擊指令，持了帳面上的數字變化外，我不知道還有甚麼好玩的，是人數太少了還是缺乏了結社的感覺？
+樂多朋友有個作弊的地方，每個加入的人有會有一個「朋友」在朋友列表 (天阿！好饒口)，在瀏覽別人的頁面時候，一定找的到一個路徑是 你-朋友-對方，和古老的六度分離相比，這是二度分離 (冷)。
+我的樂多朋友</description>
+    </item>
+    
+    <item>
+      <title>FriendFeed 整合你的朋友資訊</title>
+      <link>https://hugo.balduran.cc/post/friendfeed-e695b4e59088e4bda0e79a84e69c8be58f8be8b387e8a88a/</link>
+      <pubDate>Tue, 02 Oct 2007 17:14:21 +0000</pubDate>
+      
+      <guid>https://hugo.balduran.cc/post/friendfeed-e695b4e59088e4bda0e79a84e69c8be58f8be8b387e8a88a/</guid>
+      <description>FriendFeed的頁面非常簡單，就是一連串的更新消息，排列的像是twitter。
+FriendFeed強調朋友的部份，他包含的比 twitter更多，舉凡網頁、影像、影片或是新聞，都幫你整合起來。Embed FriendFeed可以看到一些雛型，blogs、美味書籤、digg、flcikr、Google Reader、Last.fm、Picasa、Tumblr、Twitter、Youtube、zooomr以及國外很紅的facebook都在名單之內。
+現在推出的各種服務都越來越強調social，而且著重在現實生活的連結。
+friendfeed有自己的crawler，註冊帳號之後提供以上那些網站的帳號，自動會更新，需要密碼的網站就靠 API來收集資料。推測將這些資料設定成一個profile，有另一位使用者輸入朋友的某一個網站的帳號，剛好有符合的profile就正好可以提供更多的資訊，沒有的話就直接用crawler抓取，這是我猜測背後運作的模式。
+Service Helps Friends Share Their Online Discoveries – New York Times也有報導。</description>
+    </item>
+    
+  </channel>
+</rss>
